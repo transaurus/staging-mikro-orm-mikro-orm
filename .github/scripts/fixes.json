@@ -1,0 +1,19 @@
+{
+    "description": "Repository-specific fixes for MikroORM - pin Node and Yarn versions for Vercel compatibility",
+    "fixes": {
+        "package.json": [
+            {
+                "type": "replace",
+                "find": "\"node\": \">= 22.11.0\"",
+                "replace": "\"node\": \"20.x\"",
+                "comment": "Pin Node to 20.x to fix Corepack/Yarn 4 ESM compatibility on Vercel"
+            },
+            {
+                "type": "replace",
+                "find": "\"packageManager\": \"yarn@4.12.0\"",
+                "replace": "\"packageManager\": \"yarn@4.5.0\"",
+                "comment": "Use older Yarn 4.5.0 which has better Corepack ESM compatibility"
+            }
+        ]
+    }
+}
