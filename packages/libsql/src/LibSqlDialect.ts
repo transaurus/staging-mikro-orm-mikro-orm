@@ -1,0 +1,150 @@
+import {
+  type DatabaseConnection,
+  type QueryResult,
+  type SqliteDatabase,
+  SqliteDialect,
+  type SqliteDialectConfig,
+  SqliteDriver,
+} from 'kysely';
+
+const CONNECTION_TIMEOUT = 10_000;
+
+class ConnectionMutex {
+  #promise?: Promise<void>;
+  #resolve?: () => void;
+
+  async lock(): Promise<void> {
+    while (this.#promise) {
+      await this.#promise;
+    }
+
+    this.#promise = new Promise(resolve => {
+      this.#resolve = resolve;
+    });
+  }
+
+  unlock(): void {
+    const resolve = this.#resolve;
+
+    this.#promise = undefined;
+    this.#resolve = undefined;
+
+    resolve?.();
+  }
+}
+
+class LibSqlConnection implements DatabaseConnection {
+  readonly #created = Date.now();
+  declare memory: boolean;
+  readonly #db: SqliteDatabase;
+
+  constructor(db: SqliteDatabase) {
+    this.#db = db;
+  }
+
+  isValid(): boolean {
+    return this.memory || this.#created > Date.now() - CONNECTION_TIMEOUT;
+  }
+
+  async executeQuery<R>(compiledQuery: any): Promise<QueryResult<R>> {
+    const { sql, parameters } = compiledQuery;
+    const stmt = this.#db.prepare(sql);
+
+    if (stmt.reader) {
+      return {
+        rows: stmt.all(parameters) as R[],
+      };
+    }
+
+    const query = sql.trim().toLowerCase();
+
+    /* v8 ignore next */
+    if (
+      query.startsWith('select') ||
+      ((query.startsWith('insert into') || query.startsWith('update ')) && query.includes(' returning '))
+    ) {
+      return {
+        rows: stmt.all(parameters) as R[],
+      };
+    }
+
+    const { changes, lastInsertRowid } = stmt.run(parameters);
+    return {
+      numAffectedRows: changes as any,
+      insertId: lastInsertRowid as any,
+      rows: [],
+    };
+  }
+
+  async *streamQuery<R>(compiledQuery: any): AsyncIterableIterator<QueryResult<R>> {
+    const { sql, parameters } = compiledQuery;
+    const stmt = this.#db.prepare(sql);
+
+    /* v8 ignore next */
+    if (!sql.toLowerCase().startsWith('select')) {
+      throw new Error('Sqlite driver only supports streaming of select queries');
+    }
+
+    for (const row of stmt.iterate(parameters)) {
+      yield {
+        rows: [row as R],
+      };
+    }
+  }
+}
+
+class LibSqlKyselyDriver extends SqliteDriver {
+  #db!: SqliteDatabase;
+  #connection!: LibSqlConnection;
+  #connectionMutex = new ConnectionMutex();
+  readonly #config: SqliteDialectConfig;
+
+  constructor(config: SqliteDialectConfig) {
+    super(config);
+    this.#config = config;
+  }
+
+  override async init() {
+    this.#db = await (this.#config.database as () => Promise<SqliteDatabase>)();
+    this.#connection = new LibSqlConnection(this.#db);
+
+    /* v8 ignore next */
+    if (this.#config.onCreateConnection) {
+      await this.#config.onCreateConnection(this.#connection);
+    }
+  }
+
+  override async acquireConnection() {
+    await this.#connectionMutex.lock();
+
+    /* v8 ignore next */
+    if (!this.#connection.isValid()) {
+      await this.destroy();
+      await this.init();
+    }
+
+    return this.#connection;
+  }
+
+  override async releaseConnection() {
+    this.#connectionMutex.unlock();
+  }
+
+  override async destroy() {
+    this.#db.close();
+  }
+}
+
+/** Kysely dialect adapter for libSQL. */
+export class LibSqlDialect extends SqliteDialect {
+  readonly #config: SqliteDialectConfig;
+
+  constructor(config: SqliteDialectConfig) {
+    super(config);
+    this.#config = config;
+  }
+
+  override createDriver(): SqliteDriver {
+    return new LibSqlKyselyDriver(this.#config);
+  }
+}

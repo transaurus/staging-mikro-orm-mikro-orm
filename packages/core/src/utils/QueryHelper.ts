@@ -1,0 +1,565 @@
+import { Reference } from '../entity/Reference.js';
+import { Utils } from './Utils.js';
+import type {
+  Dictionary,
+  EntityKey,
+  EntityMetadata,
+  EntityName,
+  EntityProperty,
+  EntityValue,
+  FilterDef,
+  FilterKey,
+  FilterQuery,
+} from '../typings.js';
+import { ARRAY_OPERATORS, GroupOperator, JSON_KEY_OPERATORS, type QueryOrderMap, ReferenceKind } from '../enums.js';
+import type { Platform } from '../platforms/Platform.js';
+import type { MetadataStorage } from '../metadata/MetadataStorage.js';
+import { JsonType } from '../types/JsonType.js';
+import { helper } from '../entity/wrap.js';
+import { isRaw, Raw } from './RawQueryFragment.js';
+import type { FilterOptions } from '../drivers/IDatabaseDriver.js';
+
+/** @internal */
+export class QueryHelper {
+  static readonly SUPPORTED_OPERATORS = ['>', '<', '<=', '>=', '!', '!='];
+
+  /**
+   * Finds the discriminator value (key) for a given entity class in a discriminator map.
+   */
+  static findDiscriminatorValue<T>(discriminatorMap: Dictionary<T>, targetClass: T): string | undefined {
+    return Object.entries(discriminatorMap).find(([, cls]) => cls === targetClass)?.[0];
+  }
+
+  static processParams(params: unknown): any {
+    if (Reference.isReference(params)) {
+      params = params.unwrap();
+    }
+
+    if (Utils.isEntity(params)) {
+      if (helper(params).__meta.compositePK) {
+        return helper(params).__primaryKeys;
+      }
+
+      return helper(params).getPrimaryKey();
+    }
+
+    if (params === undefined) {
+      return null;
+    }
+
+    if (Array.isArray(params)) {
+      return (params as unknown[]).map(item => QueryHelper.processParams(item));
+    }
+
+    if (Utils.isPlainObject(params)) {
+      QueryHelper.processObjectParams(params);
+    }
+
+    return params;
+  }
+
+  static processObjectParams<T extends Dictionary>(params: T = {} as T): T {
+    Utils.getObjectQueryKeys(params).forEach(k => {
+      params[k as keyof T] = QueryHelper.processParams(params[k as keyof T]);
+    });
+
+    return params;
+  }
+
+  /**
+   * converts `{ account: { $or: [ [Object], [Object] ] } }`
+   * to `{ $or: [ { account: [Object] }, { account: [Object] } ] }`
+   */
+  static liftGroupOperators<T extends object>(
+    where: Dictionary,
+    meta: EntityMetadata<T>,
+    metadata: MetadataStorage,
+    key?: string,
+  ): string | undefined {
+    if (!Utils.isPlainObject(where)) {
+      return undefined;
+    }
+
+    const keys = Object.keys(where);
+    const groupOperator = keys.find(k => {
+      return (
+        k in GroupOperator &&
+        Array.isArray(where[k]) &&
+        where[k].every(cond => {
+          return (
+            Utils.isPlainObject(cond) &&
+            Object.keys(cond).every(k2 => {
+              if (Utils.isOperator(k2, false)) {
+                if (k2 === '$not') {
+                  return Object.keys(cond[k2]).every(k3 => meta.primaryKeys.includes(k3 as EntityKey<T>));
+                }
+
+                /* v8 ignore next */
+                return true;
+              }
+
+              return meta.primaryKeys.includes(k2 as EntityKey<T>);
+            })
+          );
+        })
+      );
+    });
+
+    if (groupOperator) {
+      return groupOperator;
+    }
+
+    for (const k of keys) {
+      const value = where[k];
+      const prop = meta.properties[k as EntityKey<T>];
+
+      // Polymorphic relations use multiple columns (discriminator + FK), so they cannot
+      // participate in the standard single-column FK expansion. Query by discriminator
+      // column directly instead, e.g. { likeableType: 'post', likeableId: 1 }.
+      if (!prop || ![ReferenceKind.MANY_TO_ONE, ReferenceKind.ONE_TO_ONE].includes(prop.kind) || prop.polymorphic) {
+        continue;
+      }
+
+      const op = this.liftGroupOperators(value, prop.targetMeta!, metadata, k);
+
+      if (op) {
+        delete where[k];
+        where[op] = value[op].map((v: any) => {
+          return { [k]: v };
+        });
+      }
+    }
+
+    return undefined;
+  }
+
+  static inlinePrimaryKeyObjects<T extends object>(
+    where: Dictionary,
+    meta: EntityMetadata<T>,
+    metadata: MetadataStorage,
+    key?: string,
+  ): boolean {
+    if (Array.isArray(where)) {
+      where.forEach((item, i) => {
+        if (this.inlinePrimaryKeyObjects(item, meta, metadata, key)) {
+          where[i] = Utils.getPrimaryKeyValues(item, meta, false);
+        }
+      });
+    }
+
+    if (!Utils.isPlainObject(where) || (key && meta.properties[key as EntityKey<T>]?.customType instanceof JsonType)) {
+      return false;
+    }
+
+    if (meta.primaryKeys.every(pk => pk in where) && Utils.getObjectKeysSize(where) === meta.primaryKeys.length) {
+      return (
+        !!key &&
+        !GroupOperator[key as keyof typeof GroupOperator] &&
+        key !== '$not' &&
+        Object.keys(where).every(
+          k =>
+            !Utils.isPlainObject(where[k]) ||
+            Object.keys(where[k]).every(v => {
+              if (Utils.isOperator(v, false)) {
+                return true;
+              }
+
+              if (
+                meta.properties[k as EntityKey<T>].primary &&
+                [ReferenceKind.ONE_TO_ONE, ReferenceKind.MANY_TO_ONE].includes(meta.properties[k as EntityKey<T>].kind)
+              ) {
+                return this.inlinePrimaryKeyObjects(
+                  where[k],
+                  meta.properties[k as EntityKey<T>].targetMeta!,
+                  metadata,
+                  v,
+                );
+              }
+
+              /* v8 ignore next */
+              return true;
+            }),
+        )
+      );
+    }
+
+    Object.keys(where).forEach(k => {
+      const meta2 = metadata.find(meta.properties[k as EntityKey<T>]?.targetMeta?.class as any) || meta;
+
+      if (this.inlinePrimaryKeyObjects(where[k], meta2, metadata, k)) {
+        where[k] = Utils.getPrimaryKeyValues(where[k], meta2, true);
+      }
+    });
+
+    return false;
+  }
+
+  static processWhere<T extends object>(options: ProcessWhereOptions<T>): FilterQuery<T> {
+    // eslint-disable-next-line prefer-const
+    let { where, entityName, metadata, platform, aliased = true, convertCustomTypes = true, root = true } = options;
+    const meta = metadata.find<T>(entityName);
+
+    // inline PK-only objects in M:N queries, so we don't join the target entity when not needed
+    if (meta && root) {
+      QueryHelper.liftGroupOperators(where as Dictionary, meta, metadata);
+      QueryHelper.inlinePrimaryKeyObjects(where as Dictionary, meta, metadata);
+    }
+
+    if (meta && root) {
+      QueryHelper.convertCompositeEntityRefs(where as Dictionary, meta);
+    }
+
+    if (platform.getConfig().get('ignoreUndefinedInQuery') && where && typeof where === 'object') {
+      Utils.dropUndefinedProperties(where);
+    }
+
+    where = QueryHelper.processParams(where) ?? {};
+
+    /* v8 ignore next */
+    if (!root && Utils.isPrimaryKey<T>(where)) {
+      return where;
+    }
+
+    if (meta && Utils.isPrimaryKey(where, meta.compositePK)) {
+      where = { [Utils.getPrimaryKeyHash(meta.primaryKeys)]: where } as FilterQuery<T>;
+    }
+
+    if (Array.isArray(where) && root) {
+      const rootPrimaryKey = meta ? Utils.getPrimaryKeyHash(meta.primaryKeys) : Utils.className(entityName);
+      let cond = { [rootPrimaryKey]: { $in: where } } as FilterQuery<T>;
+
+      // @ts-ignore
+      // detect tuple comparison, use `$or` in case the number of constituents don't match
+      if (
+        meta &&
+        !where.every(
+          c =>
+            Utils.isPrimaryKey(c as unknown) ||
+            (Array.isArray(c) && c.length === meta.primaryKeys.length && c.every(i => Utils.isPrimaryKey(i))),
+        )
+      ) {
+        cond = { $or: where } as FilterQuery<T>;
+      }
+
+      return QueryHelper.processWhere({ ...options, where: cond, root: false });
+    }
+
+    if (!Utils.isPlainObject(where)) {
+      return where;
+    }
+
+    return Utils.getObjectQueryKeys(where).reduce((o, key) => {
+      let value = where[key as keyof typeof where] as unknown as FilterQuery<T>;
+      const customExpression = Raw.isKnownFragmentSymbol(key);
+
+      if (Array.isArray(value) && value.length === 0 && customExpression) {
+        o[key as unknown as string] = value;
+        return o;
+      }
+
+      if (key in GroupOperator) {
+        o[key as string] = (value as unknown[]).map((sub: any) =>
+          QueryHelper.processWhere<T>({ ...options, where: sub, root }),
+        );
+        return o;
+      }
+
+      // wrap top level operators (except platform allowed operators) with PK
+      if (Utils.isOperator(key) && root && meta && !platform.isAllowedTopLevelOperator(key as string)) {
+        const rootPrimaryKey = Utils.getPrimaryKeyHash(meta.primaryKeys);
+        o[rootPrimaryKey] = { [key]: QueryHelper.processWhere<T>({ ...options, where: value, root: false }) };
+        return o;
+      }
+
+      const prop = customExpression ? null : this.findProperty(key, options);
+      const keys = prop?.joinColumns?.length ?? 0;
+      const composite = keys > 1;
+
+      if (prop?.customType && convertCustomTypes && !isRaw(value)) {
+        value = QueryHelper.processCustomType<T>(prop, value, platform, undefined, true);
+      }
+
+      // oxfmt-ignore
+      const isJsonProperty = prop?.customType instanceof JsonType && !isRaw(value) && (Utils.isPlainObject(value) ? !['$eq', '$elemMatch'].includes(Object.keys(value)[0]) : !Array.isArray(value));
+
+      if (isJsonProperty && prop?.kind !== ReferenceKind.EMBEDDED) {
+        return this.processJsonCondition<T>(
+          o as FilterQuery<T>,
+          value as EntityValue<T>,
+          [prop.fieldNames[0]] as EntityKey<T>[],
+          platform,
+          aliased,
+        );
+      }
+
+      // oxfmt-ignore
+      if (Array.isArray(value) && !Utils.isOperator(key) && !QueryHelper.isSupportedOperator(key as string) && !(customExpression && Raw.getKnownFragment(key)!.params.length > 0) && options.type !== 'orderBy') {
+        // comparing single composite key - use $eq instead of $in
+        const op = composite && !value.every(v => Array.isArray(v)) ? '$eq' : '$in';
+        o[key as string] = { [op]: value };
+
+        return o;
+      }
+
+      if (Utils.isPlainObject(value)) {
+        o[key as string] = QueryHelper.processWhere({
+          ...options,
+          where: value,
+          entityName: prop?.targetMeta?.class ?? entityName,
+          root: false,
+        });
+      } else {
+        o[key as string] = value;
+      }
+
+      return o;
+    }, {} as Dictionary) as FilterQuery<T>;
+  }
+
+  static getActiveFilters<T>(
+    meta: EntityMetadata<T>,
+    options: FilterOptions | undefined,
+    filters: Dictionary<FilterDef>,
+  ): FilterDef[] {
+    if (options === false) {
+      return [];
+    }
+
+    const opts: Dictionary<boolean | Dictionary> = {};
+
+    if (Array.isArray(options)) {
+      options.forEach(filter => (opts[filter] = true));
+    } else if (Utils.isPlainObject(options)) {
+      Object.keys(options).forEach(filter => (opts[filter] = options[filter]));
+    }
+
+    return Object.keys(filters)
+      .filter(f => QueryHelper.isFilterActive(meta, f, filters[f], opts))
+      .map(f => {
+        filters[f].name = f;
+        return filters[f];
+      });
+  }
+
+  static mergePropertyFilters(
+    propFilters: FilterOptions | undefined,
+    options: FilterOptions | undefined,
+  ): FilterOptions | undefined {
+    if (!options || !propFilters || options === true || propFilters === true) {
+      return options ?? propFilters;
+    }
+
+    if (Array.isArray(propFilters)) {
+      propFilters = propFilters.reduce((o, item) => {
+        o[item] = true;
+        return o;
+      }, {} as Dictionary);
+    }
+
+    if (Array.isArray(options)) {
+      options = options.reduce((o, item) => {
+        o[item] = true;
+        return o;
+      }, {} as Dictionary);
+    }
+
+    return Utils.mergeConfig({}, propFilters, options);
+  }
+
+  static isFilterActive<T>(
+    meta: EntityMetadata<T>,
+    filterName: string,
+    filter: FilterDef,
+    options: Dictionary<boolean | Dictionary>,
+  ): boolean {
+    if (filter.entity && !(filter.entity as string[]).includes(meta.className)) {
+      return false;
+    }
+
+    if (options[filterName] === false) {
+      return false;
+    }
+
+    return filter.default || filterName in options;
+  }
+
+  static processCustomType<T extends object>(
+    prop: EntityProperty<T>,
+    cond: FilterQuery<T>,
+    platform: Platform,
+    key?: string,
+    fromQuery?: boolean,
+  ): FilterQuery<T> {
+    if (Utils.isPlainObject(cond)) {
+      return Utils.getObjectQueryKeys(cond).reduce((o, k) => {
+        if (!Raw.isKnownFragmentSymbol(k) && (Utils.isOperator(k, true) || prop.referencedPKs?.includes(k))) {
+          o[k] = QueryHelper.processCustomType<T>(prop, cond[k] as any, platform, k, fromQuery) as any;
+        } else {
+          o[k as unknown as keyof FilterQuery<T>] = cond[k as unknown as keyof FilterQuery<T>];
+        }
+
+        return o;
+      }, {} as FilterQuery<T>);
+    }
+
+    if (key && JSON_KEY_OPERATORS.includes(key)) {
+      return Array.isArray(cond) ? (platform.marshallArray(cond) as unknown as FilterQuery<T>) : cond;
+    }
+
+    if (Array.isArray(cond) && !(key && ARRAY_OPERATORS.includes(key))) {
+      return (cond as FilterQuery<T>[]).map(v =>
+        QueryHelper.processCustomType(prop, v, platform, key, fromQuery),
+      ) as unknown as FilterQuery<T>;
+    }
+
+    if (isRaw(cond)) {
+      return cond;
+    }
+
+    return prop.customType!.convertToDatabaseValue(cond, platform, { fromQuery, key, mode: 'query' });
+  }
+
+  private static isSupportedOperator(key: string): boolean {
+    return !!QueryHelper.SUPPORTED_OPERATORS.find(op => key === op);
+  }
+
+  private static processJsonCondition<T extends object>(
+    o: FilterQuery<T>,
+    value: EntityValue<T>,
+    path: EntityKey<T>[],
+    platform: Platform,
+    alias: boolean,
+  ) {
+    return platform.processJsonCondition(o, value, path, alias);
+  }
+
+  static findProperty<T>(fieldName: string, options: ProcessWhereOptions<T>): EntityProperty<T> | undefined {
+    const parts = fieldName.split('.');
+    const propName = parts.pop() as EntityKey<T>;
+    const alias = parts.length > 0 ? parts.join('.') : undefined;
+    const entityName = alias ? options.aliasMap?.[alias] : options.entityName;
+    const meta = entityName ? options.metadata.find<T>(entityName) : undefined;
+
+    return meta?.properties[propName];
+  }
+
+  /**
+   * Converts entity references for composite FK properties into flat arrays
+   * of correctly-ordered join column values, before processParams flattens them
+   * incorrectly due to shared FK columns.
+   */
+  private static convertCompositeEntityRefs<T extends object>(where: Dictionary, meta: EntityMetadata<T>): void {
+    if (!Utils.isPlainObject(where)) {
+      return;
+    }
+
+    for (const k of Object.keys(where)) {
+      if (k in GroupOperator) {
+        if (Array.isArray(where[k])) {
+          where[k].forEach((sub: Dictionary) => this.convertCompositeEntityRefs(sub, meta));
+        }
+
+        continue;
+      }
+
+      if (k === '$not') {
+        this.convertCompositeEntityRefs(where[k], meta);
+        continue;
+      }
+
+      const prop = meta.properties[k as EntityKey<T>];
+
+      if (!prop?.joinColumns || prop.joinColumns.length <= 1) {
+        continue;
+      }
+
+      const w = where[k];
+
+      if (Utils.isEntity(w)) {
+        where[k] = this.extractJoinColumnValues(w, prop);
+      } else if (Utils.isPlainObject(w)) {
+        for (const op of Object.keys(w)) {
+          if (Utils.isOperator(op, false) && Array.isArray(w[op])) {
+            w[op] = w[op].map((item: unknown) =>
+              Utils.isEntity(item) ? this.extractJoinColumnValues(item, prop) : item,
+            );
+          }
+        }
+      }
+    }
+  }
+
+  /**
+   * Extracts values for a FK's join columns from an entity by traversing the FK chain.
+   * Handles shared FK columns (e.g., tenant_id referenced by multiple FKs) correctly.
+   */
+  private static extractJoinColumnValues(entity: any, prop: EntityProperty): any[] {
+    return prop.referencedColumnNames.map(refCol => {
+      return this.extractColumnValue(entity, prop.targetMeta!, refCol);
+    });
+  }
+
+  /**
+   * Extracts the value for a specific column from an entity by finding which PK property
+   * owns that column and recursively traversing FK references.
+   */
+  private static extractColumnValue(entity: any, meta: EntityMetadata, columnName: string): any {
+    for (const pk of meta.primaryKeys) {
+      const pkProp = meta.properties[pk];
+      const colIdx = pkProp.fieldNames.indexOf(columnName);
+
+      if (colIdx !== -1) {
+        const value = entity[pk];
+
+        if (pkProp.targetMeta && Utils.isEntity(value, true)) {
+          const refCol = pkProp.referencedColumnNames[colIdx];
+          return this.extractColumnValue(value, pkProp.targetMeta, refCol);
+        }
+
+        return value;
+      }
+    }
+
+    return null;
+  }
+
+  /**
+   * Merges multiple orderBy sources with key-level deduplication (first-seen key wins).
+   * RawQueryFragment symbol keys are never deduped (each is unique).
+   */
+  static mergeOrderBy<T>(...sources: (QueryOrderMap<T> | QueryOrderMap<T>[] | undefined)[]): QueryOrderMap<T>[] {
+    const result: QueryOrderMap<T>[] = [];
+    const seenKeys = new Set<string>();
+
+    for (const source of sources) {
+      if (source == null) {
+        continue;
+      }
+
+      for (const item of Utils.asArray(source)) {
+        for (const key of Utils.getObjectQueryKeys(item)) {
+          if (typeof key === 'symbol') {
+            result.push({ [key]: item[key as EntityKey] } as QueryOrderMap<T>);
+          } else if (!seenKeys.has(key)) {
+            seenKeys.add(key);
+            result.push({ [key]: item[key] } as QueryOrderMap<T>);
+          }
+        }
+      }
+    }
+
+    return result;
+  }
+}
+
+interface ProcessWhereOptions<T> {
+  where: FilterQuery<T>;
+  entityName: EntityName<T>;
+  metadata: MetadataStorage;
+  platform: Platform;
+  aliased?: boolean;
+  aliasMap?: Dictionary<EntityName>;
+  convertCustomTypes?: boolean;
+  root?: boolean;
+  type?: 'where' | 'orderBy';
+}

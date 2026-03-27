@@ -1,0 +1,274 @@
+import { type Configuration, type ConnectionOptions } from '../utils/Configuration.js';
+import { Utils } from '../utils/Utils.js';
+import type { LogContext, Logger } from '../logging/Logger.js';
+import type { MetadataStorage } from '../metadata/MetadataStorage.js';
+import type { ConnectionType, Dictionary, ISchemaGenerator, MaybePromise, Primary } from '../typings.js';
+import type { Platform } from '../platforms/Platform.js';
+import type { TransactionEventBroadcaster } from '../events/TransactionEventBroadcaster.js';
+import type { IsolationLevel } from '../enums.js';
+
+/** Abstract base class for database connections, providing transaction and query execution support. */
+export abstract class Connection {
+  protected metadata!: MetadataStorage;
+  protected platform!: Platform;
+  protected readonly options: ConnectionOptions;
+  protected readonly logger: Logger;
+  protected connected = false;
+
+  get #connectionLabel(): { type: ConnectionType; name: string | undefined } {
+    return {
+      type: this.type,
+      name: this.options.name || this.config.get('name') || this.options.host || this.options.dbName,
+    };
+  }
+
+  constructor(
+    protected readonly config: Configuration,
+    options?: ConnectionOptions,
+    protected readonly type: ConnectionType = 'write',
+  ) {
+    this.logger = this.config.getLogger();
+    this.platform = this.config.getPlatform();
+
+    if (options) {
+      this.options = Utils.copy(options);
+    } else {
+      const props = [
+        'dbName',
+        'clientUrl',
+        'host',
+        'port',
+        'user',
+        'password',
+        'multipleStatements',
+        'pool',
+        'schema',
+        'driverOptions',
+      ] as const;
+      this.options = props.reduce((o, i) => {
+        (o[i] as any) = this.config.get(i);
+        return o;
+      }, {} as ConnectionOptions);
+    }
+  }
+
+  /**
+   * Establishes connection to database
+   */
+  abstract connect(options?: { skipOnConnect?: boolean }): void | Promise<void>;
+
+  /**
+   * Are we connected to the database
+   */
+  abstract isConnected(): Promise<boolean>;
+
+  /**
+   * Are we connected to the database
+   */
+  abstract checkConnection(): Promise<{ ok: true } | { ok: false; reason: string; error?: Error }>;
+
+  /**
+   * Closes the database connection (aka disconnect)
+   */
+  async close(force?: boolean): Promise<void> {
+    Object.keys(this.options)
+      .filter(k => k !== 'name')
+      .forEach(k => delete this.options[k as keyof ConnectionOptions]);
+  }
+
+  /**
+   * Ensure the connection exists, this is used to support lazy connect when using `new MikroORM()` instead of the async `init` method.
+   */
+  async ensureConnection(): Promise<void> {
+    if (!this.connected) {
+      await this.connect();
+    }
+  }
+
+  /**
+   * Execute raw SQL queries, handy from running schema dump loaded from a file.
+   * This method doesn't support transactions, as opposed to `orm.schema.execute()`, which is used internally.
+   */
+  async executeDump(dump: string): Promise<void> {
+    throw new Error(`Executing SQL dumps is not supported by current driver`);
+  }
+
+  protected async onConnect(): Promise<void> {
+    const schemaGenerator = this.config.getExtension<ISchemaGenerator>('@mikro-orm/schema-generator');
+
+    if (this.type === 'write' && schemaGenerator) {
+      if (this.config.get('ensureDatabase')) {
+        const options = this.config.get('ensureDatabase');
+        await schemaGenerator.ensureDatabase(typeof options === 'boolean' ? {} : { ...options, forceCheck: true });
+      }
+
+      if (this.config.get('ensureIndexes')) {
+        await schemaGenerator.ensureIndexes();
+      }
+    }
+  }
+
+  /** Executes a callback inside a transaction, committing on success and rolling back on failure. */
+  async transactional<T>(
+    cb: (trx: Transaction) => Promise<T>,
+    options?: {
+      isolationLevel?: IsolationLevel | `${IsolationLevel}`;
+      readOnly?: boolean;
+      ctx?: Transaction;
+      eventBroadcaster?: TransactionEventBroadcaster;
+      loggerContext?: LogContext;
+    },
+  ): Promise<T> {
+    throw new Error(`Transactions are not supported by current driver`);
+  }
+
+  /** Begins a new database transaction and returns the transaction context. */
+  async begin(options?: {
+    isolationLevel?: IsolationLevel | `${IsolationLevel}`;
+    readOnly?: boolean;
+    ctx?: Transaction;
+    eventBroadcaster?: TransactionEventBroadcaster;
+    loggerContext?: LogContext;
+  }): Promise<Transaction> {
+    throw new Error(`Transactions are not supported by current driver`);
+  }
+
+  /** Commits the given transaction. */
+  async commit(
+    ctx: Transaction,
+    eventBroadcaster?: TransactionEventBroadcaster,
+    loggerContext?: LogContext,
+  ): Promise<void> {
+    throw new Error(`Transactions are not supported by current driver`);
+  }
+
+  /** Rolls back the given transaction. */
+  async rollback(
+    ctx: Transaction,
+    eventBroadcaster?: TransactionEventBroadcaster,
+    loggerContext?: LogContext,
+  ): Promise<void> {
+    throw new Error(`Transactions are not supported by current driver`);
+  }
+
+  /** Executes a raw query and returns the result. */
+  abstract execute<T>(
+    query: string,
+    params?: any[],
+    method?: 'all' | 'get' | 'run',
+    ctx?: Transaction,
+  ): Promise<QueryResult<T> | any | any[]>;
+
+  /** Parses and returns the resolved connection configuration (host, port, user, etc.). */
+  getConnectionOptions(): ConnectionConfig {
+    const ret: ConnectionConfig = {};
+
+    if (this.options.clientUrl) {
+      const url = new URL(this.options.clientUrl);
+      this.options.host = ret.host = this.options.host ?? decodeURIComponent(url.hostname);
+      this.options.port = ret.port = this.options.port ?? +url.port;
+      this.options.user = ret.user = this.options.user ?? decodeURIComponent(url.username);
+      this.options.password = ret.password = this.options.password ?? decodeURIComponent(url.password);
+      this.options.dbName = ret.database = this.options.dbName ?? decodeURIComponent(url.pathname).replace(/^\//, '');
+
+      if (this.options.schema || url.searchParams.has('schema')) {
+        this.options.schema = ret.schema = this.options.schema ?? decodeURIComponent(url.searchParams.get('schema')!);
+        this.config.set('schema', ret.schema);
+      }
+    } else {
+      const url = new URL(this.config.get('clientUrl')!);
+      this.options.host = ret.host = this.options.host ?? this.config.get('host', decodeURIComponent(url.hostname));
+      this.options.port = ret.port = this.options.port ?? this.config.get('port', +url.port);
+      this.options.user = ret.user = this.options.user ?? this.config.get('user', decodeURIComponent(url.username));
+      this.options.password = ret.password =
+        this.options.password ?? this.config.get('password', decodeURIComponent(url.password));
+      this.options.dbName = ret.database =
+        this.options.dbName ?? this.config.get('dbName', decodeURIComponent(url.pathname).replace(/^\//, ''));
+    }
+
+    return ret;
+  }
+
+  /** Sets the metadata storage on this connection. */
+  setMetadata(metadata: MetadataStorage): void {
+    this.metadata = metadata;
+  }
+
+  /** Sets the platform abstraction on this connection. */
+  setPlatform(platform: Platform): void {
+    this.platform = platform;
+  }
+
+  /** Returns the platform abstraction for this connection. */
+  getPlatform(): Platform {
+    return this.platform;
+  }
+
+  protected async executeQuery<T>(query: string, cb: () => Promise<T>, context?: LogContext): Promise<T> {
+    const now = Date.now();
+
+    try {
+      const res = await cb();
+      const took = Date.now() - now;
+      const results = Array.isArray(res) ? res.length : undefined;
+      const affected = Utils.isPlainObject<QueryResult>(res) ? res.affectedRows : undefined;
+
+      this.logQuery(query, { ...context, took, results, affected });
+
+      return res;
+    } catch (e) {
+      const took = Date.now() - now;
+
+      this.logQuery(query, { ...context, took, level: 'error' as const });
+      throw e;
+    }
+  }
+
+  protected logQuery(query: string, context: LogContext = {}): void {
+    const connection = this.#connectionLabel;
+
+    this.logger.logQuery({
+      level: 'info',
+      connection,
+      ...context,
+      query,
+    });
+
+    const threshold = this.config.get('slowQueryThreshold');
+
+    if (threshold != null && (context.took ?? 0) >= threshold) {
+      this.config.getSlowQueryLogger().logQuery({
+        ...context,
+        // `enabled: true` bypasses the debug-mode check in isEnabled(),
+        // ensuring slow query logs are always emitted regardless of the `debug` setting.
+        enabled: true,
+        level: context.level ?? 'warning',
+        namespace: 'slow-query',
+        connection,
+        query,
+      });
+    }
+  }
+}
+
+/** Result of a native database query (insert, update, delete). */
+export interface QueryResult<T = { id: number }> {
+  affectedRows: number;
+  insertId: Primary<T>;
+  row?: Dictionary;
+  rows?: Dictionary[];
+  insertedIds?: Primary<T>[];
+}
+
+/** Resolved database connection parameters. */
+export interface ConnectionConfig {
+  host?: string;
+  port?: number;
+  user?: string;
+  password?: string | (() => MaybePromise<string>);
+  database?: string;
+  schema?: string;
+}
+
+/** Opaque transaction context type, wrapping the driver-specific transaction object. */
+export type Transaction<T = any> = T & {};
