@@ -1,0 +1,10 @@
+{
+  "sourceUrl": "https://github.com/mikro-orm/mikro-orm",
+  "branch": "master",
+  "docusaurusRoot": "docs",
+  "configFile": "docs/docusaurus.config.js",
+  "translateCommand": "COREPACK_ENABLE_STRICT=0 yarn docusaurus write-translations",
+  "buildCommand": "COREPACK_ENABLE_STRICT=0 yarn build",
+  "buildOutput": "build",
+  "packageManager": "yarn"
+}
