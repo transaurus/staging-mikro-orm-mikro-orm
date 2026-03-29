@@ -29,7 +29,7 @@ No-op cache adapter that never stores or returns any data. Used to disable cachi
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#clear)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/cache/NullCacheAdapter.ts#L29)clear
+### [**](#clear)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/cache/NullCacheAdapter.ts#L29)clear
 
 * ****clear**(): void
 
@@ -41,7 +41,7 @@ No-op cache adapter that never stores or returns any data. Used to disable cachi
 
   #### Returns void
 
-### [**](#get)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/cache/NullCacheAdapter.ts#L8)get
+### [**](#get)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/cache/NullCacheAdapter.ts#L8)get
 
 * ****get**(name): any
 
@@ -57,7 +57,7 @@ No-op cache adapter that never stores or returns any data. Used to disable cachi
 
   #### Returns any
 
-### [**](#remove)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/cache/NullCacheAdapter.ts#L22)remove
+### [**](#remove)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/cache/NullCacheAdapter.ts#L22)remove
 
 * ****remove**(name): void
 
@@ -73,7 +73,7 @@ No-op cache adapter that never stores or returns any data. Used to disable cachi
 
   #### Returns void
 
-### [**](#set)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/cache/NullCacheAdapter.ts#L15)set
+### [**](#set)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/cache/NullCacheAdapter.ts#L15)set
 
 * ****set**(name, data, origin): void
 

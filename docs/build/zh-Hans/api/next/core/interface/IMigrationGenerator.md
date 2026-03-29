@@ -16,7 +16,7 @@ Interface for generating migration file contents from schema diffs.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#createStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1722)createStatement
+### [**](#createStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1722)createStatement
 
 * ****createStatement**(sql, padLeft): string
 
@@ -31,7 +31,7 @@ Interface for generating migration file contents from schema diffs.
 
   #### Returns string
 
-### [**](#generate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1717)generate
+### [**](#generate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1717)generate
 
 * ****generate**(diff, path, name): Promise<\[string, string]>
 
@@ -47,7 +47,7 @@ Interface for generating migration file contents from schema diffs.
 
   #### Returns Promise<\[string, string]>
 
-### [**](#generateMigrationFile)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1727)generateMigrationFile
+### [**](#generateMigrationFile)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1727)generateMigrationFile
 
 * ****generateMigrationFile**(className, diff): [MaybePromise](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MaybePromise)\<string>
 

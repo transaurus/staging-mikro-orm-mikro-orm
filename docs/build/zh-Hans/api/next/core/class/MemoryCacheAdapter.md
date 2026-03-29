@@ -21,7 +21,7 @@ In-memory cache adapter with time-based expiration. Used as the default result c
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/cache/MemoryCacheAdapter.ts#L8)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/cache/MemoryCacheAdapter.ts#L8)constructor
 
 * ****new MemoryCacheAdapter**(options): [MemoryCacheAdapter](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/MemoryCacheAdapter.md)
 
@@ -34,7 +34,7 @@ In-memory cache adapter with time-based expiration. Used as the default result c
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#clear)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/cache/MemoryCacheAdapter.ts#L46)clear
+### [**](#clear)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/cache/MemoryCacheAdapter.ts#L46)clear
 
 * ****clear**(): void
 
@@ -46,7 +46,7 @@ In-memory cache adapter with time-based expiration. Used as the default result c
 
   #### Returns void
 
-### [**](#get)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/cache/MemoryCacheAdapter.ts#L15)get
+### [**](#get)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/cache/MemoryCacheAdapter.ts#L15)get
 
 * ****get**\<T>(name): undefined | T
 
@@ -62,7 +62,7 @@ In-memory cache adapter with time-based expiration. Used as the default result c
 
   #### Returns undefined | T
 
-### [**](#remove)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/cache/MemoryCacheAdapter.ts#L39)remove
+### [**](#remove)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/cache/MemoryCacheAdapter.ts#L39)remove
 
 * ****remove**(name): void
 
@@ -78,7 +78,7 @@ In-memory cache adapter with time-based expiration. Used as the default result c
 
   #### Returns void
 
-### [**](#set)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/cache/MemoryCacheAdapter.ts#L32)set
+### [**](#set)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/cache/MemoryCacheAdapter.ts#L32)set
 
 * ****set**(name, data, origin, expiration): void
 

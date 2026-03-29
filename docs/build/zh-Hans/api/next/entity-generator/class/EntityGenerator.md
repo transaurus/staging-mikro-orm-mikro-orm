@@ -15,7 +15,7 @@ Generates entity source files by introspecting an existing database schema.
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/entity-generator/src/EntityGenerator.ts#L41)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/entity-generator/src/EntityGenerator.ts#L41)constructor
 
 * ****new EntityGenerator**(em): [EntityGenerator](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/entity-generator/class/EntityGenerator.md)
 
@@ -27,7 +27,7 @@ Generates entity source files by introspecting an existing database schema.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#generate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/entity-generator/src/EntityGenerator.ts#L55)generate
+### [**](#generate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/entity-generator/src/EntityGenerator.ts#L55)generate
 
 * ****generate**(options): Promise\<string\[]>
 
@@ -37,7 +37,7 @@ Generates entity source files by introspecting an existing database schema.
 
   #### Returns Promise\<string\[]>
 
-### [**](#register)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/entity-generator/src/EntityGenerator.ts#L51)staticregister
+### [**](#register)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/entity-generator/src/EntityGenerator.ts#L51)staticregister
 
 * ****register**(orm): void
 

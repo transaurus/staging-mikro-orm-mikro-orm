@@ -14,7 +14,7 @@ Options for constructing a Logger instance.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#debugMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/Logger.ts#L58)optionaldebugMode
+### [**](#debugMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/Logger.ts#L58)optionaldebugMode
 
 **debugMode?
 
@@ -22,7 +22,7 @@ Options for constructing a Logger instance.
 
 : boolean | [LoggerNamespace](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#LoggerNamespace)\[]
 
-### [**](#highlighter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/Logger.ts#L60)optionalhighlighter
+### [**](#highlighter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/Logger.ts#L60)optionalhighlighter
 
 **highlighter?
 
@@ -30,7 +30,7 @@ Options for constructing a Logger instance.
 
 : [Highlighter](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/Highlighter.md)
 
-### [**](#ignoreDeprecations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/Logger.ts#L59)optionalignoreDeprecations
+### [**](#ignoreDeprecations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/Logger.ts#L59)optionalignoreDeprecations
 
 **ignoreDeprecations?
 
@@ -38,7 +38,7 @@ Options for constructing a Logger instance.
 
 : boolean | string\[]
 
-### [**](#usesReplicas)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/Logger.ts#L61)optionalusesReplicas
+### [**](#usesReplicas)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/Logger.ts#L61)optionalusesReplicas
 
 **usesReplicas?
 
@@ -46,7 +46,7 @@ Options for constructing a Logger instance.
 
 : boolean
 
-### [**](#writer)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/Logger.ts#L57)writer
+### [**](#writer)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/Logger.ts#L57)writer
 
 **writer: (message) => void
 

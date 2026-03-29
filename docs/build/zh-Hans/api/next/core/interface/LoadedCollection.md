@@ -54,11 +54,11 @@ A `Collection<T>` that is guaranteed to be loaded, providing synchronous access 
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#$)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L2027)$
+### [**](#$)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L2027)$
 
 **$: [Collection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Collection.md)\<T, object>
 
-### [**](#owner)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L55)readonlyinheritedowner
+### [**](#owner)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L55)readonlyinheritedowner
 
 **owner: object
 
@@ -66,7 +66,7 @@ Inherited from Collection.owner
 
 ## Accessors<!-- -->[**](#Accessors)
 
-### [**](#length)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L849)inheritedlength
+### [**](#length)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L849)inheritedlength
 
 * **get length(): number
 
@@ -76,7 +76,7 @@ Inherited from Collection.owner
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#\[iterator])[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L853)inherited\[iterator]
+### [**](#\[iterator])[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L853)inherited\[iterator]
 
 * ****\[iterator]**(): IterableIterator\<T, any, any>
 
@@ -84,7 +84,7 @@ Inherited from Collection.owner
 
   #### Returns IterableIterator\<T, any, any>
 
-### [**](#add)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L224)inheritedadd
+### [**](#add)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L224)inheritedadd
 
 * ****add**\<TT>(entity, ...entities): number
 
@@ -101,7 +101,7 @@ Inherited from Collection.owner
 
   #### Returns number
 
-### [**](#contains)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L317)inheritedcontains
+### [**](#contains)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L317)inheritedcontains
 
 * ****contains**\<TT>(item, check): boolean
 
@@ -118,7 +118,7 @@ Inherited from Collection.owner
 
   #### Returns boolean
 
-### [**](#count)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L327)inheritedcount
+### [**](#count)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L327)inheritedcount
 
 * ****count**(): number
 
@@ -130,7 +130,7 @@ Inherited from Collection.owner
 
   #### Returns number
 
-### [**](#exists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L701)inheritedexists
+### [**](#exists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L701)inheritedexists
 
 * ****exists**(cb): boolean
 
@@ -147,7 +147,7 @@ Inherited from Collection.owner
 
   #### Returns boolean
 
-### [**](#filter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L742)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L747)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L752)inheritedfilter
+### [**](#filter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L742)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L747)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L752)inheritedfilter
 
 * ****filter**\<S>(cb): S\[]
 * ****filter**(cb): T\[]
@@ -165,7 +165,7 @@ Inherited from Collection.owner
 
   #### Returns S\[]
 
-### [**](#find)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L716)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L721)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L726)inheritedfind
+### [**](#find)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L716)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L721)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L726)inheritedfind
 
 * ****find**\<S>(cb): undefined | S
 * ****find**(cb): undefined | T
@@ -183,13 +183,13 @@ Inherited from Collection.owner
 
   #### Returns undefined | S
 
-### [**](#get)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L2028)get
+### [**](#get)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L2028)get
 
 * ****get**(): [Collection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Collection.md)\<T, object>
 
 - #### Returns [Collection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Collection.md)\<T, object>
 
-### [**](#getIdentifiers)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L555)inheritedgetIdentifiers
+### [**](#getIdentifiers)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L555)inheritedgetIdentifiers
 
 * ****getIdentifiers**\<U>(field): U\[]
 
@@ -205,7 +205,7 @@ Inherited from Collection.owner
 
   #### Returns U\[]
 
-### [**](#getItems)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L2029)getItems
+### [**](#getItems)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L2029)getItems
 
 * ****getItems**(check): T\[]
 
@@ -221,7 +221,7 @@ Inherited from Collection.owner
 
   #### Returns T\[]
 
-### [**](#indexBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L799)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L805)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L811)inheritedindexBy
+### [**](#indexBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L799)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L805)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L811)inheritedindexBy
 
 * ****indexBy**\<K1, K2>(key): Record\<T\[K1] & PropertyKey, T>
 * ****indexBy**\<K1, K2>(key, valueKey): Record\<T\[K1] & PropertyKey, T\[K2]>
@@ -238,7 +238,7 @@ Inherited from Collection.owner
 
   #### Returns Record\<T\[K1] & PropertyKey, T>
 
-### [**](#init)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L357)inheritedinit
+### [**](#init)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L357)inheritedinit
 
 * ****init**\<TT, P>(options): Promise<[LoadedCollection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/LoadedCollection.md)<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<TT, P>>>
 
@@ -254,7 +254,7 @@ Inherited from Collection.owner
 
   #### Returns Promise<[LoadedCollection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/LoadedCollection.md)<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<TT, P>>>
 
-### [**](#isDirty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L836)inheritedisDirty
+### [**](#isDirty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L836)inheritedisDirty
 
 * ****isDirty**(): boolean
 
@@ -262,7 +262,7 @@ Inherited from Collection.owner
 
   #### Returns boolean
 
-### [**](#isEmpty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L333)inheritedisEmpty
+### [**](#isEmpty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L333)inheritedisEmpty
 
 * ****isEmpty**(): boolean
 
@@ -274,7 +274,7 @@ Inherited from Collection.owner
 
   #### Returns boolean
 
-### [**](#isInitialized)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L822)inheritedisInitialized
+### [**](#isInitialized)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L822)inheritedisInitialized
 
 * ****isInitialized**(fully): boolean
 
@@ -290,7 +290,7 @@ Inherited from Collection.owner
 
   #### Returns boolean
 
-### [**](#isPartial)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L841)inheritedisPartial
+### [**](#isPartial)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L841)inheritedisPartial
 
 * ****isPartial**(): boolean
 
@@ -302,7 +302,7 @@ Inherited from Collection.owner
 
   #### Returns boolean
 
-### [**](#load)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L99)inheritedload
+### [**](#load)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L99)inheritedload
 
 * ****load**\<TT, P>(options): Promise<[LoadedCollection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/LoadedCollection.md)<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<TT, P>>>
 
@@ -318,7 +318,7 @@ Inherited from Collection.owner
 
   #### Returns Promise<[LoadedCollection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/LoadedCollection.md)<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<TT, P>>>
 
-### [**](#loadCount)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L136)inheritedloadCount
+### [**](#loadCount)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L136)inheritedloadCount
 
 * ****loadCount**(options): Promise\<number>
 
@@ -334,7 +334,7 @@ Inherited from Collection.owner
 
   #### Returns Promise\<number>
 
-### [**](#loadItems)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L125)inheritedloadItems
+### [**](#loadItems)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L125)inheritedloadItems
 
 * ****loadItems**\<TT, P>(options): Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<TT, P>\[]>
 
@@ -350,7 +350,7 @@ Inherited from Collection.owner
 
   #### Returns Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<TT, P>\[]>
 
-### [**](#map)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L769)inheritedmap
+### [**](#map)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L769)inheritedmap
 
 * ****map**\<R>(mapper): R\[]
 
@@ -367,7 +367,7 @@ Inherited from Collection.owner
 
   #### Returns R\[]
 
-### [**](#matching)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L165)inheritedmatching
+### [**](#matching)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L165)inheritedmatching
 
 * ****matching**\<TT, P>(options): Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<TT, P>\[]>
 
@@ -383,7 +383,7 @@ Inherited from Collection.owner
 
   #### Returns Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<TT, P>\[]>
 
-### [**](#populated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L352)inheritedpopulated
+### [**](#populated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L352)inheritedpopulated
 
 * ****populated**(populated): void
 
@@ -399,7 +399,7 @@ Inherited from Collection.owner
 
   #### Returns void
 
-### [**](#reduce)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L784)inheritedreduce
+### [**](#reduce)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L784)inheritedreduce
 
 * ****reduce**\<R>(cb, initial): R
 
@@ -417,7 +417,7 @@ Inherited from Collection.owner
 
   #### Returns R
 
-### [**](#remove)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L262)inheritedremove
+### [**](#remove)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L262)inheritedremove
 
 * ****remove**\<TT>(entity, ...entities): number
 
@@ -435,7 +435,7 @@ Inherited from Collection.owner
 
   #### Returns number
 
-### [**](#removeAll)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L649)inheritedremoveAll
+### [**](#removeAll)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L649)inheritedremoveAll
 
 * ****removeAll**(): void
 
@@ -447,7 +447,7 @@ Inherited from Collection.owner
 
   #### Returns void
 
-### [**](#set)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L597)inheritedset
+### [**](#set)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L597)inheritedset
 
 * ****set**(items): void
 
@@ -463,7 +463,7 @@ Inherited from Collection.owner
 
   #### Returns void
 
-### [**](#setDirty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L845)inheritedsetDirty
+### [**](#setDirty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L845)inheritedsetDirty
 
 * ****setDirty**(dirty): void
 
@@ -475,7 +475,7 @@ Inherited from Collection.owner
 
   #### Returns void
 
-### [**](#shouldPopulate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L339)inheritedshouldPopulate
+### [**](#shouldPopulate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L339)inheritedshouldPopulate
 
 * ****shouldPopulate**(populated): boolean
 
@@ -491,7 +491,7 @@ Inherited from Collection.owner
 
   #### Returns boolean
 
-### [**](#slice)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L677)inheritedslice
+### [**](#slice)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L677)inheritedslice
 
 * ****slice**(start, end): T\[]
 
@@ -508,7 +508,7 @@ Inherited from Collection.owner
 
   #### Returns T\[]
 
-### [**](#toArray)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L546)inheritedtoArray
+### [**](#toArray)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L546)inheritedtoArray
 
 * ****toArray**\<TT>(): [EntityDTO](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityDTO)\<TT>\[]
 
@@ -520,7 +520,7 @@ Inherited from Collection.owner
 
   #### Returns [EntityDTO](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityDTO)\<TT>\[]
 
-### [**](#toJSON)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L215)inheritedtoJSON
+### [**](#toJSON)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L215)inheritedtoJSON
 
 * ****toJSON**\<TT>(): [EntityDTO](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityDTO)\<TT>\[]
 

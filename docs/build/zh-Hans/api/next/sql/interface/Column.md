@@ -26,7 +26,7 @@
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#autoincrement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L64)optionalautoincrement
+### [**](#autoincrement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L64)optionalautoincrement
 
 **autoincrement?
 
@@ -34,7 +34,7 @@
 
 : boolean
 
-### [**](#comment)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L71)optionalcomment
+### [**](#comment)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L71)optionalcomment
 
 **comment?
 
@@ -42,7 +42,7 @@
 
 : string
 
-### [**](#default)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L69)optionaldefault
+### [**](#default)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L69)optionaldefault
 
 **default?
 
@@ -50,7 +50,7 @@
 
 : null | string
 
-### [**](#defaultConstraint)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L70)optionaldefaultConstraint
+### [**](#defaultConstraint)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L70)optionaldefaultConstraint
 
 **defaultConstraint?
 
@@ -58,7 +58,7 @@
 
 : string
 
-### [**](#enumItems)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L74)optionalenumItems
+### [**](#enumItems)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L74)optionalenumItems
 
 **enumItems?
 
@@ -66,7 +66,7 @@
 
 : string\[]
 
-### [**](#extra)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L78)optionalextra
+### [**](#extra)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L78)optionalextra
 
 **extra?
 
@@ -76,7 +76,7 @@
 
 mysql only
 
-### [**](#generated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L72)optionalgenerated
+### [**](#generated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L72)optionalgenerated
 
 **generated?
 
@@ -84,7 +84,7 @@ mysql only
 
 : string
 
-### [**](#ignoreSchemaChanges)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L79)optionalignoreSchemaChanges
+### [**](#ignoreSchemaChanges)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L79)optionalignoreSchemaChanges
 
 **ignoreSchemaChanges?
 
@@ -92,7 +92,7 @@ mysql only
 
 : (type | extra | default)\[]
 
-### [**](#length)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L66)optionallength
+### [**](#length)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L66)optionallength
 
 **length?
 
@@ -100,15 +100,15 @@ mysql only
 
 : number
 
-### [**](#mappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L62)mappedType
+### [**](#mappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L62)mappedType
 
 **mappedType: [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<unknown, unknown>
 
-### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L60)name
+### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L60)name
 
 **name: string
 
-### [**](#nativeEnumName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L73)optionalnativeEnumName
+### [**](#nativeEnumName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L73)optionalnativeEnumName
 
 **nativeEnumName?
 
@@ -116,7 +116,7 @@ mysql only
 
 : string
 
-### [**](#nullable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L65)optionalnullable
+### [**](#nullable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L65)optionalnullable
 
 **nullable?
 
@@ -124,7 +124,7 @@ mysql only
 
 : boolean
 
-### [**](#precision)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L67)optionalprecision
+### [**](#precision)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L67)optionalprecision
 
 **precision?
 
@@ -132,7 +132,7 @@ mysql only
 
 : number
 
-### [**](#primary)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L75)optionalprimary
+### [**](#primary)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L75)optionalprimary
 
 **primary?
 
@@ -140,7 +140,7 @@ mysql only
 
 : boolean
 
-### [**](#scale)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L68)optionalscale
+### [**](#scale)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L68)optionalscale
 
 **scale?
 
@@ -148,11 +148,11 @@ mysql only
 
 : number
 
-### [**](#type)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L61)type
+### [**](#type)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L61)type
 
 **type: string
 
-### [**](#unique)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L76)optionalunique
+### [**](#unique)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L76)optionalunique
 
 **unique?
 
@@ -160,7 +160,7 @@ mysql only
 
 : boolean
 
-### [**](#unsigned)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L63)optionalunsigned
+### [**](#unsigned)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L63)optionalunsigned
 
 **unsigned?
 

@@ -51,13 +51,13 @@ Abstract base class for all database drivers, implementing common driver logic.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#\[EntityManagerType])[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L50)\[EntityManagerType]
+### [**](#\[EntityManagerType])[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L50)\[EntityManagerType]
 
 **\[EntityManagerType]: [EntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityManager.md)<[DatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/DatabaseDriver.md)\<C>>
 
 Implementation of IDatabaseDriver.\[EntityManagerType]
 
-### [**](#config)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L59)readonlyconfig
+### [**](#config)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L59)readonlyconfig
 
 **config: [Configuration](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Configuration.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>, [EntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityManager.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>>>
 
@@ -65,7 +65,7 @@ Implementation of IDatabaseDriver.config
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#aggregate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L140)aggregate
+### [**](#aggregate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L140)aggregate
 
 * ****aggregate**(entityName, pipeline): Promise\<any\[]>
 
@@ -82,7 +82,7 @@ Implementation of IDatabaseDriver.config
 
   #### Returns Promise\<any\[]>
 
-### [**](#close)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L225)close
+### [**](#close)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L225)close
 
 * ****close**(force): Promise\<void>
 
@@ -98,7 +98,7 @@ Implementation of IDatabaseDriver.config
 
   #### Returns Promise\<void>
 
-### [**](#connect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L198)connect
+### [**](#connect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L198)connect
 
 * ****connect**(options): Promise\<C>
 
@@ -115,7 +115,7 @@ Implementation of IDatabaseDriver.config
 
   #### Returns Promise\<C>
 
-### [**](#convertException)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L703)convertException
+### [**](#convertException)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L703)convertException
 
 * ****convertException**(exception): [DriverException](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/DriverException.md)
 
@@ -131,7 +131,7 @@ Implementation of IDatabaseDriver.config
 
   #### Returns [DriverException](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/DriverException.md)
 
-### [**](#count)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L110)abstractcount
+### [**](#count)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L110)abstractcount
 
 * ****count**\<T, P>(entityName, where, options): Promise\<number>
 
@@ -149,7 +149,7 @@ Implementation of IDatabaseDriver.config
 
   #### Returns Promise\<number>
 
-### [**](#countVirtual)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L132)countVirtual
+### [**](#countVirtual)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L132)countVirtual
 
 * ****countVirtual**\<T>(entityName, where, options): Promise\<number>
 
@@ -161,7 +161,7 @@ Implementation of IDatabaseDriver.config
 
   #### Returns Promise\<number>
 
-### [**](#createEntityManager)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L117)createEntityManager
+### [**](#createEntityManager)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L117)createEntityManager
 
 * ****createEntityManager**(useContext): [EntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityManager.md)<[DatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/DatabaseDriver.md)\<C>>
 
@@ -177,7 +177,7 @@ Implementation of IDatabaseDriver.config
 
   #### Returns [EntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityManager.md)<[DatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/DatabaseDriver.md)\<C>>
 
-### [**](#find)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L63)abstractfind
+### [**](#find)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L63)abstractfind
 
 * ****find**\<T, P, F, E>(entityName, where, options): Promise<[EntityData](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityData)\<T>\[]>
 
@@ -195,7 +195,7 @@ Implementation of IDatabaseDriver.config
 
   #### Returns Promise<[EntityData](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityData)\<T>\[]>
 
-### [**](#findOne)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L69)abstractfindOne
+### [**](#findOne)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L69)abstractfindOne
 
 * ****findOne**\<T, P, F, E>(entityName, where, options): Promise\<null | [EntityData](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityData)\<T>>
 
@@ -213,7 +213,7 @@ Implementation of IDatabaseDriver.config
 
   #### Returns Promise\<null | [EntityData](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityData)\<T>>
 
-### [**](#findVirtual)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L123)findVirtual
+### [**](#findVirtual)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L123)findVirtual
 
 * ****findVirtual**\<T>(entityName, where, options): Promise<[EntityData](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityData)\<T>\[]>
 
@@ -231,7 +231,7 @@ Implementation of IDatabaseDriver.config
 
   #### Returns Promise<[EntityData](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityData)\<T>\[]>
 
-### [**](#getConnection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L214)getConnection
+### [**](#getConnection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L214)getConnection
 
 * ****getConnection**(type): C
 
@@ -247,7 +247,7 @@ Implementation of IDatabaseDriver.config
 
   #### Returns C
 
-### [**](#getDependencies)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L253)getDependencies
+### [**](#getDependencies)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L253)getDependencies
 
 * ****getDependencies**(): string\[]
 
@@ -259,7 +259,7 @@ Implementation of IDatabaseDriver.config
 
   #### Returns string\[]
 
-### [**](#getMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L248)getMetadata
+### [**](#getMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L248)getMetadata
 
 * ****getMetadata**(): [MetadataStorage](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/MetadataStorage.md)
 
@@ -271,7 +271,7 @@ Implementation of IDatabaseDriver.config
 
   #### Returns [MetadataStorage](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/MetadataStorage.md)
 
-### [**](#getPlatform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L231)getPlatform
+### [**](#getPlatform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L231)getPlatform
 
 * ****getPlatform**(): [Platform](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Platform.md)
 
@@ -283,7 +283,7 @@ Implementation of IDatabaseDriver.config
 
   #### Returns [Platform](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Platform.md)
 
-### [**](#loadFromPivotTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L144)loadFromPivotTable
+### [**](#loadFromPivotTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L144)loadFromPivotTable
 
 * ****loadFromPivotTable**\<T, O>(prop, owners, where, orderBy, ctx, options, pivotJoin): Promise<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)\<T\[]>>
 
@@ -305,7 +305,7 @@ Implementation of IDatabaseDriver.config
 
   #### Returns Promise<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)\<T\[]>>
 
-### [**](#lockPessimistic)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L690)lockPessimistic
+### [**](#lockPessimistic)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L690)lockPessimistic
 
 * ****lockPessimistic**\<T>(entity, options): Promise\<void>
 
@@ -322,7 +322,7 @@ Implementation of IDatabaseDriver.config
 
   #### Returns Promise\<void>
 
-### [**](#mapResult)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L185)mapResult
+### [**](#mapResult)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L185)mapResult
 
 * ****mapResult**\<T>(result, meta, populate): null | [EntityData](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityData)\<T>
 
@@ -340,7 +340,7 @@ Implementation of IDatabaseDriver.config
 
   #### Returns null | [EntityData](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityData)\<T>
 
-### [**](#nativeDelete)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L104)abstractnativeDelete
+### [**](#nativeDelete)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L104)abstractnativeDelete
 
 * ****nativeDelete**\<T>(entityName, where, options): Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
@@ -358,7 +358,7 @@ Implementation of IDatabaseDriver.config
 
   #### Returns Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
-### [**](#nativeInsert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L75)abstractnativeInsert
+### [**](#nativeInsert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L75)abstractnativeInsert
 
 * ****nativeInsert**\<T>(entityName, data, options): Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
@@ -376,7 +376,7 @@ Implementation of IDatabaseDriver.config
 
   #### Returns Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
-### [**](#nativeInsertMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L81)abstractnativeInsertMany
+### [**](#nativeInsertMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L81)abstractnativeInsertMany
 
 * ****nativeInsertMany**\<T>(entityName, data, options, transform): Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
@@ -396,7 +396,7 @@ Implementation of IDatabaseDriver.config
 
   #### Returns Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
-### [**](#nativeUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L88)abstractnativeUpdate
+### [**](#nativeUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L88)abstractnativeUpdate
 
 * ****nativeUpdate**\<T>(entityName, where, data, options): Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
@@ -415,7 +415,7 @@ Implementation of IDatabaseDriver.config
 
   #### Returns Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
-### [**](#nativeUpdateMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L95)nativeUpdateMany
+### [**](#nativeUpdateMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L95)nativeUpdateMany
 
 * ****nativeUpdateMany**\<T>(entityName, where, data, options): Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
@@ -434,7 +434,7 @@ Implementation of IDatabaseDriver.config
 
   #### Returns Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
-### [**](#reconnect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L206)reconnect
+### [**](#reconnect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L206)reconnect
 
 * ****reconnect**(options): Promise\<C>
 
@@ -451,7 +451,7 @@ Implementation of IDatabaseDriver.config
 
   #### Returns Promise\<C>
 
-### [**](#setMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L236)setMetadata
+### [**](#setMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L236)setMetadata
 
 * ****setMetadata**(metadata): void
 
@@ -467,7 +467,7 @@ Implementation of IDatabaseDriver.config
 
   #### Returns void
 
-### [**](#stream)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L694)abstractstream
+### [**](#stream)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L694)abstractstream
 
 * ****stream**\<T>(entityName, where, options): AsyncIterableIterator\<T, any, any>
 
@@ -485,7 +485,7 @@ Implementation of IDatabaseDriver.config
 
   #### Returns AsyncIterableIterator\<T, any, any>
 
-### [**](#syncCollections)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L156)syncCollections
+### [**](#syncCollections)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L156)syncCollections
 
 * ****syncCollections**\<T, O>(collections, options): Promise\<void>
 

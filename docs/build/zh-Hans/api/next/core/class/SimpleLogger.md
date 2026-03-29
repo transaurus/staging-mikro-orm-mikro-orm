@@ -30,7 +30,7 @@ A basic logger that provides fully formatted output without color
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/DefaultLogger.ts#L12)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/DefaultLogger.ts#L12)constructor
 
 * ****new SimpleLogger**(options): [SimpleLogger](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/SimpleLogger.md)
 
@@ -44,13 +44,13 @@ A basic logger that provides fully formatted output without color
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#debugMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/DefaultLogger.ts#L7)inheriteddebugMode
+### [**](#debugMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/DefaultLogger.ts#L7)inheriteddebugMode
 
 **debugMode: boolean | [LoggerNamespace](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#LoggerNamespace)\[]
 
 Inherited from DefaultLogger.debugMode
 
-### [**](#writer)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/DefaultLogger.ts#L8)readonlyinheritedwriter
+### [**](#writer)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/DefaultLogger.ts#L8)readonlyinheritedwriter
 
 **writer: (message) => void
 
@@ -68,7 +68,7 @@ Inherited from DefaultLogger.writer
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#error)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/DefaultLogger.ts#L48)inheritederror
+### [**](#error)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/DefaultLogger.ts#L48)inheritederror
 
 * ****error**(namespace, message, context): void
 
@@ -86,7 +86,7 @@ Inherited from DefaultLogger.writer
 
   #### Returns void
 
-### [**](#isEnabled)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/DefaultLogger.ts#L67)inheritedisEnabled
+### [**](#isEnabled)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/DefaultLogger.ts#L67)inheritedisEnabled
 
 * ****isEnabled**(namespace, context): boolean
 
@@ -103,7 +103,7 @@ Inherited from DefaultLogger.writer
 
   #### Returns boolean
 
-### [**](#log)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/SimpleLogger.ts#L11)log
+### [**](#log)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/SimpleLogger.ts#L11)log
 
 * ****log**(namespace, message, context): void
 
@@ -121,7 +121,7 @@ Inherited from DefaultLogger.writer
 
   #### Returns void
 
-### [**](#logQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/SimpleLogger.ts#L26)logQuery
+### [**](#logQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/SimpleLogger.ts#L26)logQuery
 
 * ****logQuery**(context): void
 
@@ -137,7 +137,7 @@ Inherited from DefaultLogger.writer
 
   #### Returns void
 
-### [**](#setDebugMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/DefaultLogger.ts#L62)inheritedsetDebugMode
+### [**](#setDebugMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/DefaultLogger.ts#L62)inheritedsetDebugMode
 
 * ****setDebugMode**(debugMode): void
 
@@ -153,7 +153,7 @@ Inherited from DefaultLogger.writer
 
   #### Returns void
 
-### [**](#warn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/DefaultLogger.ts#L55)inheritedwarn
+### [**](#warn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/DefaultLogger.ts#L55)inheritedwarn
 
 * ****warn**(namespace, message, context): void
 
@@ -171,7 +171,7 @@ Inherited from DefaultLogger.writer
 
   #### Returns void
 
-### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/SimpleLogger.ts#L34)staticcreate
+### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/SimpleLogger.ts#L34)staticcreate
 
 * ****create**(this, options): [SimpleLogger](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/SimpleLogger.md)
 

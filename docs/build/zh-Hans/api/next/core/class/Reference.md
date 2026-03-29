@@ -33,7 +33,7 @@ Wrapper around an entity that provides lazy loading capabilities and identity-pr
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Reference.ts#L29)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Reference.ts#L29)constructor
 
 * ****new Reference**\<T>(entity): [Reference](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Reference.md)\<T>
 
@@ -45,7 +45,7 @@ Wrapper around an entity that provides lazy loading capabilities and identity-pr
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#getEntity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Reference.ts#L197)getEntity
+### [**](#getEntity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Reference.ts#L197)getEntity
 
 * ****getEntity**(): T
 
@@ -55,7 +55,7 @@ Wrapper around an entity that provides lazy loading capabilities and identity-pr
 
   #### Returns T
 
-### [**](#getProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Reference.ts#L208)getProperty
+### [**](#getProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Reference.ts#L208)getProperty
 
 * ****getProperty**\<K>(prop): T\[K]
 
@@ -69,7 +69,7 @@ Wrapper around an entity that provides lazy loading capabilities and identity-pr
 
   #### Returns T\[K]
 
-### [**](#isInitialized)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Reference.ts#L222)isInitialized
+### [**](#isInitialized)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Reference.ts#L222)isInitialized
 
 * ****isInitialized**(): boolean
 
@@ -79,7 +79,7 @@ Wrapper around an entity that provides lazy loading capabilities and identity-pr
 
   #### Returns boolean
 
-### [**](#load)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Reference.ts#L136)load
+### [**](#load)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Reference.ts#L136)load
 
 * ****load**\<TT, P, F, E>(options): Promise\<null | [Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<TT, P, F, E>>
 
@@ -93,7 +93,7 @@ Wrapper around an entity that provides lazy loading capabilities and identity-pr
 
   #### Returns Promise\<null | [Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<TT, P, F, E>>
 
-### [**](#loadOrFail)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Reference.ts#L170)loadOrFail
+### [**](#loadOrFail)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Reference.ts#L170)loadOrFail
 
 * ****loadOrFail**\<TT, P, F, E>(options): Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<TT, P, F, E>>
 
@@ -107,7 +107,7 @@ Wrapper around an entity that provides lazy loading capabilities and identity-pr
 
   #### Returns Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<TT, P, F, E>>
 
-### [**](#loadProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Reference.ts#L213)loadProperty
+### [**](#loadProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Reference.ts#L213)loadProperty
 
 * ****loadProperty**\<TT, P, K>(prop, options): Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<TT, P>\[K]>
 
@@ -122,7 +122,7 @@ Wrapper around an entity that provides lazy loading capabilities and identity-pr
 
   #### Returns Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<TT, P>\[K]>
 
-### [**](#populated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Reference.ts#L227)populated
+### [**](#populated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Reference.ts#L227)populated
 
 * ****populated**(populated): void
 
@@ -136,7 +136,7 @@ Wrapper around an entity that provides lazy loading capabilities and identity-pr
 
   #### Returns void
 
-### [**](#toJSON)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Reference.ts#L232)toJSON
+### [**](#toJSON)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Reference.ts#L232)toJSON
 
 * ****toJSON**(...args): [Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)
 
@@ -150,7 +150,7 @@ Wrapper around an entity that provides lazy loading capabilities and identity-pr
 
   #### Returns [Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)
 
-### [**](#unwrap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Reference.ts#L192)unwrap
+### [**](#unwrap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Reference.ts#L192)unwrap
 
 * ****unwrap**(): T
 
@@ -160,7 +160,7 @@ Wrapper around an entity that provides lazy loading capabilities and identity-pr
 
   #### Returns T
 
-### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Reference.ts#L52)staticcreate
+### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Reference.ts#L52)staticcreate
 
 * ****create**\<T>(entity): [Ref](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Ref)\<T>
 
@@ -174,7 +174,7 @@ Wrapper around an entity that provides lazy loading capabilities and identity-pr
 
   #### Returns [Ref](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Ref)\<T>
 
-### [**](#createFromPK)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Reference.ts#L64)staticcreateFromPK
+### [**](#createFromPK)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Reference.ts#L64)staticcreateFromPK
 
 * ****createFromPK**\<T>(entityType, pk, options): [Ref](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Ref)\<T>
 
@@ -191,7 +191,7 @@ Wrapper around an entity that provides lazy loading capabilities and identity-pr
 
   #### Returns [Ref](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Ref)\<T>
 
-### [**](#createNakedFromPK)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Reference.ts#L74)staticcreateNakedFromPK
+### [**](#createNakedFromPK)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Reference.ts#L74)staticcreateNakedFromPK
 
 * ****createNakedFromPK**\<T>(entityType, pk, options): T
 
@@ -208,7 +208,7 @@ Wrapper around an entity that provides lazy loading capabilities and identity-pr
 
   #### Returns T
 
-### [**](#isReference)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Reference.ts#L103)staticisReference
+### [**](#isReference)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Reference.ts#L103)staticisReference
 
 * ****isReference**\<T>(data): data is [Reference](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Reference.md)\<T>
 
@@ -222,7 +222,7 @@ Wrapper around an entity that provides lazy loading capabilities and identity-pr
 
   #### Returns data is [Reference](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Reference.md)\<T>
 
-### [**](#unwrapReference)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Reference.ts#L127)staticunwrapReference
+### [**](#unwrapReference)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Reference.ts#L127)staticunwrapReference
 
 * ****unwrapReference**\<T>(ref): T
 
@@ -236,7 +236,7 @@ Wrapper around an entity that provides lazy loading capabilities and identity-pr
 
   #### Returns T
 
-### [**](#wrapReference)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Reference.ts#L110)staticwrapReference
+### [**](#wrapReference)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Reference.ts#L110)staticwrapReference
 
 * ****wrapReference**\<T, O>(entity, prop): T | [Reference](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Reference.md)\<T>
 

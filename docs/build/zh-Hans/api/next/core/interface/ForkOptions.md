@@ -17,7 +17,7 @@
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#clear)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/EntityManager.ts#L2882)optionalclear
+### [**](#clear)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/EntityManager.ts#L2882)optionalclear
 
 **clear?
 
@@ -27,7 +27,7 @@
 
 do we want a clear identity map? defaults to true
 
-### [**](#cloneEventManager)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/EntityManager.ts#L2888)optionalcloneEventManager
+### [**](#cloneEventManager)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/EntityManager.ts#L2888)optionalcloneEventManager
 
 **cloneEventManager?
 
@@ -37,7 +37,7 @@ do we want a clear identity map? defaults to true
 
 do we want to clone current EventManager instance? defaults to false (global instance)
 
-### [**](#disableContextResolution)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/EntityManager.ts#L2890)optionaldisableContextResolution
+### [**](#disableContextResolution)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/EntityManager.ts#L2890)optionaldisableContextResolution
 
 **disableContextResolution?
 
@@ -47,7 +47,7 @@ do we want to clone current EventManager instance? defaults to false (global ins
 
 use this flag to ignore the current async context - this is required if we want to call `em.fork()` inside the `getContext` handler
 
-### [**](#disableTransactions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/EntityManager.ts#L2894)optionaldisableTransactions
+### [**](#disableTransactions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/EntityManager.ts#L2894)optionaldisableTransactions
 
 **disableTransactions?
 
@@ -57,7 +57,7 @@ use this flag to ignore the current async context - this is required if we want 
 
 disable transactions for this fork
 
-### [**](#flushMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/EntityManager.ts#L2892)optionalflushMode
+### [**](#flushMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/EntityManager.ts#L2892)optionalflushMode
 
 **flushMode?
 
@@ -67,7 +67,7 @@ disable transactions for this fork
 
 set flush mode for this fork, overrides the global option can be overridden locally via FindOptions
 
-### [**](#freshEventManager)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/EntityManager.ts#L2886)optionalfreshEventManager
+### [**](#freshEventManager)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/EntityManager.ts#L2886)optionalfreshEventManager
 
 **freshEventManager?
 
@@ -77,7 +77,7 @@ set flush mode for this fork, overrides the global option can be overridden loca
 
 do we want to use fresh EventManager instance? defaults to false (global instance)
 
-### [**](#keepTransactionContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/EntityManager.ts#L2896)optionalkeepTransactionContext
+### [**](#keepTransactionContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/EntityManager.ts#L2896)optionalkeepTransactionContext
 
 **keepTransactionContext?
 
@@ -87,7 +87,7 @@ do we want to use fresh EventManager instance? defaults to false (global instanc
 
 should we keep the transaction context of the parent EM?
 
-### [**](#loggerContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/EntityManager.ts#L2900)optionalloggerContext
+### [**](#loggerContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/EntityManager.ts#L2900)optionalloggerContext
 
 **loggerContext?
 
@@ -97,7 +97,7 @@ should we keep the transaction context of the parent EM?
 
 default logger context, can be overridden via [FindOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/FindOptions.md)
 
-### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/EntityManager.ts#L2898)optionalschema
+### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/EntityManager.ts#L2898)optionalschema
 
 **schema?
 
@@ -107,7 +107,7 @@ default logger context, can be overridden via [FindOptions](https://mikro-orm.io
 
 default schema to use for this fork
 
-### [**](#useContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/EntityManager.ts#L2884)optionaluseContext
+### [**](#useContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/EntityManager.ts#L2884)optionaluseContext
 
 **useContext?
 

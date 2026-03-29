@@ -137,7 +137,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#allowsComparingTuples)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L246)allowsComparingTuples
+### [**](#allowsComparingTuples)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L246)allowsComparingTuples
 
 * ****allowsComparingTuples**(): boolean
 
@@ -147,7 +147,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#cloneEmbeddable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L711)cloneEmbeddable
+### [**](#cloneEmbeddable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L711)cloneEmbeddable
 
 * ****cloneEmbeddable**\<T>(data): T
 
@@ -161,7 +161,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns T
 
-### [**](#compareUuids)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L570)compareUuids
+### [**](#compareUuids)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L570)compareUuids
 
 * ****compareUuids**(): string
 
@@ -171,7 +171,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#convertDateToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L550)convertDateToJSValue
+### [**](#convertDateToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L550)convertDateToJSValue
 
 * ****convertDateToJSValue**(value): string
 
@@ -181,7 +181,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#convertIntervalToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L558)convertIntervalToDatabaseValue
+### [**](#convertIntervalToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L558)convertIntervalToDatabaseValue
 
 * ****convertIntervalToDatabaseValue**(value): unknown
 
@@ -191,7 +191,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns unknown
 
-### [**](#convertIntervalToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L554)convertIntervalToJSValue
+### [**](#convertIntervalToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L554)convertIntervalToJSValue
 
 * ****convertIntervalToJSValue**(value): unknown
 
@@ -201,7 +201,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns unknown
 
-### [**](#convertJsonToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L541)convertJsonToDatabaseValue
+### [**](#convertJsonToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L541)convertJsonToDatabaseValue
 
 * ****convertJsonToDatabaseValue**(value, context): unknown
 
@@ -216,7 +216,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns unknown
 
-### [**](#convertJsonToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L546)convertJsonToJSValue
+### [**](#convertJsonToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L546)convertJsonToJSValue
 
 * ****convertJsonToJSValue**(value, context): unknown
 
@@ -231,7 +231,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns unknown
 
-### [**](#convertsJsonAutomatically)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L536)convertsJsonAutomatically
+### [**](#convertsJsonAutomatically)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L536)convertsJsonAutomatically
 
 * ****convertsJsonAutomatically**(): boolean
 
@@ -241,7 +241,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#convertUuidToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L578)convertUuidToDatabaseValue
+### [**](#convertUuidToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L578)convertUuidToDatabaseValue
 
 * ****convertUuidToDatabaseValue**(value): unknown
 
@@ -251,7 +251,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns unknown
 
-### [**](#convertUuidToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L574)convertUuidToJSValue
+### [**](#convertUuidToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L574)convertUuidToJSValue
 
 * ****convertUuidToJSValue**(value): unknown
 
@@ -261,7 +261,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns unknown
 
-### [**](#convertVersionValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L233)convertVersionValue
+### [**](#convertVersionValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L233)convertVersionValue
 
 * ****convertVersionValue**(value, prop): string | number | Date | { $in: (string | number)\[] }
 
@@ -276,7 +276,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string | number | Date | { $in: (string | number)\[] }
 
-### [**](#denormalizePrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L164)denormalizePrimaryKey
+### [**](#denormalizePrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L164)denormalizePrimaryKey
 
 * ****denormalizePrimaryKey**(data): IPrimaryKeyValue
 
@@ -290,7 +290,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns IPrimaryKeyValue
 
-### [**](#escape)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L662)escape
+### [**](#escape)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L662)escape
 
 * ****escape**(value): string
 
@@ -300,7 +300,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#extractSimpleType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L337)extractSimpleType
+### [**](#extractSimpleType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L337)extractSimpleType
 
 * ****extractSimpleType**(type): string
 
@@ -314,7 +314,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#formatQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L667)formatQuery
+### [**](#formatQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L667)formatQuery
 
 * ****formatQuery**(sql, params): string
 
@@ -329,7 +329,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#generateCustomOrder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L844)generateCustomOrder
+### [**](#generateCustomOrder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L844)generateCustomOrder
 
 * ****generateCustomOrder**(escapedColumn, values): void
 
@@ -344,7 +344,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns void
 
-### [**](#getArrayDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L441)getArrayDeclarationSQL
+### [**](#getArrayDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L441)getArrayDeclarationSQL
 
 * ****getArrayDeclarationSQL**(): string
 
@@ -354,7 +354,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#getBigIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L282)getBigIntTypeDeclarationSQL
+### [**](#getBigIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L282)getBigIntTypeDeclarationSQL
 
 * ****getBigIntTypeDeclarationSQL**(column): string
 
@@ -367,13 +367,13 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#getBlobDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L459)getBlobDeclarationSQL
+### [**](#getBlobDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L459)getBlobDeclarationSQL
 
 * ****getBlobDeclarationSQL**(): string
 
 - #### Returns string
 
-### [**](#getBooleanTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L261)getBooleanTypeDeclarationSQL
+### [**](#getBooleanTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L261)getBooleanTypeDeclarationSQL
 
 * ****getBooleanTypeDeclarationSQL**(): string
 
@@ -383,7 +383,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#getCharTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L286)getCharTypeDeclarationSQL
+### [**](#getCharTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L286)getCharTypeDeclarationSQL
 
 * ****getCharTypeDeclarationSQL**(column): string
 
@@ -394,7 +394,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#getConfig)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L732)getConfig
+### [**](#getConfig)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L732)getConfig
 
 * ****getConfig**(): [Configuration](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Configuration.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>, [EntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityManager.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>>>
 
@@ -404,7 +404,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns [Configuration](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Configuration.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>, [EntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityManager.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>>>
 
-### [**](#getCurrentTimestampSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L171)getCurrentTimestampSQL
+### [**](#getCurrentTimestampSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L171)getCurrentTimestampSQL
 
 * ****getCurrentTimestampSQL**(length): string
 
@@ -418,7 +418,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#getDateTimeTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L176)getDateTimeTypeDeclarationSQL
+### [**](#getDateTimeTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L176)getDateTimeTypeDeclarationSQL
 
 * ****getDateTimeTypeDeclarationSQL**(column): string
 
@@ -433,7 +433,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#getDateTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L196)getDateTypeDeclarationSQL
+### [**](#getDateTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L196)getDateTypeDeclarationSQL
 
 * ****getDateTypeDeclarationSQL**(length): string
 
@@ -447,7 +447,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#getDecimalTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L324)getDecimalTypeDeclarationSQL
+### [**](#getDecimalTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L324)getDecimalTypeDeclarationSQL
 
 * ****getDecimalTypeDeclarationSQL**(column): string
 
@@ -459,7 +459,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#getDefaultCharLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L191)getDefaultCharLength
+### [**](#getDefaultCharLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L191)getDefaultCharLength
 
 * ****getDefaultCharLength**(): number
 
@@ -469,7 +469,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns number
 
-### [**](#getDefaultCharset)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L600)getDefaultCharset
+### [**](#getDefaultCharset)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L600)getDefaultCharset
 
 * ****getDefaultCharset**(): string
 
@@ -479,7 +479,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#getDefaultClientUrl)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L851)getDefaultClientUrl
+### [**](#getDefaultClientUrl)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L851)getDefaultClientUrl
 
 * ****getDefaultClientUrl**(): string
 
@@ -489,7 +489,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#getDefaultDateTimeLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L181)getDefaultDateTimeLength
+### [**](#getDefaultDateTimeLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L181)getDefaultDateTimeLength
 
 * ****getDefaultDateTimeLength**(): number
 
@@ -499,7 +499,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns number
 
-### [**](#getDefaultMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L355)getDefaultMappedType
+### [**](#getDefaultMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L355)getDefaultMappedType
 
 * ****getDefaultMappedType**(type): [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<unknown, unknown>
 
@@ -513,7 +513,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<unknown, unknown>
 
-### [**](#getDefaultPrimaryName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L769)getDefaultPrimaryName
+### [**](#getDefaultPrimaryName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L769)getDefaultPrimaryName
 
 * ****getDefaultPrimaryName**(tableName, columns): string
 
@@ -528,7 +528,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#getDefaultSchemaName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L256)getDefaultSchemaName
+### [**](#getDefaultSchemaName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L256)getDefaultSchemaName
 
 * ****getDefaultSchemaName**(): undefined | string
 
@@ -538,7 +538,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns undefined | string
 
-### [**](#getDefaultVarcharLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L186)getDefaultVarcharLength
+### [**](#getDefaultVarcharLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L186)getDefaultVarcharLength
 
 * ****getDefaultVarcharLength**(): number
 
@@ -548,7 +548,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns number
 
-### [**](#getDefaultVersionLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L241)getDefaultVersionLength
+### [**](#getDefaultVersionLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L241)getDefaultVersionLength
 
 * ****getDefaultVersionLength**(): number
 
@@ -558,13 +558,13 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns number
 
-### [**](#getDoubleDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L320)getDoubleDeclarationSQL
+### [**](#getDoubleDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L320)getDoubleDeclarationSQL
 
 * ****getDoubleDeclarationSQL**(): string
 
 - #### Returns string
 
-### [**](#getEnumArrayCheckConstraintExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L116)getEnumArrayCheckConstraintExpression
+### [**](#getEnumArrayCheckConstraintExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L116)getEnumArrayCheckConstraintExpression
 
 * ****getEnumArrayCheckConstraintExpression**(column, items): null | string
 
@@ -579,7 +579,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns null | string
 
-### [**](#getEnumCheckConstraintExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L111)getEnumCheckConstraintExpression
+### [**](#getEnumCheckConstraintExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L111)getEnumCheckConstraintExpression
 
 * ****getEnumCheckConstraintExpression**(column, items): string
 
@@ -594,7 +594,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#getEnumTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L302)getEnumTypeDeclarationSQL
+### [**](#getEnumTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L302)getEnumTypeDeclarationSQL
 
 * ****getEnumTypeDeclarationSQL**(column): string
 
@@ -609,7 +609,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#getExceptionConverter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L605)getExceptionConverter
+### [**](#getExceptionConverter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L605)getExceptionConverter
 
 * ****getExceptionConverter**(): [ExceptionConverter](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ExceptionConverter.md)
 
@@ -619,7 +619,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns [ExceptionConverter](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ExceptionConverter.md)
 
-### [**](#getExtension)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L622)getExtension
+### [**](#getExtension)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L622)getExtension
 
 * ****getExtension**\<T>(extensionName, extensionKey, moduleName, em): T
 
@@ -636,13 +636,13 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns T
 
-### [**](#getFloatDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L316)getFloatDeclarationSQL
+### [**](#getFloatDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L316)getFloatDeclarationSQL
 
 * ****getFloatDeclarationSQL**(): string
 
 - #### Returns string
 
-### [**](#getFullTextIndexExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L526)getFullTextIndexExpression
+### [**](#getFullTextIndexExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L526)getFullTextIndexExpression
 
 * ****getFullTextIndexExpression**(indexName, schemaName, tableName, columns): string
 
@@ -655,7 +655,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#getFullTextWhereClause)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L518)getFullTextWhereClause
+### [**](#getFullTextWhereClause)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L518)getFullTextWhereClause
 
 * ****getFullTextWhereClause**(prop): string
 
@@ -665,7 +665,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#getIndexName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L760)getIndexName
+### [**](#getIndexName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L760)getIndexName
 
 * ****getIndexName**(tableName, columns, type): string
 
@@ -681,7 +681,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#getIntegerTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L266)getIntegerTypeDeclarationSQL
+### [**](#getIntegerTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L266)getIntegerTypeDeclarationSQL
 
 * ****getIntegerTypeDeclarationSQL**(column): string
 
@@ -698,7 +698,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#getIntervalTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L294)getIntervalTypeDeclarationSQL
+### [**](#getIntervalTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L294)getIntervalTypeDeclarationSQL
 
 * ****getIntervalTypeDeclarationSQL**(column): string
 
@@ -709,13 +709,13 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#getJsonDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L463)getJsonDeclarationSQL
+### [**](#getJsonDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L463)getJsonDeclarationSQL
 
 * ****getJsonDeclarationSQL**(): string
 
 - #### Returns string
 
-### [**](#getJsonIndexDefinition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L514)getJsonIndexDefinition
+### [**](#getJsonIndexDefinition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L514)getJsonIndexDefinition
 
 * ****getJsonIndexDefinition**(index): string\[]
 
@@ -726,7 +726,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string\[]
 
-### [**](#getMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L349)getMappedType
+### [**](#getMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L349)getMappedType
 
 * ****getMappedType**(type): [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<unknown, unknown>
 
@@ -740,7 +740,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<unknown, unknown>
 
-### [**](#getMediumIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L274)getMediumIntTypeDeclarationSQL
+### [**](#getMediumIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L274)getMediumIntTypeDeclarationSQL
 
 * ****getMediumIntTypeDeclarationSQL**(column): string
 
@@ -753,7 +753,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#getNamingStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L81)getNamingStrategy
+### [**](#getNamingStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L81)getNamingStrategy
 
 * ****getNamingStrategy**(): new () => [NamingStrategy](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/NamingStrategy.md)
 
@@ -767,7 +767,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
     - #### Returns [NamingStrategy](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/NamingStrategy.md)
 
-### [**](#getRegExpOperator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L206)getRegExpOperator
+### [**](#getRegExpOperator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L206)getRegExpOperator
 
 * ****getRegExpOperator**(val, flags): string
 
@@ -782,7 +782,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#getRegExpValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L219)getRegExpValue
+### [**](#getRegExpValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L219)getRegExpValue
 
 * ****getRegExpValue**(val): { $flags?
   <!-- -->
@@ -801,7 +801,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
   * ##### optional$flags?<!-- -->: string
   * ##### $re: string
 
-### [**](#getRepositoryClass)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L595)getRepositoryClass
+### [**](#getRepositoryClass)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L595)getRepositoryClass
 
 * ****getRepositoryClass**\<T>(): [Constructor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Constructor)<[EntityRepository](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityRepository.md)\<T>>
 
@@ -811,7 +811,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns [Constructor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Constructor)<[EntityRepository](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityRepository.md)\<T>>
 
-### [**](#getSchemaGenerator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L636)getSchemaGenerator
+### [**](#getSchemaGenerator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L636)getSchemaGenerator
 
 * ****getSchemaGenerator**(driver, em): [ISchemaGenerator](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/ISchemaGenerator.md)
 
@@ -822,7 +822,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns [ISchemaGenerator](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/ISchemaGenerator.md)
 
-### [**](#getSchemaHelper)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L126)getSchemaHelper
+### [**](#getSchemaHelper)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L126)getSchemaHelper
 
 * ****getSchemaHelper**(): unknown
 
@@ -832,7 +832,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns unknown
 
-### [**](#getSearchJsonPropertyKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L471)getSearchJsonPropertyKey
+### [**](#getSearchJsonPropertyKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L471)getSearchJsonPropertyKey
 
 * ****getSearchJsonPropertyKey**(path, type, aliased, value): string | [RawQueryFragment](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)\<string>
 
@@ -845,7 +845,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string | [RawQueryFragment](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)\<string>
 
-### [**](#getSearchJsonPropertySQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L467)getSearchJsonPropertySQL
+### [**](#getSearchJsonPropertySQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L467)getSearchJsonPropertySQL
 
 * ****getSearchJsonPropertySQL**(path, type, aliased): string | [RawQueryFragment](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)\<string>
 
@@ -857,7 +857,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string | [RawQueryFragment](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)\<string>
 
-### [**](#getSmallIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L270)getSmallIntTypeDeclarationSQL
+### [**](#getSmallIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L270)getSmallIntTypeDeclarationSQL
 
 * ****getSmallIntTypeDeclarationSQL**(column): string
 
@@ -870,7 +870,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#getTextTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L298)getTextTypeDeclarationSQL
+### [**](#getTextTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L298)getTextTypeDeclarationSQL
 
 * ****getTextTypeDeclarationSQL**(\_column): string
 
@@ -881,7 +881,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#getTimeTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L201)getTimeTypeDeclarationSQL
+### [**](#getTimeTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L201)getTimeTypeDeclarationSQL
 
 * ****getTimeTypeDeclarationSQL**(length): string
 
@@ -895,7 +895,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#getTimezone)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L737)getTimezone
+### [**](#getTimezone)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L737)getTimezone
 
 * ****getTimezone**(): undefined | string
 
@@ -905,7 +905,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns undefined | string
 
-### [**](#getTinyIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L278)getTinyIntTypeDeclarationSQL
+### [**](#getTinyIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L278)getTinyIntTypeDeclarationSQL
 
 * ****getTinyIntTypeDeclarationSQL**(column): string
 
@@ -918,7 +918,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#getUuidTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L331)getUuidTypeDeclarationSQL
+### [**](#getUuidTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L331)getUuidTypeDeclarationSQL
 
 * ****getUuidTypeDeclarationSQL**(column): string
 
@@ -929,7 +929,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#getVarcharTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L290)getVarcharTypeDeclarationSQL
+### [**](#getVarcharTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L290)getVarcharTypeDeclarationSQL
 
 * ****getVarcharTypeDeclarationSQL**(column): string
 
@@ -940,7 +940,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#indexForeignKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L131)indexForeignKeys
+### [**](#indexForeignKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L131)indexForeignKeys
 
 * ****indexForeignKeys**(): boolean
 
@@ -950,7 +950,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#isAllowedTopLevelOperator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L228)isAllowedTopLevelOperator
+### [**](#isAllowedTopLevelOperator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L228)isAllowedTopLevelOperator
 
 * ****isAllowedTopLevelOperator**(operator): boolean
 
@@ -964,7 +964,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#isBigIntProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L251)isBigIntProperty
+### [**](#isBigIntProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L251)isBigIntProperty
 
 * ****isBigIntProperty**(prop): boolean
 
@@ -978,7 +978,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#isNumericColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L748)isNumericColumn
+### [**](#isNumericColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L748)isNumericColumn
 
 * ****isNumericColumn**(mappedType): boolean
 
@@ -992,7 +992,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#isNumericProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L742)isNumericProperty
+### [**](#isNumericProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L742)isNumericProperty
 
 * ****isNumericProperty**(prop, ignoreCustomType): boolean
 
@@ -1007,7 +1007,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#isPopulated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L779)isPopulated
+### [**](#isPopulated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L779)isPopulated
 
 * ****isPopulated**\<T>(key, populate): boolean
 
@@ -1022,7 +1022,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#lookupExtensions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L612)lookupExtensions
+### [**](#lookupExtensions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L612)lookupExtensions
 
 * ****lookupExtensions**(orm): void
 
@@ -1036,7 +1036,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns void
 
-### [**](#mapRegExpCondition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L211)mapRegExpCondition
+### [**](#mapRegExpCondition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L211)mapRegExpCondition
 
 * ****mapRegExpCondition**(mappedKey, value): { params: unknown\[]; sql: string }
 
@@ -1056,7 +1056,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
   * ##### params: unknown\[]
   * ##### sql: string
 
-### [**](#marshallArray)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L446)marshallArray
+### [**](#marshallArray)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L446)marshallArray
 
 * ****marshallArray**(values): string
 
@@ -1070,7 +1070,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#normalizeColumnType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L344)normalizeColumnType
+### [**](#normalizeColumnType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L344)normalizeColumnType
 
 * ****normalizeColumnType**(type, options): string
 
@@ -1088,7 +1088,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#normalizePrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L157)normalizePrimaryKey
+### [**](#normalizePrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L157)normalizePrimaryKey
 
 * ****normalizePrimaryKey**\<T>(data): T
 
@@ -1102,7 +1102,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns T
 
-### [**](#parseDate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L583)parseDate
+### [**](#parseDate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L583)parseDate
 
 * ****parseDate**(value): Date
 
@@ -1116,7 +1116,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns Date
 
-### [**](#processDateProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L641)processDateProperty
+### [**](#processDateProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L641)processDateProperty
 
 * ****processDateProperty**(value): string | number | Date
 
@@ -1130,7 +1130,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string | number | Date
 
-### [**](#processJsonCondition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L475)processJsonCondition
+### [**](#processJsonCondition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L475)processJsonCondition
 
 * ****processJsonCondition**\<T>(o, value, path, alias): [FilterQuery](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#FilterQuery)\<T>
 
@@ -1143,7 +1143,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns [FilterQuery](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#FilterQuery)\<T>
 
-### [**](#quoteIdentifier)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L646)quoteIdentifier
+### [**](#quoteIdentifier)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L646)quoteIdentifier
 
 * ****quoteIdentifier**(id, quote): string
 
@@ -1159,7 +1159,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#quoteValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L657)quoteValue
+### [**](#quoteValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L657)quoteValue
 
 * ****quoteValue**(value): string
 
@@ -1173,7 +1173,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string
 
-### [**](#setConfig)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L720)setConfig
+### [**](#setConfig)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L720)setConfig
 
 * ****setConfig**(config): void
 
@@ -1187,7 +1187,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns void
 
-### [**](#shouldHaveColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L784)shouldHaveColumn
+### [**](#shouldHaveColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L784)shouldHaveColumn
 
 * ****shouldHaveColumn**\<T>(prop, populate, exclude, includeFormulas, ignoreInlineEmbeddables): boolean
 
@@ -1205,13 +1205,13 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#supportsCreatingFullTextIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L522)supportsCreatingFullTextIndex
+### [**](#supportsCreatingFullTextIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L522)supportsCreatingFullTextIndex
 
 * ****supportsCreatingFullTextIndex**(): boolean
 
 - #### Returns boolean
 
-### [**](#supportsCustomPrimaryKeyNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L774)supportsCustomPrimaryKeyNames
+### [**](#supportsCustomPrimaryKeyNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L774)supportsCustomPrimaryKeyNames
 
 * ****supportsCustomPrimaryKeyNames**(): boolean
 
@@ -1221,7 +1221,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#supportsDeferredUniqueConstraints)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L831)supportsDeferredUniqueConstraints
+### [**](#supportsDeferredUniqueConstraints)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L831)supportsDeferredUniqueConstraints
 
 * ****supportsDeferredUniqueConstraints**(): boolean
 
@@ -1231,7 +1231,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#supportsDownMigrations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L826)supportsDownMigrations
+### [**](#supportsDownMigrations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L826)supportsDownMigrations
 
 * ****supportsDownMigrations**(): boolean
 
@@ -1241,7 +1241,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#supportsMaterializedViews)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L121)supportsMaterializedViews
+### [**](#supportsMaterializedViews)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L121)supportsMaterializedViews
 
 * ****supportsMaterializedViews**(): boolean
 
@@ -1251,7 +1251,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#supportsMultipleCascadePaths)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L418)supportsMultipleCascadePaths
+### [**](#supportsMultipleCascadePaths)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L418)supportsMultipleCascadePaths
 
 * ****supportsMultipleCascadePaths**(): boolean
 
@@ -1261,7 +1261,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#supportsMultipleStatements)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L431)supportsMultipleStatements
+### [**](#supportsMultipleStatements)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L431)supportsMultipleStatements
 
 * ****supportsMultipleStatements**(): boolean
 
@@ -1271,7 +1271,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#supportsNativeEnums)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L101)supportsNativeEnums
+### [**](#supportsNativeEnums)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L101)supportsNativeEnums
 
 * ****supportsNativeEnums**(): boolean
 
@@ -1281,7 +1281,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#supportsOnUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L426)supportsOnUpdate
+### [**](#supportsOnUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L426)supportsOnUpdate
 
 * ****supportsOnUpdate**(): boolean
 
@@ -1291,7 +1291,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#supportsTransactions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L71)supportsTransactions
+### [**](#supportsTransactions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L71)supportsTransactions
 
 * ****supportsTransactions**(): boolean
 
@@ -1301,7 +1301,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#supportsUnionWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L436)supportsUnionWhere
+### [**](#supportsUnionWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L436)supportsUnionWhere
 
 * ****supportsUnionWhere**(): boolean
 
@@ -1311,7 +1311,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#supportsUnsigned)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L753)supportsUnsigned
+### [**](#supportsUnsigned)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L753)supportsUnsigned
 
 * ****supportsUnsigned**(): boolean
 
@@ -1321,7 +1321,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#unmarshallArray)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L451)unmarshallArray
+### [**](#unmarshallArray)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L451)unmarshallArray
 
 * ****unmarshallArray**(value): string\[]
 
@@ -1335,13 +1335,13 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns string\[]
 
-### [**](#usesAsKeyword)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L562)usesAsKeyword
+### [**](#usesAsKeyword)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L562)usesAsKeyword
 
 * ****usesAsKeyword**(): boolean
 
 - #### Returns boolean
 
-### [**](#usesBatchInserts)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L138)usesBatchInserts
+### [**](#usesBatchInserts)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L138)usesBatchInserts
 
 * ****usesBatchInserts**(): boolean
 
@@ -1351,7 +1351,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#usesBatchUpdates)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L145)usesBatchUpdates
+### [**](#usesBatchUpdates)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L145)usesBatchUpdates
 
 * ****usesBatchUpdates**(): boolean
 
@@ -1361,7 +1361,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#usesCascadeStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L96)usesCascadeStatement
+### [**](#usesCascadeStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L96)usesCascadeStatement
 
 * ****usesCascadeStatement**(): boolean
 
@@ -1371,7 +1371,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#usesDefaultKeyword)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L150)usesDefaultKeyword
+### [**](#usesDefaultKeyword)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L150)usesDefaultKeyword
 
 * ****usesDefaultKeyword**(): boolean
 
@@ -1381,7 +1381,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#usesEnumCheckConstraints)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L106)usesEnumCheckConstraints
+### [**](#usesEnumCheckConstraints)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L106)usesEnumCheckConstraints
 
 * ****usesEnumCheckConstraints**(): boolean
 
@@ -1391,7 +1391,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#usesImplicitTransactions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L76)usesImplicitTransactions
+### [**](#usesImplicitTransactions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L76)usesImplicitTransactions
 
 * ****usesImplicitTransactions**(): boolean
 
@@ -1401,7 +1401,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#usesOutputStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L91)usesOutputStatement
+### [**](#usesOutputStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L91)usesOutputStatement
 
 * ****usesOutputStatement**(): boolean
 
@@ -1411,7 +1411,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#usesPivotTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L66)usesPivotTable
+### [**](#usesPivotTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L66)usesPivotTable
 
 * ****usesPivotTable**(): boolean
 
@@ -1421,7 +1421,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#usesReturningStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L86)usesReturningStatement
+### [**](#usesReturningStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L86)usesReturningStatement
 
 * ****usesReturningStatement**(): boolean
 
@@ -1431,7 +1431,7 @@ Abstract base class providing database-specific behavior and SQL dialect differe
 
   #### Returns boolean
 
-### [**](#validateMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L836)validateMetadata
+### [**](#validateMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L836)validateMetadata
 
 * ****validateMetadata**(meta): void
 

@@ -15,7 +15,7 @@ Responsible for batch-loading entity relations using either select-in or joined 
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityLoader.ts#L80)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityLoader.ts#L80)constructor
 
 * ****new EntityLoader**(em): [EntityLoader](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityLoader.md)
 
@@ -27,7 +27,7 @@ Responsible for batch-loading entity relations using either select-in or joined 
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#normalizePopulate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityLoader.ts#L150)normalizePopulate
+### [**](#normalizePopulate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityLoader.ts#L150)normalizePopulate
 
 * ****normalizePopulate**\<Entity>(entityName, populate, strategy, lookup, exclude): [PopulateOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#PopulateOptions)\<Entity>\[]
 
@@ -45,7 +45,7 @@ Responsible for batch-loading entity relations using either select-in or joined 
 
   #### Returns [PopulateOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#PopulateOptions)\<Entity>\[]
 
-### [**](#populate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityLoader.ts#L90)populate
+### [**](#populate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityLoader.ts#L90)populate
 
 * ****populate**\<Entity, Fields>(entityName, entities, populate, options): Promise\<void>
 

@@ -94,11 +94,11 @@ Lightweight chain result type for property builders - reduces type instantiation
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#~options)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L94)\~options
+### [**](#~options)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L94)\~options
 
 **\~options: Options
 
-### [**](#~type)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L93)optional\~type
+### [**](#~type)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L93)optional\~type
 
 **\~type?
 
@@ -112,14 +112,14 @@ Lightweight chain result type for property builders - reduces type instantiation
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#$type)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L97)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L98)$type
+### [**](#$type)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L97)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L98)$type
 
 * ****$type**\<T>(): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<T, Options>
 * ****$type**\<Runtime, Raw, Serialized>(): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)<[IType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#IType)\<Runtime, Raw, Serialized>, Options>
 
 - #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<T, Options>
 
-### [**](#accessor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L153)accessor
+### [**](#accessor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L153)accessor
 
 * ****accessor**(accessor): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -129,20 +129,20 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#array)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L204)array
+### [**](#array)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L204)array
 
 * ****array**(): HasKind\<Options, enum | embedded> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, array> & { array: true }> : never
 
 - #### Returns HasKind\<Options, enum | embedded> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, array> & { array: true }> : never
 
-### [**](#autoincrement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L109)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L110)autoincrement
+### [**](#autoincrement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L109)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L110)autoincrement
 
 * ****autoincrement**(): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, autoincrement> & { autoincrement: true }>
 * ****autoincrement**(autoincrement): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, autoincrement> & { autoincrement: false }>
 
 - #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, autoincrement> & { autoincrement: true }>
 
-### [**](#cascade)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L162)cascade
+### [**](#cascade)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L162)cascade
 
 * ****cascade**(...cascade): HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -152,7 +152,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#check)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L139)check
+### [**](#check)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L139)check
 
 * ****check**(check): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -162,7 +162,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#columnType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L129)columnType
+### [**](#columnType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L129)columnType
 
 * ****columnType**(columnType): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -172,7 +172,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#columnTypes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L130)columnTypes
+### [**](#columnTypes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L130)columnTypes
 
 * ****columnTypes**(...columnTypes): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -182,7 +182,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#comment)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L152)comment
+### [**](#comment)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L152)comment
 
 * ****comment**(comment): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -192,7 +192,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#concurrencyCheck)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L137)concurrencyCheck
+### [**](#concurrencyCheck)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L137)concurrencyCheck
 
 * ****concurrencyCheck**(concurrencyCheck): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -202,7 +202,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#createForeignKeyConstraint)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L256)createForeignKeyConstraint
+### [**](#createForeignKeyConstraint)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L256)createForeignKeyConstraint
 
 * ****createForeignKeyConstraint**(createForeignKeyConstraint): HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -212,7 +212,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#customOrder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L147)customOrder
+### [**](#customOrder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L147)customOrder
 
 * ****customOrder**(...customOrder): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -222,7 +222,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#default)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L120)default
+### [**](#default)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L120)default
 
 * ****default**(defaultValue): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, default> & { default: any }>
 
@@ -232,7 +232,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, default> & { default: any }>
 
-### [**](#defaultRaw)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L123)defaultRaw
+### [**](#defaultRaw)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L123)defaultRaw
 
 * ****defaultRaw**(defaultRaw): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options & { defaultRaw: string }>
 
@@ -242,7 +242,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options & { defaultRaw: string }>
 
-### [**](#deferMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L253)deferMode
+### [**](#deferMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L253)deferMode
 
 * ****deferMode**(deferMode): HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -252,7 +252,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#deleteRule)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L247)deleteRule
+### [**](#deleteRule)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L247)deleteRule
 
 * ****deleteRule**(deleteRule): HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -262,7 +262,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#discriminator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L186)discriminator
+### [**](#discriminator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L186)discriminator
 
 * ****discriminator**(discriminator): HasKind\<Options, m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -272,7 +272,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#discriminatorMap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L189)discriminatorMap
+### [**](#discriminatorMap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L189)discriminatorMap
 
 * ****discriminatorMap**(discriminatorMap): HasKind\<Options, m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -282,7 +282,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#eager)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L159)eager
+### [**](#eager)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L159)eager
 
 * ****eager**(eager): HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -292,7 +292,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#extra)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L148)extra
+### [**](#extra)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L148)extra
 
 * ****extra**(extra): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -302,7 +302,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#fieldName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L116)fieldName
+### [**](#fieldName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L116)fieldName
 
 * ****fieldName**\<T>(fieldName): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, fieldName> & { fieldName: T }>
 
@@ -312,7 +312,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, fieldName> & { fieldName: T }>
 
-### [**](#fieldNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L126)fieldNames
+### [**](#fieldNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L126)fieldNames
 
 * ****fieldNames**(...fieldNames): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -322,7 +322,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#filters)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L168)filters
+### [**](#filters)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L168)filters
 
 * ****filters**(filters): HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -332,7 +332,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#fixedOrder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L198)fixedOrder
+### [**](#fixedOrder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L198)fixedOrder
 
 * ****fixedOrder**(fixedOrder): HasKind\<Options, m:n> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -342,7 +342,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, m:n> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#fixedOrderColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L199)fixedOrderColumn
+### [**](#fixedOrderColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L199)fixedOrderColumn
 
 * ****fixedOrderColumn**(fixedOrderColumn): HasKind\<Options, m:n> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -352,7 +352,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, m:n> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#foreignKeyName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L259)foreignKeyName
+### [**](#foreignKeyName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L259)foreignKeyName
 
 * ****foreignKeyName**(foreignKeyName): HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -362,7 +362,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#formula)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L124)formula
+### [**](#formula)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L124)formula
 
 * ****formula**(formula): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, formula> & { formula: any }>
 
@@ -372,7 +372,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, formula> & { formula: any }>
 
-### [**](#generated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L138)generated
+### [**](#generated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L138)generated
 
 * ****generated**(generated): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -382,7 +382,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#getter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L141)getter
+### [**](#getter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L141)getter
 
 * ****getter**(getter): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -392,7 +392,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#getterName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L142)getterName
+### [**](#getterName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L142)getterName
 
 * ****getterName**(getterName): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -402,7 +402,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#groups)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L146)groups
+### [**](#groups)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L146)groups
 
 * ****groups**(...groups): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -412,13 +412,13 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#hidden)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L108)hidden
+### [**](#hidden)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L108)hidden
 
 * ****hidden**(): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, hidden> & { hidden: true }>
 
 - #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, hidden> & { hidden: true }>
 
-### [**](#hydrate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L136)hydrate
+### [**](#hydrate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L136)hydrate
 
 * ****hydrate**(hydrate): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -428,7 +428,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#ignoreSchemaChanges)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L149)ignoreSchemaChanges
+### [**](#ignoreSchemaChanges)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L149)ignoreSchemaChanges
 
 * ****ignoreSchemaChanges**(...ignoreSchemaChanges): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -438,7 +438,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#index)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L150)index
+### [**](#index)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L150)index
 
 * ****index**(index): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -448,7 +448,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#inversedBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L174)inversedBy
+### [**](#inversedBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L174)inversedBy
 
 * ****inversedBy**(inversedBy): HasKind\<Options, m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -459,7 +459,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#inverseJoinColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L229)inverseJoinColumn
+### [**](#inverseJoinColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L229)inverseJoinColumn
 
 * ****inverseJoinColumn**(inverseJoinColumn): HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -469,7 +469,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#inverseJoinColumns)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L232)inverseJoinColumns
+### [**](#inverseJoinColumns)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L232)inverseJoinColumns
 
 * ****inverseJoinColumns**(...inverseJoinColumns): HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -479,7 +479,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#joinColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L223)joinColumn
+### [**](#joinColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L223)joinColumn
 
 * ****joinColumn**(joinColumn): HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -489,7 +489,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#joinColumns)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L226)joinColumns
+### [**](#joinColumns)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L226)joinColumns
 
 * ****joinColumns**(...joinColumns): HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -499,13 +499,13 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#lazy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L114)lazy
+### [**](#lazy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L114)lazy
 
 * ****lazy**(): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
 - #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#length)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L131)length
+### [**](#length)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L131)length
 
 * ****length**(length): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -515,7 +515,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#mappedBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L171)mappedBy
+### [**](#mappedBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L171)mappedBy
 
 * ****mappedBy**(mappedBy): HasKind\<Options, 1:m | m:n | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -526,13 +526,13 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, 1:m | m:n | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#mapToPk)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L180)mapToPk
+### [**](#mapToPk)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L180)mapToPk
 
 * ****mapToPk**(): HasKind\<Options, m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, mapToPk> & { mapToPk: true }> : never
 
 - #### Returns HasKind\<Options, m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, mapToPk> & { mapToPk: true }> : never
 
-### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L115)name
+### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L115)name
 
 * ****name**\<T>(name): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, fieldName> & { fieldName: T }>
 
@@ -542,7 +542,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, fieldName> & { fieldName: T }>
 
-### [**](#nativeEnumName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L214)nativeEnumName
+### [**](#nativeEnumName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L214)nativeEnumName
 
 * ****nativeEnumName**(nativeEnumName): HasKind\<Options, enum> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -552,13 +552,13 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, enum> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#nullable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L101)nullable
+### [**](#nullable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L101)nullable
 
 * ****nullable**(): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, nullable> & { nullable: true }>
 
 - #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, nullable> & { nullable: true }>
 
-### [**](#object)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L211)object
+### [**](#object)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L211)object
 
 * ****object**(object): HasKind\<Options, embedded> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -568,7 +568,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, embedded> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#onCreate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L117)onCreate
+### [**](#onCreate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L117)onCreate
 
 * ****onCreate**(onCreate): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options & { onCreate: (...args) => any }>
 
@@ -579,7 +579,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options & { onCreate: (...args) => any }>
 
-### [**](#onUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L125)onUpdate
+### [**](#onUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L125)onUpdate
 
 * ****onUpdate**(onUpdate): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -590,7 +590,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#orderBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L217)orderBy
+### [**](#orderBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L217)orderBy
 
 * ****orderBy**(...orderBy): HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -600,7 +600,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#orphanRemoval)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L183)orphanRemoval
+### [**](#orphanRemoval)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L183)orphanRemoval
 
 * ****orphanRemoval**(orphanRemoval): HasKind\<Options, 1:m | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -610,7 +610,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, 1:m | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#ownColumns)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L241)ownColumns
+### [**](#ownColumns)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L241)ownColumns
 
 * ****ownColumns**(...ownColumns): HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -620,20 +620,20 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#owner)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L177)owner
+### [**](#owner)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L177)owner
 
 * ****owner**(): HasKind\<Options, m:n | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, owner> & { owner: true }> : never
 
 - #### Returns HasKind\<Options, m:n | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, owner> & { owner: true }> : never
 
-### [**](#persist)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L111)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L112)persist
+### [**](#persist)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L111)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L112)persist
 
 * ****persist**(): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, persist> & { persist: true }>
 * ****persist**(persist): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, persist> & { persist: false }>
 
 - #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, persist> & { persist: true }>
 
-### [**](#pivotEntity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L195)pivotEntity
+### [**](#pivotEntity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L195)pivotEntity
 
 * ****pivotEntity**(pivotEntity): HasKind\<Options, m:n> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -644,7 +644,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, m:n> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#pivotTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L194)pivotTable
+### [**](#pivotTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L194)pivotTable
 
 * ****pivotTable**(pivotTable): HasKind\<Options, m:n> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -654,7 +654,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, m:n> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#precision)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L132)precision
+### [**](#precision)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L132)precision
 
 * ****precision**(precision): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -664,7 +664,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#prefix)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L207)prefix
+### [**](#prefix)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L207)prefix
 
 * ****prefix**(prefix): HasKind\<Options, embedded> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -674,7 +674,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, embedded> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#prefixMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L208)prefixMode
+### [**](#prefixMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L208)prefixMode
 
 * ****prefixMode**(prefixMode): HasKind\<Options, embedded> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -684,19 +684,19 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, embedded> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#primary)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L107)primary
+### [**](#primary)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L107)primary
 
 * ****primary**(): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, primary> & { primary: true }>
 
 - #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, primary> & { primary: true }>
 
-### [**](#ref)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L106)ref
+### [**](#ref)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L106)ref
 
 * ****ref**(): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, ref> & { ref: true }>
 
 - #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, ref> & { ref: true }>
 
-### [**](#referenceColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L235)referenceColumnName
+### [**](#referenceColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L235)referenceColumnName
 
 * ****referenceColumnName**(referenceColumnName): HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -706,7 +706,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#referencedColumnNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L238)referencedColumnNames
+### [**](#referencedColumnNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L238)referencedColumnNames
 
 * ****referencedColumnNames**(...referencedColumnNames): HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -716,7 +716,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#returning)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L134)returning
+### [**](#returning)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L134)returning
 
 * ****returning**(returning): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -726,7 +726,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#runtimeType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L128)runtimeType
+### [**](#runtimeType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L128)runtimeType
 
 * ****runtimeType**(runtimeType): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -736,7 +736,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#scale)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L133)scale
+### [**](#scale)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L133)scale
 
 * ****scale**(scale): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -746,7 +746,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#serializedName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L145)serializedName
+### [**](#serializedName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L145)serializedName
 
 * ****serializedName**(serializedName): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -756,7 +756,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#serializedPrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L143)serializedPrimaryKey
+### [**](#serializedPrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L143)serializedPrimaryKey
 
 * ****serializedPrimaryKey**(serializedPrimaryKey): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -766,7 +766,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#serializer)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L144)serializer
+### [**](#serializer)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L144)serializer
 
 * ****serializer**(serializer): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -777,7 +777,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#setter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L140)setter
+### [**](#setter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L140)setter
 
 * ****setter**(setter): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -787,7 +787,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#strategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L165)strategy
+### [**](#strategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L165)strategy
 
 * ****strategy**(strategy): HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -797,13 +797,13 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#strictNullable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L102)strictNullable
+### [**](#strictNullable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L102)strictNullable
 
 * ****strictNullable**(): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, nullable | strictNullable> & { nullable: true; strictNullable: true }>
 
 - #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, nullable | strictNullable> & { nullable: true; strictNullable: true }>
 
-### [**](#targetKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L244)targetKey
+### [**](#targetKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L244)targetKey
 
 * ****targetKey**(targetKey): HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -813,7 +813,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#type)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L127)type
+### [**](#type)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L127)type
 
 * ****type**(type): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -824,7 +824,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#unique)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L151)unique
+### [**](#unique)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L151)unique
 
 * ****unique**(unique): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -834,7 +834,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#unsigned)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L135)unsigned
+### [**](#unsigned)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L135)unsigned
 
 * ****unsigned**(unsigned): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
@@ -844,7 +844,7 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options>
 
-### [**](#updateRule)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L250)updateRule
+### [**](#updateRule)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L250)updateRule
 
 * ****updateRule**(updateRule): HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
@@ -854,13 +854,13 @@ Lightweight chain result type for property builders - reduces type instantiation
 
   #### Returns HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 
-### [**](#version)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L113)version
+### [**](#version)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L113)version
 
 * ****version**(): [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, version> & { version: true }>
 
 - #### Returns [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Omit\<Options, version> & { version: true }>
 
-### [**](#where)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L220)where
+### [**](#where)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L220)where
 
 * ****where**(...where): HasKind\<Options, 1:m | m:n | m:1 | 1:1> extends true ? [PropertyChain](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyChain.md)\<Value, Options> : never
 

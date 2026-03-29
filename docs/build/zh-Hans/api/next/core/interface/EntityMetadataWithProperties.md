@@ -92,7 +92,7 @@ Metadata descriptor for `defineEntity()`, combining entity options with property
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#abstract)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1460)optionalinheritedabstract
+### [**](#abstract)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1460)optionalinheritedabstract
 
 **abstract?
 
@@ -102,7 +102,7 @@ Metadata descriptor for `defineEntity()`, combining entity options with property
 
 Inherited from Omit.abstract
 
-### [**](#allTPTDescendants)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1478)optionalinheritedallTPTDescendants
+### [**](#allTPTDescendants)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1478)optionalinheritedallTPTDescendants
 
 **allTPTDescendants?
 
@@ -114,7 +114,7 @@ Inherited from Omit.allTPTDescendants
 
 For TPT: all non-abstract descendants, sorted by depth (deepest first). Precomputed during discovery.
 
-### [**](#bidirectionalRelations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1422)optionalinheritedbidirectionalRelations
+### [**](#bidirectionalRelations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1422)optionalinheritedbidirectionalRelations
 
 **bidirectionalRelations?
 
@@ -124,7 +124,7 @@ For TPT: all non-abstract descendants, sorted by depth (deepest first). Precompu
 
 Inherited from Omit.bidirectionalRelations
 
-### [**](#checks)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1454)optionalinheritedchecks
+### [**](#checks)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1454)optionalinheritedchecks
 
 **checks?
 
@@ -134,7 +134,7 @@ Inherited from Omit.bidirectionalRelations
 
 Inherited from Omit.checks
 
-### [**](#class)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1459)optionalinheritedclass
+### [**](#class)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1459)optionalinheritedclass
 
 **class?
 
@@ -144,7 +144,7 @@ Inherited from Omit.checks
 
 Inherited from Omit.class
 
-### [**](#className)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1383)optionalinheritedclassName
+### [**](#className)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1383)optionalinheritedclassName
 
 **className?
 
@@ -154,7 +154,7 @@ Inherited from Omit.class
 
 Inherited from Omit.className
 
-### [**](#collection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1411)optionalinheritedcollection
+### [**](#collection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1411)optionalinheritedcollection
 
 **collection?
 
@@ -164,7 +164,7 @@ Inherited from Omit.className
 
 Inherited from Omit.collection
 
-### [**](#comment)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1462)optionalinheritedcomment
+### [**](#comment)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1462)optionalinheritedcomment
 
 **comment?
 
@@ -174,7 +174,7 @@ Inherited from Omit.collection
 
 Inherited from Omit.comment
 
-### [**](#comparableProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1424)optionalinheritedcomparableProps
+### [**](#comparableProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1424)optionalinheritedcomparableProps
 
 **comparableProps?
 
@@ -184,7 +184,7 @@ Inherited from Omit.comment
 
 Inherited from Omit.comparableProps
 
-### [**](#compositePK)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1415)optionalinheritedcompositePK
+### [**](#compositePK)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1415)optionalinheritedcompositePK
 
 **compositePK?
 
@@ -194,7 +194,7 @@ Inherited from Omit.comparableProps
 
 Inherited from Omit.compositePK
 
-### [**](#concurrencyCheckKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1243)optionalconcurrencyCheckKeys
+### [**](#concurrencyCheckKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1243)optionalconcurrencyCheckKeys
 
 **concurrencyCheckKeys?
 
@@ -202,7 +202,7 @@ Inherited from Omit.compositePK
 
 : Set\<AllKeys\<TProperties, TBase>>
 
-### [**](#constructorParams)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1408)optionalinheritedconstructorParams
+### [**](#constructorParams)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1408)optionalinheritedconstructorParams
 
 **constructorParams?
 
@@ -240,7 +240,7 @@ IsNever\<TBase, true, false> extends true ? {} : Omit\<TBase, typeof [PrimaryKey
 
 Inherited from Omit.constructorParams
 
-### [**](#definedProperties)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1468)optionalinheriteddefinedProperties
+### [**](#definedProperties)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1468)optionalinheriteddefinedProperties
 
 **definedProperties?
 
@@ -250,7 +250,7 @@ Inherited from Omit.constructorParams
 
 Inherited from Omit.definedProperties
 
-### [**](#discriminatorColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1241)optionaldiscriminatorColumn
+### [**](#discriminatorColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1241)optionaldiscriminatorColumn
 
 **discriminatorColumn?
 
@@ -258,7 +258,7 @@ Inherited from Omit.definedProperties
 
 : string
 
-### [**](#discriminatorMap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1406)optionalinheriteddiscriminatorMap
+### [**](#discriminatorMap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1406)optionalinheriteddiscriminatorMap
 
 **discriminatorMap?
 
@@ -268,7 +268,7 @@ Inherited from Omit.definedProperties
 
 Inherited from Omit.discriminatorMap
 
-### [**](#discriminatorValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1405)optionalinheriteddiscriminatorValue
+### [**](#discriminatorValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1405)optionalinheriteddiscriminatorValue
 
 **discriminatorValue?
 
@@ -278,7 +278,7 @@ Inherited from Omit.discriminatorMap
 
 Inherited from Omit.discriminatorValue
 
-### [**](#embeddable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1407)optionalinheritedembeddable
+### [**](#embeddable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1407)optionalinheritedembeddable
 
 **embeddable?
 
@@ -288,7 +288,7 @@ Inherited from Omit.discriminatorValue
 
 Inherited from Omit.embeddable
 
-### [**](#expression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1396)optionalinheritedexpression
+### [**](#expression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1396)optionalinheritedexpression
 
 **expression?
 
@@ -298,7 +298,7 @@ Inherited from Omit.embeddable
 
 Inherited from Omit.expression
 
-### [**](#extends)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1226)optionalextends
+### [**](#extends)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1226)optionalextends
 
 **extends?
 
@@ -306,7 +306,7 @@ Inherited from Omit.expression
 
 : { \~entity: TBase } | [EntityCtor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityCtor)\<TBase>
 
-### [**](#filters)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1461)optionalinheritedfilters
+### [**](#filters)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1461)optionalinheritedfilters
 
 **filters?
 
@@ -316,7 +316,7 @@ Inherited from Omit.expression
 
 Inherited from Omit.filters
 
-### [**](#forceConstructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1409)optionalinheritedforceConstructor
+### [**](#forceConstructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1409)optionalinheritedforceConstructor
 
 **forceConstructor?
 
@@ -326,7 +326,7 @@ Inherited from Omit.filters
 
 Inherited from Omit.forceConstructor
 
-### [**](#forceObject)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1232)optionalforceObject
+### [**](#forceObject)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1232)optionalforceObject
 
 **forceObject?
 
@@ -334,7 +334,7 @@ Inherited from Omit.forceConstructor
 
 : TForceObject
 
-### [**](#getterProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1429)optionalinheritedgetterProps
+### [**](#getterProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1429)optionalinheritedgetterProps
 
 **getterProps?
 
@@ -344,7 +344,7 @@ Inherited from Omit.forceConstructor
 
 Inherited from Omit.getterProps
 
-### [**](#hasTriggers)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1488)optionalinheritedhasTriggers
+### [**](#hasTriggers)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1488)optionalinheritedhasTriggers
 
 **hasTriggers?
 
@@ -354,7 +354,7 @@ Inherited from Omit.getterProps
 
 Inherited from Omit.hasTriggers
 
-### [**](#hasUniqueProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1464)optionalinheritedhasUniqueProps
+### [**](#hasUniqueProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1464)optionalinheritedhasUniqueProps
 
 **hasUniqueProps?
 
@@ -364,7 +364,7 @@ Inherited from Omit.hasTriggers
 
 Inherited from Omit.hasUniqueProps
 
-### [**](#hooks)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1229)optionalhooks
+### [**](#hooks)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1229)optionalhooks
 
 **hooks?
 
@@ -372,7 +372,7 @@ Inherited from Omit.hasUniqueProps
 
 : [DefineEntityHooks](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/DefineEntityHooks.md)\<any>
 
-### [**](#hydrateProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1426)optionalinheritedhydrateProps
+### [**](#hydrateProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1426)optionalinheritedhydrateProps
 
 **hydrateProps?
 
@@ -382,7 +382,7 @@ Inherited from Omit.hasUniqueProps
 
 Inherited from Omit.hydrateProps
 
-### [**](#indexes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1245)optionalindexes
+### [**](#indexes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1245)optionalindexes
 
 **indexes?
 
@@ -434,7 +434,7 @@ Inherited from Omit.hydrateProps
 
 : string }\[]
 
-### [**](#inheritance)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1235)optionalinheritance
+### [**](#inheritance)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1235)optionalinheritance
 
 **inheritance?
 
@@ -442,7 +442,7 @@ Inherited from Omit.hydrateProps
 
 : tpt
 
-### [**](#inheritanceType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1472)optionalinheritedinheritanceType
+### [**](#inheritanceType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1472)optionalinheritedinheritanceType
 
 **inheritanceType?
 
@@ -454,7 +454,7 @@ Inherited from Omit.inheritanceType
 
 Inheritance type: 'sti' (Single Table Inheritance) or 'tpt' (Table-Per-Type). Only set on root entities.
 
-### [**](#materialized)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1391)optionalinheritedmaterialized
+### [**](#materialized)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1391)optionalinheritedmaterialized
 
 **materialized?
 
@@ -466,13 +466,13 @@ Inherited from Omit.materialized
 
 True if this is a materialized view (PostgreSQL only). Requires `view: true`.
 
-### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1222)name
+### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1222)name
 
 **name: TName
 
 Overrides Omit.name
 
-### [**](#orderBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1238)optionalorderBy
+### [**](#orderBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1238)optionalorderBy
 
 **orderBy?
 
@@ -480,7 +480,7 @@ Overrides Omit.name
 
 : { \[ K in string ]?: [QueryOrderKeysFlat](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#QueryOrderKeysFlat) } | { \[ K in string ]?: [QueryOrderKeysFlat](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#QueryOrderKeysFlat) }\[]
 
-### [**](#ownProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1486)optionalinheritedownProps
+### [**](#ownProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1486)optionalinheritedownProps
 
 **ownProps?
 
@@ -492,7 +492,7 @@ Inherited from Omit.ownProps
 
 For TPT: properties defined only in THIS entity (not inherited from parent).
 
-### [**](#path)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1412)optionalinheritedpath
+### [**](#path)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1412)optionalinheritedpath
 
 **path?
 
@@ -502,7 +502,7 @@ For TPT: properties defined only in THIS entity (not inherited from parent).
 
 Inherited from Omit.path
 
-### [**](#pivotTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1386)optionalinheritedpivotTable
+### [**](#pivotTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1386)optionalinheritedpivotTable
 
 **pivotTable?
 
@@ -512,7 +512,7 @@ Inherited from Omit.path
 
 Inherited from Omit.pivotTable
 
-### [**](#polymorphicDiscriminatorMap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1470)optionalinheritedpolymorphicDiscriminatorMap
+### [**](#polymorphicDiscriminatorMap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1470)optionalinheritedpolymorphicDiscriminatorMap
 
 **polymorphicDiscriminatorMap?
 
@@ -524,7 +524,7 @@ Inherited from Omit.polymorphicDiscriminatorMap
 
 For polymorphic M:N pivot tables, maps discriminator values to entity classes
 
-### [**](#polymorphs)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1466)optionalinheritedpolymorphs
+### [**](#polymorphs)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1466)optionalinheritedpolymorphs
 
 **polymorphs?
 
@@ -534,7 +534,7 @@ For polymorphic M:N pivot tables, maps discriminator values to entity classes
 
 Inherited from Omit.polymorphs
 
-### [**](#primaryKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1228)optionalprimaryKeys
+### [**](#primaryKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1228)optionalprimaryKeys
 
 **primaryKeys?
 
@@ -542,11 +542,11 @@ Inherited from Omit.polymorphs
 
 : TPK & [InferPrimaryKey](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#InferPrimaryKey)\<TProperties>\[]
 
-### [**](#properties)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1227)properties
+### [**](#properties)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1227)properties
 
 **properties: TProperties | (properties) => TProperties
 
-### [**](#propertyOrder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1058)optionalreadonlyinheritedpropertyOrder
+### [**](#propertyOrder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1058)optionalreadonlyinheritedpropertyOrder
 
 **propertyOrder?
 
@@ -560,7 +560,7 @@ Inherited from Omit.polymorphs
 
 Inherited from Omit.propertyOrder
 
-### [**](#props)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1420)optionalinheritedprops
+### [**](#props)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1420)optionalinheritedprops
 
 **props?
 
@@ -570,7 +570,7 @@ Inherited from Omit.propertyOrder
 
 Inherited from Omit.props
 
-### [**](#prototype)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1458)optionalinheritedprototype
+### [**](#prototype)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1458)optionalinheritedprototype
 
 **prototype?
 
@@ -580,7 +580,7 @@ Inherited from Omit.props
 
 Inherited from Omit.prototype
 
-### [**](#readonly)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1465)optionalinheritedreadonly
+### [**](#readonly)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1465)optionalinheritedreadonly
 
 **readonly?
 
@@ -590,7 +590,7 @@ Inherited from Omit.prototype
 
 Inherited from Omit.readonly
 
-### [**](#referencingProperties)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1423)optionalinheritedreferencingProperties
+### [**](#referencingProperties)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1423)optionalinheritedreferencingProperties
 
 **referencingProperties?
 
@@ -600,7 +600,7 @@ Inherited from Omit.readonly
 
 Inherited from Omit.referencingProperties
 
-### [**](#relations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1421)optionalinheritedrelations
+### [**](#relations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1421)optionalinheritedrelations
 
 **relations?
 
@@ -610,7 +610,7 @@ Inherited from Omit.referencingProperties
 
 Inherited from Omit.relations
 
-### [**](#repository)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1231)optionalrepository
+### [**](#repository)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1231)optionalrepository
 
 **repository?
 
@@ -624,7 +624,7 @@ Inherited from Omit.relations
 
   - #### Returns TRepository
 
-### [**](#repositoryClass)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1455)optionalinheritedrepositoryClass
+### [**](#repositoryClass)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1455)optionalinheritedrepositoryClass
 
 **repositoryClass?
 
@@ -634,7 +634,7 @@ Inherited from Omit.relations
 
 Inherited from Omit.repositoryClass
 
-### [**](#root)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1467)optionalinheritedroot
+### [**](#root)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1467)optionalinheritedroot
 
 **root?
 
@@ -644,7 +644,7 @@ Inherited from Omit.repositoryClass
 
 Inherited from Omit.root
 
-### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1385)optionalinheritedschema
+### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1385)optionalinheritedschema
 
 **schema?
 
@@ -654,7 +654,7 @@ Inherited from Omit.root
 
 Inherited from Omit.schema
 
-### [**](#selfReferencing)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1463)optionalinheritedselfReferencing
+### [**](#selfReferencing)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1463)optionalinheritedselfReferencing
 
 **selfReferencing?
 
@@ -664,7 +664,7 @@ Inherited from Omit.schema
 
 Inherited from Omit.selfReferencing
 
-### [**](#serializedPrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1244)optionalserializedPrimaryKey
+### [**](#serializedPrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1244)optionalserializedPrimaryKey
 
 **serializedPrimaryKey?
 
@@ -672,7 +672,7 @@ Inherited from Omit.selfReferencing
 
 : AllKeys\<TProperties, TBase>
 
-### [**](#simplePK)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1414)optionalinheritedsimplePK
+### [**](#simplePK)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1414)optionalinheritedsimplePK
 
 **simplePK?
 
@@ -682,7 +682,7 @@ Inherited from Omit.selfReferencing
 
 Inherited from Omit.simplePK
 
-### [**](#tableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1223)optionaltableName
+### [**](#tableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1223)optionaltableName
 
 **tableName?
 
@@ -692,7 +692,7 @@ Inherited from Omit.simplePK
 
 Overrides Omit.tableName
 
-### [**](#tptChildren)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1476)optionalinheritedtptChildren
+### [**](#tptChildren)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1476)optionalinheritedtptChildren
 
 **tptChildren?
 
@@ -704,7 +704,7 @@ Inherited from Omit.tptChildren
 
 For TPT: direct child entities (entities that extend this one).
 
-### [**](#tptDiscriminatorColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1484)optionalinheritedtptDiscriminatorColumn
+### [**](#tptDiscriminatorColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1484)optionalinheritedtptDiscriminatorColumn
 
 **tptDiscriminatorColumn?
 
@@ -716,7 +716,7 @@ Inherited from Omit.tptDiscriminatorColumn
 
 For TPT: virtual discriminator property name (computed at query time, not persisted).
 
-### [**](#tptInverseProp)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1482)optionalinheritedtptInverseProp
+### [**](#tptInverseProp)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1482)optionalinheritedtptInverseProp
 
 **tptInverseProp?
 
@@ -728,7 +728,7 @@ Inherited from Omit.tptInverseProp
 
 For TPT: inverse of tptParentProp, used for joining from parent to child (parent PK → child PK).
 
-### [**](#tptParent)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1474)optionalinheritedtptParent
+### [**](#tptParent)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1474)optionalinheritedtptParent
 
 **tptParent?
 
@@ -740,7 +740,7 @@ Inherited from Omit.tptParent
 
 For TPT: direct parent entity metadata (the entity this one extends).
 
-### [**](#tptParentProp)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1480)optionalinheritedtptParentProp
+### [**](#tptParentProp)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1480)optionalinheritedtptParentProp
 
 **tptParentProp?
 
@@ -752,7 +752,7 @@ Inherited from Omit.tptParentProp
 
 For TPT: synthetic property representing the join to the parent table (child PK → parent PK).
 
-### [**](#trackingProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1425)optionalinheritedtrackingProps
+### [**](#trackingProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1425)optionalinheritedtrackingProps
 
 **trackingProps?
 
@@ -762,13 +762,13 @@ For TPT: synthetic property representing the join to the parent table (child PK 
 
 Inherited from Omit.trackingProps
 
-### [**](#uniqueName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1191)inheriteduniqueName
+### [**](#uniqueName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1191)inheriteduniqueName
 
 **uniqueName: undefined | string
 
 Inherited from Omit.uniqueName
 
-### [**](#uniqueProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1428)optionalinheriteduniqueProps
+### [**](#uniqueProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1428)optionalinheriteduniqueProps
 
 **uniqueProps?
 
@@ -778,7 +778,7 @@ Inherited from Omit.uniqueName
 
 Inherited from Omit.uniqueProps
 
-### [**](#uniques)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1258)optionaluniques
+### [**](#uniques)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1258)optionaluniques
 
 **uniques?
 
@@ -822,7 +822,7 @@ Inherited from Omit.uniqueProps
 
 : NoInfer\<AllKeys\<TProperties, TBase>> | NoInfer\<AllKeys\<TProperties, TBase>>\[] }\[]
 
-### [**](#validateProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1427)optionalinheritedvalidateProps
+### [**](#validateProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1427)optionalinheritedvalidateProps
 
 **validateProps?
 
@@ -832,7 +832,7 @@ Inherited from Omit.uniqueProps
 
 Inherited from Omit.validateProps
 
-### [**](#versionProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1242)optionalversionProperty
+### [**](#versionProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1242)optionalversionProperty
 
 **versionProperty?
 
@@ -840,7 +840,7 @@ Inherited from Omit.validateProps
 
 : AllKeys\<TProperties, TBase>
 
-### [**](#view)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1389)optionalinheritedview
+### [**](#view)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1389)optionalinheritedview
 
 **view?
 
@@ -860,7 +860,7 @@ Inherited from Omit.view
 
 True if this entity represents a database view (not a virtual entity). Accepts `{ materialized: true }` as input, normalized to `true` during sync.
 
-### [**](#virtual)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1387)optionalinheritedvirtual
+### [**](#virtual)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1387)optionalinheritedvirtual
 
 **virtual?
 
@@ -870,7 +870,7 @@ True if this entity represents a database view (not a virtual entity). Accepts `
 
 Inherited from Omit.virtual
 
-### [**](#withData)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1393)optionalinheritedwithData
+### [**](#withData)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1393)optionalinheritedwithData
 
 **withData?
 
@@ -884,7 +884,7 @@ For materialized views, whether data is populated on creation. Defaults to true.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#addProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1081)optionalinheritedaddProperty
+### [**](#addProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1081)optionalinheritedaddProperty
 
 * ****addProperty**(prop): void
 
@@ -896,7 +896,7 @@ For materialized views, whether data is populated on creation. Defaults to true.
 
   #### Returns void
 
-### [**](#createColumnMappingObject)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1122)optionalinheritedcreateColumnMappingObject
+### [**](#createColumnMappingObject)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1122)optionalinheritedcreateColumnMappingObject
 
 * ****createColumnMappingObject**(alias, toStringAlias): FormulaColumns<[InferEntityFromProperties](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#InferEntityFromProperties)\<TProperties, TPK, TBase, TRepository, false>>
 
@@ -920,7 +920,7 @@ For materialized views, whether data is populated on creation. Defaults to true.
 
   #### Returns FormulaColumns<[InferEntityFromProperties](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#InferEntityFromProperties)\<TProperties, TPK, TBase, TRepository, false>>
 
-### [**](#createSchemaColumnMappingObject)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1169)optionalinheritedcreateSchemaColumnMappingObject
+### [**](#createSchemaColumnMappingObject)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1169)optionalinheritedcreateSchemaColumnMappingObject
 
 * ****createSchemaColumnMappingObject**(): [SchemaColumns](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#SchemaColumns)<[InferEntityFromProperties](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#InferEntityFromProperties)\<TProperties, TPK, TBase, TRepository, false>>
 
@@ -932,7 +932,7 @@ For materialized views, whether data is populated on creation. Defaults to true.
 
   #### Returns [SchemaColumns](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#SchemaColumns)<[InferEntityFromProperties](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#InferEntityFromProperties)\<TProperties, TPK, TBase, TRepository, false>>
 
-### [**](#getPrimaryProp)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1112)optionalinheritedgetPrimaryProp
+### [**](#getPrimaryProp)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1112)optionalinheritedgetPrimaryProp
 
 * ****getPrimaryProp**(): [EntityProperty](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/EntityProperty.md)<[InferEntityFromProperties](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#InferEntityFromProperties)\<TProperties, TPK, TBase, TRepository, false>, any>
 
@@ -940,7 +940,7 @@ For materialized views, whether data is populated on creation. Defaults to true.
 
   #### Returns [EntityProperty](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/EntityProperty.md)<[InferEntityFromProperties](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#InferEntityFromProperties)\<TProperties, TPK, TBase, TRepository, false>, any>
 
-### [**](#getPrimaryProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1096)optionalinheritedgetPrimaryProps
+### [**](#getPrimaryProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1096)optionalinheritedgetPrimaryProps
 
 * ****getPrimaryProps**(flatten): [EntityProperty](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/EntityProperty.md)<[InferEntityFromProperties](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#InferEntityFromProperties)\<TProperties, TPK, TBase, TRepository, false>, any>\[]
 
@@ -952,7 +952,7 @@ For materialized views, whether data is populated on creation. Defaults to true.
 
   #### Returns [EntityProperty](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/EntityProperty.md)<[InferEntityFromProperties](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#InferEntityFromProperties)\<TProperties, TPK, TBase, TRepository, false>, any>\[]
 
-### [**](#removeProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1087)optionalinheritedremoveProperty
+### [**](#removeProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1087)optionalinheritedremoveProperty
 
 * ****removeProperty**(name, sync): void
 
@@ -965,7 +965,7 @@ For materialized views, whether data is populated on creation. Defaults to true.
 
   #### Returns void
 
-### [**](#sync)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1195)optionalinheritedsync
+### [**](#sync)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1195)optionalinheritedsync
 
 * ****sync**(initIndexes, config): void
 

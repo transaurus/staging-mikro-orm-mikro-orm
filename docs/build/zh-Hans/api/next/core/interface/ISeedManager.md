@@ -15,7 +15,7 @@ Interface for the seed manager, which runs database seeders.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L2096)create
+### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L2096)create
 
 * ****create**(className): Promise\<string>
 
@@ -25,7 +25,7 @@ Interface for the seed manager, which runs database seeders.
 
   #### Returns Promise\<string>
 
-### [**](#seed)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L2093)seed
+### [**](#seed)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L2093)seed
 
 * ****seed**(...classNames): Promise\<void>
 

@@ -19,7 +19,7 @@ Options for `ISchemaGenerator.create()`.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1501)optionalschema
+### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1501)optionalschema
 
 **schema?
 
@@ -27,7 +27,7 @@ Options for `ISchemaGenerator.create()`.
 
 : string
 
-### [**](#wrap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1500)optionalwrap
+### [**](#wrap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1500)optionalwrap
 
 **wrap?
 

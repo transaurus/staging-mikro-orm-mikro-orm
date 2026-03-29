@@ -20,7 +20,7 @@ Options for `em.qb().delete()` operations.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#ctx)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L526)optionalinheritedctx
+### [**](#ctx)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L526)optionalinheritedctx
 
 **ctx?
 
@@ -30,7 +30,7 @@ Options for `em.qb().delete()` operations.
 
 Inherited from DriverMethodOptions.ctx
 
-### [**](#filters)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L496)optionalfilters
+### [**](#filters)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L496)optionalfilters
 
 **filters?
 
@@ -38,7 +38,7 @@ Inherited from DriverMethodOptions.ctx
 
 : [FilterOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#FilterOptions)
 
-### [**](#loggerContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L528)optionalinheritedloggerContext
+### [**](#loggerContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L528)optionalinheritedloggerContext
 
 **loggerContext?
 
@@ -48,7 +48,7 @@ Inherited from DriverMethodOptions.ctx
 
 Inherited from DriverMethodOptions.loggerContext
 
-### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L527)optionalinheritedschema
+### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L527)optionalinheritedschema
 
 **schema?
 
@@ -58,7 +58,7 @@ Inherited from DriverMethodOptions.loggerContext
 
 Inherited from DriverMethodOptions.schema
 
-### [**](#unionWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L498)optionalunionWhere
+### [**](#unionWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L498)optionalunionWhere
 
 **unionWhere?
 
@@ -68,7 +68,7 @@ Inherited from DriverMethodOptions.schema
 
 sql only
 
-### [**](#unionWhereStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L500)optionalunionWhereStrategy
+### [**](#unionWhereStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L500)optionalunionWhereStrategy
 
 **unionWhereStrategy?
 

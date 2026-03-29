@@ -12,11 +12,11 @@ Definition of a CHECK constraint on a table or property.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#expression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L940)expression
+### [**](#expression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L940)expression
 
 **expression: string | [RawQueryFragment](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)\<string> | [CheckCallback](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#CheckCallback)\<T>
 
-### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L938)optionalname
+### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L938)optionalname
 
 **name?
 
@@ -24,7 +24,7 @@ Definition of a CHECK constraint on a table or property.
 
 : string
 
-### [**](#property)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L939)optionalproperty
+### [**](#property)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L939)optionalproperty
 
 **property?
 

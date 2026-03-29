@@ -38,7 +38,7 @@ libSQL database connection supporting both local and remote databases.
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L25)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L25)constructor
 
 * ****new LibSqlConnection**(config, options, type): [LibSqlConnection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/libsql/class/LibSqlConnection.md)
 
@@ -54,7 +54,7 @@ libSQL database connection supporting both local and remote databases.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#begin)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L148)inheritedbegin
+### [**](#begin)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L148)inheritedbegin
 
 * ****begin**(options): Promise\<ControlledTransaction\<any, any>>
 
@@ -75,7 +75,7 @@ libSQL database connection supporting both local and remote databases.
 
   #### Returns Promise\<ControlledTransaction\<any, any>>
 
-### [**](#checkConnection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L87)inheritedcheckConnection
+### [**](#checkConnection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L87)inheritedcheckConnection
 
 * ****checkConnection**(): Promise<{ ok: true } | { error?
   <!-- -->
@@ -89,7 +89,7 @@ libSQL database connection supporting both local and remote databases.
 
   #### Returns Promise<{ ok: true } | { error?<!-- -->: Error; ok: false; reason: string }>
 
-### [**](#close)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L69)inheritedclose
+### [**](#close)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L69)inheritedclose
 
 * ****close**(force): Promise\<void>
 
@@ -105,7 +105,7 @@ libSQL database connection supporting both local and remote databases.
 
   #### Returns Promise\<void>
 
-### [**](#commit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L204)inheritedcommit
+### [**](#commit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L204)inheritedcommit
 
 * ****commit**(ctx, eventBroadcaster, loggerContext): Promise\<void>
 
@@ -123,7 +123,7 @@ libSQL database connection supporting both local and remote databases.
 
   #### Returns Promise\<void>
 
-### [**](#connect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/libsql/src/LibSqlConnection.ts#L9)connect
+### [**](#connect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/libsql/src/LibSqlConnection.ts#L9)connect
 
 * ****connect**(options): Promise\<void>
 
@@ -140,7 +140,7 @@ libSQL database connection supporting both local and remote databases.
 
   #### Returns Promise\<void>
 
-### [**](#createKysely)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L40)inheritedcreateKysely
+### [**](#createKysely)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L40)inheritedcreateKysely
 
 * ****createKysely**(): [MaybePromise](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MaybePromise)\<void>
 
@@ -152,7 +152,7 @@ libSQL database connection supporting both local and remote databases.
 
   #### Returns [MaybePromise](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MaybePromise)\<void>
 
-### [**](#createKyselyDialect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/libsql/src/LibSqlConnection.ts#L14)createKyselyDialect
+### [**](#createKyselyDialect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/libsql/src/LibSqlConnection.ts#L14)createKyselyDialect
 
 * ****createKyselyDialect**(options): LibSqlDialect
 
@@ -168,7 +168,7 @@ libSQL database connection supporting both local and remote databases.
 
   #### Returns LibSqlDialect
 
-### [**](#ensureConnection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L82)inheritedensureConnection
+### [**](#ensureConnection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L82)inheritedensureConnection
 
 * ****ensureConnection**(): Promise\<void>
 
@@ -180,7 +180,7 @@ libSQL database connection supporting both local and remote databases.
 
   #### Returns Promise\<void>
 
-### [**](#execute)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L264)inheritedexecute
+### [**](#execute)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L264)inheritedexecute
 
 * ****execute**\<T>(query, params, method, ctx, loggerContext): Promise\<T>
 
@@ -200,7 +200,7 @@ libSQL database connection supporting both local and remote databases.
 
   #### Returns Promise\<T>
 
-### [**](#executeDump)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/libsql/src/LibSqlConnection.ts#L26)executeDump
+### [**](#executeDump)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/libsql/src/LibSqlConnection.ts#L26)executeDump
 
 * ****executeDump**(source): Promise\<void>
 
@@ -216,7 +216,7 @@ libSQL database connection supporting both local and remote databases.
 
   #### Returns Promise\<void>
 
-### [**](#getClient)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L101)inheritedgetClient
+### [**](#getClient)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L101)inheritedgetClient
 
 * ****getClient**\<T>(): Kysely\<T>
 
@@ -228,7 +228,7 @@ libSQL database connection supporting both local and remote databases.
 
   #### Returns Kysely\<T>
 
-### [**](#getConnectionOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L163)inheritedgetConnectionOptions
+### [**](#getConnectionOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L163)inheritedgetConnectionOptions
 
 * ****getConnectionOptions**(): [ConnectionConfig](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/ConnectionConfig.md)
 
@@ -240,7 +240,7 @@ libSQL database connection supporting both local and remote databases.
 
   #### Returns [ConnectionConfig](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/ConnectionConfig.md)
 
-### [**](#getPlatform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L203)inheritedgetPlatform
+### [**](#getPlatform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L203)inheritedgetPlatform
 
 * ****getPlatform**(): [Platform](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Platform.md)
 
@@ -252,7 +252,7 @@ libSQL database connection supporting both local and remote databases.
 
   #### Returns [Platform](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Platform.md)
 
-### [**](#initClient)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L117)inheritedinitClient
+### [**](#initClient)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L117)inheritedinitClient
 
 * ****initClient**(): Promise\<void>
 
@@ -264,7 +264,7 @@ libSQL database connection supporting both local and remote databases.
 
   #### Returns Promise\<void>
 
-### [**](#isConnected)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L79)inheritedisConnected
+### [**](#isConnected)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L79)inheritedisConnected
 
 * ****isConnected**(): Promise\<boolean>
 
@@ -276,7 +276,7 @@ libSQL database connection supporting both local and remote databases.
 
   #### Returns Promise\<boolean>
 
-### [**](#rollback)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L227)inheritedrollback
+### [**](#rollback)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L227)inheritedrollback
 
 * ****rollback**(ctx, eventBroadcaster, loggerContext): Promise\<void>
 
@@ -294,7 +294,7 @@ libSQL database connection supporting both local and remote databases.
 
   #### Returns Promise\<void>
 
-### [**](#setMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L193)inheritedsetMetadata
+### [**](#setMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L193)inheritedsetMetadata
 
 * ****setMetadata**(metadata): void
 
@@ -310,7 +310,7 @@ libSQL database connection supporting both local and remote databases.
 
   #### Returns void
 
-### [**](#setPlatform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L198)inheritedsetPlatform
+### [**](#setPlatform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L198)inheritedsetPlatform
 
 * ****setPlatform**(platform): void
 
@@ -326,7 +326,7 @@ libSQL database connection supporting both local and remote databases.
 
   #### Returns void
 
-### [**](#stream)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L287)inheritedstream
+### [**](#stream)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L287)inheritedstream
 
 * ****stream**\<T>(query, params, ctx, loggerContext): AsyncIterableIterator\<T, any, any>
 
@@ -345,7 +345,7 @@ libSQL database connection supporting both local and remote databases.
 
   #### Returns AsyncIterableIterator\<T, any, any>
 
-### [**](#transactional)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L124)inheritedtransactional
+### [**](#transactional)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L124)inheritedtransactional
 
 * ****transactional**\<T>(cb, options): Promise\<T>
 

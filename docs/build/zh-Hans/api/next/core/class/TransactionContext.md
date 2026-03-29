@@ -21,7 +21,7 @@ Uses `AsyncLocalStorage` to maintain a transaction-scoped EntityManager context 
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/TransactionContext.ts#L9)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/TransactionContext.ts#L9)constructor
 
 * ****new TransactionContext**(em): [TransactionContext](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/TransactionContext.md)
 
@@ -33,17 +33,17 @@ Uses `AsyncLocalStorage` to maintain a transaction-scoped EntityManager context 
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#em)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/TransactionContext.ts#L9)readonlyem
+### [**](#em)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/TransactionContext.ts#L9)readonlyem
 
 **em: [EntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityManager.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>>
 
-### [**](#id)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/TransactionContext.ts#L7)readonlyid
+### [**](#id)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/TransactionContext.ts#L7)readonlyid
 
 **id: number
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/TransactionContext.ts#L16)staticcreate
+### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/TransactionContext.ts#L16)staticcreate
 
 * ****create**\<T>(em, next): T
 
@@ -59,7 +59,7 @@ Uses `AsyncLocalStorage` to maintain a transaction-scoped EntityManager context 
 
   #### Returns T
 
-### [**](#currentTransactionContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/TransactionContext.ts#L24)staticcurrentTransactionContext
+### [**](#currentTransactionContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/TransactionContext.ts#L24)staticcurrentTransactionContext
 
 * ****currentTransactionContext**(): undefined | [TransactionContext](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/TransactionContext.md)
 
@@ -69,7 +69,7 @@ Uses `AsyncLocalStorage` to maintain a transaction-scoped EntityManager context 
 
   #### Returns undefined | [TransactionContext](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/TransactionContext.md)
 
-### [**](#getEntityManager)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/TransactionContext.ts#L31)staticgetEntityManager
+### [**](#getEntityManager)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/TransactionContext.ts#L31)staticgetEntityManager
 
 * ****getEntityManager**(name): undefined | [EntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityManager.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>>
 

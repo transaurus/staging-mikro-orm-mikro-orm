@@ -18,7 +18,7 @@ Options shared across MongoDB query operations.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#allowDiskUse)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L670)optionalallowDiskUse
+### [**](#allowDiskUse)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L670)optionalallowDiskUse
 
 **allowDiskUse?
 
@@ -26,7 +26,7 @@ Options shared across MongoDB query operations.
 
 : boolean
 
-### [**](#collation)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L667)optionalcollation
+### [**](#collation)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L667)optionalcollation
 
 **collation?
 
@@ -34,7 +34,7 @@ Options shared across MongoDB query operations.
 
 : [CollationOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/CollationOptions.md)
 
-### [**](#indexHint)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L668)optionalindexHint
+### [**](#indexHint)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L668)optionalindexHint
 
 **indexHint?
 
@@ -42,7 +42,7 @@ Options shared across MongoDB query operations.
 
 : string | [Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)
 
-### [**](#maxTimeMS)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L669)optionalmaxTimeMS
+### [**](#maxTimeMS)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L669)optionalmaxTimeMS
 
 **maxTimeMS?
 

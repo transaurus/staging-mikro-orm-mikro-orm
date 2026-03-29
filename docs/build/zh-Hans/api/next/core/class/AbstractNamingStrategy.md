@@ -51,7 +51,7 @@ Base class for naming strategies, providing default implementations for common n
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#aliasName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L97)aliasName
+### [**](#aliasName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L97)aliasName
 
 * ****aliasName**(entityName, index): string
 
@@ -68,7 +68,7 @@ Base class for naming strategies, providing default implementations for common n
 
   #### Returns string
 
-### [**](#classToMigrationName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L15)classToMigrationName
+### [**](#classToMigrationName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L15)classToMigrationName
 
 * ****classToMigrationName**(timestamp, customMigrationName): string
 
@@ -85,7 +85,7 @@ Base class for naming strategies, providing default implementations for common n
 
   #### Returns string
 
-### [**](#classToTableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L139)abstractclassToTableName
+### [**](#classToTableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L139)abstractclassToTableName
 
 * ****classToTableName**(entityName, tableName): string
 
@@ -102,7 +102,7 @@ Base class for naming strategies, providing default implementations for common n
 
   #### Returns string
 
-### [**](#columnNameToProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L68)columnNameToProperty
+### [**](#columnNameToProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L68)columnNameToProperty
 
 * ****columnNameToProperty**(columnName): string
 
@@ -118,7 +118,7 @@ Base class for naming strategies, providing default implementations for common n
 
   #### Returns string
 
-### [**](#discriminatorColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L135)discriminatorColumnName
+### [**](#discriminatorColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L135)discriminatorColumnName
 
 * ****discriminatorColumnName**(baseName): string
 
@@ -134,7 +134,7 @@ Base class for naming strategies, providing default implementations for common n
 
   #### Returns string
 
-### [**](#enumValueToEnumProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L93)enumValueToEnumProperty
+### [**](#enumValueToEnumProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L93)enumValueToEnumProperty
 
 * ****enumValueToEnumProperty**(enumValue, columnName, tableName, schemaName): string
 
@@ -166,7 +166,7 @@ Base class for naming strategies, providing default implementations for common n
 
   The name of the enum property that will hold the value.
 
-### [**](#getClassName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L8)getClassName
+### [**](#getClassName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L8)getClassName
 
 * ****getClassName**(file, separator): string
 
@@ -183,7 +183,7 @@ Base class for naming strategies, providing default implementations for common n
 
   #### Returns string
 
-### [**](#getEntityName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L55)getEntityName
+### [**](#getEntityName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L55)getEntityName
 
 * ****getEntityName**(tableName, schemaName): string
 
@@ -200,7 +200,7 @@ Base class for naming strategies, providing default implementations for common n
 
   #### Returns string
 
-### [**](#getEnumClassName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L79)getEnumClassName
+### [**](#getEnumClassName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L79)getEnumClassName
 
 * ****getEnumClassName**(columnName, tableName, schemaName): string
 
@@ -228,7 +228,7 @@ Base class for naming strategies, providing default implementations for common n
 
   A new class name that will be used for the enum.
 
-### [**](#getEnumTypeName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L86)getEnumTypeName
+### [**](#getEnumTypeName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L86)getEnumTypeName
 
 * ****getEnumTypeName**(columnName, tableName, schemaName): string
 
@@ -256,7 +256,7 @@ Base class for naming strategies, providing default implementations for common n
 
   A new type name that will be used for the enum.
 
-### [**](#indexName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L25)indexName
+### [**](#indexName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L25)indexName
 
 * ****indexName**(tableName, columns, type): string
 
@@ -274,7 +274,7 @@ Base class for naming strategies, providing default implementations for common n
 
   #### Returns string
 
-### [**](#inverseSideName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L105)inverseSideName
+### [**](#inverseSideName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L105)inverseSideName
 
 * ****inverseSideName**(entityName, propertyName, kind): string
 
@@ -292,7 +292,7 @@ Base class for naming strategies, providing default implementations for common n
 
   #### Returns string
 
-### [**](#joinColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L141)abstractjoinColumnName
+### [**](#joinColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L141)abstractjoinColumnName
 
 * ****joinColumnName**(propertyName): string
 
@@ -308,7 +308,7 @@ Base class for naming strategies, providing default implementations for common n
 
   #### Returns string
 
-### [**](#joinKeyColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L143)abstractjoinKeyColumnName
+### [**](#joinKeyColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L143)abstractjoinKeyColumnName
 
 * ****joinKeyColumnName**(entityName, referencedColumnName, composite, tableName): string
 
@@ -327,7 +327,7 @@ Base class for naming strategies, providing default implementations for common n
 
   #### Returns string
 
-### [**](#joinTableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L150)abstractjoinTableName
+### [**](#joinTableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L150)abstractjoinTableName
 
 * ****joinTableName**(sourceEntity, targetEntity, propertyName, tableName): string
 
@@ -346,7 +346,7 @@ Base class for naming strategies, providing default implementations for common n
 
   #### Returns string
 
-### [**](#manyToManyPropertyName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L122)manyToManyPropertyName
+### [**](#manyToManyPropertyName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L122)manyToManyPropertyName
 
 * ****manyToManyPropertyName**(ownerEntityName, targetEntityName, pivotTableName, ownerTableName, schemaName): string
 
@@ -380,7 +380,7 @@ Base class for naming strategies, providing default implementations for common n
 
   #### Returns string
 
-### [**](#propertyToColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L152)abstractpropertyToColumnName
+### [**](#propertyToColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L152)abstractpropertyToColumnName
 
 * ****propertyToColumnName**(propertyName, object): string
 
@@ -397,7 +397,7 @@ Base class for naming strategies, providing default implementations for common n
 
   #### Returns string
 
-### [**](#referenceColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L154)abstractreferenceColumnName
+### [**](#referenceColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L154)abstractreferenceColumnName
 
 * ****referenceColumnName**(): string
 

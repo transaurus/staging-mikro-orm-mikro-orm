@@ -10,7 +10,7 @@
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#loaded)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L1626)optionalloaded
+### [**](#loaded)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L1626)optionalloaded
 
 **loaded?
 
@@ -18,7 +18,7 @@
 
 : boolean
 
-### [**](#newEntity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L1625)optionalnewEntity
+### [**](#newEntity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L1625)optionalnewEntity
 
 **newEntity?
 
@@ -26,7 +26,7 @@
 
 : boolean
 
-### [**](#refresh)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L1624)optionalrefresh
+### [**](#refresh)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L1624)optionalrefresh
 
 **refresh?
 

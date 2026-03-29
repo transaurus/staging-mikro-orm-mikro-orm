@@ -51,7 +51,7 @@ MongoDB database connection using the official `mongodb` driver.
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L51)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L51)constructor
 
 * ****new MongoConnection**(config, options, type): [MongoConnection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mongodb/class/MongoConnection.md)
 
@@ -67,7 +67,7 @@ MongoDB database connection using the official `mongodb` driver.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#aggregate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L316)aggregate
+### [**](#aggregate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L316)aggregate
 
 * ****aggregate**\<T>(entityName, pipeline, ctx, loggerContext): Promise\<T\[]>
 
@@ -80,7 +80,7 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns Promise\<T\[]>
 
-### [**](#begin)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L389)begin
+### [**](#begin)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L389)begin
 
 * ****begin**(options): Promise\<ClientSession>
 
@@ -96,7 +96,7 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns Promise\<ClientSession>
 
-### [**](#bulkUpdateMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L297)bulkUpdateMany
+### [**](#bulkUpdateMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L297)bulkUpdateMany
 
 * ****bulkUpdateMany**\<T>(entityName, where, data, ctx, upsert, upsertOptions): Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
@@ -111,7 +111,7 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
-### [**](#checkConnection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L118)checkConnection
+### [**](#checkConnection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L118)checkConnection
 
 * ****checkConnection**(): Promise<{ ok: true } | { error?
   <!-- -->
@@ -125,7 +125,7 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns Promise<{ ok: true } | { error?<!-- -->: Error; ok: false; reason: string }>
 
-### [**](#close)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L103)close
+### [**](#close)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L103)close
 
 * ****close**(force): Promise\<void>
 
@@ -141,7 +141,7 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns Promise\<void>
 
-### [**](#commit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L410)commit
+### [**](#commit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L410)commit
 
 * ****commit**(ctx, eventBroadcaster): Promise\<void>
 
@@ -158,7 +158,7 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns Promise\<void>
 
-### [**](#connect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L65)connect
+### [**](#connect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L65)connect
 
 * ****connect**(options): Promise\<void>
 
@@ -175,7 +175,7 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns Promise\<void>
 
-### [**](#countDocuments)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L352)countDocuments
+### [**](#countDocuments)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L352)countDocuments
 
 * ****countDocuments**\<T>(entityName, where, opts): Promise\<number>
 
@@ -187,13 +187,13 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns Promise\<number>
 
-### [**](#createClient)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L74)createClient
+### [**](#createClient)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L74)createClient
 
 * ****createClient**(): void
 
 - #### Returns void
 
-### [**](#createCollection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L141)createCollection
+### [**](#createCollection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L141)createCollection
 
 * ****createCollection**\<T>(name): Promise\<Collection\<T>>
 
@@ -203,7 +203,7 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns Promise\<Collection\<T>>
 
-### [**](#deleteMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L308)deleteMany
+### [**](#deleteMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L308)deleteMany
 
 * ****deleteMany**\<T>(entityName, where, ctx): Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
@@ -215,7 +215,7 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
-### [**](#dropCollection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L150)dropCollection
+### [**](#dropCollection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L150)dropCollection
 
 * ****dropCollection**(name): Promise\<boolean>
 
@@ -225,7 +225,7 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns Promise\<boolean>
 
-### [**](#ensureConnection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L82)inheritedensureConnection
+### [**](#ensureConnection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L82)inheritedensureConnection
 
 * ****ensureConnection**(): Promise\<void>
 
@@ -237,7 +237,7 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns Promise\<void>
 
-### [**](#execute)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L179)execute
+### [**](#execute)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L179)execute
 
 * ****execute**(query): Promise\<any>
 
@@ -253,7 +253,7 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns Promise\<any>
 
-### [**](#executeDump)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L92)inheritedexecuteDump
+### [**](#executeDump)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L92)inheritedexecuteDump
 
 * ****executeDump**(dump): Promise\<void>
 
@@ -269,7 +269,7 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns Promise\<void>
 
-### [**](#find)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L183)find
+### [**](#find)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L183)find
 
 * ****find**\<T>(entityName, where, opts): Promise<[EntityData](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityData)\<T>\[]>
 
@@ -281,13 +281,13 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns Promise<[EntityData](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityData)\<T>\[]>
 
-### [**](#getClient)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L129)getClient
+### [**](#getClient)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L129)getClient
 
 * ****getClient**(): MongoClient
 
 - #### Returns MongoClient
 
-### [**](#getCollection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L137)getCollection
+### [**](#getCollection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L137)getCollection
 
 * ****getCollection**\<T>(name): Collection\<T>
 
@@ -297,7 +297,7 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns Collection\<T>
 
-### [**](#getConnectionOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L163)inheritedgetConnectionOptions
+### [**](#getConnectionOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L163)inheritedgetConnectionOptions
 
 * ****getConnectionOptions**(): [ConnectionConfig](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/ConnectionConfig.md)
 
@@ -309,13 +309,13 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns [ConnectionConfig](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/ConnectionConfig.md)
 
-### [**](#getDb)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L174)getDb
+### [**](#getDb)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L174)getDb
 
 * ****getDb**(): Db
 
 - #### Returns Db
 
-### [**](#getPlatform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L203)inheritedgetPlatform
+### [**](#getPlatform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L203)inheritedgetPlatform
 
 * ****getPlatform**(): [Platform](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Platform.md)
 
@@ -327,7 +327,7 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns [Platform](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Platform.md)
 
-### [**](#insertMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L278)insertMany
+### [**](#insertMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L278)insertMany
 
 * ****insertMany**\<T>(entityName, data, ctx): Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
@@ -339,7 +339,7 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
-### [**](#insertOne)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L270)insertOne
+### [**](#insertOne)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L270)insertOne
 
 * ****insertOne**\<T>(entityName, data, ctx): Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
@@ -351,7 +351,7 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
-### [**](#isConnected)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L109)isConnected
+### [**](#isConnected)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L109)isConnected
 
 * ****isConnected**(): Promise\<boolean>
 
@@ -363,13 +363,13 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns Promise\<boolean>
 
-### [**](#listCollections)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L145)listCollections
+### [**](#listCollections)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L145)listCollections
 
 * ****listCollections**(): Promise\<string\[]>
 
 - #### Returns Promise\<string\[]>
 
-### [**](#mapOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L154)mapOptions
+### [**](#mapOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L154)mapOptions
 
 * ****mapOptions**(overrides): MongoClientOptions
 
@@ -379,7 +379,7 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns MongoClientOptions
 
-### [**](#rollback)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L418)rollback
+### [**](#rollback)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L418)rollback
 
 * ****rollback**(ctx, eventBroadcaster): Promise\<void>
 
@@ -396,7 +396,7 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns Promise\<void>
 
-### [**](#setMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L193)inheritedsetMetadata
+### [**](#setMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L193)inheritedsetMetadata
 
 * ****setMetadata**(metadata): void
 
@@ -412,7 +412,7 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns void
 
-### [**](#setPlatform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L198)inheritedsetPlatform
+### [**](#setPlatform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L198)inheritedsetPlatform
 
 * ****setPlatform**(platform): void
 
@@ -428,7 +428,7 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns void
 
-### [**](#stream)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L196)stream
+### [**](#stream)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L196)stream
 
 * ****stream**\<T>(entityName, where, opts): AsyncIterableIterator\<T, any, any>
 
@@ -440,7 +440,7 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns AsyncIterableIterator\<T, any, any>
 
-### [**](#streamAggregate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L334)streamAggregate
+### [**](#streamAggregate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L334)streamAggregate
 
 * ****streamAggregate**\<T>(entityName, pipeline, ctx, loggerContext, stream): AsyncIterableIterator\<T, any, any>
 
@@ -454,7 +454,7 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns AsyncIterableIterator\<T, any, any>
 
-### [**](#transactional)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L365)transactional
+### [**](#transactional)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L365)transactional
 
 * ****transactional**\<T>(cb, options): Promise\<T>
 
@@ -472,7 +472,7 @@ MongoDB database connection using the official `mongodb` driver.
 
   #### Returns Promise\<T>
 
-### [**](#updateMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L286)updateMany
+### [**](#updateMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L286)updateMany
 
 * ****updateMany**\<T>(entityName, where, data, ctx, upsert, upsertOptions): Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 

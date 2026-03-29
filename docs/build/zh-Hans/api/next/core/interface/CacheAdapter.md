@@ -24,7 +24,7 @@ Interface for async-capable cache storage used by result cache and metadata cach
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#clear)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/cache/CacheAdapter.ts#L21)clear
+### [**](#clear)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/cache/CacheAdapter.ts#L21)clear
 
 * ****clear**(): void | Promise\<void>
 
@@ -34,7 +34,7 @@ Interface for async-capable cache storage used by result cache and metadata cach
 
   #### Returns void | Promise\<void>
 
-### [**](#close)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/cache/CacheAdapter.ts#L26)optionalclose
+### [**](#close)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/cache/CacheAdapter.ts#L26)optionalclose
 
 * ****close**(): void | Promise\<void>
 
@@ -44,7 +44,7 @@ Interface for async-capable cache storage used by result cache and metadata cach
 
   #### Returns void | Promise\<void>
 
-### [**](#get)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/cache/CacheAdapter.ts#L6)get
+### [**](#get)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/cache/CacheAdapter.ts#L6)get
 
 * ****get**\<T>(name): undefined | T | Promise\<undefined | T>
 
@@ -58,7 +58,7 @@ Interface for async-capable cache storage used by result cache and metadata cach
 
   #### Returns undefined | T | Promise\<undefined | T>
 
-### [**](#remove)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/cache/CacheAdapter.ts#L16)remove
+### [**](#remove)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/cache/CacheAdapter.ts#L16)remove
 
 * ****remove**(name): void | Promise\<void>
 
@@ -72,7 +72,7 @@ Interface for async-capable cache storage used by result cache and metadata cach
 
   #### Returns void | Promise\<void>
 
-### [**](#set)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/cache/CacheAdapter.ts#L11)set
+### [**](#set)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/cache/CacheAdapter.ts#L11)set
 
 * ****set**(name, data, origin, expiration): void | Promise\<void>
 

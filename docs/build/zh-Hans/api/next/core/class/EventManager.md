@@ -18,7 +18,7 @@ Manages event subscribers and dispatches entity/flush/transaction lifecycle even
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/events/EventManager.ts#L13)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/events/EventManager.ts#L13)constructor
 
 * ****new EventManager**(subscribers): [EventManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EventManager.md)
 
@@ -30,7 +30,7 @@ Manages event subscribers and dispatches entity/flush/transaction lifecycle even
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#clone)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/events/EventManager.ts#L123)clone
+### [**](#clone)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/events/EventManager.ts#L123)clone
 
 * ****clone**(): [EventManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EventManager.md)
 
@@ -40,7 +40,7 @@ Manages event subscribers and dispatches entity/flush/transaction lifecycle even
 
   #### Returns [EventManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EventManager.md)
 
-### [**](#dispatchEvent)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/events/EventManager.ts#L41)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/events/EventManager.ts#L46)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/events/EventManager.ts#L51)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/events/EventManager.ts#L56)dispatchEvent
+### [**](#dispatchEvent)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/events/EventManager.ts#L41)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/events/EventManager.ts#L46)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/events/EventManager.ts#L51)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/events/EventManager.ts#L56)dispatchEvent
 
 * ****dispatchEvent**\<T>(event, args, meta): unknown
 * ****dispatchEvent**\<T>(event, args, meta): unknown
@@ -54,7 +54,7 @@ Manages event subscribers and dispatches entity/flush/transaction lifecycle even
 
   #### Returns unknown
 
-### [**](#getSubscribers)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/events/EventManager.ts#L37)getSubscribers
+### [**](#getSubscribers)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/events/EventManager.ts#L37)getSubscribers
 
 * ****getSubscribers**(): Set<[EventSubscriber](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/EventSubscriber.md)\<any>>
 
@@ -64,7 +64,7 @@ Manages event subscribers and dispatches entity/flush/transaction lifecycle even
 
   #### Returns Set<[EventSubscriber](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/EventSubscriber.md)\<any>>
 
-### [**](#hasListeners)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/events/EventManager.ts#L95)hasListeners
+### [**](#hasListeners)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/events/EventManager.ts#L95)hasListeners
 
 * ****hasListeners**\<T>(event, meta): boolean
 
@@ -79,7 +79,7 @@ Manages event subscribers and dispatches entity/flush/transaction lifecycle even
 
   #### Returns boolean
 
-### [**](#registerSubscriber)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/events/EventManager.ts#L20)registerSubscriber
+### [**](#registerSubscriber)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/events/EventManager.ts#L20)registerSubscriber
 
 * ****registerSubscriber**(subscriber): void
 

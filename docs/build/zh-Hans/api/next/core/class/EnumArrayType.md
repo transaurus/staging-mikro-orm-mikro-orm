@@ -41,7 +41,7 @@ Maps a database array column to a JS array of enum values, with validation again
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/EnumArrayType.ts#L17)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/EnumArrayType.ts#L17)constructor
 
 * ****new EnumArrayType**\<T>(owner, items, hydrate): [EnumArrayType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EnumArrayType.md)\<T>
 
@@ -58,7 +58,7 @@ Maps a database array column to a JS array of enum values, with validation again
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#meta)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L28)optionalinheritedmeta
+### [**](#meta)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L28)optionalinheritedmeta
 
 **meta?
 
@@ -68,7 +68,7 @@ Maps a database array column to a JS array of enum values, with validation again
 
 Inherited from ArrayType.meta
 
-### [**](#platform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L27)optionalinheritedplatform
+### [**](#platform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L27)optionalinheritedplatform
 
 **platform?
 
@@ -78,7 +78,7 @@ Inherited from ArrayType.meta
 
 Inherited from ArrayType.platform
 
-### [**](#prop)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L29)optionalinheritedprop
+### [**](#prop)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L29)optionalinheritedprop
 
 **prop?
 
@@ -90,7 +90,7 @@ Inherited from ArrayType.prop
 
 ## Accessors<!-- -->[**](#Accessors)
 
-### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L73)inheritedname
+### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L73)inheritedname
 
 * **get name(): string
 
@@ -98,7 +98,7 @@ Inherited from ArrayType.prop
 
   #### Returns string
 
-### [**](#runtimeType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L68)inheritedruntimeType
+### [**](#runtimeType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L68)inheritedruntimeType
 
 * **get runtimeType(): string
 
@@ -108,7 +108,7 @@ Inherited from ArrayType.prop
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#compareAsType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/ArrayType.ts#L44)inheritedcompareAsType
+### [**](#compareAsType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/ArrayType.ts#L44)inheritedcompareAsType
 
 * ****compareAsType**(): string
 
@@ -120,7 +120,7 @@ Inherited from ArrayType.prop
 
   #### Returns string
 
-### [**](#compareValues)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L66)optionalinheritedcompareValues
+### [**](#compareValues)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L66)optionalinheritedcompareValues
 
 * ****compareValues**(a, b): boolean
 
@@ -137,7 +137,7 @@ Inherited from ArrayType.prop
 
   #### Returns boolean
 
-### [**](#convertToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/EnumArrayType.ts#L25)convertToDatabaseValue
+### [**](#convertToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/EnumArrayType.ts#L25)convertToDatabaseValue
 
 * ****convertToDatabaseValue**(value, platform, context): null | string
 
@@ -155,7 +155,7 @@ Inherited from ArrayType.prop
 
   #### Returns null | string
 
-### [**](#convertToDatabaseValueSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L48)optionalinheritedconvertToDatabaseValueSQL
+### [**](#convertToDatabaseValueSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L48)optionalinheritedconvertToDatabaseValueSQL
 
 * ****convertToDatabaseValueSQL**(key, platform): string
 
@@ -172,7 +172,7 @@ Inherited from ArrayType.prop
 
   #### Returns string
 
-### [**](#convertToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/ArrayType.ts#L32)inheritedconvertToJSValue
+### [**](#convertToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/ArrayType.ts#L32)inheritedconvertToJSValue
 
 * ****convertToJSValue**(value, platform): null | T\[]
 
@@ -189,7 +189,7 @@ Inherited from ArrayType.prop
 
   #### Returns null | T\[]
 
-### [**](#convertToJSValueSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L53)optionalinheritedconvertToJSValueSQL
+### [**](#convertToJSValueSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L53)optionalinheritedconvertToJSValueSQL
 
 * ****convertToJSValueSQL**(key, platform): string
 
@@ -206,7 +206,7 @@ Inherited from ArrayType.prop
 
   #### Returns string
 
-### [**](#ensureComparable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L82)inheritedensureComparable
+### [**](#ensureComparable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L82)inheritedensureComparable
 
 * ****ensureComparable**\<T>(meta, prop): boolean
 
@@ -223,7 +223,7 @@ Inherited from ArrayType.prop
 
   #### Returns boolean
 
-### [**](#getColumnType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/EnumArrayType.ts#L37)getColumnType
+### [**](#getColumnType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/EnumArrayType.ts#L37)getColumnType
 
 * ****getColumnType**(prop, platform): string
 
@@ -240,7 +240,7 @@ Inherited from ArrayType.prop
 
   #### Returns string
 
-### [**](#getDefaultLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L115)optionalinheritedgetDefaultLength
+### [**](#getDefaultLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L115)optionalinheritedgetDefaultLength
 
 * ****getDefaultLength**(platform): number
 
@@ -264,7 +264,7 @@ Inherited from ArrayType.prop
 
   The default value for the given platform.
 
-### [**](#toJSON)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/ArrayType.ts#L48)inheritedtoJSON
+### [**](#toJSON)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/ArrayType.ts#L48)inheritedtoJSON
 
 * ****toJSON**(value): T\[]
 
@@ -280,7 +280,7 @@ Inherited from ArrayType.prop
 
   #### Returns T\[]
 
-### [**](#getType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L117)staticinheritedgetType
+### [**](#getType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L117)staticinheritedgetType
 
 * ****getType**\<JSType, DBType, TypeClass>(cls): InstanceType\<TypeClass>
 
@@ -292,7 +292,7 @@ Inherited from ArrayType.prop
 
   #### Returns InstanceType\<TypeClass>
 
-### [**](#isMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L134)staticinheritedisMappedType
+### [**](#isMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L134)staticinheritedisMappedType
 
 * ****isMappedType**(data): data is [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<any, any>
 

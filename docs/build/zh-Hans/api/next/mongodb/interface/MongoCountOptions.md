@@ -19,7 +19,7 @@ Options for MongoDB count operations.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#collation)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L667)optionalinheritedcollation
+### [**](#collation)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L667)optionalinheritedcollation
 
 **collation?
 
@@ -29,7 +29,7 @@ Options for MongoDB count operations.
 
 Inherited from Omit.collation
 
-### [**](#ctx)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L685)optionalctx
+### [**](#ctx)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L685)optionalctx
 
 **ctx?
 
@@ -37,7 +37,7 @@ Inherited from Omit.collation
 
 : any
 
-### [**](#indexHint)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L668)optionalinheritedindexHint
+### [**](#indexHint)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L668)optionalinheritedindexHint
 
 **indexHint?
 
@@ -47,7 +47,7 @@ Inherited from Omit.collation
 
 Inherited from Omit.indexHint
 
-### [**](#loggerContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L686)optionalloggerContext
+### [**](#loggerContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L686)optionalloggerContext
 
 **loggerContext?
 
@@ -55,7 +55,7 @@ Inherited from Omit.indexHint
 
 : [LoggingOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#LoggingOptions)
 
-### [**](#maxTimeMS)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L669)optionalinheritedmaxTimeMS
+### [**](#maxTimeMS)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L669)optionalinheritedmaxTimeMS
 
 **maxTimeMS?
 

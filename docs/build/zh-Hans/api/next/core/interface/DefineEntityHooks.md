@@ -19,7 +19,7 @@ Lifecycle hook definitions for entities created via `defineEntity()`.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#afterCreate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1360)optionalafterCreate
+### [**](#afterCreate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1360)optionalafterCreate
 
 **afterCreate?
 
@@ -27,7 +27,7 @@ Lifecycle hook definitions for entities created via `defineEntity()`.
 
 : EntityHookValue\<T, afterCreate>
 
-### [**](#afterDelete)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1366)optionalafterDelete
+### [**](#afterDelete)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1366)optionalafterDelete
 
 **afterDelete?
 
@@ -35,7 +35,7 @@ Lifecycle hook definitions for entities created via `defineEntity()`.
 
 : EntityHookValue\<T, afterDelete>
 
-### [**](#afterUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1362)optionalafterUpdate
+### [**](#afterUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1362)optionalafterUpdate
 
 **afterUpdate?
 
@@ -43,7 +43,7 @@ Lifecycle hook definitions for entities created via `defineEntity()`.
 
 : EntityHookValue\<T, afterUpdate>
 
-### [**](#afterUpsert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1364)optionalafterUpsert
+### [**](#afterUpsert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1364)optionalafterUpsert
 
 **afterUpsert?
 
@@ -51,7 +51,7 @@ Lifecycle hook definitions for entities created via `defineEntity()`.
 
 : EntityHookValue\<T, afterUpsert>
 
-### [**](#beforeCreate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1359)optionalbeforeCreate
+### [**](#beforeCreate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1359)optionalbeforeCreate
 
 **beforeCreate?
 
@@ -59,7 +59,7 @@ Lifecycle hook definitions for entities created via `defineEntity()`.
 
 : EntityHookValue\<T, beforeCreate>
 
-### [**](#beforeDelete)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1365)optionalbeforeDelete
+### [**](#beforeDelete)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1365)optionalbeforeDelete
 
 **beforeDelete?
 
@@ -67,7 +67,7 @@ Lifecycle hook definitions for entities created via `defineEntity()`.
 
 : EntityHookValue\<T, beforeDelete>
 
-### [**](#beforeUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1361)optionalbeforeUpdate
+### [**](#beforeUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1361)optionalbeforeUpdate
 
 **beforeUpdate?
 
@@ -75,7 +75,7 @@ Lifecycle hook definitions for entities created via `defineEntity()`.
 
 : EntityHookValue\<T, beforeUpdate>
 
-### [**](#beforeUpsert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1363)optionalbeforeUpsert
+### [**](#beforeUpsert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1363)optionalbeforeUpsert
 
 **beforeUpsert?
 
@@ -83,7 +83,7 @@ Lifecycle hook definitions for entities created via `defineEntity()`.
 
 : EntityHookValue\<T, beforeUpsert>
 
-### [**](#onInit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1357)optionalonInit
+### [**](#onInit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1357)optionalonInit
 
 **onInit?
 
@@ -91,7 +91,7 @@ Lifecycle hook definitions for entities created via `defineEntity()`.
 
 : EntityHookValue\<T, onInit>
 
-### [**](#onLoad)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1358)optionalonLoad
+### [**](#onLoad)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1358)optionalonLoad
 
 **onLoad?
 

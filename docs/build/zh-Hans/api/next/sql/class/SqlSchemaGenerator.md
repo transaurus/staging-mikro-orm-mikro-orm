@@ -43,7 +43,7 @@ Generates and manages SQL database schemas based on entity metadata. Supports cr
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/AbstractSchemaGenerator.ts#L25)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/AbstractSchemaGenerator.ts#L25)constructor
 
 * ****new SqlSchemaGenerator**(em): [SqlSchemaGenerator](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/SqlSchemaGenerator.md)
 
@@ -57,7 +57,7 @@ Generates and manages SQL database schemas based on entity metadata. Supports cr
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#clear)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SqlSchemaGenerator.ts#L180)clear
+### [**](#clear)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SqlSchemaGenerator.ts#L180)clear
 
 * ****clear**(options): Promise\<void>
 
@@ -71,7 +71,7 @@ Generates and manages SQL database schemas based on entity metadata. Supports cr
 
   #### Returns Promise\<void>
 
-### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SqlSchemaGenerator.ts#L38)create
+### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SqlSchemaGenerator.ts#L38)create
 
 * ****create**(options): Promise\<void>
 
@@ -85,7 +85,7 @@ Generates and manages SQL database schemas based on entity metadata. Supports cr
 
   #### Returns Promise\<void>
 
-### [**](#createDatabase)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SqlSchemaGenerator.ts#L526)createDatabase
+### [**](#createDatabase)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SqlSchemaGenerator.ts#L526)createDatabase
 
 * ****createDatabase**(name, options): Promise\<void>
 
@@ -105,7 +105,7 @@ Generates and manages SQL database schemas based on entity metadata. Supports cr
 
   #### Returns Promise\<void>
 
-### [**](#createNamespace)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SqlSchemaGenerator.ts#L170)createNamespace
+### [**](#createNamespace)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SqlSchemaGenerator.ts#L170)createNamespace
 
 * ****createNamespace**(name): Promise\<void>
 
@@ -115,7 +115,7 @@ Generates and manages SQL database schemas based on entity metadata. Supports cr
 
   #### Returns Promise\<void>
 
-### [**](#diffToSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SqlSchemaGenerator.ts#L355)diffToSQL
+### [**](#diffToSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SqlSchemaGenerator.ts#L355)diffToSQL
 
 * ****diffToSQL**(schemaDiff, options): string
 
@@ -130,7 +130,7 @@ Generates and manages SQL database schemas based on entity metadata. Supports cr
 
   #### Returns string
 
-### [**](#drop)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SqlSchemaGenerator.ts#L160)drop
+### [**](#drop)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SqlSchemaGenerator.ts#L160)drop
 
 * ****drop**(options): Promise\<void>
 
@@ -144,7 +144,7 @@ Generates and manages SQL database schemas based on entity metadata. Supports cr
 
   #### Returns Promise\<void>
 
-### [**](#dropDatabase)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SqlSchemaGenerator.ts#L538)dropDatabase
+### [**](#dropDatabase)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SqlSchemaGenerator.ts#L538)dropDatabase
 
 * ****dropDatabase**(name): Promise\<void>
 
@@ -158,7 +158,7 @@ Generates and manages SQL database schemas based on entity metadata. Supports cr
 
   #### Returns Promise\<void>
 
-### [**](#dropNamespace)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SqlSchemaGenerator.ts#L175)dropNamespace
+### [**](#dropNamespace)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SqlSchemaGenerator.ts#L175)dropNamespace
 
 * ****dropNamespace**(name): Promise\<void>
 
@@ -168,7 +168,7 @@ Generates and manages SQL database schemas based on entity metadata. Supports cr
 
   #### Returns Promise\<void>
 
-### [**](#dropTableIfExists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SqlSchemaGenerator.ts#L588)dropTableIfExists
+### [**](#dropTableIfExists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SqlSchemaGenerator.ts#L588)dropTableIfExists
 
 * ****dropTableIfExists**(name, schema): Promise\<void>
 
@@ -179,7 +179,7 @@ Generates and manages SQL database schemas based on entity metadata. Supports cr
 
   #### Returns Promise\<void>
 
-### [**](#ensureDatabase)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SqlSchemaGenerator.ts#L47)ensureDatabase
+### [**](#ensureDatabase)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SqlSchemaGenerator.ts#L47)ensureDatabase
 
 * ****ensureDatabase**(options): Promise\<boolean>
 
@@ -197,7 +197,7 @@ Generates and manages SQL database schemas based on entity metadata. Supports cr
 
   #### Returns Promise\<boolean>
 
-### [**](#ensureIndexes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/AbstractSchemaGenerator.ts#L121)inheritedensureIndexes
+### [**](#ensureIndexes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/AbstractSchemaGenerator.ts#L121)inheritedensureIndexes
 
 * ****ensureIndexes**(): Promise\<void>
 
@@ -207,7 +207,7 @@ Generates and manages SQL database schemas based on entity metadata. Supports cr
 
   #### Returns Promise\<void>
 
-### [**](#execute)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SqlSchemaGenerator.ts#L546)execute
+### [**](#execute)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SqlSchemaGenerator.ts#L546)execute
 
 * ****execute**(sql, options): Promise\<void>
 
@@ -224,7 +224,7 @@ Generates and manages SQL database schemas based on entity metadata. Supports cr
 
   #### Returns Promise\<void>
 
-### [**](#getCreateSchemaSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SqlSchemaGenerator.ts#L99)getCreateSchemaSQL
+### [**](#getCreateSchemaSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SqlSchemaGenerator.ts#L99)getCreateSchemaSQL
 
 * ****getCreateSchemaSQL**(options): Promise\<string>
 
@@ -238,7 +238,7 @@ Generates and manages SQL database schemas based on entity metadata. Supports cr
 
   #### Returns Promise\<string>
 
-### [**](#getDropSchemaSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SqlSchemaGenerator.ts#L218)getDropSchemaSQL
+### [**](#getDropSchemaSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SqlSchemaGenerator.ts#L218)getDropSchemaSQL
 
 * ****getDropSchemaSQL**(options): Promise\<string>
 
@@ -252,7 +252,7 @@ Generates and manages SQL database schemas based on entity metadata. Supports cr
 
   #### Returns Promise\<string>
 
-### [**](#getTargetSchema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SqlSchemaGenerator.ts#L82)getTargetSchema
+### [**](#getTargetSchema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SqlSchemaGenerator.ts#L82)getTargetSchema
 
 * ****getTargetSchema**(schema): DatabaseSchema
 
@@ -262,7 +262,7 @@ Generates and manages SQL database schemas based on entity metadata. Supports cr
 
   #### Returns DatabaseSchema
 
-### [**](#getUpdateSchemaMigrationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SqlSchemaGenerator.ts#L311)getUpdateSchemaMigrationSQL
+### [**](#getUpdateSchemaMigrationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SqlSchemaGenerator.ts#L311)getUpdateSchemaMigrationSQL
 
 * ****getUpdateSchemaMigrationSQL**(options): Promise<{ down: string; up: string }>
 
@@ -276,7 +276,7 @@ Generates and manages SQL database schemas based on entity metadata. Supports cr
 
   #### Returns Promise<{ down: string; up: string }>
 
-### [**](#getUpdateSchemaSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SqlSchemaGenerator.ts#L302)getUpdateSchemaSQL
+### [**](#getUpdateSchemaSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SqlSchemaGenerator.ts#L302)getUpdateSchemaSQL
 
 * ****getUpdateSchemaSQL**(options): Promise\<string>
 
@@ -290,7 +290,7 @@ Generates and manages SQL database schemas based on entity metadata. Supports cr
 
   #### Returns Promise\<string>
 
-### [**](#refresh)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/AbstractSchemaGenerator.ts#L45)inheritedrefresh
+### [**](#refresh)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/AbstractSchemaGenerator.ts#L45)inheritedrefresh
 
 * ****refresh**(options): Promise\<void>
 
@@ -304,7 +304,7 @@ Generates and manages SQL database schemas based on entity metadata. Supports cr
 
   #### Returns Promise\<void>
 
-### [**](#update)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SqlSchemaGenerator.ts#L297)update
+### [**](#update)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SqlSchemaGenerator.ts#L297)update
 
 * ****update**(options): Promise\<void>
 
@@ -318,7 +318,7 @@ Generates and manages SQL database schemas based on entity metadata. Supports cr
 
   #### Returns Promise\<void>
 
-### [**](#register)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SqlSchemaGenerator.ts#L31)staticregister
+### [**](#register)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SqlSchemaGenerator.ts#L31)staticregister
 
 * ****register**(orm): void
 

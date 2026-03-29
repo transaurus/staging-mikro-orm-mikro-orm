@@ -18,7 +18,7 @@ Interface for the migrator, responsible for creating and executing database migr
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#checkSchema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1657)checkSchema
+### [**](#checkSchema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1657)checkSchema
 
 * ****checkSchema**(): Promise\<boolean>
 
@@ -28,7 +28,7 @@ Interface for the migrator, responsible for creating and executing database migr
 
   #### Returns Promise\<boolean>
 
-### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1652)create
+### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1652)create
 
 * ****create**(path, blank, initial, name): Promise<[MigrationResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationResult)>
 
@@ -45,7 +45,7 @@ Interface for the migrator, responsible for creating and executing database migr
 
   #### Returns Promise<[MigrationResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationResult)>
 
-### [**](#createInitial)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1665)createInitial
+### [**](#createInitial)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1665)createInitial
 
 * ****createInitial**(path): Promise<[MigrationResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationResult)>
 
@@ -59,7 +59,7 @@ Interface for the migrator, responsible for creating and executing database migr
 
   #### Returns Promise<[MigrationResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationResult)>
 
-### [**](#down)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1685)down
+### [**](#down)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1685)down
 
 * ****down**(options): Promise<[MigrationInfo](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationInfo)\[]>
 
@@ -73,7 +73,7 @@ Interface for the migrator, responsible for creating and executing database migr
 
   #### Returns Promise<[MigrationInfo](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationInfo)\[]>
 
-### [**](#getExecuted)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1670)getExecuted
+### [**](#getExecuted)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1670)getExecuted
 
 * ****getExecuted**(): Promise<[MigrationRow](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationRow)\[]>
 
@@ -83,7 +83,7 @@ Interface for the migrator, responsible for creating and executing database migr
 
   #### Returns Promise<[MigrationRow](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationRow)\[]>
 
-### [**](#getPending)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1675)getPending
+### [**](#getPending)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1675)getPending
 
 * ****getPending**(): Promise<[MigrationInfo](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationInfo)\[]>
 
@@ -93,7 +93,7 @@ Interface for the migrator, responsible for creating and executing database migr
 
   #### Returns Promise<[MigrationInfo](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationInfo)\[]>
 
-### [**](#off)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1695)off
+### [**](#off)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1695)off
 
 * ****off**(event, listener): [IMigrator](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IMigrator.md)
 
@@ -109,7 +109,7 @@ Interface for the migrator, responsible for creating and executing database migr
 
   #### Returns [IMigrator](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IMigrator.md)
 
-### [**](#on)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1690)on
+### [**](#on)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1690)on
 
 * ****on**(event, listener): [IMigrator](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IMigrator.md)
 
@@ -125,7 +125,7 @@ Interface for the migrator, responsible for creating and executing database migr
 
   #### Returns [IMigrator](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IMigrator.md)
 
-### [**](#up)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1680)up
+### [**](#up)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1680)up
 
 * ****up**(options): Promise<[MigrationInfo](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationInfo)\[]>
 

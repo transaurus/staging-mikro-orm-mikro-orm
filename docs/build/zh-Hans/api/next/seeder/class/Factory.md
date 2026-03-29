@@ -23,7 +23,7 @@ Base class for entity factories used in seeding. Provides methods to create and 
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/seeder/src/Factory.ts#L8)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/seeder/src/Factory.ts#L8)constructor
 
 * ****new Factory**\<TEntity, TInput>(em): [Factory](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/seeder/class/Factory.md)\<TEntity, TInput>
 
@@ -35,13 +35,13 @@ Base class for entity factories used in seeding. Provides methods to create and 
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#model)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/seeder/src/Factory.ts#L5)abstractreadonlymodel
+### [**](#model)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/seeder/src/Factory.ts#L5)abstractreadonlymodel
 
 **model: [Constructor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Constructor)\<TEntity>
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/seeder/src/Factory.ts#L69)create
+### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/seeder/src/Factory.ts#L69)create
 
 * ****create**(amount, input): Promise\<TEntity\[]>
 
@@ -61,7 +61,7 @@ Base class for entity factories used in seeding. Provides methods to create and 
 
   #### Returns Promise\<TEntity\[]>
 
-### [**](#createOne)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/seeder/src/Factory.ts#L58)createOne
+### [**](#createOne)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/seeder/src/Factory.ts#L58)createOne
 
 * ****createOne**(input): Promise\<TEntity>
 
@@ -77,7 +77,7 @@ Base class for entity factories used in seeding. Provides methods to create and 
 
   #### Returns Promise\<TEntity>
 
-### [**](#each)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/seeder/src/Factory.ts#L80)each
+### [**](#each)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/seeder/src/Factory.ts#L80)each
 
 * ****each**(eachFunction): this
 
@@ -95,7 +95,7 @@ Base class for entity factories used in seeding. Provides methods to create and 
 
   #### Returns this
 
-### [**](#make)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/seeder/src/Factory.ts#L46)make
+### [**](#make)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/seeder/src/Factory.ts#L46)make
 
 * ****make**(amount, input): TEntity\[]
 
@@ -115,7 +115,7 @@ Base class for entity factories used in seeding. Provides methods to create and 
 
   #### Returns TEntity\[]
 
-### [**](#makeEntity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/seeder/src/Factory.ts#L16)makeEntity
+### [**](#makeEntity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/seeder/src/Factory.ts#L16)makeEntity
 
 * ****makeEntity**(input, index): TEntity
 
@@ -133,7 +133,7 @@ Base class for entity factories used in seeding. Provides methods to create and 
 
   #### Returns TEntity
 
-### [**](#makeOne)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/seeder/src/Factory.ts#L35)makeOne
+### [**](#makeOne)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/seeder/src/Factory.ts#L35)makeOne
 
 * ****makeOne**(input): TEntity
 

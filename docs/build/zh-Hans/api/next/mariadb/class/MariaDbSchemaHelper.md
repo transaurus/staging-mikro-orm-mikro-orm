@@ -94,7 +94,7 @@ Schema introspection helper for MariaDB.
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L10)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L10)constructor
 
 * ****new MariaDbSchemaHelper**(platform): [MariaDbSchemaHelper](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mariadb/class/MariaDbSchemaHelper.md)
 
@@ -108,7 +108,7 @@ Schema introspection helper for MariaDB.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#DEFAULT_VALUES)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L11)staticreadonlyinheritedDEFAULT\_VALUES
+### [**](#DEFAULT_VALUES)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L11)staticreadonlyinheritedDEFAULT\_VALUES
 
 **DEFAULT\_VALUES: { 0: string\[]; current\_timestamp(?): string\[]; now(): string\[] } =
 
@@ -126,7 +126,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
 ## Accessors<!-- -->[**](#Accessors)
 
-### [**](#options)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L819)inheritedoptions
+### [**](#options)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L819)inheritedoptions
 
 * **get options(): { createForeignKeyConstraints?
   <!-- -->
@@ -200,7 +200,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#alterTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L228)inheritedalterTable
+### [**](#alterTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L228)inheritedalterTable
 
 * ****alterTable**(diff, safe): string\[]
 
@@ -217,7 +217,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string\[]
 
-### [**](#alterTableColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L413)inheritedalterTableColumn
+### [**](#alterTableColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L413)inheritedalterTableColumn
 
 * ****alterTableColumn**(column, table, changedProperties): string\[]
 
@@ -231,7 +231,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string\[]
 
-### [**](#alterTableComment)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L698)inheritedalterTableComment
+### [**](#alterTableComment)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L698)inheritedalterTableComment
 
 * ****alterTableComment**(table, comment): string
 
@@ -244,7 +244,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#append)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L627)inheritedappend
+### [**](#append)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L627)inheritedappend
 
 * ****append**(array, sql, pad): void
 
@@ -258,7 +258,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns void
 
-### [**](#appendComments)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L44)inheritedappendComments
+### [**](#appendComments)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L44)inheritedappendComments
 
 * ****appendComments**(table): string\[]
 
@@ -270,7 +270,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string\[]
 
-### [**](#castColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L401)inheritedcastColumn
+### [**](#castColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L401)inheritedcastColumn
 
 * ****castColumn**(name, type): string
 
@@ -283,7 +283,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#createCheck)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L795)inheritedcreateCheck
+### [**](#createCheck)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L795)inheritedcreateCheck
 
 * ****createCheck**(table, check): string
 
@@ -296,7 +296,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#createForeignKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L703)inheritedcreateForeignKey
+### [**](#createForeignKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L703)inheritedcreateForeignKey
 
 * ****createForeignKey**(table, foreignKey, alterTable, inline): string
 
@@ -315,7 +315,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#createIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L767)inheritedcreateIndex
+### [**](#createIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L767)inheritedcreateIndex
 
 * ****createIndex**(index, table, createPrimary): string
 
@@ -329,7 +329,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#createMaterializedView)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L873)inheritedcreateMaterializedView
+### [**](#createMaterializedView)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L873)inheritedcreateMaterializedView
 
 * ****createMaterializedView**(name, schema, definition, withData): string
 
@@ -344,7 +344,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#createTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L650)inheritedcreateTable
+### [**](#createTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L650)inheritedcreateTable
 
 * ****createTable**(table, alter): string\[]
 
@@ -361,7 +361,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string\[]
 
-### [**](#createTableColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L438)inheritedcreateTableColumn
+### [**](#createTableColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L438)inheritedcreateTableColumn
 
 * ****createTableColumn**(column, table, changedProperties): undefined | string
 
@@ -375,7 +375,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns undefined | string
 
-### [**](#createView)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L858)inheritedcreateView
+### [**](#createView)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L858)inheritedcreateView
 
 * ****createView**(name, schema, definition): string
 
@@ -389,7 +389,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#databaseExists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L613)inheriteddatabaseExists
+### [**](#databaseExists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L613)inheriteddatabaseExists
 
 * ****databaseExists**(connection, name): Promise\<boolean>
 
@@ -402,7 +402,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns Promise\<boolean>
 
-### [**](#disableForeignKeysSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L25)inheriteddisableForeignKeysSQL
+### [**](#disableForeignKeysSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L25)inheriteddisableForeignKeysSQL
 
 * ****disableForeignKeysSQL**(): string
 
@@ -414,7 +414,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#dropConstraint)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L843)inheriteddropConstraint
+### [**](#dropConstraint)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L843)inheriteddropConstraint
 
 * ****dropConstraint**(table, name): string
 
@@ -427,7 +427,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#dropForeignKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L831)inheriteddropForeignKey
+### [**](#dropForeignKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L831)inheriteddropForeignKey
 
 * ****dropForeignKey**(tableName, constraintName): string
 
@@ -440,7 +440,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#dropIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L835)inheriteddropIndex
+### [**](#dropIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L835)inheriteddropIndex
 
 * ****dropIndex**(table, index, oldIndexName): string
 
@@ -454,7 +454,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#dropMaterializedViewIfExists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L877)inheriteddropMaterializedViewIfExists
+### [**](#dropMaterializedViewIfExists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L877)inheriteddropMaterializedViewIfExists
 
 * ****dropMaterializedViewIfExists**(name, schema): string
 
@@ -467,7 +467,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#dropTableIfExists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L848)inheriteddropTableIfExists
+### [**](#dropTableIfExists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L848)inheriteddropTableIfExists
 
 * ****dropTableIfExists**(name, schema): string
 
@@ -484,7 +484,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#dropViewIfExists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L863)inheriteddropViewIfExists
+### [**](#dropViewIfExists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L863)inheriteddropViewIfExists
 
 * ****dropViewIfExists**(name, schema): string
 
@@ -497,7 +497,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#enableForeignKeysSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L29)inheritedenableForeignKeysSQL
+### [**](#enableForeignKeysSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L29)inheritedenableForeignKeysSQL
 
 * ****enableForeignKeysSQL**(): string
 
@@ -509,7 +509,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#finalizeTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L33)inheritedfinalizeTable
+### [**](#finalizeTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L33)inheritedfinalizeTable
 
 * ****finalizeTable**(table, charset, collate): string
 
@@ -523,7 +523,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#getAddColumnsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L371)inheritedgetAddColumnsSQL
+### [**](#getAddColumnsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L371)inheritedgetAddColumnsSQL
 
 * ****getAddColumnsSQL**(table, columns): string\[]
 
@@ -540,7 +540,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string\[]
 
-### [**](#getAllChecks)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mariadb/src/MariaDbSchemaHelper.ts#L170)getAllChecks
+### [**](#getAllChecks)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mariadb/src/MariaDbSchemaHelper.ts#L170)getAllChecks
 
 * ****getAllChecks**(connection, tables, columns): Promise<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)<[CheckDef](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/CheckDef.md)\<unknown>\[]>>
 
@@ -554,7 +554,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns Promise<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)<[CheckDef](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/CheckDef.md)\<unknown>\[]>>
 
-### [**](#getAllColumns)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mariadb/src/MariaDbSchemaHelper.ts#L109)getAllColumns
+### [**](#getAllColumns)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mariadb/src/MariaDbSchemaHelper.ts#L109)getAllColumns
 
 * ****getAllColumns**(connection, tables): Promise<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)<[Column](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/Column.md)\[]>>
 
@@ -567,7 +567,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns Promise<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)<[Column](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/Column.md)\[]>>
 
-### [**](#getAllEnumDefinitions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L430)inheritedgetAllEnumDefinitions
+### [**](#getAllEnumDefinitions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L430)inheritedgetAllEnumDefinitions
 
 * ****getAllEnumDefinitions**(connection, tables): Promise<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)\<string\[]>>>
 
@@ -580,7 +580,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns Promise<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)\<string\[]>>>
 
-### [**](#getAllForeignKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L343)inheritedgetAllForeignKeys
+### [**](#getAllForeignKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L343)inheritedgetAllForeignKeys
 
 * ****getAllForeignKeys**(connection, tables): Promise<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)<[ForeignKey](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/ForeignKey.md)>>>
 
@@ -593,7 +593,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns Promise<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)<[ForeignKey](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/ForeignKey.md)>>>
 
-### [**](#getAllIndexes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mariadb/src/MariaDbSchemaHelper.ts#L55)getAllIndexes
+### [**](#getAllIndexes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mariadb/src/MariaDbSchemaHelper.ts#L55)getAllIndexes
 
 * ****getAllIndexes**(connection, tables): Promise<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)<[IndexDef](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/IndexDef.md)\[]>>
 
@@ -606,7 +606,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns Promise<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)<[IndexDef](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/IndexDef.md)\[]>>
 
-### [**](#getAllTables)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L112)inheritedgetAllTables
+### [**](#getAllTables)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L112)inheritedgetAllTables
 
 * ****getAllTables**(connection, schemas): Promise<[Table](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/Table.md)\[]>
 
@@ -623,7 +623,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns Promise<[Table](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/Table.md)\[]>
 
-### [**](#getAlterNativeEnumSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L94)inheritedgetAlterNativeEnumSQL
+### [**](#getAlterNativeEnumSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L94)inheritedgetAlterNativeEnumSQL
 
 * ****getAlterNativeEnumSQL**(name, schema, value, items, oldItems): string
 
@@ -639,7 +639,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#getChangeColumnCommentSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L406)inheritedgetChangeColumnCommentSQL
+### [**](#getChangeColumnCommentSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L406)inheritedgetChangeColumnCommentSQL
 
 * ****getChangeColumnCommentSQL**(tableName, to, schemaName): string
 
@@ -653,7 +653,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#getCreateDatabaseSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L577)inheritedgetCreateDatabaseSQL
+### [**](#getCreateDatabaseSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L577)inheritedgetCreateDatabaseSQL
 
 * ****getCreateDatabaseSQL**(name): string
 
@@ -665,7 +665,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#getCreateIndexSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L169)inheritedgetCreateIndexSQL
+### [**](#getCreateIndexSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L169)inheritedgetCreateIndexSQL
 
 * ****getCreateIndexSQL**(tableName, index, partialExpression): string
 
@@ -683,7 +683,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#getCreateNamespaceSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L588)inheritedgetCreateNamespaceSQL
+### [**](#getCreateNamespaceSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L588)inheritedgetCreateNamespaceSQL
 
 * ****getCreateNamespaceSQL**(name): string
 
@@ -695,7 +695,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#getCreateNativeEnumSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L86)inheritedgetCreateNativeEnumSQL
+### [**](#getCreateNativeEnumSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L86)inheritedgetCreateNativeEnumSQL
 
 * ****getCreateNativeEnumSQL**(name, values, schema): string
 
@@ -709,7 +709,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#getDatabaseExistsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L597)inheritedgetDatabaseExistsSQL
+### [**](#getDatabaseExistsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L597)inheritedgetDatabaseExistsSQL
 
 * ****getDatabaseExistsSQL**(name): string
 
@@ -721,7 +721,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#getDatabaseNotExistsError)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L601)inheritedgetDatabaseNotExistsError
+### [**](#getDatabaseNotExistsError)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L601)inheritedgetDatabaseNotExistsError
 
 * ****getDatabaseNotExistsError**(dbName): string
 
@@ -733,7 +733,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#getDefaultEmptyString)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L609)inheritedgetDefaultEmptyString
+### [**](#getDefaultEmptyString)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L609)inheritedgetDefaultEmptyString
 
 * ****getDefaultEmptyString**(): string
 
@@ -741,7 +741,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#getDropColumnsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L381)inheritedgetDropColumnsSQL
+### [**](#getDropColumnsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L381)inheritedgetDropColumnsSQL
 
 * ****getDropColumnsSQL**(tableName, columns, schemaName): string
 
@@ -755,7 +755,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#getDropDatabaseSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L583)inheritedgetDropDatabaseSQL
+### [**](#getDropDatabaseSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L583)inheritedgetDropDatabaseSQL
 
 * ****getDropDatabaseSQL**(name): string
 
@@ -767,7 +767,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#getDropIndexSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L216)inheritedgetDropIndexSQL
+### [**](#getDropIndexSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L216)inheritedgetDropIndexSQL
 
 * ****getDropIndexSQL**(tableName, index): string
 
@@ -784,7 +784,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#getDropNamespaceSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L593)inheritedgetDropNamespaceSQL
+### [**](#getDropNamespaceSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L593)inheritedgetDropNamespaceSQL
 
 * ****getDropNamespaceSQL**(name): string
 
@@ -796,7 +796,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#getDropNativeEnumSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L90)inheritedgetDropNativeEnumSQL
+### [**](#getDropNativeEnumSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L90)inheritedgetDropNativeEnumSQL
 
 * ****getDropNativeEnumSQL**(name, schema): string
 
@@ -809,7 +809,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#getListMaterializedViewsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L885)inheritedgetListMaterializedViewsSQL
+### [**](#getListMaterializedViewsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L885)inheritedgetListMaterializedViewsSQL
 
 * ****getListMaterializedViewsSQL**(): string
 
@@ -817,7 +817,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#getListTablesSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L49)inheritedgetListTablesSQL
+### [**](#getListTablesSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L49)inheritedgetListTablesSQL
 
 * ****getListTablesSQL**(): string
 
@@ -829,7 +829,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#getListViewsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L53)inheritedgetListViewsSQL
+### [**](#getListViewsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L53)inheritedgetListViewsSQL
 
 * ****getListViewsSQL**(): string
 
@@ -837,7 +837,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#getManagementDbName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L605)inheritedgetManagementDbName
+### [**](#getManagementDbName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L605)inheritedgetManagementDbName
 
 * ****getManagementDbName**(): string
 
@@ -845,7 +845,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#getNamespaces)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L497)inheritedgetNamespaces
+### [**](#getNamespaces)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L497)inheritedgetNamespaces
 
 * ****getNamespaces**(connection): Promise\<string\[]>
 
@@ -857,7 +857,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns Promise\<string\[]>
 
-### [**](#getPostAlterTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L489)inheritedgetPostAlterTable
+### [**](#getPostAlterTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L489)inheritedgetPostAlterTable
 
 * ****getPostAlterTable**(tableDiff, safe): string\[]
 
@@ -870,7 +870,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string\[]
 
-### [**](#getPreAlterTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L372)inheritedgetPreAlterTable
+### [**](#getPreAlterTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L372)inheritedgetPreAlterTable
 
 * ****getPreAlterTable**(tableDiff, safe): string\[]
 
@@ -883,7 +883,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string\[]
 
-### [**](#getPrimaryKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L52)inheritedgetPrimaryKeys
+### [**](#getPrimaryKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L52)inheritedgetPrimaryKeys
 
 * ****getPrimaryKeys**(connection, indexes, tableName, schemaName): Promise\<string\[]>
 
@@ -898,7 +898,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns Promise\<string\[]>
 
-### [**](#getReferencedTableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L755)inheritedgetReferencedTableName
+### [**](#getReferencedTableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L755)inheritedgetReferencedTableName
 
 * ****getReferencedTableName**(referencedTableName, schema): string
 
@@ -911,7 +911,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#getRenameColumnSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L390)inheritedgetRenameColumnSQL
+### [**](#getRenameColumnSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L390)inheritedgetRenameColumnSQL
 
 * ****getRenameColumnSQL**(tableName, oldColumnName, to): string
 
@@ -929,7 +929,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#getRenameIndexSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L398)inheritedgetRenameIndexSQL
+### [**](#getRenameIndexSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L398)inheritedgetRenameIndexSQL
 
 * ****getRenameIndexSQL**(tableName, index, oldIndexName): string\[]
 
@@ -943,7 +943,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string\[]
 
-### [**](#getSchemaBeginning)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L17)inheritedgetSchemaBeginning
+### [**](#getSchemaBeginning)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L17)inheritedgetSchemaBeginning
 
 * ****getSchemaBeginning**(charset, disableForeignKeys): string
 
@@ -960,7 +960,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#getSchemaEnd)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L32)inheritedgetSchemaEnd
+### [**](#getSchemaEnd)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L32)inheritedgetSchemaEnd
 
 * ****getSchemaEnd**(disableForeignKeys): string
 
@@ -976,7 +976,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#getTablesGroupedBySchemas)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L807)inheritedgetTablesGroupedBySchemas
+### [**](#getTablesGroupedBySchemas)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L807)inheritedgetTablesGroupedBySchemas
 
 * ****getTablesGroupedBySchemas**(tables): Map\<undefined | string, [Table](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/Table.md)\[]>
 
@@ -988,7 +988,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns Map\<undefined | string, [Table](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/Table.md)\[]>
 
-### [**](#hasNonDefaultPrimaryKeyName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L388)inheritedhasNonDefaultPrimaryKeyName
+### [**](#hasNonDefaultPrimaryKeyName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L388)inheritedhasNonDefaultPrimaryKeyName
 
 * ****hasNonDefaultPrimaryKeyName**(table): boolean
 
@@ -1000,7 +1000,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns boolean
 
-### [**](#inferLengthFromColumnType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L62)inheritedinferLengthFromColumnType
+### [**](#inferLengthFromColumnType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L62)inheritedinferLengthFromColumnType
 
 * ****inferLengthFromColumnType**(type): undefined | number
 
@@ -1012,7 +1012,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns undefined | number
 
-### [**](#loadInformationSchema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mariadb/src/MariaDbSchemaHelper.ts#L31)loadInformationSchema
+### [**](#loadInformationSchema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mariadb/src/MariaDbSchemaHelper.ts#L31)loadInformationSchema
 
 * ****loadInformationSchema**(schema, connection, tables): Promise\<void>
 
@@ -1030,7 +1030,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns Promise\<void>
 
-### [**](#loadMaterializedViews)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L889)inheritedloadMaterializedViews
+### [**](#loadMaterializedViews)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L889)inheritedloadMaterializedViews
 
 * ****loadMaterializedViews**(schema, connection, schemaName): Promise\<void>
 
@@ -1044,7 +1044,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns Promise\<void>
 
-### [**](#loadViews)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L57)inheritedloadViews
+### [**](#loadViews)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L57)inheritedloadViews
 
 * ****loadViews**(schema, connection, schemaName): Promise\<void>
 
@@ -1058,7 +1058,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns Promise\<void>
 
-### [**](#mapForeignKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L530)inheritedmapForeignKeys
+### [**](#mapForeignKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L530)inheritedmapForeignKeys
 
 * ****mapForeignKeys**(fks, tableName, schemaName): [Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)
 
@@ -1072,7 +1072,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns [Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)
 
-### [**](#normalizeDefaultValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L474)inheritednormalizeDefaultValue
+### [**](#normalizeDefaultValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/MySqlSchemaHelper.ts#L474)inheritednormalizeDefaultValue
 
 * ****normalizeDefaultValue**(defaultValue, length): string | number
 
@@ -1085,7 +1085,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string | number
 
-### [**](#refreshMaterializedView)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L881)inheritedrefreshMaterializedView
+### [**](#refreshMaterializedView)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L881)inheritedrefreshMaterializedView
 
 * ****refreshMaterializedView**(name, schema, concurrently): string
 
@@ -1099,7 +1099,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns string
 
-### [**](#splitTableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L743)inheritedsplitTableName
+### [**](#splitTableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L743)inheritedsplitTableName
 
 * ****splitTableName**(name, skipDefaultSchema): \[undefined | string, string]
 
@@ -1112,7 +1112,7 @@ Inherited from MySqlSchemaHelper.DEFAULT\_VALUES
 
   #### Returns \[undefined | string, string]
 
-### [**](#supportsSchemaConstraints)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L48)inheritedsupportsSchemaConstraints
+### [**](#supportsSchemaConstraints)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L48)inheritedsupportsSchemaConstraints
 
 * ****supportsSchemaConstraints**(): boolean
 

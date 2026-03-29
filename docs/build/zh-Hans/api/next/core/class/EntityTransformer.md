@@ -22,7 +22,7 @@ Converts entity instances to plain objects via `toObject()`, respecting populate
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#toObject)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/serialization/EntityTransformer.ts#L35)statictoObject
+### [**](#toObject)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/serialization/EntityTransformer.ts#L35)statictoObject
 
 * ****toObject**\<Entity, Ignored>(entity, ignoreFields, raw): Omit<[EntityDTO](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityDTO)\<Entity>, Ignored>
 

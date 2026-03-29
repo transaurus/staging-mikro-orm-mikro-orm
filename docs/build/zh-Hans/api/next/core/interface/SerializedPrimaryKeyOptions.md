@@ -55,7 +55,7 @@
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#accessor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L322)optionalinheritedaccessor
+### [**](#accessor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L322)optionalinheritedaccessor
 
 **accessor?
 
@@ -115,7 +115,7 @@ If the `accessor` option points to something, the ORM will use the backing prope
   }
   ```
 
-### [**](#autoincrement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L145)optionalinheritedautoincrement
+### [**](#autoincrement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L145)optionalinheritedautoincrement
 
 **autoincrement?
 
@@ -127,7 +127,7 @@ Inherited from PropertyOptions.autoincrement
 
 Explicitly specify the auto increment of the primary key.
 
-### [**](#check)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L225)optionalinheritedcheck
+### [**](#check)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L225)optionalinheritedcheck
 
 **check?
 
@@ -143,7 +143,7 @@ Specify column with check constraints. (Postgres driver only)
 
   <https://mikro-orm.io/docs/defining-entities#check-constraints>
 
-### [**](#columnType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L104)optionalinheritedcolumnType
+### [**](#columnType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L104)optionalinheritedcolumnType
 
 **columnType?
 
@@ -155,7 +155,7 @@ Inherited from PropertyOptions.columnType
 
 Specify an exact database column type for Generator. This option is only for simple properties represented by a single column. (SQL only)
 
-### [**](#columnTypes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L108)optionalinheritedcolumnTypes
+### [**](#columnTypes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L108)optionalinheritedcolumnTypes
 
 **columnTypes?
 
@@ -167,7 +167,7 @@ Inherited from PropertyOptions.columnTypes
 
 Specify an exact database column type for Generator. This option is suitable for composite keys, where one property is represented by multiple columns. (SQL only)
 
-### [**](#comment)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L352)optionalinheritedcomment
+### [**](#comment)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L352)optionalinheritedcomment
 
 **comment?
 
@@ -179,7 +179,7 @@ Inherited from PropertyOptions.comment
 
 Specify comment of column for Generator. (SQL only)
 
-### [**](#concurrencyCheck)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L211)optionalinheritedconcurrencyCheck
+### [**](#concurrencyCheck)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L211)optionalinheritedconcurrencyCheck
 
 **concurrencyCheck?
 
@@ -191,7 +191,7 @@ Inherited from PropertyOptions.concurrencyCheck
 
 Set to true to enable Locking via concurrency fields.
 
-### [**](#customOrder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L348)optionalinheritedcustomOrder
+### [**](#customOrder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L348)optionalinheritedcustomOrder
 
 **customOrder?
 
@@ -203,7 +203,7 @@ Inherited from PropertyOptions.customOrder
 
 Specify a custom order based on the values. (SQL only)
 
-### [**](#default)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L164)optionalinheriteddefault
+### [**](#default)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L164)optionalinheriteddefault
 
 **default?
 
@@ -215,7 +215,7 @@ Inherited from PropertyOptions.default
 
 Specify default column value for Generator. This is a runtime value, assignable to the entity property. (SQL only)
 
-### [**](#defaultRaw)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L169)optionalinheriteddefaultRaw
+### [**](#defaultRaw)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L169)optionalinheriteddefaultRaw
 
 **defaultRaw?
 
@@ -227,7 +227,7 @@ Inherited from PropertyOptions.defaultRaw
 
 Specify SQL functions for Generator. (SQL only) Since v4 you should use defaultRaw for SQL functions. e.g. now()
 
-### [**](#extra)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L354)optionalinheritedextra
+### [**](#extra)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L354)optionalinheritedextra
 
 **extra?
 
@@ -239,7 +239,7 @@ Inherited from PropertyOptions.extra
 
 mysql only
 
-### [**](#fieldName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L93)optionalinheritedfieldName
+### [**](#fieldName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L93)optionalinheritedfieldName
 
 **fieldName?
 
@@ -255,7 +255,7 @@ Specify database column name for this property.
 
   <https://mikro-orm.io/docs/naming-strategy>
 
-### [**](#fieldNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L100)optionalinheritedfieldNames
+### [**](#fieldNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L100)optionalinheritedfieldNames
 
 **fieldNames?
 
@@ -271,7 +271,7 @@ Specify database column names for this property. Same as `fieldName` but for com
 
   <https://mikro-orm.io/docs/naming-strategy>
 
-### [**](#formula)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L175)optionalinheritedformula
+### [**](#formula)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L175)optionalinheritedformula
 
 **formula?
 
@@ -287,7 +287,7 @@ Set to map some SQL snippet for the entity.
 
   <https://mikro-orm.io/docs/defining-entities#formulas> Formulas
 
-### [**](#generated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L179)optionalinheritedgenerated
+### [**](#generated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L179)optionalinheritedgenerated
 
 **generated?
 
@@ -299,7 +299,7 @@ Inherited from PropertyOptions.generated
 
 For generated columns. This will be appended to the column type after the `generated always` clause.
 
-### [**](#getter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L262)optionalinheritedgetter
+### [**](#getter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L262)optionalinheritedgetter
 
 **getter?
 
@@ -320,7 +320,7 @@ Set true to define the properties as getter. (virtual)
   }
   ```
 
-### [**](#getterName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L275)optionalinheritedgetterName
+### [**](#getterName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L275)optionalinheritedgetterName
 
 **getterName?
 
@@ -345,7 +345,7 @@ When defining a property over a method (not a getter, a regular function), you c
   }
   ```
 
-### [**](#groups)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L344)optionalinheritedgroups
+### [**](#groups)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L344)optionalinheritedgroups
 
 **groups?
 
@@ -357,7 +357,7 @@ Inherited from PropertyOptions.groups
 
 Specify serialization groups for `serialize()` calls. If a property does not specify any group, it will be included, otherwise only properties with a matching group are included.
 
-### [**](#hidden)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L203)optionalinheritedhidden
+### [**](#hidden)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L203)optionalinheritedhidden
 
 **hidden?
 
@@ -369,7 +369,7 @@ Inherited from PropertyOptions.hidden
 
 Set to true to omit the property when Serializing.
 
-### [**](#hydrate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L195)optionalinheritedhydrate
+### [**](#hydrate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L195)optionalinheritedhydrate
 
 **hydrate?
 
@@ -381,7 +381,7 @@ Inherited from PropertyOptions.hydrate
 
 Set false to disable hydration of this property. Useful for persisted getters.
 
-### [**](#ignoreSchemaChanges)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L360)optionalinheritedignoreSchemaChanges
+### [**](#ignoreSchemaChanges)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L360)optionalinheritedignoreSchemaChanges
 
 **ignoreSchemaChanges?
 
@@ -397,7 +397,7 @@ Set to avoid a perpetual diff from the Generator when columns are generated.
 
   <https://mikro-orm.io/docs/defining-entities#sql-generated-columns>
 
-### [**](#index)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L215)optionalinheritedindex
+### [**](#index)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L215)optionalinheritedindex
 
 **index?
 
@@ -409,7 +409,7 @@ Inherited from PropertyOptions.index
 
 Explicitly specify index on a property.
 
-### [**](#lazy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L231)optionalinheritedlazy
+### [**](#lazy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L231)optionalinheritedlazy
 
 **lazy?
 
@@ -425,7 +425,7 @@ Set to omit the property from the select clause for lazy loading.
 
   <https://mikro-orm.io/docs/defining-entities#lazy-scalar-properties>
 
-### [**](#length)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L133)optionalinheritedlength
+### [**](#length)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L133)optionalinheritedlength
 
 **length?
 
@@ -437,7 +437,7 @@ Inherited from PropertyOptions.length
 
 Set length of database column, used for datetime/timestamp/varchar column types for Generator. (SQL only)
 
-### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L87)optionalinheritedname
+### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L87)optionalinheritedname
 
 **name?
 
@@ -449,7 +449,7 @@ Inherited from PropertyOptions.name
 
 Alias for `fieldName`.
 
-### [**](#nullable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L183)optionalinheritednullable
+### [**](#nullable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L183)optionalinheritednullable
 
 **nullable?
 
@@ -461,7 +461,7 @@ Inherited from PropertyOptions.nullable
 
 Set column as nullable for Generator.
 
-### [**](#onCreate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L154)optionalinheritedonCreate
+### [**](#onCreate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L154)optionalinheritedonCreate
 
 **onCreate?
 
@@ -486,7 +486,7 @@ Automatically set the property value when entity gets created, executed during f
 
     #### Returns any
 
-### [**](#onUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L159)optionalinheritedonUpdate
+### [**](#onUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L159)optionalinheritedonUpdate
 
 **onUpdate?
 
@@ -511,7 +511,7 @@ Automatically update the property value every time entity gets updated, executed
 
     #### Returns any
 
-### [**](#persist)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L191)optionalinheritedpersist
+### [**](#persist)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L191)optionalinheritedpersist
 
 **persist?
 
@@ -523,7 +523,7 @@ Inherited from PropertyOptions.persist
 
 Set false to define Property.
 
-### [**](#precision)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L137)optionalinheritedprecision
+### [**](#precision)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L137)optionalinheritedprecision
 
 **precision?
 
@@ -535,7 +535,7 @@ Inherited from PropertyOptions.precision
 
 Set precision of database column to represent the number of significant digits. (SQL only)
 
-### [**](#primary)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L238)optionalinheritedprimary
+### [**](#primary)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L238)optionalinheritedprimary
 
 **primary?
 
@@ -551,7 +551,7 @@ Set true to define entity's unique primary key identifier. Alias for `@PrimaryKe
 
   <https://mikro-orm.io/docs/decorators#primarykey>
 
-### [**](#ref)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L199)optionalinheritedref
+### [**](#ref)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L199)optionalinheritedref
 
 **ref?
 
@@ -563,7 +563,7 @@ Inherited from PropertyOptions.ref
 
 Enable `ScalarReference` wrapper for lazy values. Use this in combination with `lazy: true` to have a type-safe accessor object in place of the value.
 
-### [**](#returning)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L149)optionalinheritedreturning
+### [**](#returning)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L149)optionalinheritedreturning
 
 **returning?
 
@@ -575,7 +575,7 @@ Inherited from PropertyOptions.returning
 
 Add the property to the `returning` statement.
 
-### [**](#runtimeType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L129)optionalinheritedruntimeType
+### [**](#runtimeType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L129)optionalinheritedruntimeType
 
 **runtimeType?
 
@@ -587,7 +587,7 @@ Inherited from PropertyOptions.runtimeType
 
 Runtime type of the property. This is the JS type that your property is mapped to, e.g. `string` or `number`, and is normally inferred automatically via `reflect-metadata`. In some cases, the inference won't work, and you might need to specify the `runtimeType` explicitly - the most common one is when you use a union type with null like `foo: number | null`.
 
-### [**](#scale)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L141)optionalinheritedscale
+### [**](#scale)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L141)optionalinheritedscale
 
 **scale?
 
@@ -599,7 +599,7 @@ Inherited from PropertyOptions.scale
 
 Set scale of database column to represents the number of digits after the decimal point. (SQL only)
 
-### [**](#serializedName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L339)optionalinheritedserializedName
+### [**](#serializedName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L339)optionalinheritedserializedName
 
 **serializedName?
 
@@ -611,7 +611,7 @@ Inherited from PropertyOptions.serializedName
 
 Specify name of key for the serialized value.
 
-### [**](#serializedPrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L329)optionalinheritedserializedPrimaryKey
+### [**](#serializedPrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L329)optionalinheritedserializedPrimaryKey
 
 **serializedPrimaryKey?
 
@@ -627,7 +627,7 @@ Set to define serialized primary key for MongoDB. (virtual) Alias for `@Serializ
 
   <https://mikro-orm.io/docs/decorators#serializedprimarykey>
 
-### [**](#serializer)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L335)optionalinheritedserializer
+### [**](#serializer)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L335)optionalinheritedserializer
 
 **serializer?
 
@@ -656,7 +656,7 @@ Set to use serialize property. Allow to specify a callback that will be used whe
 
     #### Returns any
 
-### [**](#setter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L250)optionalinheritedsetter
+### [**](#setter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L250)optionalinheritedsetter
 
 **setter?
 
@@ -677,7 +677,7 @@ Set true to define the properties as setter. (virtual)
   }
   ```
 
-### [**](#type)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L661)optionaltype
+### [**](#type)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L661)optionaltype
 
 **type?
 
@@ -694,7 +694,7 @@ Explicitly specify the runtime type.
   * <https://mikro-orm.io/docs/metadata-providers>
   * <https://mikro-orm.io/docs/custom-types>
 
-### [**](#unique)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L219)optionalinheritedunique
+### [**](#unique)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L219)optionalinheritedunique
 
 **unique?
 
@@ -706,7 +706,7 @@ Inherited from PropertyOptions.unique
 
 Set column as unique for Generator. (SQL only)
 
-### [**](#unsigned)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L187)optionalinheritedunsigned
+### [**](#unsigned)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L187)optionalinheritedunsigned
 
 **unsigned?
 
@@ -718,7 +718,7 @@ Inherited from PropertyOptions.unsigned
 
 Set column as unsigned for Generator. (SQL only)
 
-### [**](#version)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L207)optionalinheritedversion
+### [**](#version)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L207)optionalinheritedversion
 
 **version?
 

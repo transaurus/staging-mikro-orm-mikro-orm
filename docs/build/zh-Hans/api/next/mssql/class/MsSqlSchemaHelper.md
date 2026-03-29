@@ -93,7 +93,7 @@ Schema introspection helper for Microsoft SQL Server.
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L10)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L10)constructor
 
 * ****new MsSqlSchemaHelper**(platform): [MsSqlSchemaHelper](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mssql/class/MsSqlSchemaHelper.md)
 
@@ -107,7 +107,7 @@ Schema introspection helper for Microsoft SQL Server.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#DEFAULT_VALUES)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L24)staticreadonlyDEFAULT\_VALUES
+### [**](#DEFAULT_VALUES)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L24)staticreadonlyDEFAULT\_VALUES
 
 **DEFAULT\_VALUES: { false: string\[]; getdate(): string\[]; true: string\[] } =
 
@@ -123,7 +123,7 @@ Schema introspection helper for Microsoft SQL Server.
 
 ## Accessors<!-- -->[**](#Accessors)
 
-### [**](#options)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L819)inheritedoptions
+### [**](#options)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L819)inheritedoptions
 
 * **get options(): { createForeignKeyConstraints?
   <!-- -->
@@ -197,7 +197,7 @@ Schema introspection helper for Microsoft SQL Server.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#alterTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L228)inheritedalterTable
+### [**](#alterTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L228)inheritedalterTable
 
 * ****alterTable**(diff, safe): string\[]
 
@@ -214,7 +214,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string\[]
 
-### [**](#alterTableColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L588)alterTableColumn
+### [**](#alterTableColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L588)alterTableColumn
 
 * ****alterTableColumn**(column, table, changedProperties): string\[]
 
@@ -228,7 +228,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string\[]
 
-### [**](#alterTableComment)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L698)inheritedalterTableComment
+### [**](#alterTableComment)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L698)inheritedalterTableComment
 
 * ****alterTableComment**(table, comment): string
 
@@ -241,7 +241,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#append)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L627)inheritedappend
+### [**](#append)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L627)inheritedappend
 
 * ****append**(array, sql, pad): void
 
@@ -255,7 +255,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns void
 
-### [**](#appendComments)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L741)appendComments
+### [**](#appendComments)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L741)appendComments
 
 * ****appendComments**(table): string\[]
 
@@ -267,7 +267,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string\[]
 
-### [**](#castColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L401)inheritedcastColumn
+### [**](#castColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L401)inheritedcastColumn
 
 * ****castColumn**(name, type): string
 
@@ -280,7 +280,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#createCheck)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L795)inheritedcreateCheck
+### [**](#createCheck)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L795)inheritedcreateCheck
 
 * ****createCheck**(table, check): string
 
@@ -293,7 +293,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#createForeignKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L703)inheritedcreateForeignKey
+### [**](#createForeignKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L703)inheritedcreateForeignKey
 
 * ****createForeignKey**(table, foreignKey, alterTable, inline): string
 
@@ -312,7 +312,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#createIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L688)createIndex
+### [**](#createIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L688)createIndex
 
 * ****createIndex**(index, table, createPrimary): string
 
@@ -326,7 +326,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#createMaterializedView)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L873)inheritedcreateMaterializedView
+### [**](#createMaterializedView)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L873)inheritedcreateMaterializedView
 
 * ****createMaterializedView**(name, schema, definition, withData): string
 
@@ -341,7 +341,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#createTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L650)inheritedcreateTable
+### [**](#createTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L650)inheritedcreateTable
 
 * ****createTable**(table, alter): string\[]
 
@@ -358,7 +358,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string\[]
 
-### [**](#createTableColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L545)createTableColumn
+### [**](#createTableColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L545)createTableColumn
 
 * ****createTableColumn**(column, table, changedProperties): undefined | string
 
@@ -372,7 +372,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns undefined | string
 
-### [**](#createView)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L858)inheritedcreateView
+### [**](#createView)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L858)inheritedcreateView
 
 * ****createView**(name, schema, definition): string
 
@@ -386,7 +386,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#databaseExists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L613)inheriteddatabaseExists
+### [**](#databaseExists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L613)inheriteddatabaseExists
 
 * ****databaseExists**(connection, name): Promise\<boolean>
 
@@ -399,7 +399,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns Promise\<boolean>
 
-### [**](#disableForeignKeysSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L39)disableForeignKeysSQL
+### [**](#disableForeignKeysSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L39)disableForeignKeysSQL
 
 * ****disableForeignKeysSQL**(): string
 
@@ -411,7 +411,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#dropConstraint)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L843)inheriteddropConstraint
+### [**](#dropConstraint)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L843)inheriteddropConstraint
 
 * ****dropConstraint**(table, name): string
 
@@ -424,7 +424,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#dropForeignKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L714)dropForeignKey
+### [**](#dropForeignKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L714)dropForeignKey
 
 * ****dropForeignKey**(tableName, constraintName): string
 
@@ -437,7 +437,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#dropIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L480)dropIndex
+### [**](#dropIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L480)dropIndex
 
 * ****dropIndex**(table, index, oldIndexName): string
 
@@ -451,7 +451,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#dropMaterializedViewIfExists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L877)inheriteddropMaterializedViewIfExists
+### [**](#dropMaterializedViewIfExists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L877)inheriteddropMaterializedViewIfExists
 
 * ****dropMaterializedViewIfExists**(name, schema): string
 
@@ -464,7 +464,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#dropTableIfExists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L718)dropTableIfExists
+### [**](#dropTableIfExists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L718)dropTableIfExists
 
 * ****dropTableIfExists**(name, schema): string
 
@@ -481,7 +481,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#dropViewIfExists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L726)dropViewIfExists
+### [**](#dropViewIfExists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L726)dropViewIfExists
 
 * ****dropViewIfExists**(name, schema): string
 
@@ -494,7 +494,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#enableForeignKeysSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L43)enableForeignKeysSQL
+### [**](#enableForeignKeysSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L43)enableForeignKeysSQL
 
 * ****enableForeignKeysSQL**(): string
 
@@ -506,7 +506,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#finalizeTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L40)inheritedfinalizeTable
+### [**](#finalizeTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L40)inheritedfinalizeTable
 
 * ****finalizeTable**(table, charset, collate): string
 
@@ -520,7 +520,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getAddColumnsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L731)getAddColumnsSQL
+### [**](#getAddColumnsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L731)getAddColumnsSQL
 
 * ****getAddColumnsSQL**(table, columns): string\[]
 
@@ -537,7 +537,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string\[]
 
-### [**](#getAllChecks)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L362)getAllChecks
+### [**](#getAllChecks)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L362)getAllChecks
 
 * ****getAllChecks**(connection, tablesBySchemas): Promise<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)<[CheckDef](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/CheckDef.md)\<unknown>\[]>>
 
@@ -548,7 +548,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns Promise<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)<[CheckDef](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/CheckDef.md)\<unknown>\[]>>
 
-### [**](#getAllColumns)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L116)getAllColumns
+### [**](#getAllColumns)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L116)getAllColumns
 
 * ****getAllColumns**(connection, tablesBySchemas): Promise<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)<[Column](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/Column.md)\[]>>
 
@@ -559,7 +559,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns Promise<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)<[Column](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/Column.md)\[]>>
 
-### [**](#getAllForeignKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L290)getAllForeignKeys
+### [**](#getAllForeignKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L290)getAllForeignKeys
 
 * ****getAllForeignKeys**(connection, tablesBySchemas): Promise<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)<[ForeignKey](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/ForeignKey.md)>>>
 
@@ -570,7 +570,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns Promise<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)<[ForeignKey](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/ForeignKey.md)>>>
 
-### [**](#getAllIndexes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L200)getAllIndexes
+### [**](#getAllIndexes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L200)getAllIndexes
 
 * ****getAllIndexes**(connection, tablesBySchemas): Promise<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)<[IndexDef](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/IndexDef.md)\[]>>
 
@@ -581,7 +581,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns Promise<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)<[IndexDef](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/IndexDef.md)\[]>>
 
-### [**](#getAllTables)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L112)inheritedgetAllTables
+### [**](#getAllTables)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L112)inheritedgetAllTables
 
 * ****getAllTables**(connection, schemas): Promise<[Table](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/Table.md)\[]>
 
@@ -598,7 +598,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns Promise<[Table](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/Table.md)\[]>
 
-### [**](#getAlterNativeEnumSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L94)inheritedgetAlterNativeEnumSQL
+### [**](#getAlterNativeEnumSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L94)inheritedgetAlterNativeEnumSQL
 
 * ****getAlterNativeEnumSQL**(name, schema, value, items, oldItems): string
 
@@ -614,7 +614,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getChangeColumnCommentSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L493)inheritedgetChangeColumnCommentSQL
+### [**](#getChangeColumnCommentSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L493)inheritedgetChangeColumnCommentSQL
 
 * ****getChangeColumnCommentSQL**(tableName, to, schemaName): string
 
@@ -628,7 +628,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getCreateDatabaseSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L577)inheritedgetCreateDatabaseSQL
+### [**](#getCreateDatabaseSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L577)inheritedgetCreateDatabaseSQL
 
 * ****getCreateDatabaseSQL**(name): string
 
@@ -640,7 +640,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getCreateIndexSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L611)getCreateIndexSQL
+### [**](#getCreateIndexSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L611)getCreateIndexSQL
 
 * ****getCreateIndexSQL**(tableName, index, partialExpression): string
 
@@ -658,7 +658,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getCreateNamespaceSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L468)getCreateNamespaceSQL
+### [**](#getCreateNamespaceSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L468)getCreateNamespaceSQL
 
 * ****getCreateNamespaceSQL**(name): string
 
@@ -670,7 +670,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getCreateNativeEnumSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L86)inheritedgetCreateNativeEnumSQL
+### [**](#getCreateNativeEnumSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L86)inheritedgetCreateNativeEnumSQL
 
 * ****getCreateNativeEnumSQL**(name, values, schema): string
 
@@ -684,7 +684,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getDatabaseExistsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L47)getDatabaseExistsSQL
+### [**](#getDatabaseExistsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L47)getDatabaseExistsSQL
 
 * ****getDatabaseExistsSQL**(name): string
 
@@ -696,7 +696,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getDatabaseNotExistsError)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L601)inheritedgetDatabaseNotExistsError
+### [**](#getDatabaseNotExistsError)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L601)inheritedgetDatabaseNotExistsError
 
 * ****getDatabaseNotExistsError**(dbName): string
 
@@ -708,7 +708,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getDefaultEmptyString)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L609)inheritedgetDefaultEmptyString
+### [**](#getDefaultEmptyString)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L609)inheritedgetDefaultEmptyString
 
 * ****getDefaultEmptyString**(): string
 
@@ -716,7 +716,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getDropColumnsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L488)getDropColumnsSQL
+### [**](#getDropColumnsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L488)getDropColumnsSQL
 
 * ****getDropColumnsSQL**(tableName, columns, schemaName): string
 
@@ -730,7 +730,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getDropDatabaseSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L34)getDropDatabaseSQL
+### [**](#getDropDatabaseSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L34)getDropDatabaseSQL
 
 * ****getDropDatabaseSQL**(name): string
 
@@ -742,7 +742,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getDropIndexSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L476)getDropIndexSQL
+### [**](#getDropIndexSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L476)getDropIndexSQL
 
 * ****getDropIndexSQL**(tableName, index): string
 
@@ -759,7 +759,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getDropNamespaceSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L472)getDropNamespaceSQL
+### [**](#getDropNamespaceSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L472)getDropNamespaceSQL
 
 * ****getDropNamespaceSQL**(name): string
 
@@ -771,7 +771,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getDropNativeEnumSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L90)inheritedgetDropNativeEnumSQL
+### [**](#getDropNativeEnumSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L90)inheritedgetDropNativeEnumSQL
 
 * ****getDropNativeEnumSQL**(name, schema): string
 
@@ -784,7 +784,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getListMaterializedViewsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L885)inheritedgetListMaterializedViewsSQL
+### [**](#getListMaterializedViewsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L885)inheritedgetListMaterializedViewsSQL
 
 * ****getListMaterializedViewsSQL**(): string
 
@@ -792,7 +792,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getListTablesSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L51)getListTablesSQL
+### [**](#getListTablesSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L51)getListTablesSQL
 
 * ****getListTablesSQL**(): string
 
@@ -804,7 +804,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getListViewsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L59)getListViewsSQL
+### [**](#getListViewsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L59)getListViewsSQL
 
 * ****getListViewsSQL**(): string
 
@@ -812,7 +812,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getManagementDbName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L30)getManagementDbName
+### [**](#getManagementDbName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L30)getManagementDbName
 
 * ****getManagementDbName**(): string
 
@@ -820,7 +820,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getNamespaces)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L83)getNamespaces
+### [**](#getNamespaces)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L83)getNamespaces
 
 * ****getNamespaces**(connection): Promise\<string\[]>
 
@@ -832,7 +832,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns Promise\<string\[]>
 
-### [**](#getPostAlterTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L444)getPostAlterTable
+### [**](#getPostAlterTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L444)getPostAlterTable
 
 * ****getPostAlterTable**(tableDiff, safe): string\[]
 
@@ -845,7 +845,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string\[]
 
-### [**](#getPreAlterTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L412)getPreAlterTable
+### [**](#getPreAlterTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L412)getPreAlterTable
 
 * ****getPreAlterTable**(tableDiff, safe): string\[]
 
@@ -858,7 +858,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string\[]
 
-### [**](#getPrimaryKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L52)inheritedgetPrimaryKeys
+### [**](#getPrimaryKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L52)inheritedgetPrimaryKeys
 
 * ****getPrimaryKeys**(connection, indexes, tableName, schemaName): Promise\<string\[]>
 
@@ -873,7 +873,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns Promise\<string\[]>
 
-### [**](#getReferencedTableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L755)inheritedgetReferencedTableName
+### [**](#getReferencedTableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L755)inheritedgetReferencedTableName
 
 * ****getReferencedTableName**(referencedTableName, schema): string
 
@@ -886,7 +886,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getRenameColumnSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L533)getRenameColumnSQL
+### [**](#getRenameColumnSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L533)getRenameColumnSQL
 
 * ****getRenameColumnSQL**(tableName, oldColumnName, to, schemaName): string
 
@@ -905,7 +905,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getRenameIndexSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L220)inheritedgetRenameIndexSQL
+### [**](#getRenameIndexSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L220)inheritedgetRenameIndexSQL
 
 * ****getRenameIndexSQL**(tableName, index, oldIndexName): string\[]
 
@@ -919,7 +919,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string\[]
 
-### [**](#getSchemaBeginning)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L13)inheritedgetSchemaBeginning
+### [**](#getSchemaBeginning)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L13)inheritedgetSchemaBeginning
 
 * ****getSchemaBeginning**(\_charset, disableForeignKeys): string
 
@@ -936,7 +936,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getSchemaEnd)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L32)inheritedgetSchemaEnd
+### [**](#getSchemaEnd)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L32)inheritedgetSchemaEnd
 
 * ****getSchemaEnd**(disableForeignKeys): string
 
@@ -952,7 +952,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getTablesGroupedBySchemas)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L807)inheritedgetTablesGroupedBySchemas
+### [**](#getTablesGroupedBySchemas)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L807)inheritedgetTablesGroupedBySchemas
 
 * ****getTablesGroupedBySchemas**(tables): Map\<undefined | string, [Table](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/Table.md)\[]>
 
@@ -964,7 +964,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns Map\<undefined | string, [Table](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/Table.md)\[]>
 
-### [**](#hasNonDefaultPrimaryKeyName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L388)inheritedhasNonDefaultPrimaryKeyName
+### [**](#hasNonDefaultPrimaryKeyName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L388)inheritedhasNonDefaultPrimaryKeyName
 
 * ****hasNonDefaultPrimaryKeyName**(table): boolean
 
@@ -976,7 +976,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#inferLengthFromColumnType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L768)inferLengthFromColumnType
+### [**](#inferLengthFromColumnType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L768)inferLengthFromColumnType
 
 * ****inferLengthFromColumnType**(type): undefined | number
 
@@ -988,7 +988,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns undefined | number
 
-### [**](#loadInformationSchema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L388)loadInformationSchema
+### [**](#loadInformationSchema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L388)loadInformationSchema
 
 * ****loadInformationSchema**(schema, connection, tables): Promise\<void>
 
@@ -1006,7 +1006,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns Promise\<void>
 
-### [**](#loadMaterializedViews)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L889)inheritedloadMaterializedViews
+### [**](#loadMaterializedViews)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L889)inheritedloadMaterializedViews
 
 * ****loadMaterializedViews**(schema, connection, schemaName): Promise\<void>
 
@@ -1020,7 +1020,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns Promise\<void>
 
-### [**](#loadViews)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L66)loadViews
+### [**](#loadViews)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L66)loadViews
 
 * ****loadViews**(schema, connection): Promise\<void>
 
@@ -1033,7 +1033,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns Promise\<void>
 
-### [**](#mapForeignKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L279)mapForeignKeys
+### [**](#mapForeignKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L279)mapForeignKeys
 
 * ****mapForeignKeys**(fks, tableName, schemaName): [Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)
 
@@ -1047,7 +1047,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns [Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)
 
-### [**](#normalizeDefaultValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlSchemaHelper.ts#L89)normalizeDefaultValue
+### [**](#normalizeDefaultValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlSchemaHelper.ts#L89)normalizeDefaultValue
 
 * ****normalizeDefaultValue**(defaultValue, length, defaultValues, stripQuotes): string | number
 
@@ -1062,7 +1062,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string | number
 
-### [**](#refreshMaterializedView)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L881)inheritedrefreshMaterializedView
+### [**](#refreshMaterializedView)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L881)inheritedrefreshMaterializedView
 
 * ****refreshMaterializedView**(name, schema, concurrently): string
 
@@ -1076,7 +1076,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#splitTableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L743)inheritedsplitTableName
+### [**](#splitTableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L743)inheritedsplitTableName
 
 * ****splitTableName**(name, skipDefaultSchema): \[undefined | string, string]
 
@@ -1089,7 +1089,7 @@ Schema introspection helper for Microsoft SQL Server.
 
   #### Returns \[undefined | string, string]
 
-### [**](#supportsSchemaConstraints)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L48)inheritedsupportsSchemaConstraints
+### [**](#supportsSchemaConstraints)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L48)inheritedsupportsSchemaConstraints
 
 * ****supportsSchemaConstraints**(): boolean
 

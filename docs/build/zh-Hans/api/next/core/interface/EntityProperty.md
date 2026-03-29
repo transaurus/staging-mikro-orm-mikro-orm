@@ -109,7 +109,7 @@ Describes a single property (column, relation, or embedded) within an entity's m
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#accessor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1013)optionalaccessor
+### [**](#accessor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1013)optionalaccessor
 
 **accessor?
 
@@ -117,7 +117,7 @@ Describes a single property (column, relation, or embedded) within an entity's m
 
 : [EntityKey](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityKey)\<Owner, false>
 
-### [**](#array)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L966)optionalarray
+### [**](#array)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L966)optionalarray
 
 **array?
 
@@ -125,7 +125,7 @@ Describes a single property (column, relation, or embedded) within an entity's m
 
 : boolean
 
-### [**](#autoincrement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L960)optionalautoincrement
+### [**](#autoincrement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L960)optionalautoincrement
 
 **autoincrement?
 
@@ -133,15 +133,15 @@ Describes a single property (column, relation, or embedded) within an entity's m
 
 : boolean
 
-### [**](#cascade)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1014)cascade
+### [**](#cascade)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1014)cascade
 
 **cascade: [Cascade](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/enum/Cascade.md)\[]
 
-### [**](#columnTypes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L954)columnTypes
+### [**](#columnTypes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L954)columnTypes
 
 **columnTypes: string\[]
 
-### [**](#comment)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1040)optionalcomment
+### [**](#comment)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1040)optionalcomment
 
 **comment?
 
@@ -149,7 +149,7 @@ Describes a single property (column, relation, or embedded) within an entity's m
 
 : string
 
-### [**](#concurrencyCheck)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1008)optionalconcurrencyCheck
+### [**](#concurrencyCheck)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1008)optionalconcurrencyCheck
 
 **concurrencyCheck?
 
@@ -157,11 +157,11 @@ Describes a single property (column, relation, or embedded) within an entity's m
 
 : boolean
 
-### [**](#createForeignKeyConstraint)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1047)createForeignKeyConstraint
+### [**](#createForeignKeyConstraint)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1047)createForeignKeyConstraint
 
 **createForeignKeyConstraint: boolean
 
-### [**](#customOrder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1026)optionalcustomOrder
+### [**](#customOrder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1026)optionalcustomOrder
 
 **customOrder?
 
@@ -169,7 +169,7 @@ Describes a single property (column, relation, or embedded) within an entity's m
 
 : string\[] | number\[] | boolean\[]
 
-### [**](#customType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L956)optionalcustomType
+### [**](#customType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L956)optionalcustomType
 
 **customType?
 
@@ -177,11 +177,11 @@ Describes a single property (column, relation, or embedded) within an entity's m
 
 : [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<any, any>
 
-### [**](#customTypes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L957)customTypes
+### [**](#customTypes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L957)customTypes
 
 **customTypes: (undefined | [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<any, any>)\[]
 
-### [**](#default)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L974)optionaldefault
+### [**](#default)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L974)optionaldefault
 
 **default?
 
@@ -189,7 +189,7 @@ Describes a single property (column, relation, or embedded) within an entity's m
 
 : null | string | number | boolean
 
-### [**](#defaultRaw)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L975)optionaldefaultRaw
+### [**](#defaultRaw)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L975)optionaldefaultRaw
 
 **defaultRaw?
 
@@ -197,7 +197,7 @@ Describes a single property (column, relation, or embedded) within an entity's m
 
 : string
 
-### [**](#deferMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1046)optionaldeferMode
+### [**](#deferMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1046)optionaldeferMode
 
 **deferMode?
 
@@ -205,7 +205,7 @@ Describes a single property (column, relation, or embedded) within an entity's m
 
 : [DeferMode](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/enum/DeferMode.md)
 
-### [**](#deleteRule)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1018)optionaldeleteRule
+### [**](#deleteRule)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1018)optionaldeleteRule
 
 **deleteRule?
 
@@ -213,7 +213,7 @@ Describes a single property (column, relation, or embedded) within an entity's m
 
 : [AnyString](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#AnyString) | cascade | no action | set null | set default
 
-### [**](#discriminator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L985)optionaldiscriminator
+### [**](#discriminator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L985)optionaldiscriminator
 
 **discriminator?
 
@@ -221,7 +221,7 @@ Describes a single property (column, relation, or embedded) within an entity's m
 
 : string
 
-### [**](#discriminatorColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L984)optionaldiscriminatorColumn
+### [**](#discriminatorColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L984)optionaldiscriminatorColumn
 
 **discriminatorColumn?
 
@@ -229,7 +229,7 @@ Describes a single property (column, relation, or embedded) within an entity's m
 
 : string
 
-### [**](#discriminatorMap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L988)optionaldiscriminatorMap
+### [**](#discriminatorMap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L988)optionaldiscriminatorMap
 
 **discriminatorMap?
 
@@ -237,7 +237,7 @@ Describes a single property (column, relation, or embedded) within an entity's m
 
 : [Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)<[EntityClass](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityClass)\<Target>>
 
-### [**](#discriminatorValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L989)optionaldiscriminatorValue
+### [**](#discriminatorValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L989)optionaldiscriminatorValue
 
 **discriminatorValue?
 
@@ -245,7 +245,7 @@ Describes a single property (column, relation, or embedded) within an entity's m
 
 : string
 
-### [**](#eager)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1009)optionaleager
+### [**](#eager)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1009)optionaleager
 
 **eager?
 
@@ -253,11 +253,11 @@ Describes a single property (column, relation, or embedded) within an entity's m
 
 : boolean
 
-### [**](#embeddable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L982)embeddable
+### [**](#embeddable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L982)embeddable
 
 **embeddable: [EntityClass](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityClass)\<Owner>
 
-### [**](#embedded)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L980)optionalembedded
+### [**](#embedded)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L980)optionalembedded
 
 **embedded?
 
@@ -265,7 +265,7 @@ Describes a single property (column, relation, or embedded) within an entity's m
 
 : \[[EntityKey](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityKey)\<Owner, false>, [EntityKey](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityKey)\<Owner, false>]
 
-### [**](#embeddedPath)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L981)optionalembeddedPath
+### [**](#embeddedPath)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L981)optionalembeddedPath
 
 **embeddedPath?
 
@@ -273,11 +273,11 @@ Describes a single property (column, relation, or embedded) within an entity's m
 
 : string\[]
 
-### [**](#embeddedProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L983)embeddedProps
+### [**](#embeddedProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L983)embeddedProps
 
 **embeddedProps: [Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)<[EntityProperty](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/EntityProperty.md)\<any, any>>
 
-### [**](#entity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L949)entity
+### [**](#entity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L949)entity
 
 **entity: () => [EntityName](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityName)\<Owner>
 
@@ -287,7 +287,7 @@ Describes a single property (column, relation, or embedded) within an entity's m
 
   - #### Returns [EntityName](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityName)\<Owner>
 
-### [**](#enum)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1004)optionalenum
+### [**](#enum)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1004)optionalenum
 
 **enum?
 
@@ -295,7 +295,7 @@ Describes a single property (column, relation, or embedded) within an entity's m
 
 : boolean
 
-### [**](#extra)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1042)optionalextra
+### [**](#extra)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1042)optionalextra
 
 **extra?
 
@@ -305,7 +305,7 @@ Describes a single property (column, relation, or embedded) within an entity's m
 
 mysql only
 
-### [**](#fieldNameRaw)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L973)optionalfieldNameRaw
+### [**](#fieldNameRaw)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L973)optionalfieldNameRaw
 
 **fieldNameRaw?
 
@@ -313,11 +313,11 @@ mysql only
 
 : string
 
-### [**](#fieldNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L972)fieldNames
+### [**](#fieldNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L972)fieldNames
 
 **fieldNames: string\[]
 
-### [**](#filters)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L977)optionalfilters
+### [**](#filters)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L977)optionalfilters
 
 **filters?
 
@@ -325,7 +325,7 @@ mysql only
 
 : [FilterOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#FilterOptions)
 
-### [**](#fixedOrder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1027)optionalfixedOrder
+### [**](#fixedOrder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1027)optionalfixedOrder
 
 **fixedOrder?
 
@@ -333,7 +333,7 @@ mysql only
 
 : boolean
 
-### [**](#fixedOrderColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1028)optionalfixedOrderColumn
+### [**](#fixedOrderColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1028)optionalfixedOrderColumn
 
 **fixedOrderColumn?
 
@@ -341,7 +341,7 @@ mysql only
 
 : string
 
-### [**](#foreignKeyName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1048)optionalforeignKeyName
+### [**](#foreignKeyName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1048)optionalforeignKeyName
 
 **foreignKeyName?
 
@@ -349,7 +349,7 @@ mysql only
 
 : string
 
-### [**](#formula)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L976)optionalformula
+### [**](#formula)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L976)optionalformula
 
 **formula?
 
@@ -357,7 +357,7 @@ mysql only
 
 : [FormulaCallback](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#FormulaCallback)\<Owner>
 
-### [**](#generated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L955)optionalgenerated
+### [**](#generated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L955)optionalgenerated
 
 **generated?
 
@@ -365,7 +365,7 @@ mysql only
 
 : string | [RawQueryFragment](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)\<string> | [GeneratedColumnCallback](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#GeneratedColumnCallback)\<Owner>
 
-### [**](#getter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1011)optionalgetter
+### [**](#getter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1011)optionalgetter
 
 **getter?
 
@@ -373,7 +373,7 @@ mysql only
 
 : boolean
 
-### [**](#getterName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1012)optionalgetterName
+### [**](#getterName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1012)optionalgetterName
 
 **getterName?
 
@@ -385,7 +385,7 @@ mysql only
 
 Owner
 
-### [**](#groups)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L964)optionalgroups
+### [**](#groups)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L964)optionalgroups
 
 **groups?
 
@@ -393,15 +393,15 @@ Owner
 
 : string\[]
 
-### [**](#hasConvertToDatabaseValueSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L959)hasConvertToDatabaseValueSQL
+### [**](#hasConvertToDatabaseValueSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L959)hasConvertToDatabaseValueSQL
 
 **hasConvertToDatabaseValueSQL: boolean
 
-### [**](#hasConvertToJSValueSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L958)hasConvertToJSValueSQL
+### [**](#hasConvertToJSValueSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L958)hasConvertToJSValueSQL
 
 **hasConvertToJSValueSQL: boolean
 
-### [**](#hidden)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1003)optionalhidden
+### [**](#hidden)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1003)optionalhidden
 
 **hidden?
 
@@ -409,7 +409,7 @@ Owner
 
 : boolean
 
-### [**](#hydrate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1002)optionalhydrate
+### [**](#hydrate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1002)optionalhydrate
 
 **hydrate?
 
@@ -417,7 +417,7 @@ Owner
 
 : boolean
 
-### [**](#ignoreSchemaChanges)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1045)optionalignoreSchemaChanges
+### [**](#ignoreSchemaChanges)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1045)optionalignoreSchemaChanges
 
 **ignoreSchemaChanges?
 
@@ -425,7 +425,7 @@ Owner
 
 : (type | extra | default)\[]
 
-### [**](#index)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L991)optionalindex
+### [**](#index)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L991)optionalindex
 
 **index?
 
@@ -433,7 +433,7 @@ Owner
 
 : string | boolean
 
-### [**](#inherited)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L994)optionalinherited
+### [**](#inherited)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L994)optionalinherited
 
 **inherited?
 
@@ -441,15 +441,15 @@ Owner
 
 : boolean
 
-### [**](#inversedBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1022)inversedBy
+### [**](#inversedBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1022)inversedBy
 
 **inversedBy: [EntityKey](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityKey)\<Target, false>
 
-### [**](#inverseJoinColumns)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1033)inverseJoinColumns
+### [**](#inverseJoinColumns)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1033)inverseJoinColumns
 
 **inverseJoinColumns: string\[]
 
-### [**](#items)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1005)optionalitems
+### [**](#items)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1005)optionalitems
 
 **items?
 
@@ -457,15 +457,15 @@ Owner
 
 : (string | number)\[]
 
-### [**](#joinColumns)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1031)joinColumns
+### [**](#joinColumns)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1031)joinColumns
 
 **joinColumns: string\[]
 
-### [**](#kind)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L970)kind
+### [**](#kind)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L970)kind
 
 **kind: [ReferenceKind](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/enum/ReferenceKind.md)
 
-### [**](#lazy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L965)optionallazy
+### [**](#lazy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L965)optionallazy
 
 **lazy?
 
@@ -473,7 +473,7 @@ Owner
 
 : boolean
 
-### [**](#length)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L967)optionallength
+### [**](#length)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L967)optionallength
 
 **length?
 
@@ -481,11 +481,11 @@ Owner
 
 : number
 
-### [**](#mappedBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1023)mappedBy
+### [**](#mappedBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1023)mappedBy
 
 **mappedBy: [EntityKey](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityKey)\<Target, false>
 
-### [**](#mapToPk)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1000)optionalmapToPk
+### [**](#mapToPk)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1000)optionalmapToPk
 
 **mapToPk?
 
@@ -493,11 +493,11 @@ Owner
 
 : boolean
 
-### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L948)name
+### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L948)name
 
 **name: [EntityKey](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityKey)\<Owner, false>
 
-### [**](#nativeEnumName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1006)optionalnativeEnumName
+### [**](#nativeEnumName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1006)optionalnativeEnumName
 
 **nativeEnumName?
 
@@ -505,7 +505,7 @@ Owner
 
 : string
 
-### [**](#nullable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L993)optionalnullable
+### [**](#nullable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L993)optionalnullable
 
 **nullable?
 
@@ -513,7 +513,7 @@ Owner
 
 : boolean
 
-### [**](#object)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L990)optionalobject
+### [**](#object)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L990)optionalobject
 
 **object?
 
@@ -521,7 +521,7 @@ Owner
 
 : boolean
 
-### [**](#onCreate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1016)optionalonCreate
+### [**](#onCreate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1016)optionalonCreate
 
 **onCreate?
 
@@ -540,7 +540,7 @@ Owner
 
     #### Returns any
 
-### [**](#onUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1017)optionalonUpdate
+### [**](#onUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1017)optionalonUpdate
 
 **onUpdate?
 
@@ -559,7 +559,7 @@ Owner
 
     #### Returns any
 
-### [**](#optional)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1044)optionaloptional
+### [**](#optional)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1044)optionaloptional
 
 **optional?
 
@@ -567,7 +567,7 @@ Owner
 
 : boolean
 
-### [**](#orderBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1025)optionalorderBy
+### [**](#orderBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1025)optionalorderBy
 
 **orderBy?
 
@@ -575,7 +575,7 @@ Owner
 
 : [QueryOrderMap](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#QueryOrderMap)\<Owner> | [QueryOrderMap](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#QueryOrderMap)\<Owner>\[]
 
-### [**](#orphanRemoval)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1015)optionalorphanRemoval
+### [**](#orphanRemoval)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1015)optionalorphanRemoval
 
 **orphanRemoval?
 
@@ -583,15 +583,15 @@ Owner
 
 : boolean
 
-### [**](#ownColumns)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1032)ownColumns
+### [**](#ownColumns)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1032)ownColumns
 
 **ownColumns: string\[]
 
-### [**](#owner)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1021)owner
+### [**](#owner)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1021)owner
 
 **owner: boolean
 
-### [**](#persist)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1001)optionalpersist
+### [**](#persist)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1001)optionalpersist
 
 **persist?
 
@@ -599,15 +599,15 @@ Owner
 
 : boolean
 
-### [**](#pivotEntity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1030)pivotEntity
+### [**](#pivotEntity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1030)pivotEntity
 
 **pivotEntity: [EntityClass](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityClass)\<Target>
 
-### [**](#pivotTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1029)pivotTable
+### [**](#pivotTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1029)pivotTable
 
 **pivotTable: string
 
-### [**](#polymorphic)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L986)optionalpolymorphic
+### [**](#polymorphic)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L986)optionalpolymorphic
 
 **polymorphic?
 
@@ -615,7 +615,7 @@ Owner
 
 : boolean
 
-### [**](#polymorphTargets)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L987)optionalpolymorphTargets
+### [**](#polymorphTargets)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L987)optionalpolymorphTargets
 
 **polymorphTargets?
 
@@ -623,7 +623,7 @@ Owner
 
 : [EntityMetadata](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityMetadata.md)\<any, [EntityCtor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityCtor)\<any>>\[]
 
-### [**](#precision)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L968)optionalprecision
+### [**](#precision)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L968)optionalprecision
 
 **precision?
 
@@ -631,7 +631,7 @@ Owner
 
 : number
 
-### [**](#prefix)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L978)optionalprefix
+### [**](#prefix)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L978)optionalprefix
 
 **prefix?
 
@@ -639,7 +639,7 @@ Owner
 
 : string | boolean
 
-### [**](#prefixMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L979)optionalprefixMode
+### [**](#prefixMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L979)optionalprefixMode
 
 **prefixMode?
 
@@ -647,7 +647,7 @@ Owner
 
 : [EmbeddedPrefixMode](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EmbeddedPrefixMode)
 
-### [**](#primary)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L962)optionalprimary
+### [**](#primary)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L962)optionalprimary
 
 **primary?
 
@@ -655,7 +655,7 @@ Owner
 
 : boolean
 
-### [**](#ref)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L971)optionalref
+### [**](#ref)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L971)optionalref
 
 **ref?
 
@@ -663,19 +663,19 @@ Owner
 
 : boolean
 
-### [**](#referencedColumnNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1034)referencedColumnNames
+### [**](#referencedColumnNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1034)referencedColumnNames
 
 **referencedColumnNames: string\[]
 
-### [**](#referencedPKs)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1036)referencedPKs
+### [**](#referencedPKs)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1036)referencedPKs
 
 **referencedPKs: [EntityKey](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityKey)\<Owner, false>\[]
 
-### [**](#referencedTableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1035)referencedTableName
+### [**](#referencedTableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1035)referencedTableName
 
 **referencedTableName: string
 
-### [**](#renamedFrom)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L995)optionalrenamedFrom
+### [**](#renamedFrom)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L995)optionalrenamedFrom
 
 **renamedFrom?
 
@@ -683,7 +683,7 @@ Owner
 
 : string
 
-### [**](#returning)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L961)optionalreturning
+### [**](#returning)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L961)optionalreturning
 
 **returning?
 
@@ -691,11 +691,11 @@ Owner
 
 : boolean
 
-### [**](#runtimeType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L952)runtimeType
+### [**](#runtimeType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L952)runtimeType
 
 **runtimeType: string | number | bigint | boolean | object | [AnyString](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#AnyString) | Buffer | Date | any
 
-### [**](#scale)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L969)optionalscale
+### [**](#scale)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L969)optionalscale
 
 **scale?
 
@@ -703,7 +703,7 @@ Owner
 
 : number
 
-### [**](#serializedName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1039)optionalserializedName
+### [**](#serializedName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1039)optionalserializedName
 
 **serializedName?
 
@@ -711,11 +711,11 @@ Owner
 
 : string
 
-### [**](#serializedPrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L963)serializedPrimaryKey
+### [**](#serializedPrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L963)serializedPrimaryKey
 
 **serializedPrimaryKey: boolean
 
-### [**](#serializer)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1038)optionalserializer
+### [**](#serializer)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1038)optionalserializer
 
 **serializer?
 
@@ -734,7 +734,7 @@ Owner
 
     #### Returns any
 
-### [**](#setter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1010)optionalsetter
+### [**](#setter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1010)optionalsetter
 
 **setter?
 
@@ -742,7 +742,7 @@ Owner
 
 : boolean
 
-### [**](#stiFieldNameMap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L998)optionalstiFieldNameMap
+### [**](#stiFieldNameMap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L998)optionalstiFieldNameMap
 
 **stiFieldNameMap?
 
@@ -750,7 +750,7 @@ Owner
 
 : [Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)\<string>
 
-### [**](#stiFieldNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L997)optionalstiFieldNames
+### [**](#stiFieldNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L997)optionalstiFieldNames
 
 **stiFieldNames?
 
@@ -758,7 +758,7 @@ Owner
 
 : string\[]
 
-### [**](#stiMerged)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L996)optionalstiMerged
+### [**](#stiMerged)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L996)optionalstiMerged
 
 **stiMerged?
 
@@ -766,7 +766,7 @@ Owner
 
 : boolean
 
-### [**](#strategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1020)optionalstrategy
+### [**](#strategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1020)optionalstrategy
 
 **strategy?
 
@@ -774,11 +774,11 @@ Owner
 
 : [LoadStrategy](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/enum/LoadStrategy.md)
 
-### [**](#target)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L950)target
+### [**](#target)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L950)target
 
 **target: [EntityClass](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityClass)\<Target>
 
-### [**](#targetKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1037)optionaltargetKey
+### [**](#targetKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1037)optionaltargetKey
 
 **targetKey?
 
@@ -786,7 +786,7 @@ Owner
 
 : string
 
-### [**](#targetMeta)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L953)optionaltargetMeta
+### [**](#targetMeta)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L953)optionaltargetMeta
 
 **targetMeta?
 
@@ -794,11 +794,11 @@ Owner
 
 : [EntityMetadata](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityMetadata.md)\<Target, [EntityCtor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityCtor)\<Target>>
 
-### [**](#type)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L951)type
+### [**](#type)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L951)type
 
 **type: string | bigint | boolean | [AnyString](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#AnyString) | uuid | date | time | datetime | blob | uint8array | array | enumArray | enum | json | integer | smallint | tinyint | mediumint | float | double | decimal | character | text | interval | unknown
 
-### [**](#unique)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L992)optionalunique
+### [**](#unique)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L992)optionalunique
 
 **unique?
 
@@ -806,7 +806,7 @@ Owner
 
 : string | boolean
 
-### [**](#unsigned)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L999)optionalunsigned
+### [**](#unsigned)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L999)optionalunsigned
 
 **unsigned?
 
@@ -814,7 +814,7 @@ Owner
 
 : boolean
 
-### [**](#updateRule)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1019)optionalupdateRule
+### [**](#updateRule)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1019)optionalupdateRule
 
 **updateRule?
 
@@ -822,7 +822,7 @@ Owner
 
 : [AnyString](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#AnyString) | cascade | no action | set null | set default
 
-### [**](#userDefined)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1043)optionaluserDefined
+### [**](#userDefined)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1043)optionaluserDefined
 
 **userDefined?
 
@@ -830,7 +830,7 @@ Owner
 
 : boolean
 
-### [**](#version)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1007)optionalversion
+### [**](#version)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1007)optionalversion
 
 **version?
 
@@ -838,7 +838,7 @@ Owner
 
 : boolean
 
-### [**](#where)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1024)optionalwhere
+### [**](#where)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1024)optionalwhere
 
 **where?
 

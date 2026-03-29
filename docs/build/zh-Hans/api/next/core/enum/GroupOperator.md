@@ -11,13 +11,13 @@ Logical grouping operators for combining query conditions.
 
 ## Enumeration Members<!-- -->[**](<#Enumeration Members>)
 
-### [**](#$and)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L34)$and
+### [**](#$and)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L34)$and
 
 **$and: and
 
 Logical AND — all conditions must match.
 
-### [**](#$or)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L36)$or
+### [**](#$or)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L36)$or
 
 **$or: or
 

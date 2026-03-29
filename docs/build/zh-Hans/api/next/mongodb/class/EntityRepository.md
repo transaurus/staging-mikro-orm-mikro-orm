@@ -43,7 +43,7 @@ Entity repository with MongoDB-specific methods such as `aggregate()`.
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoEntityRepository.ts#L7)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoEntityRepository.ts#L7)constructor
 
 * ****new EntityRepository**\<T>(em, entityName): [MongoEntityRepository](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mongodb/class/EntityRepository.md)\<T>
 
@@ -58,7 +58,7 @@ Entity repository with MongoDB-specific methods such as `aggregate()`.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#aggregate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoEntityRepository.ts#L17)aggregate
+### [**](#aggregate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoEntityRepository.ts#L17)aggregate
 
 * ****aggregate**(pipeline): Promise\<any\[]>
 
@@ -72,7 +72,7 @@ Entity repository with MongoDB-specific methods such as `aggregate()`.
 
   #### Returns Promise\<any\[]>
 
-### [**](#assign)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L373)inheritedassign
+### [**](#assign)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L373)inheritedassign
 
 * ****assign**\<Ent, Naked, Convert, Data>(entity, data, options): [MergeSelected](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MergeSelected)\<Ent, Naked, keyof
   <!-- -->
@@ -92,7 +92,7 @@ Entity repository with MongoDB-specific methods such as `aggregate()`.
 
   #### Returns [MergeSelected](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MergeSelected)\<Ent, Naked, keyof<!-- --> Data & string>
 
-### [**](#canPopulate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L281)inheritedcanPopulate
+### [**](#canPopulate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L281)inheritedcanPopulate
 
 * ****canPopulate**(property): boolean
 
@@ -108,7 +108,7 @@ Entity repository with MongoDB-specific methods such as `aggregate()`.
 
   #### Returns boolean
 
-### [**](#count)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L400)inheritedcount
+### [**](#count)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L400)inheritedcount
 
 * ****count**\<Hint>(where, options): Promise\<number>
 
@@ -125,7 +125,7 @@ Entity repository with MongoDB-specific methods such as `aggregate()`.
 
   #### Returns Promise\<number>
 
-### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L323)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L343)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L363)inheritedcreate
+### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L323)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L343)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L363)inheritedcreate
 
 * ****create**\<Convert, Data>(data, options): T
 * ****create**\<Convert, Data>(data, options): T
@@ -147,7 +147,7 @@ Entity repository with MongoDB-specific methods such as `aggregate()`.
 
   #### Returns T
 
-### [**](#find)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L140)inheritedfind
+### [**](#find)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L140)inheritedfind
 
 * ****find**\<Hint, Fields, Excludes>(where, options): Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<T, Hint, Fields, Excludes>\[]>
 
@@ -164,7 +164,7 @@ Entity repository with MongoDB-specific methods such as `aggregate()`.
 
   #### Returns Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<T, Hint, Fields, Excludes>\[]>
 
-### [**](#findAll)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L175)inheritedfindAll
+### [**](#findAll)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L175)inheritedfindAll
 
 * ****findAll**\<Hint, Fields, Excludes>(options): Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<T, Hint, Fields, Excludes>\[]>
 
@@ -180,7 +180,7 @@ Entity repository with MongoDB-specific methods such as `aggregate()`.
 
   #### Returns Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<T, Hint, Fields, Excludes>\[]>
 
-### [**](#findAndCount)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L151)inheritedfindAndCount
+### [**](#findAndCount)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L151)inheritedfindAndCount
 
 * ****findAndCount**\<Hint, Fields, Excludes>(where, options): Promise<\[[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<T, Hint, Fields, Excludes>\[], number]>
 
@@ -197,7 +197,7 @@ Entity repository with MongoDB-specific methods such as `aggregate()`.
 
   #### Returns Promise<\[[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<T, Hint, Fields, Excludes>\[], number]>
 
-### [**](#findByCursor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L161)inheritedfindByCursor
+### [**](#findByCursor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L161)inheritedfindByCursor
 
 * ****findByCursor**\<Hint, Fields, Excludes, IncludeCount>(options): Promise<[Cursor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Cursor.md)\<T, Hint, Fields, Excludes, IncludeCount>>
 
@@ -264,7 +264,7 @@ Entity repository with MongoDB-specific methods such as `aggregate()`.
 
   #### Returns Promise<[Cursor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Cursor.md)\<T, Hint, Fields, Excludes, IncludeCount>>
 
-### [**](#findOne)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L53)inheritedfindOne
+### [**](#findOne)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L53)inheritedfindOne
 
 * ****findOne**\<Hint, Fields, Excludes>(where, options): Promise\<null | [Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<T, Hint, Fields, Excludes>>
 
@@ -281,7 +281,7 @@ Entity repository with MongoDB-specific methods such as `aggregate()`.
 
   #### Returns Promise\<null | [Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<T, Hint, Fields, Excludes>>
 
-### [**](#findOneOrFail)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L65)inheritedfindOneOrFail
+### [**](#findOneOrFail)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L65)inheritedfindOneOrFail
 
 * ****findOneOrFail**\<Hint, Fields, Excludes>(where, options): Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<T, Hint, Fields, Excludes>>
 
@@ -298,13 +298,13 @@ Entity repository with MongoDB-specific methods such as `aggregate()`.
 
   #### Returns Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<T, Hint, Fields, Excludes>>
 
-### [**](#getCollection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoEntityRepository.ts#L21)getCollection
+### [**](#getCollection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoEntityRepository.ts#L21)getCollection
 
 * ****getCollection**(): Collection\<T>
 
 - #### Returns Collection\<T>
 
-### [**](#getEntityManager)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoEntityRepository.ts#L28)getEntityManager
+### [**](#getEntityManager)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoEntityRepository.ts#L28)getEntityManager
 
 * ****getEntityManager**(): [MongoEntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mongodb/class/EntityManager.md)<[MongoDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mongodb/class/MongoDriver.md)>
 
@@ -316,7 +316,7 @@ Entity repository with MongoDB-specific methods such as `aggregate()`.
 
   #### Returns [MongoEntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mongodb/class/EntityManager.md)<[MongoDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mongodb/class/MongoDriver.md)>
 
-### [**](#getEntityName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L408)inheritedgetEntityName
+### [**](#getEntityName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L408)inheritedgetEntityName
 
 * ****getEntityName**(): string
 
@@ -328,7 +328,7 @@ Entity repository with MongoDB-specific methods such as `aggregate()`.
 
   #### Returns string
 
-### [**](#getReference)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L239)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L248)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L256)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L264)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L269)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L274)inheritedgetReference
+### [**](#getReference)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L239)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L248)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L256)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L264)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L269)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L274)inheritedgetReference
 
 * ****getReference**\<K>(id, options): [Ref](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Ref)\<T>
 * ****getReference**\<K>(id, options): T
@@ -349,7 +349,7 @@ Entity repository with MongoDB-specific methods such as `aggregate()`.
 
   #### Returns [Ref](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Ref)\<T>
 
-### [**](#insert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L193)inheritedinsert
+### [**](#insert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L193)inheritedinsert
 
 * ****insert**(data, options): Promise\<T extends { \[PrimaryKeyProp]?
   <!-- -->
@@ -378,7 +378,7 @@ Entity repository with MongoDB-specific methods such as `aggregate()`.
 
   #### Returns Promise\<T extends { \[PrimaryKeyProp]?<!-- -->: PK } ? PK extends undefined ? Omit\<T\<T>, typeof [PrimaryKeyProp](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#PrimaryKeyProp)> : PK extends keyof<!-- --> T\<T> ? ReadonlyPrimary\<UnwrapPrimary\<T\<T>\[PK\<PK>]>> : PK extends keyof<!-- --> T\<T>\[] ? ReadonlyPrimary\<PrimaryPropToType\<T\<T>, PK\<PK>>> : PK : T extends { \_id?<!-- -->: PK } ? string | ReadonlyPrimary\<PK> : T extends { id?<!-- -->: PK } ? ReadonlyPrimary\<PK> : T extends { uuid?<!-- -->: PK } ? ReadonlyPrimary\<PK> : T>
 
-### [**](#insertMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L203)inheritedinsertMany
+### [**](#insertMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L203)inheritedinsertMany
 
 * ****insertMany**(data, options): Promise<(T extends { \[PrimaryKeyProp]?
   <!-- -->
@@ -407,7 +407,7 @@ Entity repository with MongoDB-specific methods such as `aggregate()`.
 
   #### Returns Promise<(T extends { \[PrimaryKeyProp]?<!-- -->: PK } ? PK extends undefined ? Omit\<T\<T>, typeof [PrimaryKeyProp](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#PrimaryKeyProp)> : PK extends keyof<!-- --> T\<T> ? ReadonlyPrimary\<UnwrapPrimary\<T\<T>\[PK\<PK>]>> : PK extends keyof<!-- --> T\<T>\[] ? ReadonlyPrimary\<PrimaryPropToType\<T\<T>, PK\<PK>>> : PK : T extends { \_id?<!-- -->: PK } ? string | ReadonlyPrimary\<PK> : T extends { id?<!-- -->: PK } ? ReadonlyPrimary\<PK> : T extends { uuid?<!-- -->: PK } ? ReadonlyPrimary\<PK> : T)\[]>
 
-### [**](#map)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L231)inheritedmap
+### [**](#map)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L231)inheritedmap
 
 * ****map**(result, options): T
 
@@ -425,7 +425,7 @@ Entity repository with MongoDB-specific methods such as `aggregate()`.
 
   #### Returns T
 
-### [**](#merge)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L393)inheritedmerge
+### [**](#merge)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L393)inheritedmerge
 
 * ****merge**(data, options): T
 
@@ -442,7 +442,7 @@ Entity repository with MongoDB-specific methods such as `aggregate()`.
 
   #### Returns T
 
-### [**](#nativeDelete)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L224)inheritednativeDelete
+### [**](#nativeDelete)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L224)inheritednativeDelete
 
 * ****nativeDelete**(where, options): Promise\<number>
 
@@ -459,7 +459,7 @@ Entity repository with MongoDB-specific methods such as `aggregate()`.
 
   #### Returns Promise\<number>
 
-### [**](#nativeUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L213)inheritednativeUpdate
+### [**](#nativeUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L213)inheritednativeUpdate
 
 * ****nativeUpdate**(where, data, options): Promise\<number>
 
@@ -477,7 +477,7 @@ Entity repository with MongoDB-specific methods such as `aggregate()`.
 
   #### Returns Promise\<number>
 
-### [**](#populate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L288)inheritedpopulate
+### [**](#populate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L288)inheritedpopulate
 
 * ****populate**\<Ent, Hint, Naked, Fields, Excludes>(entities, populate, options): Promise\<Ent extends object\[] ? [MergeLoaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MergeLoaded)\<ArrayElement\<Ent\<Ent>>, Naked, Hint, Fields, Excludes, false>\[] : [MergeLoaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MergeLoaded)\<Ent, Naked, Hint, Fields, Excludes, false>>
 
@@ -495,7 +495,7 @@ Entity repository with MongoDB-specific methods such as `aggregate()`.
 
   #### Returns Promise\<Ent extends object\[] ? [MergeLoaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MergeLoaded)\<ArrayElement\<Ent\<Ent>>, Naked, Hint, Fields, Excludes, false>\[] : [MergeLoaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MergeLoaded)\<Ent, Naked, Hint, Fields, Excludes, false>>
 
-### [**](#stream)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L184)inheritedstream
+### [**](#stream)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L184)inheritedstream
 
 * ****stream**\<Hint, Fields, Excludes>(options): AsyncIterableIterator<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<T, Hint, Fields, Excludes>, any, any>
 
@@ -520,7 +520,7 @@ Entity repository with MongoDB-specific methods such as `aggregate()`.
 
   #### Returns AsyncIterableIterator<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<T, Hint, Fields, Excludes>, any, any>
 
-### [**](#upsert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L98)inheritedupsert
+### [**](#upsert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L98)inheritedupsert
 
 * ****upsert**\<Fields>(entityOrData, options): Promise\<T>
 
@@ -554,7 +554,7 @@ Entity repository with MongoDB-specific methods such as `aggregate()`.
 
   #### Returns Promise\<T>
 
-### [**](#upsertMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L130)inheritedupsertMany
+### [**](#upsertMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L130)inheritedupsertMany
 
 * ****upsertMany**\<Fields>(entitiesOrData, options): Promise\<T\[]>
 

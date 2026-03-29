@@ -20,7 +20,7 @@ Wrapper for lazy scalar properties that provides on-demand loading from the data
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Reference.ts#L258)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Reference.ts#L258)constructor
 
 * ****new ScalarReference**\<Value>(value, initialized): [ScalarReference](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ScalarReference.md)\<Value>
 
@@ -33,7 +33,7 @@ Wrapper for lazy scalar properties that provides on-demand loading from the data
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#bind)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Reference.ts#L313)bind
+### [**](#bind)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Reference.ts#L313)bind
 
 * ****bind**\<Entity>(entity, property): void
 
@@ -48,7 +48,7 @@ Wrapper for lazy scalar properties that provides on-demand loading from the data
 
   #### Returns void
 
-### [**](#isInitialized)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Reference.ts#L325)isInitialized
+### [**](#isInitialized)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Reference.ts#L325)isInitialized
 
 * ****isInitialized**(): boolean
 
@@ -58,7 +58,7 @@ Wrapper for lazy scalar properties that provides on-demand loading from the data
 
   #### Returns boolean
 
-### [**](#load)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Reference.ts#L270)load
+### [**](#load)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Reference.ts#L270)load
 
 * ****load**(options): Promise\<undefined | Value>
 
@@ -72,7 +72,7 @@ Wrapper for lazy scalar properties that provides on-demand loading from the data
 
   #### Returns Promise\<undefined | Value>
 
-### [**](#loadOrFail)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Reference.ts#L291)loadOrFail
+### [**](#loadOrFail)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Reference.ts#L291)loadOrFail
 
 * ****loadOrFail**(options): Promise\<Value>
 
@@ -86,7 +86,7 @@ Wrapper for lazy scalar properties that provides on-demand loading from the data
 
   #### Returns Promise\<Value>
 
-### [**](#set)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Reference.ts#L307)set
+### [**](#set)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Reference.ts#L307)set
 
 * ****set**(value): void
 
@@ -100,7 +100,7 @@ Wrapper for lazy scalar properties that provides on-demand loading from the data
 
   #### Returns void
 
-### [**](#unwrap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Reference.ts#L320)unwrap
+### [**](#unwrap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Reference.ts#L320)unwrap
 
 * ****unwrap**(): undefined | Value
 
@@ -110,7 +110,7 @@ Wrapper for lazy scalar properties that provides on-demand loading from the data
 
   #### Returns undefined | Value
 
-### [**](#isScalarReference)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Reference.ts#L329)staticisScalarReference
+### [**](#isScalarReference)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Reference.ts#L329)staticisScalarReference
 
 * ****isScalarReference**(data): data is [ScalarReference](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ScalarReference.md)\<any>
 

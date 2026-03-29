@@ -18,7 +18,7 @@ Discovers, validates, and processes entity metadata from configured sources.
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/MetadataDiscovery.ts#L42)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/MetadataDiscovery.ts#L42)constructor
 
 * ****new MetadataDiscovery**(metadata, platform, config): [MetadataDiscovery](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/MetadataDiscovery.md)
 
@@ -32,7 +32,7 @@ Discovers, validates, and processes entity metadata from configured sources.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#discover)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/MetadataDiscovery.ts#L53)discover
+### [**](#discover)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/MetadataDiscovery.ts#L53)discover
 
 * ****discover**(preferTs): Promise<[MetadataStorage](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/MetadataStorage.md)>
 
@@ -46,7 +46,7 @@ Discovers, validates, and processes entity metadata from configured sources.
 
   #### Returns Promise<[MetadataStorage](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/MetadataStorage.md)>
 
-### [**](#discoverReferences)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/MetadataDiscovery.ts#L326)discoverReferences
+### [**](#discoverReferences)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/MetadataDiscovery.ts#L326)discoverReferences
 
 * ****discoverReferences**\<T>(refs, validate): [EntityMetadata](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityMetadata.md)\<T, [EntityCtor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityCtor)\<T>>\[]
 
@@ -57,7 +57,7 @@ Discovers, validates, and processes entity metadata from configured sources.
 
   #### Returns [EntityMetadata](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityMetadata.md)\<T, [EntityCtor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityCtor)\<T>>\[]
 
-### [**](#discoverSync)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/MetadataDiscovery.ts#L84)discoverSync
+### [**](#discoverSync)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/MetadataDiscovery.ts#L84)discoverSync
 
 * ****discoverSync**(): [MetadataStorage](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/MetadataStorage.md)
 
@@ -67,7 +67,7 @@ Discovers, validates, and processes entity metadata from configured sources.
 
   #### Returns [MetadataStorage](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/MetadataStorage.md)
 
-### [**](#processDiscoveredEntities)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/MetadataDiscovery.ts#L176)processDiscoveredEntities
+### [**](#processDiscoveredEntities)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/MetadataDiscovery.ts#L176)processDiscoveredEntities
 
 * ****processDiscoveredEntities**(discovered): [EntityMetadata](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityMetadata.md)\<any, [EntityCtor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityCtor)\<any>>\[]
 
@@ -81,7 +81,7 @@ Discovers, validates, and processes entity metadata from configured sources.
 
   #### Returns [EntityMetadata](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityMetadata.md)\<any, [EntityCtor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityCtor)\<any>>\[]
 
-### [**](#reset)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/MetadataDiscovery.ts#L383)reset
+### [**](#reset)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/MetadataDiscovery.ts#L383)reset
 
 * ****reset**\<T>(entityName): void
 

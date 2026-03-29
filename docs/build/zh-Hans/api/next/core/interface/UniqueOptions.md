@@ -21,7 +21,7 @@
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#columns)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L692)optionalinheritedcolumns
+### [**](#columns)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L692)optionalinheritedcolumns
 
 **columns?
 
@@ -33,7 +33,7 @@ Inherited from BaseOptions.columns
 
 Advanced column options for the index. When specified, allows fine-grained control over each column in the index including sort order, nulls ordering, prefix length, and collation. If both `columns` and `properties` are specified, `columns` takes precedence for index creation.
 
-### [**](#deferMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L703)optionaldeferMode
+### [**](#deferMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L703)optionaldeferMode
 
 **deferMode?
 
@@ -41,7 +41,7 @@ Advanced column options for the index. When specified, allows fine-grained contr
 
 : [DeferMode](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/enum/DeferMode.md) | immediate | deferred
 
-### [**](#disabled)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L709)optionaldisabled
+### [**](#disabled)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L709)optionaldisabled
 
 **disabled?
 
@@ -51,7 +51,7 @@ Advanced column options for the index. When specified, allows fine-grained contr
 
 Whether the index is disabled (MSSQL only). A disabled index is not used for query planning and is not maintained on writes. It can be re-enabled later using `ALTER INDEX ... REBUILD`.
 
-### [**](#expression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L685)optionalinheritedexpression
+### [**](#expression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L685)optionalinheritedexpression
 
 **expression?
 
@@ -61,7 +61,7 @@ Whether the index is disabled (MSSQL only). A disabled index is not used for que
 
 Inherited from BaseOptions.expression
 
-### [**](#fillFactor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L699)optionalinheritedfillFactor
+### [**](#fillFactor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L699)optionalinheritedfillFactor
 
 **fillFactor?
 
@@ -73,7 +73,7 @@ Inherited from BaseOptions.fillFactor
 
 Fill factor for the index as a percentage 0-100 (PostgreSQL, MSSQL).
 
-### [**](#include)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L697)optionalinheritedinclude
+### [**](#include)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L697)optionalinheritedinclude
 
 **include?
 
@@ -85,7 +85,7 @@ Inherited from BaseOptions.include
 
 Columns to include in the index but not as part of the key (PostgreSQL, MSSQL). These columns are stored in the leaf level of the index but not used for searching.
 
-### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L682)optionalinheritedname
+### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L682)optionalinheritedname
 
 **name?
 
@@ -95,7 +95,7 @@ Columns to include in the index but not as part of the key (PostgreSQL, MSSQL). 
 
 Inherited from BaseOptions.name
 
-### [**](#options)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L684)optionalinheritedoptions
+### [**](#options)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L684)optionalinheritedoptions
 
 **options?
 
@@ -105,7 +105,7 @@ Inherited from BaseOptions.name
 
 Inherited from BaseOptions.options
 
-### [**](#properties)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L683)optionalinheritedproperties
+### [**](#properties)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L683)optionalinheritedproperties
 
 **properties?
 

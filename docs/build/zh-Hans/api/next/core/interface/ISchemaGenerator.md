@@ -27,7 +27,7 @@ Interface for the schema generator, responsible for creating, updating, and drop
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#clear)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1550)clear
+### [**](#clear)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1550)clear
 
 * ****clear**(options): Promise\<void>
 
@@ -37,7 +37,7 @@ Interface for the schema generator, responsible for creating, updating, and drop
 
   #### Returns Promise\<void>
 
-### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1546)create
+### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1546)create
 
 * ****create**(options): Promise\<void>
 
@@ -47,7 +47,7 @@ Interface for the schema generator, responsible for creating, updating, and drop
 
   #### Returns Promise\<void>
 
-### [**](#createDatabase)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1557)createDatabase
+### [**](#createDatabase)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1557)createDatabase
 
 * ****createDatabase**(name): Promise\<void>
 
@@ -57,7 +57,7 @@ Interface for the schema generator, responsible for creating, updating, and drop
 
   #### Returns Promise\<void>
 
-### [**](#drop)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1548)drop
+### [**](#drop)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1548)drop
 
 * ****drop**(options): Promise\<void>
 
@@ -67,7 +67,7 @@ Interface for the schema generator, responsible for creating, updating, and drop
 
   #### Returns Promise\<void>
 
-### [**](#dropDatabase)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1558)dropDatabase
+### [**](#dropDatabase)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1558)dropDatabase
 
 * ****dropDatabase**(name): Promise\<void>
 
@@ -77,7 +77,7 @@ Interface for the schema generator, responsible for creating, updating, and drop
 
   #### Returns Promise\<void>
 
-### [**](#ensureDatabase)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1556)ensureDatabase
+### [**](#ensureDatabase)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1556)ensureDatabase
 
 * ****ensureDatabase**(options): Promise\<boolean>
 
@@ -87,13 +87,13 @@ Interface for the schema generator, responsible for creating, updating, and drop
 
   #### Returns Promise\<boolean>
 
-### [**](#ensureIndexes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1559)ensureIndexes
+### [**](#ensureIndexes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1559)ensureIndexes
 
 * ****ensureIndexes**(): Promise\<void>
 
 - #### Returns Promise\<void>
 
-### [**](#execute)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1551)execute
+### [**](#execute)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1551)execute
 
 * ****execute**(sql, options): Promise\<void>
 
@@ -105,7 +105,7 @@ Interface for the schema generator, responsible for creating, updating, and drop
 
   #### Returns Promise\<void>
 
-### [**](#getCreateSchemaSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1552)getCreateSchemaSQL
+### [**](#getCreateSchemaSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1552)getCreateSchemaSQL
 
 * ****getCreateSchemaSQL**(options): Promise\<string>
 
@@ -115,7 +115,7 @@ Interface for the schema generator, responsible for creating, updating, and drop
 
   #### Returns Promise\<string>
 
-### [**](#getDropSchemaSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1553)getDropSchemaSQL
+### [**](#getDropSchemaSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1553)getDropSchemaSQL
 
 * ****getDropSchemaSQL**(options): Promise\<string>
 
@@ -125,7 +125,7 @@ Interface for the schema generator, responsible for creating, updating, and drop
 
   #### Returns Promise\<string>
 
-### [**](#getUpdateSchemaMigrationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1555)getUpdateSchemaMigrationSQL
+### [**](#getUpdateSchemaMigrationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1555)getUpdateSchemaMigrationSQL
 
 * ****getUpdateSchemaMigrationSQL**(options): Promise<{ down: string; up: string }>
 
@@ -135,7 +135,7 @@ Interface for the schema generator, responsible for creating, updating, and drop
 
   #### Returns Promise<{ down: string; up: string }>
 
-### [**](#getUpdateSchemaSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1554)getUpdateSchemaSQL
+### [**](#getUpdateSchemaSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1554)getUpdateSchemaSQL
 
 * ****getUpdateSchemaSQL**(options): Promise\<string>
 
@@ -145,7 +145,7 @@ Interface for the schema generator, responsible for creating, updating, and drop
 
   #### Returns Promise\<string>
 
-### [**](#refresh)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1549)refresh
+### [**](#refresh)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1549)refresh
 
 * ****refresh**(options): Promise\<void>
 
@@ -155,7 +155,7 @@ Interface for the schema generator, responsible for creating, updating, and drop
 
   #### Returns Promise\<void>
 
-### [**](#update)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1547)update
+### [**](#update)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1547)update
 
 * ****update**(options): Promise\<void>
 

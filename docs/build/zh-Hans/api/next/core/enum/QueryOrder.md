@@ -21,73 +21,73 @@ Sort direction for query results. Both upper- and lower-case variants are accept
 
 ## Enumeration Members<!-- -->[**](<#Enumeration Members>)
 
-### [**](#asc)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L112)asc
+### [**](#asc)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L112)asc
 
 **asc: asc
 
 Ascending order (lower-case variant).
 
-### [**](#ASC)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L100)ASC
+### [**](#ASC)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L100)ASC
 
 **ASC: ASC
 
 Ascending order.
 
-### [**](#asc_nulls_first)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L116)asc\_nulls\_first
+### [**](#asc_nulls_first)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L116)asc\_nulls\_first
 
 **asc\_nulls\_first: asc nulls first
 
 Ascending order with nulls sorted first (lower-case variant).
 
-### [**](#ASC_NULLS_FIRST)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L104)ASC\_NULLS\_FIRST
+### [**](#ASC_NULLS_FIRST)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L104)ASC\_NULLS\_FIRST
 
 **ASC\_NULLS\_FIRST: ASC NULLS FIRST
 
 Ascending order with nulls sorted first.
 
-### [**](#asc_nulls_last)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L114)asc\_nulls\_last
+### [**](#asc_nulls_last)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L114)asc\_nulls\_last
 
 **asc\_nulls\_last: asc nulls last
 
 Ascending order with nulls sorted last (lower-case variant).
 
-### [**](#ASC_NULLS_LAST)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L102)ASC\_NULLS\_LAST
+### [**](#ASC_NULLS_LAST)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L102)ASC\_NULLS\_LAST
 
 **ASC\_NULLS\_LAST: ASC NULLS LAST
 
 Ascending order with nulls sorted last.
 
-### [**](#desc)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L118)desc
+### [**](#desc)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L118)desc
 
 **desc: desc
 
 Descending order (lower-case variant).
 
-### [**](#DESC)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L106)DESC
+### [**](#DESC)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L106)DESC
 
 **DESC: DESC
 
 Descending order.
 
-### [**](#desc_nulls_first)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L122)desc\_nulls\_first
+### [**](#desc_nulls_first)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L122)desc\_nulls\_first
 
 **desc\_nulls\_first: desc nulls first
 
 Descending order with nulls sorted first (lower-case variant).
 
-### [**](#DESC_NULLS_FIRST)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L110)DESC\_NULLS\_FIRST
+### [**](#DESC_NULLS_FIRST)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L110)DESC\_NULLS\_FIRST
 
 **DESC\_NULLS\_FIRST: DESC NULLS FIRST
 
 Descending order with nulls sorted first.
 
-### [**](#desc_nulls_last)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L120)desc\_nulls\_last
+### [**](#desc_nulls_last)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L120)desc\_nulls\_last
 
 **desc\_nulls\_last: desc nulls last
 
 Descending order with nulls sorted last (lower-case variant).
 
-### [**](#DESC_NULLS_LAST)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L108)DESC\_NULLS\_LAST
+### [**](#DESC_NULLS_LAST)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L108)DESC\_NULLS\_LAST
 
 **DESC\_NULLS\_LAST: DESC NULLS LAST
 

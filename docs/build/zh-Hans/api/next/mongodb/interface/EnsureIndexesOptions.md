@@ -12,7 +12,7 @@ Options for the `ensureIndexes()` method of `MongoSchemaGenerator`.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#ensureCollections)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoSchemaGenerator.ts#L307)optionalensureCollections
+### [**](#ensureCollections)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoSchemaGenerator.ts#L307)optionalensureCollections
 
 **ensureCollections?
 
@@ -20,7 +20,7 @@ Options for the `ensureIndexes()` method of `MongoSchemaGenerator`.
 
 : boolean
 
-### [**](#retry)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoSchemaGenerator.ts#L308)optionalretry
+### [**](#retry)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoSchemaGenerator.ts#L308)optionalretry
 
 **retry?
 
@@ -28,7 +28,7 @@ Options for the `ensureIndexes()` method of `MongoSchemaGenerator`.
 
 : boolean | string\[]
 
-### [**](#retryLimit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoSchemaGenerator.ts#L309)optionalretryLimit
+### [**](#retryLimit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoSchemaGenerator.ts#L309)optionalretryLimit
 
 **retryLimit?
 

@@ -12,7 +12,7 @@
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#configPaths)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/cli/src/CLIHelper.ts#L446)optionalconfigPaths
+### [**](#configPaths)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/cli/src/CLIHelper.ts#L446)optionalconfigPaths
 
 **configPaths?
 
@@ -20,7 +20,7 @@
 
 : string\[]
 
-### [**](#preferTs)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/cli/src/CLIHelper.ts#L443)optionalpreferTs
+### [**](#preferTs)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/cli/src/CLIHelper.ts#L443)optionalpreferTs
 
 **preferTs?
 
@@ -28,7 +28,7 @@
 
 : boolean
 
-### [**](#tsConfigPath)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/cli/src/CLIHelper.ts#L445)optionaltsConfigPath
+### [**](#tsConfigPath)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/cli/src/CLIHelper.ts#L445)optionaltsConfigPath
 
 **tsConfigPath?
 
@@ -36,7 +36,7 @@
 
 : string
 
-### [**](#tsLoader)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/cli/src/CLIHelper.ts#L444)optionaltsLoader
+### [**](#tsLoader)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/cli/src/CLIHelper.ts#L444)optionaltsLoader
 
 **tsLoader?
 
@@ -44,7 +44,7 @@
 
 : auto | oxc | swc | tsx | jiti | tsimp
 
-### [**](#verbose)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/cli/src/CLIHelper.ts#L442)optionalverbose
+### [**](#verbose)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/cli/src/CLIHelper.ts#L442)optionalverbose
 
 **verbose?
 

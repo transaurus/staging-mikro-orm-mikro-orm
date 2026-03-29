@@ -20,7 +20,7 @@ Configuration options for database seeders.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#defaultSeeder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L680)optionaldefaultSeeder
+### [**](#defaultSeeder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L680)optionaldefaultSeeder
 
 **defaultSeeder?
 
@@ -30,7 +30,7 @@ Configuration options for database seeders.
 
 Name of the default seeder class to run.
 
-### [**](#emit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L685)optionalemit
+### [**](#emit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L685)optionalemit
 
 **emit?
 
@@ -40,7 +40,7 @@ Name of the default seeder class to run.
 
 File extension for generated seeder files.
 
-### [**](#fileName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L690)optionalfileName
+### [**](#fileName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L690)optionalfileName
 
 **fileName?
 
@@ -62,7 +62,7 @@ Custom function to generate seeder file names.
 
     #### Returns string
 
-### [**](#glob)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L675)optionalglob
+### [**](#glob)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L675)optionalglob
 
 **glob?
 
@@ -72,7 +72,7 @@ Custom function to generate seeder file names.
 
 Glob pattern to match seeder files.
 
-### [**](#path)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L665)optionalpath
+### [**](#path)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L665)optionalpath
 
 **path?
 
@@ -82,7 +82,7 @@ Glob pattern to match seeder files.
 
 Path to the folder with seeder files (for compiled JavaScript files).
 
-### [**](#pathTs)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L670)optionalpathTs
+### [**](#pathTs)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L670)optionalpathTs
 
 **pathTs?
 
@@ -92,7 +92,7 @@ Path to the folder with seeder files (for compiled JavaScript files).
 
 Path to the folder with seeder files (for TypeScript source files). Used when running in TypeScript mode.
 
-### [**](#seedersList)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L692)optionalseedersList
+### [**](#seedersList)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L692)optionalseedersList
 
 **seedersList?
 

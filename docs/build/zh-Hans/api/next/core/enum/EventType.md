@@ -28,115 +28,115 @@ Lifecycle and transaction events emitted by the ORM.
 
 ## Enumeration Members<!-- -->[**](<#Enumeration Members>)
 
-### [**](#afterCreate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L281)afterCreate
+### [**](#afterCreate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L281)afterCreate
 
 **afterCreate: afterCreate
 
 Fired after a new entity has been inserted into the database.
 
-### [**](#afterDelete)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L293)afterDelete
+### [**](#afterDelete)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L293)afterDelete
 
 **afterDelete: afterDelete
 
 Fired after an entity has been deleted from the database.
 
-### [**](#afterFlush)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L299)afterFlush
+### [**](#afterFlush)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L299)afterFlush
 
 **afterFlush: afterFlush
 
 Fired after `em.flush()` has completed all database writes.
 
-### [**](#afterTransactionCommit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L307)afterTransactionCommit
+### [**](#afterTransactionCommit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L307)afterTransactionCommit
 
 **afterTransactionCommit: afterTransactionCommit
 
 Fired after a database transaction has been committed.
 
-### [**](#afterTransactionRollback)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L311)afterTransactionRollback
+### [**](#afterTransactionRollback)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L311)afterTransactionRollback
 
 **afterTransactionRollback: afterTransactionRollback
 
 Fired after a database transaction has been rolled back.
 
-### [**](#afterTransactionStart)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L303)afterTransactionStart
+### [**](#afterTransactionStart)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L303)afterTransactionStart
 
 **afterTransactionStart: afterTransactionStart
 
 Fired after a new database transaction has been started.
 
-### [**](#afterUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L285)afterUpdate
+### [**](#afterUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L285)afterUpdate
 
 **afterUpdate: afterUpdate
 
 Fired after an existing entity has been updated in the database.
 
-### [**](#afterUpsert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L289)afterUpsert
+### [**](#afterUpsert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L289)afterUpsert
 
 **afterUpsert: afterUpsert
 
 Fired after an upsert operation.
 
-### [**](#beforeCreate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L279)beforeCreate
+### [**](#beforeCreate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L279)beforeCreate
 
 **beforeCreate: beforeCreate
 
 Fired before a new entity is inserted into the database.
 
-### [**](#beforeDelete)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L291)beforeDelete
+### [**](#beforeDelete)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L291)beforeDelete
 
 **beforeDelete: beforeDelete
 
 Fired before an entity is deleted from the database.
 
-### [**](#beforeFlush)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L295)beforeFlush
+### [**](#beforeFlush)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L295)beforeFlush
 
 **beforeFlush: beforeFlush
 
 Fired at the very beginning of `em.flush()`, before change detection.
 
-### [**](#beforeTransactionCommit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L305)beforeTransactionCommit
+### [**](#beforeTransactionCommit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L305)beforeTransactionCommit
 
 **beforeTransactionCommit: beforeTransactionCommit
 
 Fired before a database transaction is committed.
 
-### [**](#beforeTransactionRollback)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L309)beforeTransactionRollback
+### [**](#beforeTransactionRollback)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L309)beforeTransactionRollback
 
 **beforeTransactionRollback: beforeTransactionRollback
 
 Fired before a database transaction is rolled back.
 
-### [**](#beforeTransactionStart)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L301)beforeTransactionStart
+### [**](#beforeTransactionStart)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L301)beforeTransactionStart
 
 **beforeTransactionStart: beforeTransactionStart
 
 Fired before a new database transaction is started.
 
-### [**](#beforeUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L283)beforeUpdate
+### [**](#beforeUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L283)beforeUpdate
 
 **beforeUpdate: beforeUpdate
 
 Fired before an existing entity is updated in the database.
 
-### [**](#beforeUpsert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L287)beforeUpsert
+### [**](#beforeUpsert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L287)beforeUpsert
 
 **beforeUpsert: beforeUpsert
 
 Fired before an upsert operation.
 
-### [**](#onFlush)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L297)onFlush
+### [**](#onFlush)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L297)onFlush
 
 **onFlush: onFlush
 
 Fired during `em.flush()` after change detection but before database writes.
 
-### [**](#onInit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L275)onInit
+### [**](#onInit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L275)onInit
 
 **onInit: onInit
 
 Fired when an entity instance is created (via constructor or `em.create`).
 
-### [**](#onLoad)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L277)onLoad
+### [**](#onLoad)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L277)onLoad
 
 **onLoad: onLoad
 

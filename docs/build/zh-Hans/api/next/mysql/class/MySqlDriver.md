@@ -53,7 +53,7 @@ Database driver for MySQL.
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mysql/src/MySqlDriver.ts#L23)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mysql/src/MySqlDriver.ts#L23)constructor
 
 * ****new MySqlDriver**(config): [MySqlDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mysql/class/MySqlDriver.md)
 
@@ -67,13 +67,13 @@ Database driver for MySQL.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#\[EntityManagerType])[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlDriver.ts#L77)inherited\[EntityManagerType]
+### [**](#\[EntityManagerType])[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlDriver.ts#L77)inherited\[EntityManagerType]
 
 **\[EntityManagerType]: [SqlEntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/EntityManager.md)<[MySqlDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mysql/class/MySqlDriver.md)>
 
 Inherited from AbstractSqlDriver.\[EntityManagerType]
 
-### [**](#config)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L59)readonlyinheritedconfig
+### [**](#config)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L59)readonlyinheritedconfig
 
 **config: [Configuration](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Configuration.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>, [EntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityManager.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>>>
 
@@ -81,7 +81,7 @@ Inherited from AbstractSqlDriver.config
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#aggregate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L140)inheritedaggregate
+### [**](#aggregate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L140)inheritedaggregate
 
 * ****aggregate**(entityName, pipeline): Promise\<any\[]>
 
@@ -98,7 +98,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns Promise\<any\[]>
 
-### [**](#close)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L225)inheritedclose
+### [**](#close)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L225)inheritedclose
 
 * ****close**(force): Promise\<void>
 
@@ -114,7 +114,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns Promise\<void>
 
-### [**](#connect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L198)inheritedconnect
+### [**](#connect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L198)inheritedconnect
 
 * ****connect**(options): Promise<[MySqlConnection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mysql/class/MySqlConnection.md)>
 
@@ -131,7 +131,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns Promise<[MySqlConnection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mysql/class/MySqlConnection.md)>
 
-### [**](#convertException)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L703)inheritedconvertException
+### [**](#convertException)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L703)inheritedconvertException
 
 * ****convertException**(exception): [DriverException](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/DriverException.md)
 
@@ -147,7 +147,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns [DriverException](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/DriverException.md)
 
-### [**](#count)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlDriver.ts#L837)inheritedcount
+### [**](#count)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlDriver.ts#L837)inheritedcount
 
 * ****count**\<T>(entityName, where, options): Promise\<number>
 
@@ -165,7 +165,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns Promise\<number>
 
-### [**](#countVirtual)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlDriver.ts#L283)inheritedcountVirtual
+### [**](#countVirtual)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlDriver.ts#L283)inheritedcountVirtual
 
 * ****countVirtual**\<T>(entityName, where, options): Promise\<number>
 
@@ -179,7 +179,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns Promise\<number>
 
-### [**](#createEntityManager)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlDriver.ts#L131)inheritedcreateEntityManager
+### [**](#createEntityManager)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlDriver.ts#L131)inheritedcreateEntityManager
 
 * ****createEntityManager**(useContext): [SqlEntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/EntityManager.md)<[MySqlDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mysql/class/MySqlDriver.md)>
 
@@ -195,7 +195,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns [SqlEntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/EntityManager.md)<[MySqlDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mysql/class/MySqlDriver.md)>
 
-### [**](#evaluateFormula)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlDriver.ts#L100)inheritedevaluateFormula
+### [**](#evaluateFormula)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlDriver.ts#L100)inheritedevaluateFormula
 
 * ****evaluateFormula**(formula, columns, table): string
 
@@ -214,7 +214,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns string
 
-### [**](#execute)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlDriver.ts#L1850)inheritedexecute
+### [**](#execute)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlDriver.ts#L1850)inheritedexecute
 
 * ****execute**\<T>(query, params, method, ctx, loggerContext): Promise\<T>
 
@@ -230,7 +230,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns Promise\<T>
 
-### [**](#find)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlDriver.ts#L209)inheritedfind
+### [**](#find)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlDriver.ts#L209)inheritedfind
 
 * ****find**\<T, P, F, E>(entityName, where, options): Promise<[EntityData](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityData)\<T>\[]>
 
@@ -248,7 +248,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns Promise<[EntityData](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityData)\<T>\[]>
 
-### [**](#findOne)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlDriver.ts#L235)inheritedfindOne
+### [**](#findOne)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlDriver.ts#L235)inheritedfindOne
 
 * ****findOne**\<T, P, F, E>(entityName, where, options): Promise\<null | [EntityData](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityData)\<T>>
 
@@ -266,7 +266,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns Promise\<null | [EntityData](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityData)\<T>>
 
-### [**](#findVirtual)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlDriver.ts#L275)inheritedfindVirtual
+### [**](#findVirtual)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlDriver.ts#L275)inheritedfindVirtual
 
 * ****findVirtual**\<T>(entityName, where, options): Promise<[EntityData](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityData)\<T>\[]>
 
@@ -284,7 +284,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns Promise<[EntityData](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityData)\<T>\[]>
 
-### [**](#getConnection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L214)inheritedgetConnection
+### [**](#getConnection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L214)inheritedgetConnection
 
 * ****getConnection**(type): [MySqlConnection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mysql/class/MySqlConnection.md)
 
@@ -300,7 +300,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns [MySqlConnection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mysql/class/MySqlConnection.md)
 
-### [**](#getDependencies)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L253)inheritedgetDependencies
+### [**](#getDependencies)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L253)inheritedgetDependencies
 
 * ****getDependencies**(): string\[]
 
@@ -312,7 +312,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns string\[]
 
-### [**](#getMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L248)inheritedgetMetadata
+### [**](#getMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L248)inheritedgetMetadata
 
 * ****getMetadata**(): [MetadataStorage](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/MetadataStorage.md)
 
@@ -324,7 +324,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns [MetadataStorage](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/MetadataStorage.md)
 
-### [**](#getORMClass)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mysql/src/MySqlDriver.ts#L99)getORMClass
+### [**](#getORMClass)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mysql/src/MySqlDriver.ts#L99)getORMClass
 
 * ****getORMClass**(): [Constructor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Constructor)<[MySqlMikroORM](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mysql/class/MikroORM.md)<[SqlEntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/EntityManager.md)<[MySqlDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mysql/class/MySqlDriver.md)>, (string | [EntityClass](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityClass)\<Partial\<any>> | [EntitySchema](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntitySchema.md)\<any, never, [EntityCtor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityCtor)\<any>>)\[]>>
 
@@ -336,7 +336,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns [Constructor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Constructor)<[MySqlMikroORM](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mysql/class/MikroORM.md)<[SqlEntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/EntityManager.md)<[MySqlDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mysql/class/MySqlDriver.md)>, (string | [EntityClass](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityClass)\<Partial\<any>> | [EntitySchema](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntitySchema.md)\<any, never, [EntityCtor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityCtor)\<any>>)\[]>>
 
-### [**](#getPlatform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlDriver.ts#L95)inheritedgetPlatform
+### [**](#getPlatform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlDriver.ts#L95)inheritedgetPlatform
 
 * ****getPlatform**(): [MySqlPlatform](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mysql/class/MySqlPlatform.md)
 
@@ -348,7 +348,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns [MySqlPlatform](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mysql/class/MySqlPlatform.md)
 
-### [**](#loadFromPivotTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlDriver.ts#L1538)inheritedloadFromPivotTable
+### [**](#loadFromPivotTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlDriver.ts#L1538)inheritedloadFromPivotTable
 
 * ****loadFromPivotTable**\<T, O>(prop, owners, where, orderBy, ctx, options, pivotJoin): Promise<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)\<T\[]>>
 
@@ -370,7 +370,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns Promise<[Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)\<T\[]>>
 
-### [**](#lockPessimistic)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlDriver.ts#L2525)inheritedlockPessimistic
+### [**](#lockPessimistic)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlDriver.ts#L2525)inheritedlockPessimistic
 
 * ****lockPessimistic**\<T>(entity, options): Promise\<void>
 
@@ -387,7 +387,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns Promise\<void>
 
-### [**](#mapResult)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlDriver.ts#L484)inheritedmapResult
+### [**](#mapResult)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlDriver.ts#L484)inheritedmapResult
 
 * ****mapResult**\<T>(result, meta, populate, qb, map): null | [EntityData](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityData)\<T>
 
@@ -407,7 +407,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns null | [EntityData](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityData)\<T>
 
-### [**](#nativeDelete)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlDriver.ts#L1394)inheritednativeDelete
+### [**](#nativeDelete)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlDriver.ts#L1394)inheritednativeDelete
 
 * ****nativeDelete**\<T>(entityName, where, options): Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
@@ -425,7 +425,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
-### [**](#nativeInsert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlDriver.ts#L883)inheritednativeInsert
+### [**](#nativeInsert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlDriver.ts#L883)inheritednativeInsert
 
 * ****nativeInsert**\<T>(entityName, data, options): Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
@@ -443,7 +443,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
-### [**](#nativeInsertMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mysql/src/MySqlDriver.ts#L44)nativeInsertMany
+### [**](#nativeInsertMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mysql/src/MySqlDriver.ts#L44)nativeInsertMany
 
 * ****nativeInsertMany**\<T>(entityName, data, options): Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
@@ -461,7 +461,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
-### [**](#nativeUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlDriver.ts#L1121)inheritednativeUpdate
+### [**](#nativeUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlDriver.ts#L1121)inheritednativeUpdate
 
 * ****nativeUpdate**\<T>(entityName, where, data, options): Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
@@ -480,7 +480,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
-### [**](#nativeUpdateMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mysql/src/MySqlDriver.ts#L64)nativeUpdateMany
+### [**](#nativeUpdateMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mysql/src/MySqlDriver.ts#L64)nativeUpdateMany
 
 * ****nativeUpdateMany**\<T>(entityName, where, data, options): Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
@@ -499,7 +499,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns Promise<[QueryResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/QueryResult.md)\<T>>
 
-### [**](#reconnect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L206)inheritedreconnect
+### [**](#reconnect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L206)inheritedreconnect
 
 * ****reconnect**(options): Promise<[MySqlConnection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mysql/class/MySqlConnection.md)>
 
@@ -516,7 +516,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns Promise<[MySqlConnection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mysql/class/MySqlConnection.md)>
 
-### [**](#setMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/DatabaseDriver.ts#L236)inheritedsetMetadata
+### [**](#setMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/DatabaseDriver.ts#L236)inheritedsetMetadata
 
 * ****setMetadata**(metadata): void
 
@@ -532,7 +532,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns void
 
-### [**](#stream)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlDriver.ts#L1860)inheritedstream
+### [**](#stream)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlDriver.ts#L1860)inheritedstream
 
 * ****stream**\<T>(entityName, where, options): AsyncIterableIterator\<T, any, any>
 
@@ -550,7 +550,7 @@ Inherited from AbstractSqlDriver.config
 
   #### Returns AsyncIterableIterator\<T, any, any>
 
-### [**](#syncCollections)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlDriver.ts#L1438)inheritedsyncCollections
+### [**](#syncCollections)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlDriver.ts#L1438)inheritedsyncCollections
 
 * ****syncCollections**\<T, O>(collections, options): Promise\<void>
 

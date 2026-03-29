@@ -16,7 +16,7 @@ Executes individual migration files within optional transaction contexts.
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/MigrationRunner.ts#L11)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/MigrationRunner.ts#L11)constructor
 
 * ****new MigrationRunner**(driver, options, config): [MigrationRunner](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/migrations/class/MigrationRunner.md)
 
@@ -30,7 +30,7 @@ Executes individual migration files within optional transaction contexts.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#run)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/MigrationRunner.ts#L20)run
+### [**](#run)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/MigrationRunner.ts#L20)run
 
 * ****run**(migration, method): Promise\<void>
 
@@ -41,7 +41,7 @@ Executes individual migration files within optional transaction contexts.
 
   #### Returns Promise\<void>
 
-### [**](#setMasterMigration)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/MigrationRunner.ts#L38)setMasterMigration
+### [**](#setMasterMigration)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/MigrationRunner.ts#L38)setMasterMigration
 
 * ****setMasterMigration**(trx): void
 
@@ -51,7 +51,7 @@ Executes individual migration files within optional transaction contexts.
 
   #### Returns void
 
-### [**](#unsetMasterMigration)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/MigrationRunner.ts#L42)unsetMasterMigration
+### [**](#unsetMasterMigration)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/MigrationRunner.ts#L42)unsetMasterMigration
 
 * ****unsetMasterMigration**(): void
 

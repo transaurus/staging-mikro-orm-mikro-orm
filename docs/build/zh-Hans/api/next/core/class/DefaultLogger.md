@@ -34,7 +34,7 @@ Default logger implementation with colored output, query formatting, and namespa
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/DefaultLogger.ts#L12)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/DefaultLogger.ts#L12)constructor
 
 * ****new DefaultLogger**(options): [DefaultLogger](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/DefaultLogger.md)
 
@@ -46,11 +46,11 @@ Default logger implementation with colored output, query formatting, and namespa
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#debugMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/DefaultLogger.ts#L7)debugMode
+### [**](#debugMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/DefaultLogger.ts#L7)debugMode
 
 **debugMode: boolean | [LoggerNamespace](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#LoggerNamespace)\[]
 
-### [**](#writer)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/DefaultLogger.ts#L8)readonlywriter
+### [**](#writer)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/DefaultLogger.ts#L8)readonlywriter
 
 **writer: (message) => void
 
@@ -66,7 +66,7 @@ Default logger implementation with colored output, query formatting, and namespa
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#error)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/DefaultLogger.ts#L48)error
+### [**](#error)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/DefaultLogger.ts#L48)error
 
 * ****error**(namespace, message, context): void
 
@@ -84,7 +84,7 @@ Default logger implementation with colored output, query formatting, and namespa
 
   #### Returns void
 
-### [**](#isEnabled)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/DefaultLogger.ts#L67)isEnabled
+### [**](#isEnabled)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/DefaultLogger.ts#L67)isEnabled
 
 * ****isEnabled**(namespace, context): boolean
 
@@ -101,7 +101,7 @@ Default logger implementation with colored output, query formatting, and namespa
 
   #### Returns boolean
 
-### [**](#log)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/DefaultLogger.ts#L22)log
+### [**](#log)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/DefaultLogger.ts#L22)log
 
 * ****log**(namespace, message, context): void
 
@@ -119,7 +119,7 @@ Default logger implementation with colored output, query formatting, and namespa
 
   #### Returns void
 
-### [**](#logQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/DefaultLogger.ts#L87)logQuery
+### [**](#logQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/DefaultLogger.ts#L87)logQuery
 
 * ****logQuery**(context): void
 
@@ -135,7 +135,7 @@ Default logger implementation with colored output, query formatting, and namespa
 
   #### Returns void
 
-### [**](#setDebugMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/DefaultLogger.ts#L62)setDebugMode
+### [**](#setDebugMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/DefaultLogger.ts#L62)setDebugMode
 
 * ****setDebugMode**(debugMode): void
 
@@ -151,7 +151,7 @@ Default logger implementation with colored output, query formatting, and namespa
 
   #### Returns void
 
-### [**](#warn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/DefaultLogger.ts#L55)warn
+### [**](#warn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/DefaultLogger.ts#L55)warn
 
 * ****warn**(namespace, message, context): void
 
@@ -169,7 +169,7 @@ Default logger implementation with colored output, query formatting, and namespa
 
   #### Returns void
 
-### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/DefaultLogger.ts#L119)staticcreate
+### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/DefaultLogger.ts#L119)staticcreate
 
 * ****create**(this, options): [DefaultLogger](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/DefaultLogger.md)
 

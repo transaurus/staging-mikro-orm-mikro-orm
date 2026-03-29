@@ -19,7 +19,7 @@ Kysely plugin that transforms queries and results to use MikroORM entity/propert
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/plugin/index.ts#L66)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/plugin/index.ts#L66)constructor
 
 * ****new MikroKyselyPlugin**(em, options): [MikroKyselyPlugin](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/MikroKyselyPlugin.md)
 
@@ -32,7 +32,7 @@ Kysely plugin that transforms queries and results to use MikroORM entity/propert
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#transformQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/plugin/index.ts#L71)transformQuery
+### [**](#transformQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/plugin/index.ts#L71)transformQuery
 
 * ****transformQuery**(args): RootOperationNode
 
@@ -42,7 +42,7 @@ Kysely plugin that transforms queries and results to use MikroORM entity/propert
 
   #### Returns RootOperationNode
 
-### [**](#transformResult)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/plugin/index.ts#L91)transformResult
+### [**](#transformResult)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/plugin/index.ts#L91)transformResult
 
 * ****transformResult**(args): Promise\<QueryResult\<UnknownRow>>
 

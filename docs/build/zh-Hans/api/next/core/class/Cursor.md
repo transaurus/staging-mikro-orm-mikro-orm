@@ -73,7 +73,7 @@ Cursor<User> {
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Cursor.ts#L70)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Cursor.ts#L70)constructor
 
 * ****new Cursor**\<Entity, Hint, Fields, Excludes, IncludeCount>(items, totalCount, options, meta): [Cursor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Cursor.md)\<Entity, Hint, Fields, Excludes, IncludeCount>
 
@@ -88,37 +88,37 @@ Cursor<User> {
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#hasNextPage)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Cursor.ts#L66)readonlyhasNextPage
+### [**](#hasNextPage)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Cursor.ts#L66)readonlyhasNextPage
 
 **hasNextPage: boolean
 
-### [**](#hasPrevPage)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Cursor.ts#L65)readonlyhasPrevPage
+### [**](#hasPrevPage)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Cursor.ts#L65)readonlyhasPrevPage
 
 **hasPrevPage: boolean
 
-### [**](#items)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Cursor.ts#L71)readonlyitems
+### [**](#items)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Cursor.ts#L71)readonlyitems
 
 **items: [Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>\[]
 
-### [**](#totalCount)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Cursor.ts#L72)readonlytotalCount
+### [**](#totalCount)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Cursor.ts#L72)readonlytotalCount
 
 **totalCount: IncludeCount extends true ? number : undefined
 
 ## Accessors<!-- -->[**](#Accessors)
 
-### [**](#endCursor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Cursor.ts#L102)endCursor
+### [**](#endCursor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Cursor.ts#L102)endCursor
 
 * **get endCursor(): null | string
 
 - #### Returns null | string
 
-### [**](#length)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Cursor.ts#L166)length
+### [**](#length)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Cursor.ts#L166)length
 
 * **get length(): number
 
 - #### Returns number
 
-### [**](#startCursor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Cursor.ts#L94)startCursor
+### [**](#startCursor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Cursor.ts#L94)startCursor
 
 * **get startCursor(): null | string
 
@@ -126,13 +126,13 @@ Cursor<User> {
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#\[iterator])[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Cursor.ts#L160)\[iterator]
+### [**](#\[iterator])[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Cursor.ts#L160)\[iterator]
 
 * ****\[iterator]**(): IterableIterator<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>, any, any>
 
 - #### Returns IterableIterator<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>, any, any>
 
-### [**](#from)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Cursor.ts#L113)from
+### [**](#from)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Cursor.ts#L113)from
 
 * ****from**(entity): string
 
@@ -146,7 +146,7 @@ Cursor<User> {
 
   #### Returns string
 
-### [**](#decode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Cursor.ts#L194)staticdecode
+### [**](#decode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Cursor.ts#L194)staticdecode
 
 * ****decode**(value): unknown\[]
 
@@ -156,7 +156,7 @@ Cursor<User> {
 
   #### Returns unknown\[]
 
-### [**](#encode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Cursor.ts#L190)staticencode
+### [**](#encode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Cursor.ts#L190)staticencode
 
 * ****encode**(value): string
 
@@ -166,7 +166,7 @@ Cursor<User> {
 
   #### Returns string
 
-### [**](#for)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Cursor.ts#L173)staticfor
+### [**](#for)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Cursor.ts#L173)staticfor
 
 * ****for**\<Entity>(meta, entity, orderBy): string
 
@@ -182,7 +182,7 @@ Cursor<User> {
 
   #### Returns string
 
-### [**](#getDefinition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Cursor.ts#L204)staticgetDefinition
+### [**](#getDefinition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Cursor.ts#L204)staticgetDefinition
 
 * ****getDefinition**\<Entity>(meta, orderBy): \[never, [QueryOrder](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/enum/QueryOrder.md)]\[]
 

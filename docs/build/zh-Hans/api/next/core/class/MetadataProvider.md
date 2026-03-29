@@ -26,7 +26,7 @@ Base metadata provider that resolves entity type information and manages metadat
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/MetadataProvider.ts#L18)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/MetadataProvider.ts#L18)constructor
 
 * ****new MetadataProvider**(config): [MetadataProvider](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/MetadataProvider.md)
 
@@ -38,7 +38,7 @@ Base metadata provider that resolves entity type information and manages metadat
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#combineCache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/MetadataProvider.ts#L131)combineCache
+### [**](#combineCache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/MetadataProvider.ts#L131)combineCache
 
 * ****combineCache**(): void
 
@@ -48,7 +48,7 @@ Base metadata provider that resolves entity type information and manages metadat
 
   #### Returns void
 
-### [**](#getCachedMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/MetadataProvider.ts#L112)getCachedMetadata
+### [**](#getCachedMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/MetadataProvider.ts#L112)getCachedMetadata
 
 * ****getCachedMetadata**\<T>(meta, root): undefined | [EntityMetadata](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityMetadata.md)\<T, [EntityCtor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityCtor)\<T>>
 
@@ -63,7 +63,7 @@ Base metadata provider that resolves entity type information and manages metadat
 
   #### Returns undefined | [EntityMetadata](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityMetadata.md)\<T, [EntityCtor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityCtor)\<T>>
 
-### [**](#getCacheKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/MetadataProvider.ts#L141)getCacheKey
+### [**](#getCacheKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/MetadataProvider.ts#L141)getCacheKey
 
 * ****getCacheKey**(meta): string
 
@@ -77,7 +77,7 @@ Base metadata provider that resolves entity type information and manages metadat
 
   #### Returns string
 
-### [**](#loadEntityMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/MetadataProvider.ts#L21)loadEntityMetadata
+### [**](#loadEntityMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/MetadataProvider.ts#L21)loadEntityMetadata
 
 * ****loadEntityMetadata**(meta): void
 
@@ -91,7 +91,7 @@ Base metadata provider that resolves entity type information and manages metadat
 
   #### Returns void
 
-### [**](#loadFromCache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/MetadataProvider.ts#L60)loadFromCache
+### [**](#loadFromCache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/MetadataProvider.ts#L60)loadFromCache
 
 * ****loadFromCache**(meta, cache): void
 
@@ -106,7 +106,7 @@ Base metadata provider that resolves entity type information and manages metadat
 
   #### Returns void
 
-### [**](#saveToCache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/MetadataProvider.ts#L107)saveToCache
+### [**](#saveToCache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/MetadataProvider.ts#L107)saveToCache
 
 * ****saveToCache**(meta): void
 
@@ -116,7 +116,7 @@ Base metadata provider that resolves entity type information and manages metadat
 
   #### Returns void
 
-### [**](#useCache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/MetadataProvider.ts#L103)useCache
+### [**](#useCache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/MetadataProvider.ts#L103)useCache
 
 * ****useCache**(): boolean
 
@@ -126,7 +126,7 @@ Base metadata provider that resolves entity type information and manages metadat
 
   #### Returns boolean
 
-### [**](#useCache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/MetadataProvider.ts#L98)staticuseCache
+### [**](#useCache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/MetadataProvider.ts#L98)staticuseCache
 
 * ****useCache**(): boolean
 

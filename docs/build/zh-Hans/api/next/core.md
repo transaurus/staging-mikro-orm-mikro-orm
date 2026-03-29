@@ -376,7 +376,7 @@
 
 ## References<!-- -->[**](#References)
 
-### [**](#Raw)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/RawQueryFragment.ts#L111)Raw
+### [**](#Raw)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/RawQueryFragment.ts#L111)Raw
 
 Renames and re-exports
 
@@ -386,7 +386,7 @@ Renames and re-exports
 
 ## Type Aliases<!-- -->[**](<#Type Aliases>)
 
-### [**](#AnyEntity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L546)AnyEntity
+### [**](#AnyEntity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L546)AnyEntity
 
 **AnyEntity\<T>: Partial\<T>
 
@@ -398,13 +398,13 @@ Loose entity type used in generic contexts. Equivalent to `Partial<T>`.
 
 * **T** = any
 
-### [**](#AnyString)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L944)AnyString
+### [**](#AnyString)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L944)AnyString
 
 **AnyString: string & {}
 
 Branded string that accepts any string value while preserving autocompletion for known literals.
 
-### [**](#AutoPath)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1824)AutoPath
+### [**](#AutoPath)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1824)AutoPath
 
 **AutoPath\<O, P, E, D>: P extends boolean ? P : \[D] extends \[never] ? never : P extends any ? P extends string ? P extends \`${infer
 
@@ -427,7 +427,7 @@ Autocomplete-friendly type for dot-separated relation paths (e.g., `'author.book
 * **E**: string = never
 * **D**: Prev\[number] = 9
 
-### [**](#Cast)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L92)Cast
+### [**](#Cast)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L92)Cast
 
 **Cast\<T, R>: T extends R ? T : R
 
@@ -440,7 +440,7 @@ Conditional cast: returns `T` if it extends `R`, otherwise returns `R`.
 * **T**
 * **R**
 
-### [**](#CheckCallback)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L931)CheckCallback
+### [**](#CheckCallback)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L931)CheckCallback
 
 **CheckCallback\<T>: (columns, table) => string | [Raw](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)
 
@@ -463,19 +463,19 @@ Callback for CHECK constraint expressions. Receives column mappings and table in
 
     #### Returns string | [Raw](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)
 
-### [**](#CompiledFunctions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L46)CompiledFunctions
+### [**](#CompiledFunctions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L46)CompiledFunctions
 
 **CompiledFunctions: Record\<string, (...args) => any>
 
 Record of compiled functions, used internally for hydration and comparison.
 
-### [**](#ConnectionType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L2111)ConnectionType
+### [**](#ConnectionType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L2111)ConnectionType
 
 **ConnectionType: read | write
 
 Discriminator for read vs write database connections in read-replica setups.
 
-### [**](#Constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L40)Constructor
+### [**](#Constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L40)Constructor
 
 **Constructor\<T>: new (...args) => T
 
@@ -497,7 +497,7 @@ Generic constructor type. Matches any class that can be instantiated with `new`.
 
     #### Returns T
 
-### [**](#DeepPartial)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L176)DeepPartial
+### [**](#DeepPartial)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L176)DeepPartial
 
 **DeepPartial\<T>: T & { \[ P in keyof
 
@@ -521,7 +521,7 @@ Recursively makes all properties of `T` optional, including nested objects and a
 
 * **T**
 
-### [**](#DefineConfig)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L255)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L257)DefineConfig
+### [**](#DefineConfig)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L255)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L257)DefineConfig
 
 **DefineConfig\<T>: T & [DefineConfig.Brand](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/namespace/DefineConfig.md#Brand)
 
@@ -533,7 +533,7 @@ Branded type for entity-level configuration (e.g., `[Config]?: DefineConfig<{ fo
 
 * **T**: [TypeConfig](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/TypeConfig.md)
 
-### [**](#Dictionary)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L43)Dictionary
+### [**](#Dictionary)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L43)Dictionary
 
 **Dictionary\<T>:
 
@@ -553,13 +553,13 @@ Simple string-keyed object type. Use instead of `Record<string, T>` for convenie
 
 
 
-### [**](#EmbeddedPrefixMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L370)EmbeddedPrefixMode
+### [**](#EmbeddedPrefixMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L370)EmbeddedPrefixMode
 
 **EmbeddedPrefixMode: absolute | relative
 
 With `absolute` the prefix is set at the root of the entity (regardless of the nesting level)
 
-### [**](#EntityClass)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L549)EntityClass
+### [**](#EntityClass)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L549)EntityClass
 
 **EntityClass\<T>: Function & { prototype: T }
 
@@ -571,7 +571,7 @@ A class (function with prototype) whose instances are of type `T`.
 
 * **T** = any
 
-### [**](#EntityCtor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1379)EntityCtor
+### [**](#EntityCtor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1379)EntityCtor
 
 **EntityCtor\<T>: abstract new (...args) => T
 
@@ -593,7 +593,7 @@ Abstract constructor type that matches both abstract and concrete entity classes
 
     #### Returns T
 
-### [**](#EntityData)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L686)EntityData
+### [**](#EntityData)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L686)EntityData
 
 **EntityData\<T, C>: { \[ K in [EntityKey](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityKey)\<T> ]?: EntityDataItem\<T\[K] & {}, C> }
 
@@ -606,7 +606,7 @@ Data shape for creating or updating entities. All properties are optional. Used 
 * **T**
 * **C**: boolean = false
 
-### [**](#EntityDataValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L59)EntityDataValue
+### [**](#EntityDataValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L59)EntityDataValue
 
 **EntityDataValue\<T>: [EntityData](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityData)\<T>\[[EntityKey](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityKey)\<T>]
 
@@ -618,7 +618,7 @@ Resolves to the value type within `EntityData<T>` (the data shape used for creat
 
 * **T**
 
-### [**](#EntityDictionary)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L710)EntityDictionary
+### [**](#EntityDictionary)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L710)EntityDictionary
 
 **EntityDictionary\<T>: [EntityData](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityData)\<T> & Record\<any, any>
 
@@ -630,7 +630,7 @@ Resolves to the value type within `EntityData<T>` (the data shape used for creat
 
 * **T**
 
-### [**](#EntityDTO)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L803)EntityDTO
+### [**](#EntityDTO)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L803)EntityDTO
 
 **EntityDTO\<T, C>: { \[ K in keyof
 
@@ -651,7 +651,7 @@ Plain object (DTO) representation of an entity as returned by `toObject()` / `to
 * **T**
 * **C**: [TypeConfig](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/TypeConfig.md) = never
 
-### [**](#EntityDTOProp)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L759)EntityDTOProp
+### [**](#EntityDTOProp)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L759)EntityDTOProp
 
 **EntityDTOProp\<E, T, C, Flat>: T extends [Scalar](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Scalar) ? T : T extends [ScalarReference](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ScalarReference.md)\<infer
 
@@ -698,7 +698,7 @@ Resolves the serialized (DTO) type for a single entity property. Unwraps referen
 * **C**: [TypeConfig](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/TypeConfig.md) = never
 * **Flat**: boolean = false
 
-### [**](#EntityField)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L205)EntityField
+### [**](#EntityField)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L205)EntityField
 
 **EntityField\<T, P>: keyof
 
@@ -715,7 +715,7 @@ Represents a field selector for entity queries (property name or wildcard).
 * **T**
 * **P**: string = PopulatePath.ALL
 
-### [**](#EntityKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L52)EntityKey
+### [**](#EntityKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L52)EntityKey
 
 **EntityKey\<T, B>: string & { \[ K in keyof
 
@@ -736,7 +736,7 @@ Extracts string property keys from an entity, excluding symbols, functions, and 
 * **T** = unknown
 * **B**: boolean = false
 
-### [**](#EntityName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L204)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L552)EntityName
+### [**](#EntityName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L204)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L552)EntityName
 
 **EntityName\<T>: [EntityClass](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityClass)\<T> | [EntityCtor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityCtor)\<T> | [EntitySchema](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntitySchema.md)\<T, any>
 
@@ -748,7 +748,7 @@ Any valid entity name reference: a class, abstract constructor, or EntitySchema.
 
 * **T** = any
 
-### [**](#EntityOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L23)EntityOptions
+### [**](#EntityOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L23)EntityOptions
 
 **EntityOptions\<T, E>: { abstract?
 
@@ -944,7 +944,7 @@ P : string) | [AnyString](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#
 
   Marks entity as [virtual](https://mikro-orm.io/zh-Hans/zh-Hans/docs/next/virtual-entities). This is set automatically when you use `expression` option (unless `view` is set).
 
-### [**](#EntityProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L454)EntityProps
+### [**](#EntityProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L454)EntityProps
 
 **EntityProps\<T>: { -readonly \[ K in [EntityKey](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityKey)\<T> ]?: T\[K] }
 
@@ -956,7 +956,7 @@ Partial entity shape with all entity properties optional.
 
 * **T**
 
-### [**](#EntityRef)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L725)EntityRef
+### [**](#EntityRef)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L725)EntityRef
 
 **EntityRef\<T>: true extends [IsUnknown](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#IsUnknown)\<PrimaryProperty\<T>> ? [Reference](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Reference.md)\<T> : IsAny\<T> extends true ? [Reference](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Reference.md)\<T> : { \[ K in PrimaryProperty\<T> & keyof
 
@@ -972,7 +972,7 @@ Alias for `Reference<T> & { id: number }` (see [Ref](https://mikro-orm.io/zh-Han
 
 * **T**: object
 
-### [**](#EntitySchemaMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L60)EntitySchemaMetadata
+### [**](#EntitySchemaMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L60)EntitySchemaMetadata
 
 **EntitySchemaMetadata\<Entity, Base, Class>: Omit\<Partial<[EntityMetadata](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityMetadata.md)\<Entity>>, name | properties | extends> & ({ name: string } | { class: Class; name?
 
@@ -1006,7 +1006,7 @@ Configuration object for defining an entity via EntitySchema.
 * **Base** = never
 * **Class**: [EntityCtor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityCtor) = [EntityCtor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityCtor)\<Entity>
 
-### [**](#EntitySchemaProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L48)EntitySchemaProperty
+### [**](#EntitySchemaProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L48)EntitySchemaProperty
 
 **EntitySchemaProperty\<Target, Owner>: ({ kind: ReferenceKind.MANY\_TO\_ONE | m:1 } & TypeDef\<Target> & [ManyToOneOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/ManyToOneOptions.md)\<Owner, Target>) | ({ kind: ReferenceKind.ONE\_TO\_ONE | 1:1 } & TypeDef\<Target> & [OneToOneOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/OneToOneOptions.md)\<Owner, Target>) | ({ kind: ReferenceKind.ONE\_TO\_MANY | 1:m } & TypeDef\<Target> & [OneToManyOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/OneToManyOptions.md)\<Owner, Target>) | ({ kind: ReferenceKind.MANY\_TO\_MANY | m:n } & TypeDef\<Target> & [ManyToManyOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/ManyToManyOptions.md)\<Owner, Target>) | ({ kind: ReferenceKind.EMBEDDED | embedded } & EmbeddedTypeDef\<Target> & [EmbeddedOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/EmbeddedOptions.md)\<Owner, Target> & [PropertyOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyOptions.md)\<Owner>) | ({ enum: true } & [EnumOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/EnumOptions.md)\<Owner>) | (TypeDef\<Target> & [PropertyOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PropertyOptions.md)\<Owner>)
 
@@ -1019,7 +1019,7 @@ Union type representing all possible property definition shapes in an EntitySche
 * **Target**
 * **Owner**
 
-### [**](#EntityType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1977)EntityType
+### [**](#EntityType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1977)EntityType
 
 **EntityType\<T>: T | LoadedEntityType\<T>
 
@@ -1031,7 +1031,7 @@ Accepts either a plain entity type or a `Loaded`/`Selected` wrapped version.
 
 * **T**
 
-### [**](#EntityValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L56)EntityValue
+### [**](#EntityValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L56)EntityValue
 
 **EntityValue\<T>: T\[[EntityKey](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityKey)\<T>]
 
@@ -1043,7 +1043,7 @@ Resolves to the value type of entity properties (keyed by `EntityKey<T>`).
 
 * **T**
 
-### [**](#ExpandHint)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1961)ExpandHint
+### [**](#ExpandHint)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1961)ExpandHint
 
 **ExpandHint\<T, L>: L | AddEager\<T>
 
@@ -1056,7 +1056,7 @@ Combines an explicit populate hint `L` with the entity's eagerly loaded properti
 * **T**
 * **L**: string
 
-### [**](#ExpandProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1858)ExpandProperty
+### [**](#ExpandProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1858)ExpandProperty
 
 **ExpandProperty\<T>: T extends ReferenceShape\<infer
 
@@ -1080,7 +1080,7 @@ Unwraps a property type from its wrapper (Reference, Collection, or array) to th
 
 * **T**
 
-### [**](#ExpandQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L451)ExpandQuery
+### [**](#ExpandQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L451)ExpandQuery
 
 **ExpandQuery\<T>: T extends object ? T extends [Scalar](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Scalar) ? never : [FilterQuery](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#FilterQuery)\<T> : [FilterValue](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#FilterValue)\<T>
 
@@ -1092,7 +1092,7 @@ Recursively expands a type into its `FilterQuery` form for nested object filteri
 
 * **T**
 
-### [**](#ExpandScalar)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L368)ExpandScalar
+### [**](#ExpandScalar)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L368)ExpandScalar
 
 **ExpandScalar\<T>: null | (T extends string ? T | RegExp : T extends Date ? Date | string : T extends bigint ? bigint | string | number : T)
 
@@ -1104,7 +1104,7 @@ Expands a scalar type to include alternative representations accepted in queries
 
 * **T**
 
-### [**](#FilterDef)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1766)FilterDef
+### [**](#FilterDef)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1766)FilterDef
 
 **FilterDef\<T>: FilterDefResolved\<EntityFromInput\<T>> & { entity?
 
@@ -1122,7 +1122,7 @@ Definition of a query filter that can be registered globally or per-entity via `
   <!-- -->
   [EntityName](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityName)\[] = any
 
-### [**](#FilterItemValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L408)FilterItemValue
+### [**](#FilterItemValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L408)FilterItemValue
 
 **FilterItemValue\<T>: T | [ExpandScalar](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#ExpandScalar)\<T> | [Primary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Primary)\<T> | [Raw](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)
 
@@ -1134,7 +1134,7 @@ A single filter value: the raw value, its expanded scalar form, its primary key,
 
 * **T**
 
-### [**](#FilterKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L62)FilterKey
+### [**](#FilterKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L62)FilterKey
 
 **FilterKey\<T>: keyof
 
@@ -1150,7 +1150,7 @@ Extracts valid keys for `FilterQuery<T>`.
 
 * **T**
 
-### [**](#FilterObject)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L441)FilterObject
+### [**](#FilterObject)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L441)FilterObject
 
 **FilterObject\<T>: { -readonly \[ K in [EntityKey](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityKey)\<T> ]?: [ExpandQuery](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#ExpandQuery)<[ExpandProperty](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#ExpandProperty)\<FilterObjectProp\<T, K>>> | ExpandQueryMerged<[ExpandProperty](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#ExpandProperty)\<FilterObjectProp\<T, K>>> | [FilterValue](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#FilterValue)<[ExpandProperty](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#ExpandProperty)\<FilterObjectProp\<T, K>>> | ElemMatchFilter\<FilterObjectProp\<T, K>> | null }
 
@@ -1162,13 +1162,13 @@ Object form of a filter query, mapping entity keys to their filter conditions.
 
 * **T**
 
-### [**](#FilterOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L246)FilterOptions
+### [**](#FilterOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L246)FilterOptions
 
 **FilterOptions: [Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)\<boolean | [Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)> | string\[] | boolean
 
 Configuration for enabling/disabling named filters on a query.
 
-### [**](#FilterQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L463)FilterQuery
+### [**](#FilterQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L463)FilterQuery
 
 **FilterQuery\<T>: [ObjectQuery](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#ObjectQuery)\<T> | NonNullable<[ExpandScalar](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#ExpandScalar)<[Primary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Primary)\<T>>> | NonNullable<[EntityProps](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityProps)\<T> & OperatorMap\<T>> | [FilterQuery](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#FilterQuery)\<T>\[]
 
@@ -1180,7 +1180,7 @@ The main query filter type used in `em.find()`, `em.findOne()`, etc. Accepts an 
 
 * **T**
 
-### [**](#FilterValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L411)FilterValue
+### [**](#FilterValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L411)FilterValue
 
 **FilterValue\<T>: OperatorMap<[FilterItemValue](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#FilterItemValue)\<T>> | [FilterItemValue](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#FilterItemValue)\<T> | [FilterItemValue](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#FilterItemValue)\<T>\[] | null
 
@@ -1192,7 +1192,7 @@ A complete filter value: an operator map, a single value, an array of values, or
 
 * **T**
 
-### [**](#FormulaCallback)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L928)FormulaCallback
+### [**](#FormulaCallback)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L928)FormulaCallback
 
 **FormulaCallback\<T>: (columns, table) => string | [Raw](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)
 
@@ -1215,7 +1215,7 @@ Callback for computed (formula) properties. Receives column mappings and table i
 
     #### Returns string | [Raw](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)
 
-### [**](#FormulaTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L888)FormulaTable
+### [**](#FormulaTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L888)FormulaTable
 
 **FormulaTable: { alias: string; name: string; qualifiedName: string; schema?
 
@@ -1243,7 +1243,7 @@ Table reference object passed to formula callbacks, including alias and schema i
 
     - #### Returns string
 
-### [**](#FromEntityType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1980)FromEntityType
+### [**](#FromEntityType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1980)FromEntityType
 
 **FromEntityType\<T>: T extends LoadedEntityType\<infer
 
@@ -1259,7 +1259,7 @@ Extracts the base entity type from a `Loaded`/`Selected` wrapper, or returns `T`
 
 * **T**
 
-### [**](#GeneratedColumnCallback)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L934)GeneratedColumnCallback
+### [**](#GeneratedColumnCallback)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L934)GeneratedColumnCallback
 
 **GeneratedColumnCallback\<T>: (columns, table) => string | [Raw](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)
 
@@ -1282,7 +1282,7 @@ Callback for generated (computed) column expressions. Receives column mappings a
 
     #### Returns string | [Raw](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)
 
-### [**](#GetRepository)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L555)GetRepository
+### [**](#GetRepository)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L555)GetRepository
 
 **GetRepository\<Entity, Fallback>: Entity\[typeof [EntityRepositoryType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityRepositoryType)] extends [EntityRepository](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityRepository.md)\<any> | undefined ? NonNullable\<Entity\[typeof [EntityRepositoryType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityRepositoryType)]> : Fallback
 
@@ -1297,7 +1297,7 @@ Resolves the custom repository type for an entity (from `[EntityRepositoryType]`
   {}
 * **Fallback**
 
-### [**](#Hidden)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L241)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L243)Hidden
+### [**](#Hidden)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L241)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L243)Hidden
 
 **Hidden\<T>: T & [Hidden.Brand](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/namespace/Hidden.md#Brand)
 
@@ -1309,7 +1309,7 @@ Branded type that marks a property as hidden from serialization. Use as a proper
 
 * **T** = unknown
 
-### [**](#ImportsResolver)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1563)ImportsResolver
+### [**](#ImportsResolver)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1563)ImportsResolver
 
 **ImportsResolver: (alias, basePath, extension, originFileName) => { name: string; path: string } | undefined
 
@@ -1330,7 +1330,7 @@ Custom resolver for import paths in the entity generator. Returns a path/name pa
 
     #### Returns { name: string; path: string } | undefined
 
-### [**](#IndexCallback)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L922)IndexCallback
+### [**](#IndexCallback)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L922)IndexCallback
 
 **IndexCallback\<T>: (columns, table, indexName) => string | [Raw](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)
 
@@ -1354,7 +1354,7 @@ Callback for custom index expressions. Receives column mappings, table info, and
 
     #### Returns string | [Raw](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)
 
-### [**](#InferEntity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L2142)InferEntity
+### [**](#InferEntity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L2142)InferEntity
 
 **InferEntity\<Schema>: Schema extends { \~entity: infer
 
@@ -1378,7 +1378,7 @@ Extracts the entity type from an `EntitySchema`, `EntitySchemaWithMeta`, or enti
 
 * **Schema**
 
-### [**](#InferEntityFromProperties)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1458)InferEntityFromProperties
+### [**](#InferEntityFromProperties)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1458)InferEntityFromProperties
 
 **InferEntityFromProperties\<Properties, PK, Base, Repository, ForceObject>: (IsNever\<Base> extends true ? {} : Base extends { toObject: any } ? Pick<[IWrappedEntity](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IWrappedEntity.md)<{ -readonly \[ K in keyof
 
@@ -1428,7 +1428,7 @@ Infers the entity type from a `defineEntity()` properties map, resolving builder
 * **Repository** = never
 * **ForceObject**: boolean = false
 
-### [**](#InferEntityName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L207)InferEntityName
+### [**](#InferEntityName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L207)InferEntityName
 
 **InferEntityName\<T>: T extends { \[EntityName]?
 
@@ -1448,7 +1448,7 @@ Extracts the entity name string literal from an entity type that declares `[Enti
 
 * **T**
 
-### [**](#InferPrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1508)InferPrimaryKey
+### [**](#InferPrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1508)InferPrimaryKey
 
 **InferPrimaryKey\<Properties>: { \[ K in keyof
 
@@ -1468,7 +1468,7 @@ Extracts the primary key property names from a properties map by finding builder
 
 * **Properties**: Record\<string, any>
 
-### [**](#IPrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L350)IPrimaryKey
+### [**](#IPrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L350)IPrimaryKey
 
 **IPrimaryKey\<T>: T
 
@@ -1480,7 +1480,7 @@ Alias for a primary key value, constrained to `IPrimaryKeyValue`.
 
 * **T**: IPrimaryKeyValue = IPrimaryKeyValue
 
-### [**](#IsSubset)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1917)IsSubset
+### [**](#IsSubset)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1917)IsSubset
 
 **IsSubset\<T, U>: keyof
 
@@ -1513,7 +1513,7 @@ Validates that `U` is a subset of `T`. Returns `{}` if valid, or a mapped type w
 * **T**
 * **U**
 
-### [**](#IsUnknown)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L95)IsUnknown
+### [**](#IsUnknown)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L95)IsUnknown
 
 **IsUnknown\<T>: T extends unknown ? unknown extends T ? true : never : never
 
@@ -1525,7 +1525,7 @@ Evaluates to `true` if `T` is the `unknown` type.
 
 * **T**
 
-### [**](#IType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L17)IType
+### [**](#IType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L17)IType
 
 **IType\<Runtime, Raw, Serialized>: Runtime & { \_\_raw?
 
@@ -1551,7 +1551,7 @@ Branded type helper for mapping between JS runtime, database raw, and JSON seria
 * **Raw**
 * **Serialized** = Raw
 
-### [**](#Loaded)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L2003)Loaded
+### [**](#Loaded)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L2003)Loaded
 
 **Loaded\<T, L, F, E>: LoadedInternal\<T, L, F, E> & { \[\_\_\_loadedType]?
 
@@ -1574,13 +1574,13 @@ Represents entity with its loaded relations (`populate` hint) and selected prope
 * **F**: string = \*
 * **E**: string = never
 
-### [**](#LoggerNamespace)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/Logger.ts#L35)LoggerNamespace
+### [**](#LoggerNamespace)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/Logger.ts#L35)LoggerNamespace
 
 **LoggerNamespace: query | query-params | schema | discovery | info | deprecated | slow-query
 
 Available logging namespaces that can be individually enabled or disabled.
 
-### [**](#LoggingOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/Logger.ts#L73)LoggingOptions
+### [**](#LoggingOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/Logger.ts#L73)LoggingOptions
 
 **LoggingOptions: Pick<[LogContext](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/LogContext.md), label | enabled | debugMode>
 
@@ -1595,7 +1595,7 @@ Differs from [LoggerOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/
   // [query] (user middleware) select * from user where id = 1;
   ```
 
-### [**](#MaybePromise)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L104)MaybePromise
+### [**](#MaybePromise)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L104)MaybePromise
 
 **MaybePromise\<T>: T | Promise\<T>
 
@@ -1607,7 +1607,7 @@ Represents a value that may be synchronous or wrapped in a Promise.
 
 * **T**
 
-### [**](#MergeLoaded)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1942)MergeLoaded
+### [**](#MergeLoaded)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1942)MergeLoaded
 
 **MergeLoaded\<T, U, P, F, E, R>: IsLoadedType\<T> extends true ? T & [Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<U, P, F, E> : [Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<T, P, F, E>
 
@@ -1624,7 +1624,7 @@ Optimized MergeLoaded using intersection instead of extraction. When T is alread
 * **E**: string
 * **R**: boolean = false
 
-### [**](#MergeSelected)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1934)MergeSelected
+### [**](#MergeSelected)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1934)MergeSelected
 
 **MergeSelected\<T, U, F>: IsLoadedType\<T> extends true ? T & [Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<U, never, F, never> : T
 
@@ -1638,7 +1638,7 @@ Optimized MergeSelected using intersection instead of extraction. When T is alre
 * **U**
 * **F**: string
 
-### [**](#MetadataProcessor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L2114)MetadataProcessor
+### [**](#MetadataProcessor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L2114)MetadataProcessor
 
 **MetadataProcessor: (metadata, platform) => [MaybePromise](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MaybePromise)\<void>
 
@@ -1657,7 +1657,7 @@ Callback for processing entity metadata during discovery or entity generation.
 
     #### Returns [MaybePromise](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MaybePromise)\<void>
 
-### [**](#MigrateOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1611)MigrateOptions
+### [**](#MigrateOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1611)MigrateOptions
 
 **MigrateOptions: { from?
 
@@ -1688,7 +1688,7 @@ Options for controlling which migrations to run (range, specific list, or transa
 * ##### optionalto?<!-- -->: string | number
 * ##### optionaltransaction?<!-- -->: [Transaction](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Transaction)
 
-### [**](#MigrationInfo)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1608)MigrationInfo
+### [**](#MigrationInfo)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1608)MigrationInfo
 
 **MigrationInfo: { name: string; path?
 
@@ -1705,7 +1705,7 @@ Basic migration descriptor with a name and optional file path.
 * ##### name: string
 * ##### optionalpath?<!-- -->: string
 
-### [**](#MigrationResult)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1618)MigrationResult
+### [**](#MigrationResult)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1618)MigrationResult
 
 **MigrationResult: { code: string; diff: [MigrationDiff](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/MigrationDiff.md); fileName: string }
 
@@ -1719,7 +1719,7 @@ Result of creating a new migration file, including the generated code and schema
 * ##### diff: [MigrationDiff](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/MigrationDiff.md)
 * ##### fileName: string
 
-### [**](#MigrationRow)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1621)MigrationRow
+### [**](#MigrationRow)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1621)MigrationRow
 
 **MigrationRow: { executed\_at: Date; id: number; name: string }
 
@@ -1733,7 +1733,7 @@ A row from the migrations tracking table, representing an executed migration.
 * ##### id: number
 * ##### name: string
 
-### [**](#MigrationsOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L582)MigrationsOptions
+### [**](#MigrationsOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L582)MigrationsOptions
 
 **MigrationsOptions: { allOrNothing?
 
@@ -1884,13 +1884,13 @@ Configuration options for database migrations.
 
   Run each migration inside a transaction.
 
-### [**](#MigratorEvent)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1704)MigratorEvent
+### [**](#MigratorEvent)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1704)MigratorEvent
 
 **MigratorEvent: migrating | migrated | reverting | reverted
 
 Events emitted by the migrator during migration execution.
 
-### [**](#New)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L2033)New
+### [**](#New)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L2033)New
 
 **New\<T, P>: [Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<T, P>
 
@@ -1903,7 +1903,7 @@ Alias for `Loaded<T, P>`. Represents a newly created entity with all specified r
 * **T**
 * **P**: string = string
 
-### [**](#ObjectQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L457)ObjectQuery
+### [**](#ObjectQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L457)ObjectQuery
 
 **ObjectQuery\<T>: OperatorMap\<T> & [FilterObject](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#FilterObject)\<T>
 
@@ -1915,7 +1915,7 @@ Object-based query filter combining operator maps with property-level filters.
 
 * **T**
 
-### [**](#Opt)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L213)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L215)Opt
+### [**](#Opt)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L213)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L215)Opt
 
 **Opt\<T>: T & [Opt.Brand](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/namespace/Opt.md#Brand)
 
@@ -1927,7 +1927,7 @@ Branded type that marks a property as optional in `em.create()`. Use as a proper
 
 * **T** = unknown
 
-### [**](#OrderDefinition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L211)OrderDefinition
+### [**](#OrderDefinition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L211)OrderDefinition
 
 **OrderDefinition\<T>: ([QueryOrderMap](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#QueryOrderMap)\<T> & { 0?
 
@@ -1943,7 +1943,7 @@ Defines the ordering for query results, either a single order map or an array of
 
 * **T**
 
-### [**](#Populate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1771)Populate
+### [**](#Populate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1771)Populate
 
 **Populate\<T, P>: readonly
 
@@ -1960,7 +1960,7 @@ Type for the `populate` option in find methods. An array of relation paths to ea
 * **T**
 * **P**: string = never
 
-### [**](#PopulateHintOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1786)PopulateHintOptions
+### [**](#PopulateHintOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1786)PopulateHintOptions
 
 **PopulateHintOptions: { joinType?
 
@@ -1981,7 +1981,7 @@ Inline options that can be appended to populate hint strings (e.g., strategy, jo
 * ##### optionaljoinType?<!-- -->: inner join | left join
 * ##### optionalstrategy?<!-- -->: LoadStrategy.JOINED | LoadStrategy.SELECT\_IN | joined | select-in
 
-### [**](#PopulateOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1774)PopulateOptions
+### [**](#PopulateOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1774)PopulateOptions
 
 **PopulateOptions\<T>: { all?
 
@@ -2039,7 +2039,7 @@ Parsed populate hint for a single relation, including strategy and nested childr
 
 * ##### optionalstrategy?<!-- -->: [LoadStrategy](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/enum/LoadStrategy.md)
 
-### [**](#Prefixes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L291)Prefixes
+### [**](#Prefixes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L291)Prefixes
 
 **Prefixes\<S>: S extends \* ? string : S extends \`${infer
 
@@ -2059,7 +2059,7 @@ Expands a populate hint into all its prefixes. e.g., Prefixes<'a.b.c'> = 'a' | '
 
 * **S**: string
 
-### [**](#Primary)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L310)Primary
+### [**](#Primary)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L310)Primary
 
 **Primary\<T>: IsAny\<T> extends true ? any : T extends { \[PrimaryKeyProp]?
 
@@ -2111,7 +2111,7 @@ Resolves the primary key type for an entity. Uses `[PrimaryKeyProp]` if declared
 
 * **T**
 
-### [**](#PropertyBuilders)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1121)PropertyBuilders
+### [**](#PropertyBuilders)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1121)PropertyBuilders
 
 **PropertyBuilders: { \[ K in Exclude\<keyof
 
@@ -2141,7 +2141,7 @@ T\[] ? T : Target>, [EmptyOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next
 
 Map of factory functions for creating type-safe property builders (scalars, enums, embeddables, and relations).
 
-### [**](#QueryOrderKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L134)QueryOrderKeys
+### [**](#QueryOrderKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L134)QueryOrderKeys
 
 **QueryOrderKeys\<T>: [QueryOrderKeysFlat](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#QueryOrderKeysFlat) | [QueryOrderMap](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#QueryOrderMap)\<T>
 
@@ -2149,11 +2149,11 @@ Map of factory functions for creating type-safe property builders (scalars, enum
 
 * **T**
 
-### [**](#QueryOrderKeysFlat)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L133)QueryOrderKeysFlat
+### [**](#QueryOrderKeysFlat)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L133)QueryOrderKeysFlat
 
 **QueryOrderKeysFlat: [QueryOrder](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/enum/QueryOrder.md) | [QueryOrderNumeric](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/enum/QueryOrderNumeric.md) | \`${[QueryOrder](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/enum/QueryOrder.md)}\`
 
-### [**](#QueryOrderMap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L136)QueryOrderMap
+### [**](#QueryOrderMap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L136)QueryOrderMap
 
 **QueryOrderMap\<T>: { \[ K in [EntityKey](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityKey)\<T> ]?: [QueryOrderKeys](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#QueryOrderKeys)<[ExpandProperty](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#ExpandProperty)\<T\[K]>> }
 
@@ -2161,13 +2161,13 @@ Map of factory functions for creating type-safe property builders (scalars, enum
 
 * **T**
 
-### [**](#RawQueryFragmentSymbol)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/RawQueryFragment.ts#L9)RawQueryFragmentSymbol
+### [**](#RawQueryFragmentSymbol)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/RawQueryFragment.ts#L9)RawQueryFragmentSymbol
 
 **RawQueryFragmentSymbol: symbol & { \[rawFragmentSymbolBrand]: true }
 
 Branded symbol type used as a unique key for tracking raw SQL fragments in object properties.
 
-### [**](#Ref)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L736)Ref
+### [**](#Ref)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L736)Ref
 
 **Ref\<T>: T extends any ? IsAny\<T> extends true ? [Reference](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Reference.md)\<T & object> : T extends [Scalar](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Scalar) ? [ScalarReference](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ScalarReference.md)\<T> : [EntityRef](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityRef)\<T & object> : never
 
@@ -2179,7 +2179,7 @@ Ref type represents a `Reference` instance, and adds the primary keys to its pro
 
 * **T**
 
-### [**](#Rel)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L719)Rel
+### [**](#Rel)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L719)Rel
 
 **Rel\<T>: T
 
@@ -2191,7 +2191,7 @@ Identity type that can be used to get around issues with cycles in bidirectional
 
 * **T**
 
-### [**](#RequiredEntityData)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L693)RequiredEntityData
+### [**](#RequiredEntityData)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L693)RequiredEntityData
 
 **RequiredEntityData\<T, I, C>: { \[ K in keyof
 
@@ -2213,7 +2213,7 @@ Data shape for `em.create()` with required/optional distinction based on entity 
 * **I** = never
 * **C**: boolean = false
 
-### [**](#RequiredNullable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L227)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L229)RequiredNullable
+### [**](#RequiredNullable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L227)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L229)RequiredNullable
 
 **RequiredNullable\<T>: (T & [RequiredNullable.Brand](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/namespace/RequiredNullable.md#Brand)) | null
 
@@ -2225,13 +2225,13 @@ Branded type that marks a nullable property as required in `em.create()`. By def
 
 * **T** = never
 
-### [**](#Scalar)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L353)Scalar
+### [**](#Scalar)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L353)Scalar
 
 **Scalar: boolean | number | string | bigint | symbol | Date | RegExp | Uint8Array | { toHexString: any }
 
 Union of types considered "scalar" (non-entity) values. Used to distinguish entity relations from plain values.
 
-### [**](#ScalarRef)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L722)ScalarRef
+### [**](#ScalarRef)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L722)ScalarRef
 
 **ScalarRef\<T>: [ScalarReference](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ScalarReference.md)\<T>
 
@@ -2243,7 +2243,7 @@ Alias for `ScalarReference` (see [Ref](https://mikro-orm.io/zh-Hans/zh-Hans/api/
 
 * **T**
 
-### [**](#SchemaColumns)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L919)SchemaColumns
+### [**](#SchemaColumns)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L919)SchemaColumns
 
 **SchemaColumns\<T>: Record\<PropertyName\<T>, string>
 
@@ -2255,7 +2255,7 @@ Column mapping for schema callbacks (indexes, checks, generated columns). Maps p
 
 * **T**
 
-### [**](#SchemaTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L900)SchemaTable
+### [**](#SchemaTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L900)SchemaTable
 
 **SchemaTable: { name: string; qualifiedName: string; schema?
 
@@ -2281,7 +2281,7 @@ Table reference for schema callbacks (indexes, checks, generated columns). Unlik
 
     - #### Returns string
 
-### [**](#Selected)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1967)Selected
+### [**](#Selected)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1967)Selected
 
 **Selected\<T, L, F>: { \[ K in keyof
 
@@ -2307,7 +2307,7 @@ Entity type narrowed to only the selected fields (`F`) and populated relations (
 * **L**: string = never
 * **F**: string = \*
 
-### [**](#SerializeDTO)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L862)SerializeDTO
+### [**](#SerializeDTO)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L862)SerializeDTO
 
 **SerializeDTO\<T, H, E, C, F>: string extends H ? EntityDTOFlat\<T, C> : \[F] extends \[\*] ? { \[ K in keyof
 
@@ -2331,7 +2331,7 @@ Return type of `serialize()`. Combines Loaded + EntityDTO in a single pass for b
 * **C**: [TypeConfig](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/TypeConfig.md) = never
 * **F**: string = \*
 
-### [**](#Transaction)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L274)Transaction
+### [**](#Transaction)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L274)Transaction
 
 **Transaction\<T>: T & {}
 
@@ -2343,11 +2343,11 @@ Opaque transaction context type, wrapping the driver-specific transaction object
 
 * **T** = any
 
-### [**](#TransactionEventType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L322)TransactionEventType
+### [**](#TransactionEventType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L322)TransactionEventType
 
 **TransactionEventType: EventType.beforeTransactionStart | EventType.afterTransactionStart | EventType.beforeTransactionCommit | EventType.afterTransactionCommit | EventType.beforeTransactionRollback | EventType.afterTransactionRollback
 
-### [**](#UnboxArray)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1852)UnboxArray
+### [**](#UnboxArray)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1852)UnboxArray
 
 **UnboxArray\<T>: T extends any\[] ? ArrayElement\<T> : T
 
@@ -2359,7 +2359,7 @@ Unwraps an array type to its element type; non-arrays pass through unchanged.
 
 * **T**
 
-### [**](#UniversalPropertyKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L60)UniversalPropertyKeys
+### [**](#UniversalPropertyKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L60)UniversalPropertyKeys
 
 **UniversalPropertyKeys: keyof
 
@@ -2399,7 +2399,7 @@ Union of all option keys supported across all property definition types (scalar,
 
 ## Variables<!-- -->[**](#Variables)
 
-### [**](#ARRAY_OPERATORS)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L93)constARRAY\_OPERATORS
+### [**](#ARRAY_OPERATORS)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L93)constARRAY\_OPERATORS
 
 **ARRAY\_OPERATORS: string\[] =
 
@@ -2407,7 +2407,7 @@ Union of all option keys supported across all property definition types (scalar,
 
 ...
 
-### [**](#Config)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L200)constConfig
+### [**](#Config)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L200)constConfig
 
 **Config: typeof [Config](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Config) =
 
@@ -2417,7 +2417,7 @@ Union of all option keys supported across all property definition types (scalar,
 
 Symbol used to declare type-level configuration on an entity (e.g., `[Config]?: DefineConfig<{ forceObject: true }>`).
 
-### [**](#EagerProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L194)constEagerProps
+### [**](#EagerProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L194)constEagerProps
 
 **EagerProps: typeof [EagerProps](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EagerProps) =
 
@@ -2427,7 +2427,7 @@ Symbol used to declare type-level configuration on an entity (e.g., `[Config]?: 
 
 Symbol used to declare which relation properties should be eagerly loaded (e.g., `[EagerProps]?: 'author'`).
 
-### [**](#EntityManagerType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L42)constEntityManagerType
+### [**](#EntityManagerType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L42)constEntityManagerType
 
 **EntityManagerType: typeof [EntityManagerType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityManagerType) =
 
@@ -2437,7 +2437,7 @@ Symbol used to declare which relation properties should be eagerly loaded (e.g.,
 
 Symbol used to extract the EntityManager type from a driver instance.
 
-### [**](#EntityName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L204)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L552)constEntityName
+### [**](#EntityName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L204)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L552)constEntityName
 
 **EntityName: typeof [EntityName](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityName) =
 
@@ -2447,7 +2447,7 @@ Symbol used to extract the EntityManager type from a driver instance.
 
 Symbol used to declare the entity name as a string literal type (used by `defineEntity`).
 
-### [**](#EntityRepositoryType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L185)constEntityRepositoryType
+### [**](#EntityRepositoryType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L185)constEntityRepositoryType
 
 **EntityRepositoryType: typeof [EntityRepositoryType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityRepositoryType) =
 
@@ -2457,7 +2457,7 @@ Symbol used to declare the entity name as a string literal type (used by `define
 
 Symbol used to declare a custom repository type on an entity class (e.g., `[EntityRepositoryType]?: BookRepository`).
 
-### [**](#EventTypeMap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L314)constEventTypeMap
+### [**](#EventTypeMap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L314)constEventTypeMap
 
 **EventTypeMap: Record<[EventType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/enum/EventType.md), number> =
 
@@ -2465,7 +2465,7 @@ Symbol used to declare a custom repository type on an entity class (e.g., `[Enti
 
 ...
 
-### [**](#HiddenProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L197)constHiddenProps
+### [**](#HiddenProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L197)constHiddenProps
 
 **HiddenProps: typeof [HiddenProps](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#HiddenProps) =
 
@@ -2475,7 +2475,7 @@ Symbol used to declare a custom repository type on an entity class (e.g., `[Enti
 
 Symbol used to declare which properties are hidden from serialization (e.g., `[HiddenProps]?: 'password'`).
 
-### [**](#JSON_KEY_OPERATORS)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L95)constJSON\_KEY\_OPERATORS
+### [**](#JSON_KEY_OPERATORS)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L95)constJSON\_KEY\_OPERATORS
 
 **JSON\_KEY\_OPERATORS: string\[] =
 
@@ -2483,7 +2483,7 @@ Symbol used to declare which properties are hidden from serialization (e.g., `[H
 
 ...
 
-### [**](#JsonProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L56)constJsonProperty
+### [**](#JsonProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L56)constJsonProperty
 
 **JsonProperty: typeof [JsonProperty](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#JsonProperty) =
 
@@ -2493,7 +2493,7 @@ Symbol used to declare which properties are hidden from serialization (e.g., `[H
 
 Symbol used to tag cloned embeddable data for JSON serialization handling.
 
-### [**](#OptionalProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L191)constOptionalProps
+### [**](#OptionalProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L191)constOptionalProps
 
 **OptionalProps: typeof [OptionalProps](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#OptionalProps) =
 
@@ -2503,7 +2503,7 @@ Symbol used to tag cloned embeddable data for JSON serialization handling.
 
 Symbol used to declare which properties are optional in `em.create()` (e.g., `[OptionalProps]?: 'createdAt'`).
 
-### [**](#p)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/defineEntity.ts#L1031)constp
+### [**](#p)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/defineEntity.ts#L1031)constp
 
 **p: [PropertyBuilders](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#PropertyBuilders) =
 
@@ -2511,7 +2511,7 @@ Symbol used to declare which properties are optional in `em.create()` (e.g., `[O
 
 ...
 
-### [**](#PrimaryKeyProp)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L188)constPrimaryKeyProp
+### [**](#PrimaryKeyProp)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L188)constPrimaryKeyProp
 
 **PrimaryKeyProp: typeof [PrimaryKeyProp](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#PrimaryKeyProp) =
 
@@ -2521,7 +2521,7 @@ Symbol used to declare which properties are optional in `em.create()` (e.g., `[O
 
 Symbol used to declare the primary key property name(s) on an entity (e.g., `[PrimaryKeyProp]?: 'id'`).
 
-### [**](#SCALAR_TYPES)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L172)constSCALAR\_TYPES
+### [**](#SCALAR_TYPES)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L172)constSCALAR\_TYPES
 
 **SCALAR\_TYPES: Set\<string> =
 
@@ -2529,7 +2529,7 @@ Symbol used to declare the primary key property name(s) on an entity (e.g., `[Pr
 
 ...
 
-### [**](#t)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/index.ts#L85)constt
+### [**](#t)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/index.ts#L85)constt
 
 **t: { array: typeof [ArrayType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ArrayType.md); bigint: typeof [BigIntType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/BigIntType.md); blob: typeof [BlobType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/BlobType.md); boolean: typeof [BooleanType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/BooleanType.md); character: typeof [CharacterType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/CharacterType.md); date: typeof [DateType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/DateType.md); datetime: typeof [DateTimeType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/DateTimeType.md); decimal: typeof [DecimalType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/DecimalType.md); double: typeof [DoubleType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/DoubleType.md); enum: typeof [EnumType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EnumType.md); enumArray: typeof [EnumArrayType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EnumArrayType.md); float: typeof [FloatType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/FloatType.md); integer: typeof [IntegerType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/IntegerType.md); interval: typeof [IntervalType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/IntervalType.md); json: typeof [JsonType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/JsonType.md); mediumint: typeof [MediumIntType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/MediumIntType.md); smallint: typeof [SmallIntType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/SmallIntType.md); string: typeof [StringType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/StringType.md); text: typeof [TextType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/TextType.md); time: typeof [TimeType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/TimeType.md); tinyint: typeof [TinyIntType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/TinyIntType.md); uint8array: typeof [Uint8ArrayType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Uint8ArrayType.md); unknown: typeof [UnknownType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/UnknownType.md); uuid: typeof [UuidType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/UuidType.md) } =
 
@@ -2568,7 +2568,7 @@ Shorthand alias for the `types` registry.
 * ##### readonlyunknown: typeof [UnknownType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/UnknownType.md)
 * ##### readonlyuuid: typeof [UuidType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/UuidType.md)
 
-### [**](#types)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/index.ts#L57)consttypes
+### [**](#types)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/index.ts#L57)consttypes
 
 **types: { array: typeof [ArrayType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ArrayType.md); bigint: typeof [BigIntType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/BigIntType.md); blob: typeof [BlobType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/BlobType.md); boolean: typeof [BooleanType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/BooleanType.md); character: typeof [CharacterType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/CharacterType.md); date: typeof [DateType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/DateType.md); datetime: typeof [DateTimeType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/DateTimeType.md); decimal: typeof [DecimalType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/DecimalType.md); double: typeof [DoubleType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/DoubleType.md); enum: typeof [EnumType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EnumType.md); enumArray: typeof [EnumArrayType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EnumArrayType.md); float: typeof [FloatType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/FloatType.md); integer: typeof [IntegerType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/IntegerType.md); interval: typeof [IntervalType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/IntervalType.md); json: typeof [JsonType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/JsonType.md); mediumint: typeof [MediumIntType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/MediumIntType.md); smallint: typeof [SmallIntType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/SmallIntType.md); string: typeof [StringType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/StringType.md); text: typeof [TextType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/TextType.md); time: typeof [TimeType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/TimeType.md); tinyint: typeof [TinyIntType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/TinyIntType.md); uint8array: typeof [Uint8ArrayType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Uint8ArrayType.md); unknown: typeof [UnknownType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/UnknownType.md); uuid: typeof [UuidType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/UuidType.md) } =
 

@@ -22,7 +22,7 @@ Options for `ISchemaGenerator.ensureDatabase()` which creates and optionally cle
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#clear)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1513)optionalclear
+### [**](#clear)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1513)optionalclear
 
 **clear?
 
@@ -30,7 +30,7 @@ Options for `ISchemaGenerator.ensureDatabase()` which creates and optionally cle
 
 : boolean
 
-### [**](#clearIdentityMap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1508)optionalinheritedclearIdentityMap
+### [**](#clearIdentityMap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1508)optionalinheritedclearIdentityMap
 
 **clearIdentityMap?
 
@@ -40,7 +40,7 @@ Options for `ISchemaGenerator.ensureDatabase()` which creates and optionally cle
 
 Inherited from ClearDatabaseOptions.clearIdentityMap
 
-### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1514)optionalcreate
+### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1514)optionalcreate
 
 **create?
 
@@ -48,7 +48,7 @@ Inherited from ClearDatabaseOptions.clearIdentityMap
 
 : boolean
 
-### [**](#forceCheck)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1515)optionalforceCheck
+### [**](#forceCheck)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1515)optionalforceCheck
 
 **forceCheck?
 
@@ -56,7 +56,7 @@ Inherited from ClearDatabaseOptions.clearIdentityMap
 
 : boolean
 
-### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1501)optionalinheritedschema
+### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1501)optionalinheritedschema
 
 **schema?
 
@@ -66,7 +66,7 @@ Inherited from ClearDatabaseOptions.clearIdentityMap
 
 Inherited from ClearDatabaseOptions.schema
 
-### [**](#truncate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1507)optionalinheritedtruncate
+### [**](#truncate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1507)optionalinheritedtruncate
 
 **truncate?
 
@@ -76,7 +76,7 @@ Inherited from ClearDatabaseOptions.schema
 
 Inherited from ClearDatabaseOptions.truncate
 
-### [**](#wrap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1500)optionalinheritedwrap
+### [**](#wrap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1500)optionalinheritedwrap
 
 **wrap?
 

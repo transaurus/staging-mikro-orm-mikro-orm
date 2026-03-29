@@ -13,7 +13,7 @@ Context passed to type conversion methods, indicating the conversion mode and so
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#force)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L11)optionalforce
+### [**](#force)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L11)optionalforce
 
 **force?
 
@@ -21,7 +21,7 @@ Context passed to type conversion methods, indicating the conversion mode and so
 
 : boolean
 
-### [**](#fromQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L10)optionalfromQuery
+### [**](#fromQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L10)optionalfromQuery
 
 **fromQuery?
 
@@ -29,7 +29,7 @@ Context passed to type conversion methods, indicating the conversion mode and so
 
 : boolean
 
-### [**](#key)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L12)optionalkey
+### [**](#key)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L12)optionalkey
 
 **key?
 
@@ -37,7 +37,7 @@ Context passed to type conversion methods, indicating the conversion mode and so
 
 : string
 
-### [**](#mode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L13)optionalmode
+### [**](#mode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L13)optionalmode
 
 **mode?
 

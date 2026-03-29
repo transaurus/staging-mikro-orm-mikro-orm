@@ -15,7 +15,7 @@ Resolved database connection parameters.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#database)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L269)optionaldatabase
+### [**](#database)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L269)optionaldatabase
 
 **database?
 
@@ -23,7 +23,7 @@ Resolved database connection parameters.
 
 : string
 
-### [**](#host)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L265)optionalhost
+### [**](#host)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L265)optionalhost
 
 **host?
 
@@ -31,7 +31,7 @@ Resolved database connection parameters.
 
 : string
 
-### [**](#password)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L268)optionalpassword
+### [**](#password)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L268)optionalpassword
 
 **password?
 
@@ -39,7 +39,7 @@ Resolved database connection parameters.
 
 : string | () => [MaybePromise](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MaybePromise)\<string>
 
-### [**](#port)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L266)optionalport
+### [**](#port)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L266)optionalport
 
 **port?
 
@@ -47,7 +47,7 @@ Resolved database connection parameters.
 
 : number
 
-### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L270)optionalschema
+### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L270)optionalschema
 
 **schema?
 
@@ -55,7 +55,7 @@ Resolved database connection parameters.
 
 : string
 
-### [**](#user)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L267)optionaluser
+### [**](#user)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L267)optionaluser
 
 **user?
 

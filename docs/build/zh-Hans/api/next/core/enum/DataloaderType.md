@@ -13,25 +13,25 @@ Controls which relation types use the dataloader for batched loading.
 
 ## Enumeration Members<!-- -->[**](<#Enumeration Members>)
 
-### [**](#ALL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L235)ALL
+### [**](#ALL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L235)ALL
 
 **ALL: 3
 
 Use the dataloader for both Reference and Collection relations.
 
-### [**](#COLLECTION)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L233)COLLECTION
+### [**](#COLLECTION)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L233)COLLECTION
 
 **COLLECTION: 2
 
 Use the dataloader for Collection (to-many) relations only.
 
-### [**](#NONE)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L229)NONE
+### [**](#NONE)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L229)NONE
 
 **NONE: 0
 
 Dataloader is disabled.
 
-### [**](#REFERENCE)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/enums.ts#L231)REFERENCE
+### [**](#REFERENCE)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/enums.ts#L231)REFERENCE
 
 **REFERENCE: 1
 

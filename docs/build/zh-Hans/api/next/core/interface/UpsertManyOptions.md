@@ -28,7 +28,7 @@ Options for `em.upsertMany()`, adds batch size control.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#batchSize)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L447)optionalbatchSize
+### [**](#batchSize)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L447)optionalbatchSize
 
 **batchSize?
 
@@ -36,7 +36,7 @@ Options for `em.upsertMany()`, adds batch size control.
 
 : number
 
-### [**](#convertCustomTypes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L412)optionalinheritedconvertCustomTypes
+### [**](#convertCustomTypes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L412)optionalinheritedconvertCustomTypes
 
 **convertCustomTypes?
 
@@ -46,7 +46,7 @@ Options for `em.upsertMany()`, adds batch size control.
 
 Inherited from UpsertOptions.convertCustomTypes
 
-### [**](#ctx)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L413)optionalinheritedctx
+### [**](#ctx)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L413)optionalinheritedctx
 
 **ctx?
 
@@ -56,7 +56,7 @@ Inherited from UpsertOptions.convertCustomTypes
 
 Inherited from UpsertOptions.ctx
 
-### [**](#disableIdentityMap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L442)optionalinheriteddisableIdentityMap
+### [**](#disableIdentityMap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L442)optionalinheriteddisableIdentityMap
 
 **disableIdentityMap?
 
@@ -66,7 +66,7 @@ Inherited from UpsertOptions.ctx
 
 Inherited from UpsertOptions.disableIdentityMap
 
-### [**](#filters)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L422)optionalinheritedfilters
+### [**](#filters)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L422)optionalinheritedfilters
 
 **filters?
 
@@ -76,7 +76,7 @@ Inherited from UpsertOptions.disableIdentityMap
 
 Inherited from UpsertOptions.filters
 
-### [**](#loggerContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L417)optionalinheritedloggerContext
+### [**](#loggerContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L417)optionalinheritedloggerContext
 
 **loggerContext?
 
@@ -86,7 +86,7 @@ Inherited from UpsertOptions.filters
 
 Inherited from UpsertOptions.loggerContext
 
-### [**](#onConflictAction)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L438)optionalinheritedonConflictAction
+### [**](#onConflictAction)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L438)optionalinheritedonConflictAction
 
 **onConflictAction?
 
@@ -96,7 +96,7 @@ Inherited from UpsertOptions.loggerContext
 
 Inherited from UpsertOptions.onConflictAction
 
-### [**](#onConflictExcludeFields)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L440)optionalinheritedonConflictExcludeFields
+### [**](#onConflictExcludeFields)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L440)optionalinheritedonConflictExcludeFields
 
 **onConflictExcludeFields?
 
@@ -106,7 +106,7 @@ Inherited from UpsertOptions.onConflictAction
 
 Inherited from UpsertOptions.onConflictExcludeFields
 
-### [**](#onConflictFields)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L437)optionalinheritedonConflictFields
+### [**](#onConflictFields)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L437)optionalinheritedonConflictFields
 
 **onConflictFields?
 
@@ -120,7 +120,7 @@ Entity\[]
 
 Inherited from UpsertOptions.onConflictFields
 
-### [**](#onConflictMergeFields)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L439)optionalinheritedonConflictMergeFields
+### [**](#onConflictMergeFields)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L439)optionalinheritedonConflictMergeFields
 
 **onConflictMergeFields?
 
@@ -130,7 +130,7 @@ Inherited from UpsertOptions.onConflictFields
 
 Inherited from UpsertOptions.onConflictMergeFields
 
-### [**](#onConflictWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L441)optionalinheritedonConflictWhere
+### [**](#onConflictWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L441)optionalinheritedonConflictWhere
 
 **onConflictWhere?
 
@@ -140,7 +140,7 @@ Inherited from UpsertOptions.onConflictMergeFields
 
 Inherited from UpsertOptions.onConflictWhere
 
-### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L414)optionalinheritedschema
+### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L414)optionalinheritedschema
 
 **schema?
 
@@ -150,7 +150,7 @@ Inherited from UpsertOptions.onConflictWhere
 
 Inherited from UpsertOptions.schema
 
-### [**](#unionWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L419)optionalinheritedunionWhere
+### [**](#unionWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L419)optionalinheritedunionWhere
 
 **unionWhere?
 
@@ -162,7 +162,7 @@ Inherited from UpsertOptions.unionWhere
 
 sql only
 
-### [**](#unionWhereStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L421)optionalinheritedunionWhereStrategy
+### [**](#unionWhereStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L421)optionalinheritedunionWhereStrategy
 
 **unionWhereStrategy?
 

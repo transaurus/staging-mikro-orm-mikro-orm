@@ -145,7 +145,7 @@ Platform implementation for Microsoft SQL Server.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#allowsComparingTuples)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L300)allowsComparingTuples
+### [**](#allowsComparingTuples)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L300)allowsComparingTuples
 
 * ****allowsComparingTuples**(): boolean
 
@@ -157,7 +157,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#cloneEmbeddable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L711)inheritedcloneEmbeddable
+### [**](#cloneEmbeddable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L711)inheritedcloneEmbeddable
 
 * ****cloneEmbeddable**\<T>(data): T
 
@@ -173,7 +173,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns T
 
-### [**](#compareUuids)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L570)inheritedcompareUuids
+### [**](#compareUuids)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L570)inheritedcompareUuids
 
 * ****compareUuids**(): string
 
@@ -185,7 +185,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#convertDateToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L68)convertDateToJSValue
+### [**](#convertDateToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L68)convertDateToJSValue
 
 * ****convertDateToJSValue**(value): string
 
@@ -197,7 +197,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#convertIntervalToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L558)inheritedconvertIntervalToDatabaseValue
+### [**](#convertIntervalToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L558)inheritedconvertIntervalToDatabaseValue
 
 * ****convertIntervalToDatabaseValue**(value): unknown
 
@@ -209,7 +209,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns unknown
 
-### [**](#convertIntervalToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L554)inheritedconvertIntervalToJSValue
+### [**](#convertIntervalToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L554)inheritedconvertIntervalToJSValue
 
 * ****convertIntervalToJSValue**(value): unknown
 
@@ -221,7 +221,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns unknown
 
-### [**](#convertJsonToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L541)inheritedconvertJsonToDatabaseValue
+### [**](#convertJsonToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L541)inheritedconvertJsonToDatabaseValue
 
 * ****convertJsonToDatabaseValue**(value, context): unknown
 
@@ -238,7 +238,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns unknown
 
-### [**](#convertJsonToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L546)inheritedconvertJsonToJSValue
+### [**](#convertJsonToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L546)inheritedconvertJsonToJSValue
 
 * ****convertJsonToJSValue**(value, context): unknown
 
@@ -255,7 +255,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns unknown
 
-### [**](#convertsJsonAutomatically)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L77)convertsJsonAutomatically
+### [**](#convertsJsonAutomatically)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L77)convertsJsonAutomatically
 
 * ****convertsJsonAutomatically**(): boolean
 
@@ -267,7 +267,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#convertUuidToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L578)inheritedconvertUuidToDatabaseValue
+### [**](#convertUuidToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L578)inheritedconvertUuidToDatabaseValue
 
 * ****convertUuidToDatabaseValue**(value): unknown
 
@@ -279,7 +279,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns unknown
 
-### [**](#convertUuidToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L574)inheritedconvertUuidToJSValue
+### [**](#convertUuidToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L574)inheritedconvertUuidToJSValue
 
 * ****convertUuidToJSValue**(value): unknown
 
@@ -291,7 +291,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns unknown
 
-### [**](#convertVersionValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L233)inheritedconvertVersionValue
+### [**](#convertVersionValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L233)inheritedconvertVersionValue
 
 * ****convertVersionValue**(value, prop): string | number | Date | { $in: (string | number)\[] }
 
@@ -308,7 +308,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string | number | Date | { $in: (string | number)\[] }
 
-### [**](#denormalizePrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L164)inheriteddenormalizePrimaryKey
+### [**](#denormalizePrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L164)inheriteddenormalizePrimaryKey
 
 * ****denormalizePrimaryKey**(data): IPrimaryKeyValue
 
@@ -324,7 +324,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns IPrimaryKeyValue
 
-### [**](#escape)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L279)escape
+### [**](#escape)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L279)escape
 
 * ****escape**(value): string
 
@@ -336,7 +336,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#extractSimpleType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L337)inheritedextractSimpleType
+### [**](#extractSimpleType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L337)inheritedextractSimpleType
 
 * ****extractSimpleType**(type): string
 
@@ -352,7 +352,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#formatQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L667)inheritedformatQuery
+### [**](#formatQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L667)inheritedformatQuery
 
 * ****formatQuery**(sql, params): string
 
@@ -369,7 +369,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#generateCustomOrder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L149)inheritedgenerateCustomOrder
+### [**](#generateCustomOrder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L149)inheritedgenerateCustomOrder
 
 * ****generateCustomOrder**(escapedColumn, values): string
 
@@ -386,7 +386,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getArrayDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L441)inheritedgetArrayDeclarationSQL
+### [**](#getArrayDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L441)inheritedgetArrayDeclarationSQL
 
 * ****getArrayDeclarationSQL**(): string
 
@@ -398,7 +398,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getBeginTransactionSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L59)inheritedgetBeginTransactionSQL
+### [**](#getBeginTransactionSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L59)inheritedgetBeginTransactionSQL
 
 * ****getBeginTransactionSQL**(options): string\[]
 
@@ -412,7 +412,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string\[]
 
-### [**](#getBigIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L282)inheritedgetBigIntTypeDeclarationSQL
+### [**](#getBigIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L282)inheritedgetBigIntTypeDeclarationSQL
 
 * ****getBigIntTypeDeclarationSQL**(column): string
 
@@ -427,7 +427,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getBlobDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L118)getBlobDeclarationSQL
+### [**](#getBlobDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L118)getBlobDeclarationSQL
 
 * ****getBlobDeclarationSQL**(): string
 
@@ -435,7 +435,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getBooleanTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L110)getBooleanTypeDeclarationSQL
+### [**](#getBooleanTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L110)getBooleanTypeDeclarationSQL
 
 * ****getBooleanTypeDeclarationSQL**(): string
 
@@ -447,7 +447,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getCharTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L286)inheritedgetCharTypeDeclarationSQL
+### [**](#getCharTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L286)inheritedgetCharTypeDeclarationSQL
 
 * ****getCharTypeDeclarationSQL**(column): string
 
@@ -460,7 +460,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getCommitTransactionSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L67)inheritedgetCommitTransactionSQL
+### [**](#getCommitTransactionSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L67)inheritedgetCommitTransactionSQL
 
 * ****getCommitTransactionSQL**(): string
 
@@ -468,7 +468,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getConfig)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L732)inheritedgetConfig
+### [**](#getConfig)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L732)inheritedgetConfig
 
 * ****getConfig**(): [Configuration](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Configuration.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>, [EntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityManager.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>>>
 
@@ -480,7 +480,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns [Configuration](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Configuration.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>, [EntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityManager.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>>>
 
-### [**](#getCurrentTimestampSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L89)getCurrentTimestampSQL
+### [**](#getCurrentTimestampSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L89)getCurrentTimestampSQL
 
 * ****getCurrentTimestampSQL**(length): string
 
@@ -496,7 +496,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getDateTimeTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L93)getDateTimeTypeDeclarationSQL
+### [**](#getDateTimeTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L93)getDateTimeTypeDeclarationSQL
 
 * ****getDateTimeTypeDeclarationSQL**(column): string
 
@@ -513,7 +513,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getDateTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L196)inheritedgetDateTypeDeclarationSQL
+### [**](#getDateTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L196)inheritedgetDateTypeDeclarationSQL
 
 * ****getDateTypeDeclarationSQL**(length): string
 
@@ -529,7 +529,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getDecimalTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L324)inheritedgetDecimalTypeDeclarationSQL
+### [**](#getDecimalTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L324)inheritedgetDecimalTypeDeclarationSQL
 
 * ****getDecimalTypeDeclarationSQL**(column): string
 
@@ -543,7 +543,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getDefaultCharLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L191)inheritedgetDefaultCharLength
+### [**](#getDefaultCharLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L191)inheritedgetDefaultCharLength
 
 * ****getDefaultCharLength**(): number
 
@@ -555,7 +555,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns number
 
-### [**](#getDefaultCharset)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L600)inheritedgetDefaultCharset
+### [**](#getDefaultCharset)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L600)inheritedgetDefaultCharset
 
 * ****getDefaultCharset**(): string
 
@@ -567,7 +567,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getDefaultClientUrl)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L327)getDefaultClientUrl
+### [**](#getDefaultClientUrl)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L327)getDefaultClientUrl
 
 * ****getDefaultClientUrl**(): string
 
@@ -579,7 +579,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getDefaultDateTimeLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L98)getDefaultDateTimeLength
+### [**](#getDefaultDateTimeLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L98)getDefaultDateTimeLength
 
 * ****getDefaultDateTimeLength**(): number
 
@@ -591,7 +591,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns number
 
-### [**](#getDefaultMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L163)getDefaultMappedType
+### [**](#getDefaultMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L163)getDefaultMappedType
 
 * ****getDefaultMappedType**(type): [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<unknown, unknown>
 
@@ -607,7 +607,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<unknown, unknown>
 
-### [**](#getDefaultPrimaryName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L769)inheritedgetDefaultPrimaryName
+### [**](#getDefaultPrimaryName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L769)inheritedgetDefaultPrimaryName
 
 * ****getDefaultPrimaryName**(tableName, columns): string
 
@@ -624,7 +624,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getDefaultSchemaName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L192)getDefaultSchemaName
+### [**](#getDefaultSchemaName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L192)getDefaultSchemaName
 
 * ****getDefaultSchemaName**(): undefined | string
 
@@ -636,7 +636,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns undefined | string
 
-### [**](#getDefaultVarcharLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L186)inheritedgetDefaultVarcharLength
+### [**](#getDefaultVarcharLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L186)inheritedgetDefaultVarcharLength
 
 * ****getDefaultVarcharLength**(): number
 
@@ -648,7 +648,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns number
 
-### [**](#getDefaultVersionLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L241)inheritedgetDefaultVersionLength
+### [**](#getDefaultVersionLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L241)inheritedgetDefaultVersionLength
 
 * ****getDefaultVersionLength**(): number
 
@@ -660,7 +660,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns number
 
-### [**](#getDoubleDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L106)getDoubleDeclarationSQL
+### [**](#getDoubleDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L106)getDoubleDeclarationSQL
 
 * ****getDoubleDeclarationSQL**(): string
 
@@ -668,7 +668,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getEnumArrayCheckConstraintExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L116)inheritedgetEnumArrayCheckConstraintExpression
+### [**](#getEnumArrayCheckConstraintExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L116)inheritedgetEnumArrayCheckConstraintExpression
 
 * ****getEnumArrayCheckConstraintExpression**(column, items): null | string
 
@@ -685,7 +685,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns null | string
 
-### [**](#getEnumCheckConstraintExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L111)inheritedgetEnumCheckConstraintExpression
+### [**](#getEnumCheckConstraintExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L111)inheritedgetEnumCheckConstraintExpression
 
 * ****getEnumCheckConstraintExpression**(column, items): string
 
@@ -702,7 +702,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getEnumTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L134)getEnumTypeDeclarationSQL
+### [**](#getEnumTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L134)getEnumTypeDeclarationSQL
 
 * ****getEnumTypeDeclarationSQL**(column): string
 
@@ -719,7 +719,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getExceptionConverter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L605)inheritedgetExceptionConverter
+### [**](#getExceptionConverter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L605)inheritedgetExceptionConverter
 
 * ****getExceptionConverter**(): [ExceptionConverter](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ExceptionConverter.md)
 
@@ -731,7 +731,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns [ExceptionConverter](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ExceptionConverter.md)
 
-### [**](#getExtension)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L622)inheritedgetExtension
+### [**](#getExtension)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L622)inheritedgetExtension
 
 * ****getExtension**\<T>(extensionName, extensionKey, moduleName, em): T
 
@@ -750,7 +750,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns T
 
-### [**](#getFloatDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L102)getFloatDeclarationSQL
+### [**](#getFloatDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L102)getFloatDeclarationSQL
 
 * ****getFloatDeclarationSQL**(): string
 
@@ -758,7 +758,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getFullTextIndexExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L526)inheritedgetFullTextIndexExpression
+### [**](#getFullTextIndexExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L526)inheritedgetFullTextIndexExpression
 
 * ****getFullTextIndexExpression**(indexName, schemaName, tableName, columns): string
 
@@ -773,7 +773,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getFullTextWhereClause)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L518)inheritedgetFullTextWhereClause
+### [**](#getFullTextWhereClause)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L518)inheritedgetFullTextWhereClause
 
 * ****getFullTextWhereClause**(prop): string
 
@@ -785,7 +785,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getIndexName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L760)inheritedgetIndexName
+### [**](#getIndexName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L760)inheritedgetIndexName
 
 * ****getIndexName**(tableName, columns, type): string
 
@@ -803,7 +803,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getIntegerTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L266)inheritedgetIntegerTypeDeclarationSQL
+### [**](#getIntegerTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L266)inheritedgetIntegerTypeDeclarationSQL
 
 * ****getIntegerTypeDeclarationSQL**(column): string
 
@@ -822,7 +822,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getIntervalTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L294)inheritedgetIntervalTypeDeclarationSQL
+### [**](#getIntervalTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L294)inheritedgetIntervalTypeDeclarationSQL
 
 * ****getIntervalTypeDeclarationSQL**(column): string
 
@@ -835,7 +835,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getJsonDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L122)getJsonDeclarationSQL
+### [**](#getJsonDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L122)getJsonDeclarationSQL
 
 * ****getJsonDeclarationSQL**(): string
 
@@ -843,7 +843,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getJsonIndexDefinition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L129)inheritedgetJsonIndexDefinition
+### [**](#getJsonIndexDefinition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L129)inheritedgetJsonIndexDefinition
 
 * ****getJsonIndexDefinition**(index): string\[]
 
@@ -855,7 +855,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string\[]
 
-### [**](#getMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L349)inheritedgetMappedType
+### [**](#getMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L349)inheritedgetMappedType
 
 * ****getMappedType**(type): [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<unknown, unknown>
 
@@ -871,7 +871,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<unknown, unknown>
 
-### [**](#getMediumIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L274)inheritedgetMediumIntTypeDeclarationSQL
+### [**](#getMediumIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L274)inheritedgetMediumIntTypeDeclarationSQL
 
 * ****getMediumIntTypeDeclarationSQL**(column): string
 
@@ -886,7 +886,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getNamingStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L81)inheritedgetNamingStrategy
+### [**](#getNamingStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L81)inheritedgetNamingStrategy
 
 * ****getNamingStrategy**(): new () => [NamingStrategy](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/NamingStrategy.md)
 
@@ -902,7 +902,7 @@ Platform implementation for Microsoft SQL Server.
 
     - #### Returns [NamingStrategy](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/NamingStrategy.md)
 
-### [**](#getRegExpOperator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L114)getRegExpOperator
+### [**](#getRegExpOperator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L114)getRegExpOperator
 
 * ****getRegExpOperator**(): string
 
@@ -914,7 +914,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getRegExpValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L219)inheritedgetRegExpValue
+### [**](#getRegExpValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L219)inheritedgetRegExpValue
 
 * ****getRegExpValue**(val): { $flags?
   <!-- -->
@@ -935,7 +935,7 @@ Platform implementation for Microsoft SQL Server.
   * ##### optional$flags?<!-- -->: string
   * ##### $re: string
 
-### [**](#getReleaseSavepointSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L83)inheritedgetReleaseSavepointSQL
+### [**](#getReleaseSavepointSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L83)inheritedgetReleaseSavepointSQL
 
 * ****getReleaseSavepointSQL**(savepointName): string
 
@@ -947,7 +947,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getRepositoryClass)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L35)inheritedgetRepositoryClass
+### [**](#getRepositoryClass)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L35)inheritedgetRepositoryClass
 
 * ****getRepositoryClass**\<T>(): [Constructor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Constructor)<[EntityRepository](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityRepository.md)\<T>>
 
@@ -959,7 +959,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns [Constructor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Constructor)<[EntityRepository](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityRepository.md)\<T>>
 
-### [**](#getRollbackToSavepointSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L51)getRollbackToSavepointSQL
+### [**](#getRollbackToSavepointSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L51)getRollbackToSavepointSQL
 
 * ****getRollbackToSavepointSQL**(savepointName): string
 
@@ -971,7 +971,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getRollbackTransactionSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L71)inheritedgetRollbackTransactionSQL
+### [**](#getRollbackTransactionSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L71)inheritedgetRollbackTransactionSQL
 
 * ****getRollbackTransactionSQL**(): string
 
@@ -979,7 +979,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getSavepointSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L55)getSavepointSQL
+### [**](#getSavepointSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L55)getSavepointSQL
 
 * ****getSavepointSQL**(savepointName): string
 
@@ -991,7 +991,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getSchemaGenerator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L296)getSchemaGenerator
+### [**](#getSchemaGenerator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L296)getSchemaGenerator
 
 * ****getSchemaGenerator**(driver, em): MsSqlSchemaGenerator
 
@@ -1004,7 +1004,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns MsSqlSchemaGenerator
 
-### [**](#getSchemaHelper)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L39)inheritedgetSchemaHelper
+### [**](#getSchemaHelper)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L39)inheritedgetSchemaHelper
 
 * ****getSchemaHelper**(): undefined | [SchemaHelper](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/SchemaHelper.md)
 
@@ -1016,7 +1016,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns undefined | [SchemaHelper](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/SchemaHelper.md)
 
-### [**](#getSearchJsonPropertyKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L215)getSearchJsonPropertyKey
+### [**](#getSearchJsonPropertyKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L215)getSearchJsonPropertyKey
 
 * ****getSearchJsonPropertyKey**(path, type, aliased, value): string | [RawQueryFragment](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)\<string>
 
@@ -1031,7 +1031,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string | [RawQueryFragment](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)\<string>
 
-### [**](#getSearchJsonPropertySQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L99)inheritedgetSearchJsonPropertySQL
+### [**](#getSearchJsonPropertySQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L99)inheritedgetSearchJsonPropertySQL
 
 * ****getSearchJsonPropertySQL**(path, type, aliased): string | [RawQueryFragment](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)\<string>
 
@@ -1045,7 +1045,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string | [RawQueryFragment](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)\<string>
 
-### [**](#getSmallIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L270)inheritedgetSmallIntTypeDeclarationSQL
+### [**](#getSmallIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L270)inheritedgetSmallIntTypeDeclarationSQL
 
 * ****getSmallIntTypeDeclarationSQL**(column): string
 
@@ -1060,7 +1060,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getTextTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L298)inheritedgetTextTypeDeclarationSQL
+### [**](#getTextTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L298)inheritedgetTextTypeDeclarationSQL
 
 * ****getTextTypeDeclarationSQL**(\_column): string
 
@@ -1073,7 +1073,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getTimeTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L201)inheritedgetTimeTypeDeclarationSQL
+### [**](#getTimeTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L201)inheritedgetTimeTypeDeclarationSQL
 
 * ****getTimeTypeDeclarationSQL**(length): string
 
@@ -1089,7 +1089,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getTimezone)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L737)inheritedgetTimezone
+### [**](#getTimezone)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L737)inheritedgetTimezone
 
 * ****getTimezone**(): undefined | string
 
@@ -1101,7 +1101,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns undefined | string
 
-### [**](#getTinyIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L278)inheritedgetTinyIntTypeDeclarationSQL
+### [**](#getTinyIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L278)inheritedgetTinyIntTypeDeclarationSQL
 
 * ****getTinyIntTypeDeclarationSQL**(column): string
 
@@ -1116,7 +1116,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getUuidTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L196)getUuidTypeDeclarationSQL
+### [**](#getUuidTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L196)getUuidTypeDeclarationSQL
 
 * ****getUuidTypeDeclarationSQL**(column): string
 
@@ -1129,7 +1129,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#getVarcharTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L126)getVarcharTypeDeclarationSQL
+### [**](#getVarcharTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L126)getVarcharTypeDeclarationSQL
 
 * ****getVarcharTypeDeclarationSQL**(column): string
 
@@ -1142,7 +1142,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#indexForeignKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L81)indexForeignKeys
+### [**](#indexForeignKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L81)indexForeignKeys
 
 * ****indexForeignKeys**(): boolean
 
@@ -1154,7 +1154,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#init)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L45)init
+### [**](#init)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L45)init
 
 * ****init**(orm): void
 
@@ -1170,7 +1170,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns void
 
-### [**](#isAllowedTopLevelOperator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L228)inheritedisAllowedTopLevelOperator
+### [**](#isAllowedTopLevelOperator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L228)inheritedisAllowedTopLevelOperator
 
 * ****isAllowedTopLevelOperator**(operator): boolean
 
@@ -1186,7 +1186,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#isBigIntProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L251)inheritedisBigIntProperty
+### [**](#isBigIntProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L251)inheritedisBigIntProperty
 
 * ****isBigIntProperty**(prop): boolean
 
@@ -1202,7 +1202,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#isNumericColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L748)inheritedisNumericColumn
+### [**](#isNumericColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L748)inheritedisNumericColumn
 
 * ****isNumericColumn**(mappedType): boolean
 
@@ -1218,7 +1218,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#isNumericProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L742)inheritedisNumericProperty
+### [**](#isNumericProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L742)inheritedisNumericProperty
 
 * ****isNumericProperty**(prop, ignoreCustomType): boolean
 
@@ -1235,7 +1235,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#isPopulated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L779)inheritedisPopulated
+### [**](#isPopulated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L779)inheritedisPopulated
 
 * ****isPopulated**\<T>(key, populate): boolean
 
@@ -1252,7 +1252,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#lookupExtensions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L40)lookupExtensions
+### [**](#lookupExtensions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L40)lookupExtensions
 
 * ****lookupExtensions**(orm): void
 
@@ -1268,7 +1268,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns void
 
-### [**](#mapRegExpCondition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L211)inheritedmapRegExpCondition
+### [**](#mapRegExpCondition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L211)inheritedmapRegExpCondition
 
 * ****mapRegExpCondition**(mappedKey, value): { params: unknown\[]; sql: string }
 
@@ -1290,7 +1290,7 @@ Platform implementation for Microsoft SQL Server.
   * ##### params: unknown\[]
   * ##### sql: string
 
-### [**](#marshallArray)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L446)inheritedmarshallArray
+### [**](#marshallArray)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L446)inheritedmarshallArray
 
 * ****marshallArray**(values): string
 
@@ -1306,7 +1306,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#normalizeColumnType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L149)normalizeColumnType
+### [**](#normalizeColumnType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L149)normalizeColumnType
 
 * ****normalizeColumnType**(type, options): string
 
@@ -1326,7 +1326,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#normalizePrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L248)normalizePrimaryKey
+### [**](#normalizePrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L248)normalizePrimaryKey
 
 * ****normalizePrimaryKey**\<T>(data): T
 
@@ -1342,7 +1342,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns T
 
-### [**](#parseDate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L583)inheritedparseDate
+### [**](#parseDate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L583)inheritedparseDate
 
 * ****parseDate**(value): Date
 
@@ -1358,7 +1358,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns Date
 
-### [**](#processDateProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L641)inheritedprocessDateProperty
+### [**](#processDateProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L641)inheritedprocessDateProperty
 
 * ****processDateProperty**(value): string | number | Date
 
@@ -1374,7 +1374,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string | number | Date
 
-### [**](#processJsonCondition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L475)inheritedprocessJsonCondition
+### [**](#processJsonCondition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L475)inheritedprocessJsonCondition
 
 * ****processJsonCondition**\<T>(o, value, path, alias): [FilterQuery](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#FilterQuery)\<T>
 
@@ -1389,7 +1389,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns [FilterQuery](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#FilterQuery)\<T>
 
-### [**](#quoteIdentifier)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L271)quoteIdentifier
+### [**](#quoteIdentifier)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L271)quoteIdentifier
 
 * ****quoteIdentifier**(id): string
 
@@ -1406,7 +1406,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#quoteValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L87)inheritedquoteValue
+### [**](#quoteValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L87)inheritedquoteValue
 
 * ****quoteValue**(value): string
 
@@ -1422,7 +1422,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string
 
-### [**](#setConfig)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L720)inheritedsetConfig
+### [**](#setConfig)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L720)inheritedsetConfig
 
 * ****setConfig**(config): void
 
@@ -1438,7 +1438,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns void
 
-### [**](#shouldHaveColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L784)inheritedshouldHaveColumn
+### [**](#shouldHaveColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L784)inheritedshouldHaveColumn
 
 * ****shouldHaveColumn**\<T>(prop, populate, exclude, includeFormulas, ignoreInlineEmbeddables): boolean
 
@@ -1458,7 +1458,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#supportsCreatingFullTextIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L522)inheritedsupportsCreatingFullTextIndex
+### [**](#supportsCreatingFullTextIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L522)inheritedsupportsCreatingFullTextIndex
 
 * ****supportsCreatingFullTextIndex**(): boolean
 
@@ -1466,7 +1466,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#supportsCustomPrimaryKeyNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L774)inheritedsupportsCustomPrimaryKeyNames
+### [**](#supportsCustomPrimaryKeyNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L774)inheritedsupportsCustomPrimaryKeyNames
 
 * ****supportsCustomPrimaryKeyNames**(): boolean
 
@@ -1478,7 +1478,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#supportsDeferredUniqueConstraints)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L831)inheritedsupportsDeferredUniqueConstraints
+### [**](#supportsDeferredUniqueConstraints)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L831)inheritedsupportsDeferredUniqueConstraints
 
 * ****supportsDeferredUniqueConstraints**(): boolean
 
@@ -1490,7 +1490,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#supportsDownMigrations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L826)inheritedsupportsDownMigrations
+### [**](#supportsDownMigrations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L826)inheritedsupportsDownMigrations
 
 * ****supportsDownMigrations**(): boolean
 
@@ -1502,7 +1502,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#supportsMaterializedViews)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L121)inheritedsupportsMaterializedViews
+### [**](#supportsMaterializedViews)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L121)inheritedsupportsMaterializedViews
 
 * ****supportsMaterializedViews**(): boolean
 
@@ -1514,7 +1514,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#supportsMultipleCascadePaths)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L263)supportsMultipleCascadePaths
+### [**](#supportsMultipleCascadePaths)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L263)supportsMultipleCascadePaths
 
 * ****supportsMultipleCascadePaths**(): boolean
 
@@ -1526,7 +1526,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#supportsMultipleStatements)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L267)supportsMultipleStatements
+### [**](#supportsMultipleStatements)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L267)supportsMultipleStatements
 
 * ****supportsMultipleStatements**(): boolean
 
@@ -1538,7 +1538,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#supportsNativeEnums)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L101)inheritedsupportsNativeEnums
+### [**](#supportsNativeEnums)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L101)inheritedsupportsNativeEnums
 
 * ****supportsNativeEnums**(): boolean
 
@@ -1550,7 +1550,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#supportsOnUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L426)inheritedsupportsOnUpdate
+### [**](#supportsOnUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L426)inheritedsupportsOnUpdate
 
 * ****supportsOnUpdate**(): boolean
 
@@ -1562,7 +1562,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#supportsSchemas)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L85)supportsSchemas
+### [**](#supportsSchemas)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L85)supportsSchemas
 
 * ****supportsSchemas**(): boolean
 
@@ -1570,7 +1570,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#supportsTransactions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L71)inheritedsupportsTransactions
+### [**](#supportsTransactions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L71)inheritedsupportsTransactions
 
 * ****supportsTransactions**(): boolean
 
@@ -1582,7 +1582,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#supportsUnionWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L140)inheritedsupportsUnionWhere
+### [**](#supportsUnionWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L140)inheritedsupportsUnionWhere
 
 * ****supportsUnionWhere**(): boolean
 
@@ -1594,7 +1594,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#supportsUnsigned)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L753)inheritedsupportsUnsigned
+### [**](#supportsUnsigned)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L753)inheritedsupportsUnsigned
 
 * ****supportsUnsigned**(): boolean
 
@@ -1606,7 +1606,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#unmarshallArray)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L451)inheritedunmarshallArray
+### [**](#unmarshallArray)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L451)inheritedunmarshallArray
 
 * ****unmarshallArray**(value): string\[]
 
@@ -1622,7 +1622,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns string\[]
 
-### [**](#usesAsKeyword)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L562)inheritedusesAsKeyword
+### [**](#usesAsKeyword)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L562)inheritedusesAsKeyword
 
 * ****usesAsKeyword**(): boolean
 
@@ -1630,7 +1630,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#usesBatchInserts)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L138)inheritedusesBatchInserts
+### [**](#usesBatchInserts)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L138)inheritedusesBatchInserts
 
 * ****usesBatchInserts**(): boolean
 
@@ -1642,7 +1642,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#usesBatchUpdates)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L145)inheritedusesBatchUpdates
+### [**](#usesBatchUpdates)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L145)inheritedusesBatchUpdates
 
 * ****usesBatchUpdates**(): boolean
 
@@ -1654,7 +1654,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#usesCascadeStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L96)inheritedusesCascadeStatement
+### [**](#usesCascadeStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L96)inheritedusesCascadeStatement
 
 * ****usesCascadeStatement**(): boolean
 
@@ -1666,7 +1666,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#usesDefaultKeyword)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L150)inheritedusesDefaultKeyword
+### [**](#usesDefaultKeyword)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L150)inheritedusesDefaultKeyword
 
 * ****usesDefaultKeyword**(): boolean
 
@@ -1678,7 +1678,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#usesEnumCheckConstraints)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L259)usesEnumCheckConstraints
+### [**](#usesEnumCheckConstraints)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L259)usesEnumCheckConstraints
 
 * ****usesEnumCheckConstraints**(): boolean
 
@@ -1690,7 +1690,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#usesImplicitTransactions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L76)inheritedusesImplicitTransactions
+### [**](#usesImplicitTransactions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L76)inheritedusesImplicitTransactions
 
 * ****usesImplicitTransactions**(): boolean
 
@@ -1702,7 +1702,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#usesOutputStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L64)usesOutputStatement
+### [**](#usesOutputStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L64)usesOutputStatement
 
 * ****usesOutputStatement**(): boolean
 
@@ -1714,7 +1714,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#usesPivotTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L27)inheritedusesPivotTable
+### [**](#usesPivotTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L27)inheritedusesPivotTable
 
 * ****usesPivotTable**(): boolean
 
@@ -1726,7 +1726,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#usesReturningStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L86)inheritedusesReturningStatement
+### [**](#usesReturningStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L86)inheritedusesReturningStatement
 
 * ****usesReturningStatement**(): boolean
 
@@ -1738,7 +1738,7 @@ Platform implementation for Microsoft SQL Server.
 
   #### Returns boolean
 
-### [**](#validateMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mssql/src/MsSqlPlatform.ts#L200)validateMetadata
+### [**](#validateMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mssql/src/MsSqlPlatform.ts#L200)validateMetadata
 
 * ****validateMetadata**(meta): void
 

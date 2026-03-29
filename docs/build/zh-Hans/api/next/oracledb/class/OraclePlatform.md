@@ -146,7 +146,7 @@ Platform implementation for Oracle Database.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#allowsComparingTuples)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L409)allowsComparingTuples
+### [**](#allowsComparingTuples)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L409)allowsComparingTuples
 
 * ****allowsComparingTuples**(): boolean
 
@@ -158,7 +158,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#cloneEmbeddable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L711)inheritedcloneEmbeddable
+### [**](#cloneEmbeddable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L711)inheritedcloneEmbeddable
 
 * ****cloneEmbeddable**\<T>(data): T
 
@@ -174,7 +174,7 @@ Platform implementation for Oracle Database.
 
   #### Returns T
 
-### [**](#compareUuids)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L82)compareUuids
+### [**](#compareUuids)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L82)compareUuids
 
 * ****compareUuids**(): string
 
@@ -186,7 +186,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#convertDateToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L550)inheritedconvertDateToJSValue
+### [**](#convertDateToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L550)inheritedconvertDateToJSValue
 
 * ****convertDateToJSValue**(value): string
 
@@ -198,7 +198,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#convertIntervalToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L558)inheritedconvertIntervalToDatabaseValue
+### [**](#convertIntervalToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L558)inheritedconvertIntervalToDatabaseValue
 
 * ****convertIntervalToDatabaseValue**(value): unknown
 
@@ -210,7 +210,7 @@ Platform implementation for Oracle Database.
 
   #### Returns unknown
 
-### [**](#convertIntervalToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L554)inheritedconvertIntervalToJSValue
+### [**](#convertIntervalToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L554)inheritedconvertIntervalToJSValue
 
 * ****convertIntervalToJSValue**(value): unknown
 
@@ -222,7 +222,7 @@ Platform implementation for Oracle Database.
 
   #### Returns unknown
 
-### [**](#convertJsonToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L541)inheritedconvertJsonToDatabaseValue
+### [**](#convertJsonToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L541)inheritedconvertJsonToDatabaseValue
 
 * ****convertJsonToDatabaseValue**(value, context): unknown
 
@@ -239,7 +239,7 @@ Platform implementation for Oracle Database.
 
   #### Returns unknown
 
-### [**](#convertJsonToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L546)inheritedconvertJsonToJSValue
+### [**](#convertJsonToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L546)inheritedconvertJsonToJSValue
 
 * ****convertJsonToJSValue**(value, context): unknown
 
@@ -256,7 +256,7 @@ Platform implementation for Oracle Database.
 
   #### Returns unknown
 
-### [**](#convertsJsonAutomatically)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L119)convertsJsonAutomatically
+### [**](#convertsJsonAutomatically)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L119)convertsJsonAutomatically
 
 * ****convertsJsonAutomatically**(): boolean
 
@@ -268,7 +268,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#convertUuidToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L94)convertUuidToDatabaseValue
+### [**](#convertUuidToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L94)convertUuidToDatabaseValue
 
 * ****convertUuidToDatabaseValue**(value): Buffer
 
@@ -280,7 +280,7 @@ Platform implementation for Oracle Database.
 
   #### Returns Buffer
 
-### [**](#convertUuidToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L86)convertUuidToJSValue
+### [**](#convertUuidToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L86)convertUuidToJSValue
 
 * ****convertUuidToJSValue**(value): string
 
@@ -292,7 +292,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#convertVersionValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L233)inheritedconvertVersionValue
+### [**](#convertVersionValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L233)inheritedconvertVersionValue
 
 * ****convertVersionValue**(value, prop): string | number | Date | { $in: (string | number)\[] }
 
@@ -309,7 +309,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string | number | Date | { $in: (string | number)\[] }
 
-### [**](#createOutBindings)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L426)createOutBindings
+### [**](#createOutBindings)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L426)createOutBindings
 
 * ****createOutBindings**(map): [Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)
 
@@ -319,7 +319,7 @@ Platform implementation for Oracle Database.
 
   #### Returns [Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)
 
-### [**](#denormalizePrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L164)inheriteddenormalizePrimaryKey
+### [**](#denormalizePrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L164)inheriteddenormalizePrimaryKey
 
 * ****denormalizePrimaryKey**(data): IPrimaryKeyValue
 
@@ -335,7 +335,7 @@ Platform implementation for Oracle Database.
 
   #### Returns IPrimaryKeyValue
 
-### [**](#escape)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L377)escape
+### [**](#escape)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L377)escape
 
 * ****escape**(value): string
 
@@ -347,7 +347,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#extractSimpleType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L337)inheritedextractSimpleType
+### [**](#extractSimpleType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L337)inheritedextractSimpleType
 
 * ****extractSimpleType**(type): string
 
@@ -363,7 +363,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#formatQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L667)inheritedformatQuery
+### [**](#formatQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L667)inheritedformatQuery
 
 * ****formatQuery**(sql, params): string
 
@@ -380,7 +380,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#generateCustomOrder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L149)inheritedgenerateCustomOrder
+### [**](#generateCustomOrder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L149)inheritedgenerateCustomOrder
 
 * ****generateCustomOrder**(escapedColumn, values): string
 
@@ -397,7 +397,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getArrayDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L241)getArrayDeclarationSQL
+### [**](#getArrayDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L241)getArrayDeclarationSQL
 
 * ****getArrayDeclarationSQL**(): string
 
@@ -409,7 +409,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getBeginTransactionSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L60)getBeginTransactionSQL
+### [**](#getBeginTransactionSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L60)getBeginTransactionSQL
 
 * ****getBeginTransactionSQL**(options): string\[]
 
@@ -423,7 +423,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string\[]
 
-### [**](#getBigIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L209)getBigIntTypeDeclarationSQL
+### [**](#getBigIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L209)getBigIntTypeDeclarationSQL
 
 * ****getBigIntTypeDeclarationSQL**(column): string
 
@@ -442,7 +442,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getBlobDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L174)getBlobDeclarationSQL
+### [**](#getBlobDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L174)getBlobDeclarationSQL
 
 * ****getBlobDeclarationSQL**(): string
 
@@ -450,7 +450,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getBooleanTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L155)getBooleanTypeDeclarationSQL
+### [**](#getBooleanTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L155)getBooleanTypeDeclarationSQL
 
 * ****getBooleanTypeDeclarationSQL**(): string
 
@@ -462,7 +462,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getCharTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L286)inheritedgetCharTypeDeclarationSQL
+### [**](#getCharTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L286)inheritedgetCharTypeDeclarationSQL
 
 * ****getCharTypeDeclarationSQL**(column): string
 
@@ -475,7 +475,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getCommitTransactionSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L67)inheritedgetCommitTransactionSQL
+### [**](#getCommitTransactionSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L67)inheritedgetCommitTransactionSQL
 
 * ****getCommitTransactionSQL**(): string
 
@@ -483,7 +483,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getConfig)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L732)inheritedgetConfig
+### [**](#getConfig)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L732)inheritedgetConfig
 
 * ****getConfig**(): [Configuration](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Configuration.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>, [EntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityManager.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>>>
 
@@ -495,7 +495,7 @@ Platform implementation for Oracle Database.
 
   #### Returns [Configuration](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Configuration.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>, [EntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityManager.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>>>
 
-### [**](#getCurrentTimestampSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L131)getCurrentTimestampSQL
+### [**](#getCurrentTimestampSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L131)getCurrentTimestampSQL
 
 * ****getCurrentTimestampSQL**(length): string
 
@@ -511,7 +511,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getDateTimeTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L135)getDateTimeTypeDeclarationSQL
+### [**](#getDateTimeTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L135)getDateTimeTypeDeclarationSQL
 
 * ****getDateTimeTypeDeclarationSQL**(column): string
 
@@ -528,7 +528,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getDateTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L190)getDateTypeDeclarationSQL
+### [**](#getDateTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L190)getDateTypeDeclarationSQL
 
 * ****getDateTypeDeclarationSQL**(length): string
 
@@ -544,7 +544,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getDecimalTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L151)getDecimalTypeDeclarationSQL
+### [**](#getDecimalTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L151)getDecimalTypeDeclarationSQL
 
 * ****getDecimalTypeDeclarationSQL**(column): string
 
@@ -558,7 +558,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getDefaultCharLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L191)inheritedgetDefaultCharLength
+### [**](#getDefaultCharLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L191)inheritedgetDefaultCharLength
 
 * ****getDefaultCharLength**(): number
 
@@ -570,7 +570,7 @@ Platform implementation for Oracle Database.
 
   #### Returns number
 
-### [**](#getDefaultCharset)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L600)inheritedgetDefaultCharset
+### [**](#getDefaultCharset)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L600)inheritedgetDefaultCharset
 
 * ****getDefaultCharset**(): string
 
@@ -582,7 +582,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getDefaultClientUrl)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L413)getDefaultClientUrl
+### [**](#getDefaultClientUrl)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L413)getDefaultClientUrl
 
 * ****getDefaultClientUrl**(): string
 
@@ -594,7 +594,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getDefaultDateTimeLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L139)getDefaultDateTimeLength
+### [**](#getDefaultDateTimeLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L139)getDefaultDateTimeLength
 
 * ****getDefaultDateTimeLength**(): number
 
@@ -606,7 +606,7 @@ Platform implementation for Oracle Database.
 
   #### Returns number
 
-### [**](#getDefaultMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L279)getDefaultMappedType
+### [**](#getDefaultMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L279)getDefaultMappedType
 
 * ****getDefaultMappedType**(type): [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<unknown, unknown>
 
@@ -622,7 +622,7 @@ Platform implementation for Oracle Database.
 
   #### Returns [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<unknown, unknown>
 
-### [**](#getDefaultPrimaryName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L769)inheritedgetDefaultPrimaryName
+### [**](#getDefaultPrimaryName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L769)inheritedgetDefaultPrimaryName
 
 * ****getDefaultPrimaryName**(tableName, columns): string
 
@@ -639,7 +639,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getDefaultSchemaName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L182)getDefaultSchemaName
+### [**](#getDefaultSchemaName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L182)getDefaultSchemaName
 
 * ****getDefaultSchemaName**(): undefined | string
 
@@ -651,7 +651,7 @@ Platform implementation for Oracle Database.
 
   #### Returns undefined | string
 
-### [**](#getDefaultVarcharLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L186)inheritedgetDefaultVarcharLength
+### [**](#getDefaultVarcharLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L186)inheritedgetDefaultVarcharLength
 
 * ****getDefaultVarcharLength**(): number
 
@@ -663,7 +663,7 @@ Platform implementation for Oracle Database.
 
   #### Returns number
 
-### [**](#getDefaultVersionLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L241)inheritedgetDefaultVersionLength
+### [**](#getDefaultVersionLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L241)inheritedgetDefaultVersionLength
 
 * ****getDefaultVersionLength**(): number
 
@@ -675,7 +675,7 @@ Platform implementation for Oracle Database.
 
   #### Returns number
 
-### [**](#getDoubleDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L147)getDoubleDeclarationSQL
+### [**](#getDoubleDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L147)getDoubleDeclarationSQL
 
 * ****getDoubleDeclarationSQL**(): string
 
@@ -683,7 +683,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getEnumArrayCheckConstraintExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L116)inheritedgetEnumArrayCheckConstraintExpression
+### [**](#getEnumArrayCheckConstraintExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L116)inheritedgetEnumArrayCheckConstraintExpression
 
 * ****getEnumArrayCheckConstraintExpression**(column, items): null | string
 
@@ -700,7 +700,7 @@ Platform implementation for Oracle Database.
 
   #### Returns null | string
 
-### [**](#getEnumCheckConstraintExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L111)inheritedgetEnumCheckConstraintExpression
+### [**](#getEnumCheckConstraintExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L111)inheritedgetEnumCheckConstraintExpression
 
 * ****getEnumCheckConstraintExpression**(column, items): string
 
@@ -717,7 +717,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getEnumTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L245)getEnumTypeDeclarationSQL
+### [**](#getEnumTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L245)getEnumTypeDeclarationSQL
 
 * ****getEnumTypeDeclarationSQL**(column): string
 
@@ -734,7 +734,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getExceptionConverter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L605)inheritedgetExceptionConverter
+### [**](#getExceptionConverter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L605)inheritedgetExceptionConverter
 
 * ****getExceptionConverter**(): [ExceptionConverter](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ExceptionConverter.md)
 
@@ -746,7 +746,7 @@ Platform implementation for Oracle Database.
 
   #### Returns [ExceptionConverter](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ExceptionConverter.md)
 
-### [**](#getExtension)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L622)inheritedgetExtension
+### [**](#getExtension)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L622)inheritedgetExtension
 
 * ****getExtension**\<T>(extensionName, extensionKey, moduleName, em): T
 
@@ -765,7 +765,7 @@ Platform implementation for Oracle Database.
 
   #### Returns T
 
-### [**](#getFloatDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L143)getFloatDeclarationSQL
+### [**](#getFloatDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L143)getFloatDeclarationSQL
 
 * ****getFloatDeclarationSQL**(): string
 
@@ -773,7 +773,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getFullTextIndexExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L526)inheritedgetFullTextIndexExpression
+### [**](#getFullTextIndexExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L526)inheritedgetFullTextIndexExpression
 
 * ****getFullTextIndexExpression**(indexName, schemaName, tableName, columns): string
 
@@ -788,7 +788,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getFullTextWhereClause)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L518)inheritedgetFullTextWhereClause
+### [**](#getFullTextWhereClause)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L518)inheritedgetFullTextWhereClause
 
 * ****getFullTextWhereClause**(prop): string
 
@@ -800,7 +800,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getIndexName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L760)inheritedgetIndexName
+### [**](#getIndexName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L760)inheritedgetIndexName
 
 * ****getIndexName**(tableName, columns, type): string
 
@@ -818,7 +818,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getIntegerTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L198)getIntegerTypeDeclarationSQL
+### [**](#getIntegerTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L198)getIntegerTypeDeclarationSQL
 
 * ****getIntegerTypeDeclarationSQL**(column): string
 
@@ -837,7 +837,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getIntervalTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L294)inheritedgetIntervalTypeDeclarationSQL
+### [**](#getIntervalTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L294)inheritedgetIntervalTypeDeclarationSQL
 
 * ****getIntervalTypeDeclarationSQL**(column): string
 
@@ -850,7 +850,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getJsonDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L178)getJsonDeclarationSQL
+### [**](#getJsonDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L178)getJsonDeclarationSQL
 
 * ****getJsonDeclarationSQL**(): string
 
@@ -858,7 +858,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getJsonIndexDefinition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L129)inheritedgetJsonIndexDefinition
+### [**](#getJsonIndexDefinition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L129)inheritedgetJsonIndexDefinition
 
 * ****getJsonIndexDefinition**(index): string\[]
 
@@ -870,7 +870,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string\[]
 
-### [**](#getMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L349)inheritedgetMappedType
+### [**](#getMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L349)inheritedgetMappedType
 
 * ****getMappedType**(type): [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<unknown, unknown>
 
@@ -886,7 +886,7 @@ Platform implementation for Oracle Database.
 
   #### Returns [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<unknown, unknown>
 
-### [**](#getMediumIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L217)getMediumIntTypeDeclarationSQL
+### [**](#getMediumIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L217)getMediumIntTypeDeclarationSQL
 
 * ****getMediumIntTypeDeclarationSQL**(column): string
 
@@ -901,7 +901,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getNamingStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L81)inheritedgetNamingStrategy
+### [**](#getNamingStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L81)inheritedgetNamingStrategy
 
 * ****getNamingStrategy**(): new () => [NamingStrategy](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/NamingStrategy.md)
 
@@ -917,7 +917,7 @@ Platform implementation for Oracle Database.
 
     - #### Returns [NamingStrategy](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/NamingStrategy.md)
 
-### [**](#getRegExpOperator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L159)getRegExpOperator
+### [**](#getRegExpOperator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L159)getRegExpOperator
 
 * ****getRegExpOperator**(): string
 
@@ -929,7 +929,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getRegExpValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L219)inheritedgetRegExpValue
+### [**](#getRegExpValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L219)inheritedgetRegExpValue
 
 * ****getRegExpValue**(val): { $flags?
   <!-- -->
@@ -950,7 +950,7 @@ Platform implementation for Oracle Database.
   * ##### optional$flags?<!-- -->: string
   * ##### $re: string
 
-### [**](#getReleaseSavepointSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L83)inheritedgetReleaseSavepointSQL
+### [**](#getReleaseSavepointSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L83)inheritedgetReleaseSavepointSQL
 
 * ****getReleaseSavepointSQL**(savepointName): string
 
@@ -962,7 +962,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getRepositoryClass)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L35)inheritedgetRepositoryClass
+### [**](#getRepositoryClass)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L35)inheritedgetRepositoryClass
 
 * ****getRepositoryClass**\<T>(): [Constructor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Constructor)<[EntityRepository](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityRepository.md)\<T>>
 
@@ -974,7 +974,7 @@ Platform implementation for Oracle Database.
 
   #### Returns [Constructor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Constructor)<[EntityRepository](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityRepository.md)\<T>>
 
-### [**](#getRollbackToSavepointSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L52)getRollbackToSavepointSQL
+### [**](#getRollbackToSavepointSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L52)getRollbackToSavepointSQL
 
 * ****getRollbackToSavepointSQL**(savepointName): string
 
@@ -986,7 +986,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getRollbackTransactionSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L71)inheritedgetRollbackTransactionSQL
+### [**](#getRollbackTransactionSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L71)inheritedgetRollbackTransactionSQL
 
 * ****getRollbackTransactionSQL**(): string
 
@@ -994,7 +994,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getSavepointSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L56)getSavepointSQL
+### [**](#getSavepointSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L56)getSavepointSQL
 
 * ****getSavepointSQL**(savepointName): string
 
@@ -1006,7 +1006,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getSchemaGenerator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L405)getSchemaGenerator
+### [**](#getSchemaGenerator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L405)getSchemaGenerator
 
 * ****getSchemaGenerator**(driver, em): [OracleSchemaGenerator](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/oracledb/class/OracleSchemaGenerator.md)
 
@@ -1019,7 +1019,7 @@ Platform implementation for Oracle Database.
 
   #### Returns [OracleSchemaGenerator](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/oracledb/class/OracleSchemaGenerator.md)
 
-### [**](#getSchemaHelper)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L39)inheritedgetSchemaHelper
+### [**](#getSchemaHelper)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L39)inheritedgetSchemaHelper
 
 * ****getSchemaHelper**(): undefined | [SchemaHelper](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/SchemaHelper.md)
 
@@ -1031,7 +1031,7 @@ Platform implementation for Oracle Database.
 
   #### Returns undefined | [SchemaHelper](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/SchemaHelper.md)
 
-### [**](#getSearchJsonPropertyKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L308)getSearchJsonPropertyKey
+### [**](#getSearchJsonPropertyKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L308)getSearchJsonPropertyKey
 
 * ****getSearchJsonPropertyKey**(path, type, aliased, value): string
 
@@ -1046,7 +1046,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getSearchJsonPropertySQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L99)inheritedgetSearchJsonPropertySQL
+### [**](#getSearchJsonPropertySQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L99)inheritedgetSearchJsonPropertySQL
 
 * ****getSearchJsonPropertySQL**(path, type, aliased): string | [RawQueryFragment](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)\<string>
 
@@ -1060,7 +1060,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string | [RawQueryFragment](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)\<string>
 
-### [**](#getSmallIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L233)getSmallIntTypeDeclarationSQL
+### [**](#getSmallIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L233)getSmallIntTypeDeclarationSQL
 
 * ****getSmallIntTypeDeclarationSQL**(column): string
 
@@ -1075,7 +1075,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getTextTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L260)getTextTypeDeclarationSQL
+### [**](#getTextTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L260)getTextTypeDeclarationSQL
 
 * ****getTextTypeDeclarationSQL**(\_column): string
 
@@ -1088,7 +1088,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getTimeTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L194)getTimeTypeDeclarationSQL
+### [**](#getTimeTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L194)getTimeTypeDeclarationSQL
 
 * ****getTimeTypeDeclarationSQL**(length): string
 
@@ -1104,7 +1104,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getTimezone)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L737)inheritedgetTimezone
+### [**](#getTimezone)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L737)inheritedgetTimezone
 
 * ****getTimezone**(): undefined | string
 
@@ -1116,7 +1116,7 @@ Platform implementation for Oracle Database.
 
   #### Returns undefined | string
 
-### [**](#getTinyIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L225)getTinyIntTypeDeclarationSQL
+### [**](#getTinyIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L225)getTinyIntTypeDeclarationSQL
 
 * ****getTinyIntTypeDeclarationSQL**(column): string
 
@@ -1131,7 +1131,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getUuidTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L299)getUuidTypeDeclarationSQL
+### [**](#getUuidTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L299)getUuidTypeDeclarationSQL
 
 * ****getUuidTypeDeclarationSQL**(column): string
 
@@ -1144,7 +1144,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#getVarcharTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L186)getVarcharTypeDeclarationSQL
+### [**](#getVarcharTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L186)getVarcharTypeDeclarationSQL
 
 * ****getVarcharTypeDeclarationSQL**(column): string
 
@@ -1157,7 +1157,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#indexForeignKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L123)indexForeignKeys
+### [**](#indexForeignKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L123)indexForeignKeys
 
 * ****indexForeignKeys**(): boolean
 
@@ -1169,7 +1169,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#isAllowedTopLevelOperator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L228)inheritedisAllowedTopLevelOperator
+### [**](#isAllowedTopLevelOperator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L228)inheritedisAllowedTopLevelOperator
 
 * ****isAllowedTopLevelOperator**(operator): boolean
 
@@ -1185,7 +1185,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#isBigIntProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L251)inheritedisBigIntProperty
+### [**](#isBigIntProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L251)inheritedisBigIntProperty
 
 * ****isBigIntProperty**(prop): boolean
 
@@ -1201,7 +1201,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#isNumericColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L748)inheritedisNumericColumn
+### [**](#isNumericColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L748)inheritedisNumericColumn
 
 * ****isNumericColumn**(mappedType): boolean
 
@@ -1217,7 +1217,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#isNumericProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L742)inheritedisNumericProperty
+### [**](#isNumericProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L742)inheritedisNumericProperty
 
 * ****isNumericProperty**(prop, ignoreCustomType): boolean
 
@@ -1234,7 +1234,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#isPopulated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L779)inheritedisPopulated
+### [**](#isPopulated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L779)inheritedisPopulated
 
 * ****isPopulated**\<T>(key, populate): boolean
 
@@ -1251,7 +1251,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#lookupExtensions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L48)lookupExtensions
+### [**](#lookupExtensions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L48)lookupExtensions
 
 * ****lookupExtensions**(orm): void
 
@@ -1267,7 +1267,7 @@ Platform implementation for Oracle Database.
 
   #### Returns void
 
-### [**](#mapRegExpCondition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L163)mapRegExpCondition
+### [**](#mapRegExpCondition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L163)mapRegExpCondition
 
 * ****mapRegExpCondition**(mappedKey, value): { params: unknown\[]; sql: string }
 
@@ -1289,7 +1289,7 @@ Platform implementation for Oracle Database.
   * ##### params: unknown\[]
   * ##### sql: string
 
-### [**](#mapToOracleType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L422)mapToOracleType
+### [**](#mapToOracleType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L422)mapToOracleType
 
 * ****mapToOracleType**(type): unknown
 
@@ -1299,7 +1299,7 @@ Platform implementation for Oracle Database.
 
   #### Returns unknown
 
-### [**](#marshallArray)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L446)inheritedmarshallArray
+### [**](#marshallArray)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L446)inheritedmarshallArray
 
 * ****marshallArray**(values): string
 
@@ -1315,7 +1315,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#normalizeColumnType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L264)normalizeColumnType
+### [**](#normalizeColumnType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L264)normalizeColumnType
 
 * ****normalizeColumnType**(type, options): string
 
@@ -1335,7 +1335,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#normalizePrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L157)inheritednormalizePrimaryKey
+### [**](#normalizePrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L157)inheritednormalizePrimaryKey
 
 * ****normalizePrimaryKey**\<T>(data): T
 
@@ -1351,7 +1351,7 @@ Platform implementation for Oracle Database.
 
   #### Returns T
 
-### [**](#parseDate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L583)inheritedparseDate
+### [**](#parseDate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L583)inheritedparseDate
 
 * ****parseDate**(value): Date
 
@@ -1367,7 +1367,7 @@ Platform implementation for Oracle Database.
 
   #### Returns Date
 
-### [**](#processDateProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L641)inheritedprocessDateProperty
+### [**](#processDateProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L641)inheritedprocessDateProperty
 
 * ****processDateProperty**(value): string | number | Date
 
@@ -1383,7 +1383,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string | number | Date
 
-### [**](#processJsonCondition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L319)processJsonCondition
+### [**](#processJsonCondition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L319)processJsonCondition
 
 * ****processJsonCondition**\<T>(o, value, path, alias): [FilterQuery](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#FilterQuery)\<T>
 
@@ -1398,7 +1398,7 @@ Platform implementation for Oracle Database.
 
   #### Returns [FilterQuery](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#FilterQuery)\<T>
 
-### [**](#quoteIdentifier)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L373)quoteIdentifier
+### [**](#quoteIdentifier)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L373)quoteIdentifier
 
 * ****quoteIdentifier**(id): string
 
@@ -1414,7 +1414,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#quoteValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L87)inheritedquoteValue
+### [**](#quoteValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L87)inheritedquoteValue
 
 * ****quoteValue**(value): string
 
@@ -1430,7 +1430,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string
 
-### [**](#setConfig)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L720)inheritedsetConfig
+### [**](#setConfig)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L720)inheritedsetConfig
 
 * ****setConfig**(config): void
 
@@ -1446,7 +1446,7 @@ Platform implementation for Oracle Database.
 
   #### Returns void
 
-### [**](#shouldHaveColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L784)inheritedshouldHaveColumn
+### [**](#shouldHaveColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L784)inheritedshouldHaveColumn
 
 * ****shouldHaveColumn**\<T>(prop, populate, exclude, includeFormulas, ignoreInlineEmbeddables): boolean
 
@@ -1466,7 +1466,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#supportsCreatingFullTextIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L522)inheritedsupportsCreatingFullTextIndex
+### [**](#supportsCreatingFullTextIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L522)inheritedsupportsCreatingFullTextIndex
 
 * ****supportsCreatingFullTextIndex**(): boolean
 
@@ -1474,7 +1474,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#supportsCustomPrimaryKeyNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L774)inheritedsupportsCustomPrimaryKeyNames
+### [**](#supportsCustomPrimaryKeyNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L774)inheritedsupportsCustomPrimaryKeyNames
 
 * ****supportsCustomPrimaryKeyNames**(): boolean
 
@@ -1486,7 +1486,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#supportsDeferredUniqueConstraints)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L831)inheritedsupportsDeferredUniqueConstraints
+### [**](#supportsDeferredUniqueConstraints)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L831)inheritedsupportsDeferredUniqueConstraints
 
 * ****supportsDeferredUniqueConstraints**(): boolean
 
@@ -1498,7 +1498,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#supportsDownMigrations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L826)inheritedsupportsDownMigrations
+### [**](#supportsDownMigrations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L826)inheritedsupportsDownMigrations
 
 * ****supportsDownMigrations**(): boolean
 
@@ -1510,7 +1510,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#supportsMaterializedViews)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L121)inheritedsupportsMaterializedViews
+### [**](#supportsMaterializedViews)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L121)inheritedsupportsMaterializedViews
 
 * ****supportsMaterializedViews**(): boolean
 
@@ -1522,7 +1522,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#supportsMultipleCascadePaths)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L360)supportsMultipleCascadePaths
+### [**](#supportsMultipleCascadePaths)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L360)supportsMultipleCascadePaths
 
 * ****supportsMultipleCascadePaths**(): boolean
 
@@ -1534,7 +1534,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#supportsMultipleStatements)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L369)supportsMultipleStatements
+### [**](#supportsMultipleStatements)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L369)supportsMultipleStatements
 
 * ****supportsMultipleStatements**(): boolean
 
@@ -1546,7 +1546,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#supportsNativeEnums)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L101)inheritedsupportsNativeEnums
+### [**](#supportsNativeEnums)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L101)inheritedsupportsNativeEnums
 
 * ****supportsNativeEnums**(): boolean
 
@@ -1558,7 +1558,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#supportsOnUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L365)supportsOnUpdate
+### [**](#supportsOnUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L365)supportsOnUpdate
 
 * ****supportsOnUpdate**(): boolean
 
@@ -1570,7 +1570,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#supportsSchemas)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L127)supportsSchemas
+### [**](#supportsSchemas)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L127)supportsSchemas
 
 * ****supportsSchemas**(): boolean
 
@@ -1578,7 +1578,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#supportsTransactions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L71)inheritedsupportsTransactions
+### [**](#supportsTransactions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L71)inheritedsupportsTransactions
 
 * ****supportsTransactions**(): boolean
 
@@ -1590,7 +1590,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#supportsUnionWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L140)inheritedsupportsUnionWhere
+### [**](#supportsUnionWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L140)inheritedsupportsUnionWhere
 
 * ****supportsUnionWhere**(): boolean
 
@@ -1602,7 +1602,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#supportsUnsigned)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L753)inheritedsupportsUnsigned
+### [**](#supportsUnsigned)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L753)inheritedsupportsUnsigned
 
 * ****supportsUnsigned**(): boolean
 
@@ -1614,7 +1614,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#unmarshallArray)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L451)inheritedunmarshallArray
+### [**](#unmarshallArray)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L451)inheritedunmarshallArray
 
 * ****unmarshallArray**(value): string\[]
 
@@ -1630,7 +1630,7 @@ Platform implementation for Oracle Database.
 
   #### Returns string\[]
 
-### [**](#usesAsKeyword)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L78)usesAsKeyword
+### [**](#usesAsKeyword)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L78)usesAsKeyword
 
 * ****usesAsKeyword**(): boolean
 
@@ -1638,7 +1638,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#usesBatchInserts)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L138)inheritedusesBatchInserts
+### [**](#usesBatchInserts)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L138)inheritedusesBatchInserts
 
 * ****usesBatchInserts**(): boolean
 
@@ -1650,7 +1650,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#usesBatchUpdates)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L145)inheritedusesBatchUpdates
+### [**](#usesBatchUpdates)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L145)inheritedusesBatchUpdates
 
 * ****usesBatchUpdates**(): boolean
 
@@ -1662,7 +1662,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#usesCascadeStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L304)usesCascadeStatement
+### [**](#usesCascadeStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L304)usesCascadeStatement
 
 * ****usesCascadeStatement**(): boolean
 
@@ -1674,7 +1674,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#usesDefaultKeyword)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L150)inheritedusesDefaultKeyword
+### [**](#usesDefaultKeyword)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L150)inheritedusesDefaultKeyword
 
 * ****usesDefaultKeyword**(): boolean
 
@@ -1686,7 +1686,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#usesEnumCheckConstraints)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L356)usesEnumCheckConstraints
+### [**](#usesEnumCheckConstraints)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L356)usesEnumCheckConstraints
 
 * ****usesEnumCheckConstraints**(): boolean
 
@@ -1698,7 +1698,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#usesImplicitTransactions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L76)inheritedusesImplicitTransactions
+### [**](#usesImplicitTransactions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L76)inheritedusesImplicitTransactions
 
 * ****usesImplicitTransactions**(): boolean
 
@@ -1710,7 +1710,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#usesOutputStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L111)usesOutputStatement
+### [**](#usesOutputStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L111)usesOutputStatement
 
 * ****usesOutputStatement**(): boolean
 
@@ -1722,7 +1722,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#usesPivotTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L27)inheritedusesPivotTable
+### [**](#usesPivotTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L27)inheritedusesPivotTable
 
 * ****usesPivotTable**(): boolean
 
@@ -1734,7 +1734,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#usesReturningStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OraclePlatform.ts#L115)usesReturningStatement
+### [**](#usesReturningStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OraclePlatform.ts#L115)usesReturningStatement
 
 * ****usesReturningStatement**(): boolean
 
@@ -1746,7 +1746,7 @@ Platform implementation for Oracle Database.
 
   #### Returns boolean
 
-### [**](#validateMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L836)inheritedvalidateMetadata
+### [**](#validateMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L836)inheritedvalidateMetadata
 
 * ****validateMetadata**(meta): void
 

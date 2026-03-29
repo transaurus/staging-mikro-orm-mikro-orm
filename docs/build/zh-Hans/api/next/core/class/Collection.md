@@ -58,7 +58,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L54)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L54)constructor
 
 * ****new Collection**\<T, O>(owner, items, initialized): [Collection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Collection.md)\<T, O>
 
@@ -72,13 +72,13 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#owner)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L55)readonlyowner
+### [**](#owner)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L55)readonlyowner
 
 **owner: O
 
 ## Accessors<!-- -->[**](#Accessors)
 
-### [**](#length)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L849)length
+### [**](#length)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L849)length
 
 * **get length(): number
 
@@ -86,13 +86,13 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#\[iterator])[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L853)\[iterator]
+### [**](#\[iterator])[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L853)\[iterator]
 
 * ****\[iterator]**(): IterableIterator\<T, any, any>
 
 - #### Returns IterableIterator\<T, any, any>
 
-### [**](#add)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L224)add
+### [**](#add)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L224)add
 
 * ****add**\<TT>(entity, ...entities): number
 
@@ -107,7 +107,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns number
 
-### [**](#contains)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L317)contains
+### [**](#contains)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L317)contains
 
 * ****contains**\<TT>(item, check): boolean
 
@@ -122,7 +122,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns boolean
 
-### [**](#count)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L327)count
+### [**](#count)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L327)count
 
 * ****count**(): number
 
@@ -132,7 +132,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns number
 
-### [**](#exists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L701)exists
+### [**](#exists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L701)exists
 
 * ****exists**(cb): boolean
 
@@ -147,7 +147,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns boolean
 
-### [**](#filter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L742)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L747)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L752)filter
+### [**](#filter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L742)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L747)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L752)filter
 
 * ****filter**\<S>(cb): S\[]
 * ****filter**(cb): T\[]
@@ -163,7 +163,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns S\[]
 
-### [**](#find)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L716)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L721)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L726)find
+### [**](#find)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L716)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L721)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L726)find
 
 * ****find**\<S>(cb): undefined | S
 * ****find**(cb): undefined | T
@@ -179,7 +179,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns undefined | S
 
-### [**](#getIdentifiers)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L555)getIdentifiers
+### [**](#getIdentifiers)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L555)getIdentifiers
 
 * ****getIdentifiers**\<U>(field): U\[]
 
@@ -193,7 +193,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns U\[]
 
-### [**](#getItems)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L206)getItems
+### [**](#getItems)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L206)getItems
 
 * ****getItems**(check): T\[]
 
@@ -207,7 +207,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns T\[]
 
-### [**](#indexBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L799)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L805)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L811)indexBy
+### [**](#indexBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L799)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L805)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L811)indexBy
 
 * ****indexBy**\<K1, K2>(key): Record\<T\[K1] & PropertyKey, T>
 * ****indexBy**\<K1, K2>(key, valueKey): Record\<T\[K1] & PropertyKey, T\[K2]>
@@ -222,7 +222,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns Record\<T\[K1] & PropertyKey, T>
 
-### [**](#init)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L357)init
+### [**](#init)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L357)init
 
 * ****init**\<TT, P>(options): Promise<[LoadedCollection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/LoadedCollection.md)<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<TT, P>>>
 
@@ -236,13 +236,13 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns Promise<[LoadedCollection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/LoadedCollection.md)<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<TT, P>>>
 
-### [**](#isDirty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L836)isDirty
+### [**](#isDirty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L836)isDirty
 
 * ****isDirty**(): boolean
 
 - #### Returns boolean
 
-### [**](#isEmpty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L333)isEmpty
+### [**](#isEmpty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L333)isEmpty
 
 * ****isEmpty**(): boolean
 
@@ -252,7 +252,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns boolean
 
-### [**](#isInitialized)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L822)isInitialized
+### [**](#isInitialized)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L822)isInitialized
 
 * ****isInitialized**(fully): boolean
 
@@ -266,7 +266,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns boolean
 
-### [**](#isPartial)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L841)isPartial
+### [**](#isPartial)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L841)isPartial
 
 * ****isPartial**(): boolean
 
@@ -276,7 +276,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns boolean
 
-### [**](#load)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L99)load
+### [**](#load)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L99)load
 
 * ****load**\<TT, P>(options): Promise<[LoadedCollection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/LoadedCollection.md)<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<TT, P>>>
 
@@ -290,7 +290,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns Promise<[LoadedCollection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/LoadedCollection.md)<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<TT, P>>>
 
-### [**](#loadCount)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L136)loadCount
+### [**](#loadCount)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L136)loadCount
 
 * ****loadCount**(options): Promise\<number>
 
@@ -304,7 +304,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns Promise\<number>
 
-### [**](#loadItems)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L125)loadItems
+### [**](#loadItems)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L125)loadItems
 
 * ****loadItems**\<TT, P>(options): Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<TT, P>\[]>
 
@@ -318,7 +318,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<TT, P>\[]>
 
-### [**](#map)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L769)map
+### [**](#map)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L769)map
 
 * ****map**\<R>(mapper): R\[]
 
@@ -333,7 +333,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns R\[]
 
-### [**](#matching)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L165)matching
+### [**](#matching)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L165)matching
 
 * ****matching**\<TT, P>(options): Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<TT, P>\[]>
 
@@ -347,7 +347,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<TT, P>\[]>
 
-### [**](#populated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L352)populated
+### [**](#populated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L352)populated
 
 * ****populated**(populated): void
 
@@ -361,7 +361,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns void
 
-### [**](#reduce)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L784)reduce
+### [**](#reduce)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L784)reduce
 
 * ****reduce**\<R>(cb, initial): R
 
@@ -377,7 +377,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns R
 
-### [**](#remove)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L262)remove
+### [**](#remove)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L262)remove
 
 * ****remove**\<TT>(entity, ...entities): number
 
@@ -393,7 +393,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns number
 
-### [**](#removeAll)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L649)removeAll
+### [**](#removeAll)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L649)removeAll
 
 * ****removeAll**(): void
 
@@ -403,7 +403,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns void
 
-### [**](#set)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L597)set
+### [**](#set)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L597)set
 
 * ****set**(items): void
 
@@ -417,7 +417,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns void
 
-### [**](#setDirty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L845)setDirty
+### [**](#setDirty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L845)setDirty
 
 * ****setDirty**(dirty): void
 
@@ -427,7 +427,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns void
 
-### [**](#shouldPopulate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L339)shouldPopulate
+### [**](#shouldPopulate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L339)shouldPopulate
 
 * ****shouldPopulate**(populated): boolean
 
@@ -441,7 +441,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns boolean
 
-### [**](#slice)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L677)slice
+### [**](#slice)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L677)slice
 
 * ****slice**(start, end): T\[]
 
@@ -456,7 +456,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns T\[]
 
-### [**](#toArray)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L546)toArray
+### [**](#toArray)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L546)toArray
 
 * ****toArray**\<TT>(): [EntityDTO](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityDTO)\<TT>\[]
 
@@ -466,7 +466,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns [EntityDTO](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityDTO)\<TT>\[]
 
-### [**](#toJSON)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L215)toJSON
+### [**](#toJSON)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L215)toJSON
 
 * ****toJSON**\<TT>(): [EntityDTO](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityDTO)\<TT>\[]
 
@@ -476,7 +476,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns [EntityDTO](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityDTO)\<TT>\[]
 
-### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L78)staticcreate
+### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L78)staticcreate
 
 * ****create**\<T, O>(owner, prop, items, initialized): [Collection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Collection.md)\<T, O>
 
@@ -489,7 +489,7 @@ Represents a to-many relation (1:m or m:n) as an iterable, managed collection of
 
   #### Returns [Collection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Collection.md)\<T, O>
 
-### [**](#isCollection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L74)staticisCollection
+### [**](#isCollection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L74)staticisCollection
 
 * ****isCollection**\<T, O>(item): item is [Collection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Collection.md)\<T, O>
 

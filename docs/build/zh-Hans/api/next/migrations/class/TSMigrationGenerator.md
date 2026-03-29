@@ -21,7 +21,7 @@ Generates migration files in TypeScript format.
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/MigrationGenerator.ts#L11)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/MigrationGenerator.ts#L11)constructor
 
 * ****new TSMigrationGenerator**(driver, namingStrategy, options): [TSMigrationGenerator](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/migrations/class/TSMigrationGenerator.md)
 
@@ -37,7 +37,7 @@ Generates migration files in TypeScript format.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#createStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/MigrationGenerator.ts#L38)inheritedcreateStatement
+### [**](#createStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/MigrationGenerator.ts#L38)inheritedcreateStatement
 
 * ****createStatement**(sql, padLeft): string
 
@@ -54,7 +54,7 @@ Generates migration files in TypeScript format.
 
   #### Returns string
 
-### [**](#generate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/MigrationGenerator.ts#L20)inheritedgenerate
+### [**](#generate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/MigrationGenerator.ts#L20)inheritedgenerate
 
 * ****generate**(diff, path, name): Promise<\[string, string]>
 
@@ -74,7 +74,7 @@ Generates migration files in TypeScript format.
 
   #### Returns Promise<\[string, string]>
 
-### [**](#generateMigrationFile)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/TSMigrationGenerator.ts#L8)generateMigrationFile
+### [**](#generateMigrationFile)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/TSMigrationGenerator.ts#L8)generateMigrationFile
 
 * ****generateMigrationFile**(className, diff): string
 

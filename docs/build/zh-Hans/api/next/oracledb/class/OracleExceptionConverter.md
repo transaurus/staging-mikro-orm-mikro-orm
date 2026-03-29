@@ -29,7 +29,7 @@ Converts Oracle native errors into typed MikroORM driver exceptions.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#convertException)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OracleExceptionConverter.ts#L27)convertException
+### [**](#convertException)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OracleExceptionConverter.ts#L27)convertException
 
 * ****convertException**(exception): [DriverException](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/DriverException.md)
 

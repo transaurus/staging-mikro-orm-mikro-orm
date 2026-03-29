@@ -36,7 +36,7 @@ Options for the `Collection.loadCount()` method.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#cache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L456)optionalinheritedcache
+### [**](#cache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L456)optionalinheritedcache
 
 **cache?
 
@@ -46,7 +46,7 @@ Options for the `Collection.loadCount()` method.
 
 Inherited from CountOptions.cache
 
-### [**](#collation)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L474)optionalinheritedcollation
+### [**](#collation)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L474)optionalinheritedcollation
 
 **collation?
 
@@ -58,7 +58,7 @@ Inherited from CountOptions.collation
 
 SQL: collation name string applied as COLLATE; MongoDB: CollationOptions object.
 
-### [**](#comments)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L470)optionalinheritedcomments
+### [**](#comments)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L470)optionalinheritedcomments
 
 **comments?
 
@@ -70,7 +70,7 @@ Inherited from CountOptions.comments
 
 sql only
 
-### [**](#connectionType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L465)optionalinheritedconnectionType
+### [**](#connectionType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L465)optionalinheritedconnectionType
 
 **connectionType?
 
@@ -80,7 +80,7 @@ sql only
 
 Inherited from CountOptions.connectionType
 
-### [**](#ctx)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L464)optionalinheritedctx
+### [**](#ctx)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L464)optionalinheritedctx
 
 **ctx?
 
@@ -90,7 +90,7 @@ Inherited from CountOptions.connectionType
 
 Inherited from CountOptions.ctx
 
-### [**](#filters)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L452)optionalinheritedfilters
+### [**](#filters)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L452)optionalinheritedfilters
 
 **filters?
 
@@ -100,7 +100,7 @@ Inherited from CountOptions.ctx
 
 Inherited from CountOptions.filters
 
-### [**](#flushMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L466)optionalinheritedflushMode
+### [**](#flushMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L466)optionalinheritedflushMode
 
 **flushMode?
 
@@ -110,7 +110,7 @@ Inherited from CountOptions.filters
 
 Inherited from CountOptions.flushMode
 
-### [**](#groupBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L454)optionalinheritedgroupBy
+### [**](#groupBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L454)optionalinheritedgroupBy
 
 **groupBy?
 
@@ -124,7 +124,7 @@ string\[]
 
 Inherited from CountOptions.groupBy
 
-### [**](#having)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L455)optionalinheritedhaving
+### [**](#having)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L455)optionalinheritedhaving
 
 **having?
 
@@ -134,7 +134,7 @@ Inherited from CountOptions.groupBy
 
 Inherited from CountOptions.having
 
-### [**](#hintComments)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L472)optionalinheritedhintComments
+### [**](#hintComments)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L472)optionalinheritedhintComments
 
 **hintComments?
 
@@ -146,7 +146,7 @@ Inherited from CountOptions.hintComments
 
 sql only
 
-### [**](#indexHint)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L468)optionalinheritedindexHint
+### [**](#indexHint)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L468)optionalinheritedindexHint
 
 **indexHint?
 
@@ -158,7 +158,7 @@ Inherited from CountOptions.indexHint
 
 SQL: appended to FROM clause (e.g. `'force index(my_index)'`); MongoDB: index name or spec passed as `hint`.
 
-### [**](#loggerContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L477)optionalinheritedloggerContext
+### [**](#loggerContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L477)optionalinheritedloggerContext
 
 **loggerContext?
 
@@ -168,7 +168,7 @@ SQL: appended to FROM clause (e.g. `'force index(my_index)'`); MongoDB: index na
 
 Inherited from CountOptions.loggerContext
 
-### [**](#logging)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L478)optionalinheritedlogging
+### [**](#logging)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L478)optionalinheritedlogging
 
 **logging?
 
@@ -178,7 +178,7 @@ Inherited from CountOptions.loggerContext
 
 Inherited from CountOptions.logging
 
-### [**](#maxTimeMS)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L476)optionalinheritedmaxTimeMS
+### [**](#maxTimeMS)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L476)optionalinheritedmaxTimeMS
 
 **maxTimeMS?
 
@@ -190,7 +190,7 @@ Inherited from CountOptions.maxTimeMS
 
 mongodb only
 
-### [**](#populate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L457)optionalinheritedpopulate
+### [**](#populate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L457)optionalinheritedpopulate
 
 **populate?
 
@@ -200,7 +200,7 @@ mongodb only
 
 Inherited from CountOptions.populate
 
-### [**](#populateFilter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L459)optionalinheritedpopulateFilter
+### [**](#populateFilter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L459)optionalinheritedpopulateFilter
 
 **populateFilter?
 
@@ -210,7 +210,7 @@ Inherited from CountOptions.populate
 
 Inherited from CountOptions.populateFilter
 
-### [**](#populateWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L458)optionalinheritedpopulateWhere
+### [**](#populateWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L458)optionalinheritedpopulateWhere
 
 **populateWhere?
 
@@ -220,7 +220,7 @@ Inherited from CountOptions.populateFilter
 
 Inherited from CountOptions.populateWhere
 
-### [**](#refresh)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L1028)optionalrefresh
+### [**](#refresh)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L1028)optionalrefresh
 
 **refresh?
 
@@ -230,7 +230,7 @@ Inherited from CountOptions.populateWhere
 
 Whether to reload the count from the database even if it is already cached.
 
-### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L453)optionalinheritedschema
+### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L453)optionalinheritedschema
 
 **schema?
 
@@ -240,7 +240,7 @@ Whether to reload the count from the database even if it is already cached.
 
 Inherited from CountOptions.schema
 
-### [**](#unionWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L461)optionalinheritedunionWhere
+### [**](#unionWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L461)optionalinheritedunionWhere
 
 **unionWhere?
 
@@ -254,7 +254,7 @@ Inherited from CountOptions.unionWhere
 
   FindOptions.unionWhere
 
-### [**](#unionWhereStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L463)optionalinheritedunionWhereStrategy
+### [**](#unionWhereStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L463)optionalinheritedunionWhereStrategy
 
 **unionWhereStrategy?
 
@@ -268,7 +268,7 @@ Inherited from CountOptions.unionWhereStrategy
 
   FindOptions.unionWhereStrategy
 
-### [**](#where)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/Collection.ts#L1030)optionalwhere
+### [**](#where)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/Collection.ts#L1030)optionalwhere
 
 **where?
 

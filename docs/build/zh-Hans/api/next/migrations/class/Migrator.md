@@ -29,7 +29,7 @@ Manages SQL database migrations: creation, execution, and rollback of schema cha
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/Migrator.ts#L32)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/Migrator.ts#L32)constructor
 
 * ****new Migrator**(em): [Migrator](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/migrations/class/Migrator.md)
 
@@ -43,7 +43,7 @@ Manages SQL database migrations: creation, execution, and rollback of schema cha
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#checkSchema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/Migrator.ts#L114)checkSchema
+### [**](#checkSchema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/Migrator.ts#L114)checkSchema
 
 * ****checkSchema**(): Promise\<boolean>
 
@@ -51,7 +51,7 @@ Manages SQL database migrations: creation, execution, and rollback of schema cha
 
   #### Returns Promise\<boolean>
 
-### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/Migrator.ts#L91)create
+### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/Migrator.ts#L91)create
 
 * ****create**(path, blank, initial, name): Promise<[MigrationResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationResult)>
 
@@ -70,7 +70,7 @@ Manages SQL database migrations: creation, execution, and rollback of schema cha
 
   #### Returns Promise<[MigrationResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationResult)>
 
-### [**](#createInitial)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/Migrator.ts#L123)createInitial
+### [**](#createInitial)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/Migrator.ts#L123)createInitial
 
 * ****createInitial**(path, name, blank): Promise<[MigrationResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationResult)>
 
@@ -88,7 +88,7 @@ Manages SQL database migrations: creation, execution, and rollback of schema cha
 
   #### Returns Promise<[MigrationResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationResult)>
 
-### [**](#down)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/AbstractMigrator.ts#L124)inheriteddown
+### [**](#down)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/AbstractMigrator.ts#L124)inheriteddown
 
 * ****down**(options): Promise<[MigrationInfo](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationInfo)\[]>
 
@@ -104,7 +104,7 @@ Manages SQL database migrations: creation, execution, and rollback of schema cha
 
   #### Returns Promise<[MigrationInfo](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationInfo)\[]>
 
-### [**](#getExecuted)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/AbstractMigrator.ts#L98)inheritedgetExecuted
+### [**](#getExecuted)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/AbstractMigrator.ts#L98)inheritedgetExecuted
 
 * ****getExecuted**(): Promise<[MigrationRow](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationRow)\[]>
 
@@ -116,7 +116,7 @@ Manages SQL database migrations: creation, execution, and rollback of schema cha
 
   #### Returns Promise<[MigrationRow](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationRow)\[]>
 
-### [**](#getPending)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/AbstractMigrator.ts#L106)inheritedgetPending
+### [**](#getPending)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/AbstractMigrator.ts#L106)inheritedgetPending
 
 * ****getPending**(): Promise<[MigrationInfo](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationInfo)\[]>
 
@@ -128,7 +128,7 @@ Manages SQL database migrations: creation, execution, and rollback of schema cha
 
   #### Returns Promise<[MigrationInfo](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationInfo)\[]>
 
-### [**](#getStorage)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/Migrator.ts#L160)getStorage
+### [**](#getStorage)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/Migrator.ts#L160)getStorage
 
 * ****getStorage**(): [MigrationStorage](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/migrations/class/MigrationStorage.md)
 
@@ -136,7 +136,7 @@ Manages SQL database migrations: creation, execution, and rollback of schema cha
 
   #### Returns [MigrationStorage](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/migrations/class/MigrationStorage.md)
 
-### [**](#off)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/AbstractMigrator.ts#L90)inheritedoff
+### [**](#off)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/AbstractMigrator.ts#L90)inheritedoff
 
 * ****off**(eventName, listener): this
 
@@ -154,7 +154,7 @@ Manages SQL database migrations: creation, execution, and rollback of schema cha
 
   #### Returns this
 
-### [**](#on)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/AbstractMigrator.ts#L77)inheritedon
+### [**](#on)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/AbstractMigrator.ts#L77)inheritedon
 
 * ****on**(eventName, listener): this
 
@@ -172,7 +172,7 @@ Manages SQL database migrations: creation, execution, and rollback of schema cha
 
   #### Returns this
 
-### [**](#up)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/AbstractMigrator.ts#L117)inheritedup
+### [**](#up)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/AbstractMigrator.ts#L117)inheritedup
 
 * ****up**(options): Promise<[MigrationInfo](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationInfo)\[]>
 
@@ -188,7 +188,7 @@ Manages SQL database migrations: creation, execution, and rollback of schema cha
 
   #### Returns Promise<[MigrationInfo](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationInfo)\[]>
 
-### [**](#register)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/Migrator.ts#L37)staticregister
+### [**](#register)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/Migrator.ts#L37)staticregister
 
 * ****register**(orm): void
 

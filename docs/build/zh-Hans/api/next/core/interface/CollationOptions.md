@@ -17,7 +17,7 @@ MongoDB-style collation options for locale-aware string comparison.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#alternate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L538)optionalalternate
+### [**](#alternate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L538)optionalalternate
 
 **alternate?
 
@@ -25,7 +25,7 @@ MongoDB-style collation options for locale-aware string comparison.
 
 : string
 
-### [**](#backwards)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L540)optionalbackwards
+### [**](#backwards)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L540)optionalbackwards
 
 **backwards?
 
@@ -33,7 +33,7 @@ MongoDB-style collation options for locale-aware string comparison.
 
 : boolean
 
-### [**](#caseFirst)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L535)optionalcaseFirst
+### [**](#caseFirst)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L535)optionalcaseFirst
 
 **caseFirst?
 
@@ -41,7 +41,7 @@ MongoDB-style collation options for locale-aware string comparison.
 
 : string
 
-### [**](#caseLevel)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L534)optionalcaseLevel
+### [**](#caseLevel)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L534)optionalcaseLevel
 
 **caseLevel?
 
@@ -49,11 +49,11 @@ MongoDB-style collation options for locale-aware string comparison.
 
 : boolean
 
-### [**](#locale)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L533)locale
+### [**](#locale)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L533)locale
 
 **locale: string
 
-### [**](#maxVariable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L539)optionalmaxVariable
+### [**](#maxVariable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L539)optionalmaxVariable
 
 **maxVariable?
 
@@ -61,7 +61,7 @@ MongoDB-style collation options for locale-aware string comparison.
 
 : string
 
-### [**](#numericOrdering)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L537)optionalnumericOrdering
+### [**](#numericOrdering)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L537)optionalnumericOrdering
 
 **numericOrdering?
 
@@ -69,7 +69,7 @@ MongoDB-style collation options for locale-aware string comparison.
 
 : boolean
 
-### [**](#strength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L536)optionalstrength
+### [**](#strength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L536)optionalstrength
 
 **strength?
 

@@ -27,7 +27,7 @@ Metadata provider that uses ts-morph to infer property types from TypeScript sou
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/MetadataProvider.ts#L18)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/MetadataProvider.ts#L18)constructor
 
 * ****new TsMorphMetadataProvider**(config): [TsMorphMetadataProvider](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/reflection/class/TsMorphMetadataProvider.md)
 
@@ -41,7 +41,7 @@ Metadata provider that uses ts-morph to infer property types from TypeScript sou
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#combineCache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/MetadataProvider.ts#L131)inheritedcombineCache
+### [**](#combineCache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/MetadataProvider.ts#L131)inheritedcombineCache
 
 * ****combineCache**(): void
 
@@ -53,7 +53,7 @@ Metadata provider that uses ts-morph to infer property types from TypeScript sou
 
   #### Returns void
 
-### [**](#getCachedMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/MetadataProvider.ts#L112)inheritedgetCachedMetadata
+### [**](#getCachedMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/MetadataProvider.ts#L112)inheritedgetCachedMetadata
 
 * ****getCachedMetadata**\<T>(meta, root): undefined | [EntityMetadata](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityMetadata.md)\<T, [EntityCtor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityCtor)\<T>>
 
@@ -70,7 +70,7 @@ Metadata provider that uses ts-morph to infer property types from TypeScript sou
 
   #### Returns undefined | [EntityMetadata](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityMetadata.md)\<T, [EntityCtor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityCtor)\<T>>
 
-### [**](#getCacheKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/reflection/src/TsMorphMetadataProvider.ts#L321)getCacheKey
+### [**](#getCacheKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/reflection/src/TsMorphMetadataProvider.ts#L321)getCacheKey
 
 * ****getCacheKey**(meta): string
 
@@ -86,7 +86,7 @@ Metadata provider that uses ts-morph to infer property types from TypeScript sou
 
   #### Returns string
 
-### [**](#getExistingSourceFile)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/reflection/src/TsMorphMetadataProvider.ts#L39)getExistingSourceFile
+### [**](#getExistingSourceFile)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/reflection/src/TsMorphMetadataProvider.ts#L39)getExistingSourceFile
 
 * ****getExistingSourceFile**(path, ext, validate): SourceFile
 
@@ -98,7 +98,7 @@ Metadata provider that uses ts-morph to infer property types from TypeScript sou
 
   #### Returns SourceFile
 
-### [**](#loadEntityMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/reflection/src/TsMorphMetadataProvider.ts#L31)loadEntityMetadata
+### [**](#loadEntityMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/reflection/src/TsMorphMetadataProvider.ts#L31)loadEntityMetadata
 
 * ****loadEntityMetadata**(meta): void
 
@@ -114,7 +114,7 @@ Metadata provider that uses ts-morph to infer property types from TypeScript sou
 
   #### Returns void
 
-### [**](#loadFromCache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/MetadataProvider.ts#L60)inheritedloadFromCache
+### [**](#loadFromCache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/MetadataProvider.ts#L60)inheritedloadFromCache
 
 * ****loadFromCache**(meta, cache): void
 
@@ -131,7 +131,7 @@ Metadata provider that uses ts-morph to infer property types from TypeScript sou
 
   #### Returns void
 
-### [**](#saveToCache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/reflection/src/TsMorphMetadataProvider.ts#L276)saveToCache
+### [**](#saveToCache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/reflection/src/TsMorphMetadataProvider.ts#L276)saveToCache
 
 * ****saveToCache**(meta): void
 
@@ -143,7 +143,7 @@ Metadata provider that uses ts-morph to infer property types from TypeScript sou
 
   #### Returns void
 
-### [**](#useCache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/reflection/src/TsMorphMetadataProvider.ts#L27)useCache
+### [**](#useCache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/reflection/src/TsMorphMetadataProvider.ts#L27)useCache
 
 * ****useCache**(): boolean
 
@@ -155,7 +155,7 @@ Metadata provider that uses ts-morph to infer property types from TypeScript sou
 
   #### Returns boolean
 
-### [**](#useCache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/reflection/src/TsMorphMetadataProvider.ts#L23)staticuseCache
+### [**](#useCache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/reflection/src/TsMorphMetadataProvider.ts#L23)staticuseCache
 
 * ****useCache**(): boolean
 

@@ -12,11 +12,11 @@
 
 ## Interfaces<!-- -->[**](#Interfaces)
 
-### [**](#Brand)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L232)Brand
+### [**](#Brand)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L232)Brand
 
 **Brand:
 
-### [**](#\[___requiredNullable])[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L233)optional\[\_\_\_requiredNullable]
+### [**](#\[___requiredNullable])[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L233)optional\[\_\_\_requiredNullable]
 
 **\[\_\_\_requiredNullable]?
 
@@ -26,7 +26,7 @@
 
 ## Variables<!-- -->[**](#Variables)
 
-### [**](#__requiredNullable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L231)const\_\_requiredNullable
+### [**](#__requiredNullable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L231)const\_\_requiredNullable
 
 **\_\_requiredNullable: unique
 

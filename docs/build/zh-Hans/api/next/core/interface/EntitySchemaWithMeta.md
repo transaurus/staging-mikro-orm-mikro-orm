@@ -42,7 +42,7 @@ Extended `EntitySchema` interface that carries additional type-level metadata (e
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L2131)readonlyname
+### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L2131)readonlyname
 
 **name: TName
 
@@ -50,13 +50,13 @@ Overrides EntitySchema.name
 
 Returns the entity class name.
 
-### [**](#properties)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L2132)readonlyproperties
+### [**](#properties)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L2132)readonlyproperties
 
 **properties: TProperties
 
 Overrides EntitySchema.properties
 
-### [**](#tableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L2133)readonlytableName
+### [**](#tableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L2133)readonlytableName
 
 **tableName: TTableName
 
@@ -66,7 +66,7 @@ Returns the database table name.
 
 ## Accessors<!-- -->[**](#Accessors)
 
-### [**](#class)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L390)inheritedclass
+### [**](#class)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L390)inheritedclass
 
 * **get class(): Class
 
@@ -74,7 +74,7 @@ Returns the database table name.
 
   #### Returns Class
 
-### [**](#meta)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L376)inheritedmeta
+### [**](#meta)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L376)inheritedmeta
 
 * **get meta(): [EntityMetadata](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityMetadata.md)\<Entity, Class>
 
@@ -88,7 +88,7 @@ Returns the database table name.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#addEmbedded)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L221)inheritedaddEmbedded
+### [**](#addEmbedded)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L221)inheritedaddEmbedded
 
 * ****addEmbedded**\<Target>(name, options): void
 
@@ -105,7 +105,7 @@ Returns the database table name.
 
   #### Returns void
 
-### [**](#addEnum)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L175)inheritedaddEnum
+### [**](#addEnum)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L175)inheritedaddEnum
 
 * ****addEnum**(name, type, options): void
 
@@ -123,7 +123,7 @@ Returns the database table name.
 
   #### Returns void
 
-### [**](#addHook)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L607)inheritedaddHook
+### [**](#addHook)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L607)inheritedaddHook
 
 * ****addHook**\<T>(event, handler): this
 
@@ -154,7 +154,7 @@ Returns the database table name.
 
   #### Returns this
 
-### [**](#addIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L324)inheritedaddIndex
+### [**](#addIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L324)inheritedaddIndex
 
 * ****addIndex**\<Key>(options): void
 
@@ -170,7 +170,7 @@ Returns the database table name.
 
   #### Returns void
 
-### [**](#addManyToMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L261)inheritedaddManyToMany
+### [**](#addManyToMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L261)inheritedaddManyToMany
 
 * ****addManyToMany**\<Target>(name, type, options): void
 
@@ -188,7 +188,7 @@ Returns the database table name.
 
   #### Returns void
 
-### [**](#addManyToOne)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L238)inheritedaddManyToOne
+### [**](#addManyToOne)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L238)inheritedaddManyToOne
 
 * ****addManyToOne**\<Target>(name, type, options): void
 
@@ -206,7 +206,7 @@ Returns the database table name.
 
   #### Returns void
 
-### [**](#addOneToMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L284)inheritedaddOneToMany
+### [**](#addOneToMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L284)inheritedaddOneToMany
 
 * ****addOneToMany**\<Target>(name, type, options): void
 
@@ -224,7 +224,7 @@ Returns the database table name.
 
   #### Returns void
 
-### [**](#addOneToOne)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L294)inheritedaddOneToOne
+### [**](#addOneToOne)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L294)inheritedaddOneToOne
 
 * ****addOneToOne**\<Target>(name, type, options): void
 
@@ -242,7 +242,7 @@ Returns the database table name.
 
   #### Returns void
 
-### [**](#addPrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L206)inheritedaddPrimaryKey
+### [**](#addPrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L206)inheritedaddPrimaryKey
 
 * ****addPrimaryKey**(name, type, options): void
 
@@ -260,7 +260,7 @@ Returns the database table name.
 
   #### Returns void
 
-### [**](#addProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L140)inheritedaddProperty
+### [**](#addProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L140)inheritedaddProperty
 
 * ****addProperty**(name, type, options): void
 
@@ -278,7 +278,7 @@ Returns the database table name.
 
   #### Returns void
 
-### [**](#addSerializedPrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L211)inheritedaddSerializedPrimaryKey
+### [**](#addSerializedPrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L211)inheritedaddSerializedPrimaryKey
 
 * ****addSerializedPrimaryKey**(name, type, options): void
 
@@ -296,7 +296,7 @@ Returns the database table name.
 
   #### Returns void
 
-### [**](#addUnique)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L329)inheritedaddUnique
+### [**](#addUnique)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L329)inheritedaddUnique
 
 * ****addUnique**\<Key>(options): void
 
@@ -312,7 +312,7 @@ Returns the database table name.
 
   #### Returns void
 
-### [**](#addVersion)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L201)inheritedaddVersion
+### [**](#addVersion)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L201)inheritedaddVersion
 
 * ****addVersion**(name, type, options): void
 
@@ -330,7 +330,7 @@ Returns the database table name.
 
   #### Returns void
 
-### [**](#new)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L398)inheritednew
+### [**](#new)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L398)inheritednew
 
 * ****new**(...params): TEntity
 
@@ -342,7 +342,7 @@ Returns the database table name.
 
   #### Returns TEntity
 
-### [**](#setClass)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L344)inheritedsetClass
+### [**](#setClass)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L344)inheritedsetClass
 
 * ****setClass**(cls): void
 
@@ -358,7 +358,7 @@ Returns the database table name.
 
   #### Returns void
 
-### [**](#setCustomRepository)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L334)inheritedsetCustomRepository
+### [**](#setCustomRepository)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L334)inheritedsetCustomRepository
 
 * ****setCustomRepository**(repository): void
 
@@ -375,7 +375,7 @@ Returns the database table name.
 
   #### Returns void
 
-### [**](#setExtends)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L339)inheritedsetExtends
+### [**](#setExtends)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L339)inheritedsetExtends
 
 * ****setExtends**(base): void
 

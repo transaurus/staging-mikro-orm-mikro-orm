@@ -24,7 +24,7 @@ Compares two Schemas and return an instance of SchemaDifference.
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaComparator.ts#L27)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaComparator.ts#L27)constructor
 
 * ****new SchemaComparator**(platform): [SchemaComparator](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/SchemaComparator.md)
 
@@ -36,7 +36,7 @@ Compares two Schemas and return an instance of SchemaDifference.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#compare)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaComparator.ts#L40)compare
+### [**](#compare)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaComparator.ts#L40)compare
 
 * ****compare**(fromSchema, toSchema, inverseDiff): [SchemaDifference](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/SchemaDifference.md)
 
@@ -54,7 +54,7 @@ Compares two Schemas and return an instance of SchemaDifference.
 
   #### Returns [SchemaDifference](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/SchemaDifference.md)
 
-### [**](#diffColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaComparator.ts#L558)diffColumn
+### [**](#diffColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaComparator.ts#L558)diffColumn
 
 * ****diffColumn**(fromColumn, toColumn, fromTable, logging): Set\<string>
 
@@ -71,7 +71,7 @@ Compares two Schemas and return an instance of SchemaDifference.
 
   #### Returns Set\<string>
 
-### [**](#diffComment)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaComparator.ts#L660)diffComment
+### [**](#diffComment)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaComparator.ts#L660)diffComment
 
 * ****diffComment**(comment1, comment2): boolean
 
@@ -82,7 +82,7 @@ Compares two Schemas and return an instance of SchemaDifference.
 
   #### Returns boolean
 
-### [**](#diffEnumItems)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaComparator.ts#L656)diffEnumItems
+### [**](#diffEnumItems)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaComparator.ts#L656)diffEnumItems
 
 * ****diffEnumItems**(items1, items2): boolean
 
@@ -93,7 +93,7 @@ Compares two Schemas and return an instance of SchemaDifference.
 
   #### Returns boolean
 
-### [**](#diffExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaComparator.ts#L816)diffExpression
+### [**](#diffExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaComparator.ts#L816)diffExpression
 
 * ****diffExpression**(expr1, expr2): boolean
 
@@ -104,7 +104,7 @@ Compares two Schemas and return an instance of SchemaDifference.
 
   #### Returns boolean
 
-### [**](#diffForeignKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaComparator.ts#L514)diffForeignKey
+### [**](#diffForeignKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaComparator.ts#L514)diffForeignKey
 
 * ****diffForeignKey**(key1, key2, tableDifferences): boolean
 
@@ -116,7 +116,7 @@ Compares two Schemas and return an instance of SchemaDifference.
 
   #### Returns boolean
 
-### [**](#diffIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaComparator.ts#L670)diffIndex
+### [**](#diffIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaComparator.ts#L670)diffIndex
 
 * ****diffIndex**(index1, index2): boolean
 
@@ -131,7 +131,7 @@ Compares two Schemas and return an instance of SchemaDifference.
 
   #### Returns boolean
 
-### [**](#diffTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaComparator.ts#L200)diffTable
+### [**](#diffTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaComparator.ts#L200)diffTable
 
 * ****diffTable**(fromTable, toTable, inverseTableDiff): false | [TableDifference](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/TableDifference.md)
 
@@ -147,7 +147,7 @@ Compares two Schemas and return an instance of SchemaDifference.
 
   #### Returns false | [TableDifference](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/TableDifference.md)
 
-### [**](#hasSameDefaultValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaComparator.ts#L889)hasSameDefaultValue
+### [**](#hasSameDefaultValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaComparator.ts#L889)hasSameDefaultValue
 
 * ****hasSameDefaultValue**(from, to): boolean
 
@@ -158,7 +158,7 @@ Compares two Schemas and return an instance of SchemaDifference.
 
   #### Returns boolean
 
-### [**](#isIndexFulfilledBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaComparator.ts#L682)isIndexFulfilledBy
+### [**](#isIndexFulfilledBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaComparator.ts#L682)isIndexFulfilledBy
 
 * ****isIndexFulfilledBy**(index1, index2): boolean
 
@@ -173,7 +173,7 @@ Compares two Schemas and return an instance of SchemaDifference.
 
   #### Returns boolean
 
-### [**](#parseJsonDefault)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaComparator.ts#L878)parseJsonDefault
+### [**](#parseJsonDefault)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaComparator.ts#L878)parseJsonDefault
 
 * ****parseJsonDefault**(defaultValue): null | string | [Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)
 

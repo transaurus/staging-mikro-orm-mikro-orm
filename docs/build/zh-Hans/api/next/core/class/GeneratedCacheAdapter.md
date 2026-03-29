@@ -21,7 +21,7 @@ Cache adapter backed by pre-generated static data, typically produced by the CLI
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/cache/GeneratedCacheAdapter.ts#L8)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/cache/GeneratedCacheAdapter.ts#L8)constructor
 
 * ****new GeneratedCacheAdapter**(options): [GeneratedCacheAdapter](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/GeneratedCacheAdapter.md)
 
@@ -34,7 +34,7 @@ Cache adapter backed by pre-generated static data, typically produced by the CLI
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#clear)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/cache/GeneratedCacheAdapter.ts#L39)clear
+### [**](#clear)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/cache/GeneratedCacheAdapter.ts#L39)clear
 
 * ****clear**(): void
 
@@ -46,7 +46,7 @@ Cache adapter backed by pre-generated static data, typically produced by the CLI
 
   #### Returns void
 
-### [**](#get)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/cache/GeneratedCacheAdapter.ts#L15)get
+### [**](#get)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/cache/GeneratedCacheAdapter.ts#L15)get
 
 * ****get**\<T>(name): undefined | T
 
@@ -62,7 +62,7 @@ Cache adapter backed by pre-generated static data, typically produced by the CLI
 
   #### Returns undefined | T
 
-### [**](#remove)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/cache/GeneratedCacheAdapter.ts#L32)remove
+### [**](#remove)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/cache/GeneratedCacheAdapter.ts#L32)remove
 
 * ****remove**(name): void
 
@@ -78,7 +78,7 @@ Cache adapter backed by pre-generated static data, typically produced by the CLI
 
   #### Returns void
 
-### [**](#set)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/cache/GeneratedCacheAdapter.ts#L25)set
+### [**](#set)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/cache/GeneratedCacheAdapter.ts#L25)set
 
 * ****set**(name, data, origin): void
 

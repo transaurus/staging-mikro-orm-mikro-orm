@@ -22,7 +22,7 @@ Base class for SQL database migrations. Extend this class and implement `up()` (
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/Migration.ts#L19)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/Migration.ts#L19)constructor
 
 * ****new Migration**(driver, config): [Migration](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/migrations/class/Migration.md)
 
@@ -35,7 +35,7 @@ Base class for SQL database migrations. Extend this class and implement `up()` (
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#addSql)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/Migration.ts#L34)addSql
+### [**](#addSql)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/Migration.ts#L34)addSql
 
 * ****addSql**(sql): void
 
@@ -45,13 +45,13 @@ Base class for SQL database migrations. Extend this class and implement `up()` (
 
   #### Returns void
 
-### [**](#down)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/Migration.ts#L26)down
+### [**](#down)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/Migration.ts#L26)down
 
 * ****down**(): void | Promise\<void>
 
 - #### Returns void | Promise\<void>
 
-### [**](#execute)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/Migration.ts#L51)execute
+### [**](#execute)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/Migration.ts#L51)execute
 
 * ****execute**(sql, params): Promise<[EntityData](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityData)\<Partial\<any>>\[]>
 
@@ -66,7 +66,7 @@ Base class for SQL database migrations. Extend this class and implement `up()` (
 
   #### Returns Promise<[EntityData](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityData)\<Partial\<any>>\[]>
 
-### [**](#getEntityManager)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/Migration.ts#L59)getEntityManager
+### [**](#getEntityManager)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/Migration.ts#L59)getEntityManager
 
 * ****getEntityManager**(): [SqlEntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/EntityManager.md)<[AbstractSqlDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/AbstractSqlDriver.md)<[AbstractSqlConnection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/AbstractSqlConnection.md), [AbstractSqlPlatform](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/AbstractSqlPlatform.md)>>
 
@@ -76,25 +76,25 @@ Base class for SQL database migrations. Extend this class and implement `up()` (
 
   #### Returns [SqlEntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/EntityManager.md)<[AbstractSqlDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/AbstractSqlDriver.md)<[AbstractSqlConnection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/AbstractSqlConnection.md), [AbstractSqlPlatform](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/AbstractSqlPlatform.md)>>
 
-### [**](#getQueries)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/Migration.ts#L68)getQueries
+### [**](#getQueries)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/Migration.ts#L68)getQueries
 
 * ****getQueries**(): [Query](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/migrations.md#Query)\[]
 
 - #### Returns [Query](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/migrations.md#Query)\[]
 
-### [**](#isTransactional)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/Migration.ts#L30)isTransactional
+### [**](#isTransactional)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/Migration.ts#L30)isTransactional
 
 * ****isTransactional**(): boolean
 
 - #### Returns boolean
 
-### [**](#reset)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/Migration.ts#L38)reset
+### [**](#reset)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/Migration.ts#L38)reset
 
 * ****reset**(): void
 
 - #### Returns void
 
-### [**](#setTransactionContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/Migration.ts#L43)setTransactionContext
+### [**](#setTransactionContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/Migration.ts#L43)setTransactionContext
 
 * ****setTransactionContext**(ctx): void
 
@@ -104,7 +104,7 @@ Base class for SQL database migrations. Extend this class and implement `up()` (
 
   #### Returns void
 
-### [**](#up)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/Migration.ts#L24)abstractup
+### [**](#up)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/Migration.ts#L24)abstractup
 
 * ****up**(): void | Promise\<void>
 

@@ -24,11 +24,11 @@
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#entityName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L249)readonlyentityName
+### [**](#entityName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L249)readonlyentityName
 
 **entityName: [EntityName](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityName)\<T>
 
-### [**](#index)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L255)optionalindex
+### [**](#index)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L255)optionalindex
 
 **index?
 
@@ -36,7 +36,7 @@
 
 : number
 
-### [**](#key)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L251)optionalreadonlykey
+### [**](#key)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L251)optionalreadonlykey
 
 **key?
 
@@ -44,7 +44,7 @@
 
 : string | symbol
 
-### [**](#parent)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L250)optionalreadonlyparent
+### [**](#parent)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L250)optionalreadonlyparent
 
 **parent?
 
@@ -52,11 +52,11 @@
 
 : [ICriteriaNode](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/ICriteriaNode.md)\<T>
 
-### [**](#payload)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L253)payload
+### [**](#payload)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L253)payload
 
 **payload: any
 
-### [**](#prop)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L254)optionalprop
+### [**](#prop)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L254)optionalprop
 
 **prop?
 
@@ -64,7 +64,7 @@
 
 : [EntityProperty](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/EntityProperty.md)\<any, any>
 
-### [**](#strict)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L252)optionalreadonlystrict
+### [**](#strict)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L252)optionalreadonlystrict
 
 **strict?
 
@@ -74,7 +74,7 @@
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#getPath)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L261)getPath
+### [**](#getPath)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L261)getPath
 
 * ****getPath**(opts): string
 
@@ -85,7 +85,7 @@
 
   #### Returns string
 
-### [**](#getPivotPath)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L262)getPivotPath
+### [**](#getPivotPath)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L262)getPivotPath
 
 * ****getPivotPath**(path): string
 
@@ -95,7 +95,7 @@
 
   #### Returns string
 
-### [**](#process)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L256)process
+### [**](#process)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L256)process
 
 * ****process**(qb, options): any
 
@@ -106,7 +106,7 @@
 
   #### Returns any
 
-### [**](#renameFieldToPK)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L260)renameFieldToPK
+### [**](#renameFieldToPK)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L260)renameFieldToPK
 
 * ****renameFieldToPK**\<T>(qb, ownerAlias): string
 
@@ -117,7 +117,7 @@
 
   #### Returns string
 
-### [**](#shouldInline)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L257)shouldInline
+### [**](#shouldInline)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L257)shouldInline
 
 * ****shouldInline**(payload): boolean
 
@@ -127,7 +127,7 @@
 
   #### Returns boolean
 
-### [**](#shouldRename)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L259)shouldRename
+### [**](#shouldRename)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L259)shouldRename
 
 * ****shouldRename**(payload): boolean
 
@@ -137,7 +137,7 @@
 
   #### Returns boolean
 
-### [**](#willAutoJoin)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L258)willAutoJoin
+### [**](#willAutoJoin)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L258)willAutoJoin
 
 * ****willAutoJoin**(qb, alias, options): boolean
 

@@ -102,13 +102,13 @@ MikroORM configuration options.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#allowGlobalContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1076)allowGlobalContext
+### [**](#allowGlobalContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1076)allowGlobalContext
 
 **allowGlobalContext: boolean = false
 
 Allow using the global EntityManager without a request context. Not recommended for production - each request should have its own context. Can also be set via `MIKRO_ORM_ALLOW_GLOBAL_CONTEXT` environment variable.
 
-### [**](#assign)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L927)assign
+### [**](#assign)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L927)assign
 
 **assign: [AssignOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/AssignOptions.md)\<boolean>
 
@@ -118,7 +118,7 @@ Default options for entity assignment via `em.assign()`.
 
   <https://mikro-orm.io/docs/entity-helper>
 
-### [**](#attachDatabases)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L575)optionalinheritedattachDatabases
+### [**](#attachDatabases)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L575)optionalinheritedattachDatabases
 
 **attachDatabases?
 
@@ -139,31 +139,31 @@ SQLite/libSQL: databases to attach on connection. Each attached database acts as
   ]
   ```
 
-### [**](#autoJoinOneToOneOwner)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L884)autoJoinOneToOneOwner
+### [**](#autoJoinOneToOneOwner)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L884)autoJoinOneToOneOwner
 
 **autoJoinOneToOneOwner: boolean = true
 
 Automatically join the owning side of 1:1 relations when querying the inverse side.
 
-### [**](#autoJoinRefsForFilters)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L890)autoJoinRefsForFilters
+### [**](#autoJoinRefsForFilters)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L890)autoJoinRefsForFilters
 
 **autoJoinRefsForFilters: boolean = true
 
 Automatically join M:1 and 1:1 relations when filters are defined on them. Important for implementing soft deletes via filters.
 
-### [**](#baseDir)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1169)baseDir
+### [**](#baseDir)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1169)baseDir
 
 **baseDir: string = process.cwd()
 
 Base directory for resolving relative paths.
 
-### [**](#batchSize)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L994)batchSize
+### [**](#batchSize)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L994)batchSize
 
 **batchSize: number = 300
 
 Number of entities to process in each batch for batch inserts/updates.
 
-### [**](#charset)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L545)optionalinheritedcharset
+### [**](#charset)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L545)optionalinheritedcharset
 
 **charset?
 
@@ -175,7 +175,7 @@ Inherited from ConnectionOptions.charset
 
 Character set for the connection.
 
-### [**](#clientUrl)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L530)optionalinheritedclientUrl
+### [**](#clientUrl)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L530)optionalinheritedclientUrl
 
 **clientUrl?
 
@@ -187,7 +187,7 @@ Inherited from ConnectionOptions.clientUrl
 
 Full client connection URL. Overrides individual connection options.
 
-### [**](#collate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L547)optionalinheritedcollate
+### [**](#collate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L547)optionalinheritedcollate
 
 **collate?
 
@@ -199,13 +199,13 @@ Inherited from ConnectionOptions.collate
 
 Collation for the connection.
 
-### [**](#colors)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1099)colors
+### [**](#colors)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1099)colors
 
 **colors: boolean = true
 
 Enable colored output in logs.
 
-### [**](#compiledFunctions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1005)optionalcompiledFunctions
+### [**](#compiledFunctions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1005)optionalcompiledFunctions
 
 **compiledFunctions?
 
@@ -215,7 +215,7 @@ Enable colored output in logs.
 
 Pre-generated compiled functions for hydration and comparison. Use the `compile` CLI command to create these functions. Enables deployment to runtimes that prohibit `new Function`/eval (e.g. Cloudflare Workers).
 
-### [**](#context)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1064)context
+### [**](#context)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1064)context
 
 **context: (name) => undefined | [EntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityManager.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>> = (name) => undefined | [EntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityManager.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>>
 
@@ -233,13 +233,13 @@ Callback to get the current request context's EntityManager. Used for automatic 
 
     #### Returns undefined | [EntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityManager.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>>
 
-### [**](#contextName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1069)contextName
+### [**](#contextName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1069)contextName
 
 **contextName: string = ‘default’
 
 Name of the context for multi-ORM setups.
 
-### [**](#dataloader)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1022)dataloader
+### [**](#dataloader)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1022)dataloader
 
 **dataloader: boolean | [DataloaderType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/enum/DataloaderType.md) = boolean | [DataloaderType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/enum/DataloaderType.md)
 
@@ -250,7 +250,7 @@ Enable dataloader for batching reference loading.
 * `DataloaderType.REFERENCE`: Enable only for scalar references
 * `DataloaderType.COLLECTION`: Enable only for collections
 
-### [**](#dbName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L524)optionalinheriteddbName
+### [**](#dbName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L524)optionalinheriteddbName
 
 **dbName?
 
@@ -262,7 +262,7 @@ Inherited from ConnectionOptions.dbName
 
 Name of the database to connect to.
 
-### [**](#debug)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1145)debug
+### [**](#debug)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1145)debug
 
 **debug: boolean | [LoggerNamespace](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#LoggerNamespace)\[] = boolean | [LoggerNamespace](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#LoggerNamespace)\[]
 
@@ -272,7 +272,7 @@ Enable debug logging. Can be `true` for all namespaces or an array of specific n
 
   <https://mikro-orm.io/docs/logging>
 
-### [**](#disableIdentityMap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1089)optionaldisableIdentityMap
+### [**](#disableIdentityMap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1089)optionaldisableIdentityMap
 
 **disableIdentityMap?
 
@@ -282,7 +282,7 @@ Enable debug logging. Can be `true` for all namespaces or an array of specific n
 
 Disable the identity map. When disabled, each query returns new entity instances. Not recommended for most use cases.
 
-### [**](#disableTransactions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L858)optionaldisableTransactions
+### [**](#disableTransactions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L858)optionaldisableTransactions
 
 **disableTransactions?
 
@@ -292,13 +292,13 @@ Disable the identity map. When disabled, each query returns new entity instances
 
 Disable all transactions. When enabled, no queries will be wrapped in transactions, even when explicitly requested.
 
-### [**](#discovery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L827)discovery
+### [**](#discovery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L827)discovery
 
 **discovery: [MetadataDiscoveryOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/MetadataDiscoveryOptions.md)
 
 Metadata discovery configuration options. Controls how entities are discovered and validated.
 
-### [**](#driver)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L840)optionaldriver
+### [**](#driver)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L840)optionaldriver
 
 **driver?
 
@@ -331,7 +331,7 @@ Database driver class to use. Should be imported from the specific driver packag
 
     #### Returns Driver
 
-### [**](#driverOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L788)driverOptions
+### [**](#driverOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L788)driverOptions
 
 **driverOptions: [Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)
 
@@ -339,7 +339,7 @@ Overrides ConnectionOptions.driverOptions
 
 Additional driver-specific options. The object will be deeply merged with internal driver options.
 
-### [**](#dynamicImportProvider)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1320)dynamicImportProvider
+### [**](#dynamicImportProvider)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1320)dynamicImportProvider
 
 **dynamicImportProvider: (id) => Promise\<unknown> = (id) => Promise\<unknown>
 
@@ -357,7 +357,7 @@ Custom dynamic import provider for loading modules.
 
     #### Returns Promise\<unknown>
 
-### [**](#embeddables)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1232)embeddables
+### [**](#embeddables)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1232)embeddables
 
 **embeddables: { prefixMode: [EmbeddedPrefixMode](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EmbeddedPrefixMode) }
 
@@ -371,19 +371,19 @@ Embeddable entity configuration options.
 
   Mode for generating column prefixes for embedded properties.
 
-### [**](#ensureDatabase)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L973)ensureDatabase
+### [**](#ensureDatabase)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L973)ensureDatabase
 
 **ensureDatabase: boolean | [EnsureDatabaseOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/EnsureDatabaseOptions.md) = boolean | [EnsureDatabaseOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/EnsureDatabaseOptions.md)
 
 Ensure the database exists when initializing the ORM. When `true`, will create the database if it doesn't exist.
 
-### [**](#ensureIndexes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L979)ensureIndexes
+### [**](#ensureIndexes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L979)ensureIndexes
 
 **ensureIndexes: boolean = false
 
 Ensure database indexes exist on startup. This option works only with the MongoDB driver. When enabled, indexes will be created based on entity metadata.
 
-### [**](#entities)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L796)entities
+### [**](#entities)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L796)entities
 
 **entities: Entities
 
@@ -396,7 +396,7 @@ Array of entity classes or paths to entity modules. Paths support glob patterns 
   entities: ['./dist/entities'] // folder paths
   ```
 
-### [**](#entitiesTs)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L804)entitiesTs
+### [**](#entitiesTs)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L804)entitiesTs
 
 **entitiesTs: Entities
 
@@ -408,7 +408,7 @@ Array of TypeScript entity source paths. Used when running in TypeScript mode (e
   entitiesTs: ['./src/entities']
   ```
 
-### [**](#entityGenerator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1243)entityGenerator
+### [**](#entityGenerator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1243)entityGenerator
 
 **entityGenerator: [GenerateOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/GenerateOptions.md)
 
@@ -418,7 +418,7 @@ Entity generator (code generation) configuration options.
 
   <https://mikro-orm.io/docs/entity-generator>
 
-### [**](#entityManager)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1047)optionalentityManager
+### [**](#entityManager)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1047)optionalentityManager
 
 **entityManager?
 
@@ -428,7 +428,7 @@ Entity generator (code generation) configuration options.
 
 Custom entity manager class to use.
 
-### [**](#entityRepository)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1043)optionalentityRepository
+### [**](#entityRepository)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1043)optionalentityRepository
 
 **entityRepository?
 
@@ -442,7 +442,7 @@ Custom base repository class for all entities. Entity-specific repositories can 
 
   <https://mikro-orm.io/docs/repositories>
 
-### [**](#extensions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L811)extensions
+### [**](#extensions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L811)extensions
 
 **extensions: { register: (orm) => void }\[]
 
@@ -454,7 +454,7 @@ ORM extensions to register (e.g., Migrator, EntityGenerator, SeedManager). Exten
   extensions: [Migrator, EntityGenerator, SeedManager]
   ```
 
-### [**](#filters)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L822)filters
+### [**](#filters)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L822)filters
 
 **filters: [Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)<{ name?
 
@@ -468,13 +468,13 @@ Global entity filters to apply. Filters are applied by default unless explicitly
 
   <https://mikro-orm.io/docs/filters>
 
-### [**](#filtersOnRelations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L895)filtersOnRelations
+### [**](#filtersOnRelations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L895)filtersOnRelations
 
 **filtersOnRelations: boolean = true
 
 Apply filters to relations in queries.
 
-### [**](#findExactlyOneOrFailHandler)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1137)findExactlyOneOrFailHandler
+### [**](#findExactlyOneOrFailHandler)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1137)findExactlyOneOrFailHandler
 
 **findExactlyOneOrFailHandler: (entityName, where) => Error
 
@@ -502,7 +502,7 @@ Custom error handler for `em.findExactlyOneOrFail()` when entity count is not ex
 
     Error instance to throw
 
-### [**](#findOneOrFailHandler)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1129)findOneOrFailHandler
+### [**](#findOneOrFailHandler)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1129)findOneOrFailHandler
 
 **findOneOrFailHandler: (entityName, where) => Error
 
@@ -530,7 +530,7 @@ Custom error handler for `em.findOneOrFail()` when no entity is found.
 
     Error instance to throw
 
-### [**](#flushMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1037)flushMode
+### [**](#flushMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1037)flushMode
 
 **flushMode: always | [FlushMode](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/enum/FlushMode.md) | commit | auto = always | [FlushMode](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/enum/FlushMode.md) | commit | auto
 
@@ -540,31 +540,31 @@ Default flush mode for the entity manager.
 * `'auto'`: Flush before queries when needed
 * `'always'`: Always flush before queries
 
-### [**](#forceEntityConstructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L944)forceEntityConstructor
+### [**](#forceEntityConstructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L944)forceEntityConstructor
 
 **forceEntityConstructor: boolean | (string | [Constructor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Constructor)\<Partial\<any>>)\[] = boolean | (string | [Constructor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Constructor)\<Partial\<any>>)\[]
 
 Force use of entity constructors when creating entity instances. Required when using native private properties inside entities. Can be `true` for all entities or an array of specific entity classes/names.
 
-### [**](#forceUndefined)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L949)forceUndefined
+### [**](#forceUndefined)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L949)forceUndefined
 
 **forceUndefined: boolean = false
 
 Convert `null` values from database to `undefined` when hydrating entities.
 
-### [**](#forceUtcTimezone)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L962)forceUtcTimezone
+### [**](#forceUtcTimezone)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L962)forceUtcTimezone
 
 **forceUtcTimezone: boolean = true
 
 Force `Date` values to be stored in UTC for datetime columns without timezone. Works for MySQL (`datetime` type), PostgreSQL (`timestamp` type), and MSSQL (`datetime`/`datetime2` types). SQLite does this by default.
 
-### [**](#highlighter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1157)highlighter
+### [**](#highlighter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1157)highlighter
 
 **highlighter: [Highlighter](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/Highlighter.md) = [Highlighter](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/Highlighter.md)
 
 Syntax highlighter for SQL queries in logs.
 
-### [**](#host)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L532)optionalinheritedhost
+### [**](#host)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L532)optionalinheritedhost
 
 **host?
 
@@ -576,13 +576,13 @@ Inherited from ConnectionOptions.host
 
 Database server hostname.
 
-### [**](#hydrator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L999)hydrator
+### [**](#hydrator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L999)hydrator
 
 **hydrator: HydratorConstructor = HydratorConstructor
 
 Custom hydrator class for assigning database values to entities.
 
-### [**](#ignoreDeprecations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1152)ignoreDeprecations
+### [**](#ignoreDeprecations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1152)ignoreDeprecations
 
 **ignoreDeprecations: boolean | string\[] = boolean | string\[]
 
@@ -592,7 +592,7 @@ Ignore deprecation warnings. Can be `true` to ignore all or an array of specific
 
   <https://mikro-orm.io/docs/logging#deprecation-warnings>
 
-### [**](#ignoreUndefinedInQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L871)ignoreUndefinedInQuery
+### [**](#ignoreUndefinedInQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L871)ignoreUndefinedInQuery
 
 **ignoreUndefinedInQuery: boolean = false
 
@@ -605,7 +605,7 @@ Ignore `undefined` values in find queries instead of treating them as `null`.
   em.find(User, { email: undefined }) // resolves to em.find(User, {})
   ```
 
-### [**](#implicitTransactions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L852)optionalimplicitTransactions
+### [**](#implicitTransactions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L852)optionalimplicitTransactions
 
 **implicitTransactions?
 
@@ -615,7 +615,7 @@ Ignore `undefined` values in find queries instead of treating them as `null`.
 
 Enable implicit transactions for all write operations. When enabled, all queries will be wrapped in a transaction. Disabled for MongoDB driver by default.
 
-### [**](#loadStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1013)loadStrategy
+### [**](#loadStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1013)loadStrategy
 
 **loadStrategy: [LoadStrategy](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/enum/LoadStrategy.md) | select-in | joined | balanced = [LoadStrategy](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/enum/LoadStrategy.md) | select-in | joined | balanced
 
@@ -625,7 +625,7 @@ Default loading strategy for relations.
 * `'select-in'`: Use separate SELECT IN queries (multiple queries)
 * `'balanced'`: Decides based on relation type and context.
 
-### [**](#logger)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1094)logger
+### [**](#logger)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1094)logger
 
 **logger: (message) => void = (message) => void
 
@@ -643,7 +643,7 @@ Custom logger function for ORM output.
 
     #### Returns void
 
-### [**](#loggerFactory)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1104)optionalloggerFactory
+### [**](#loggerFactory)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1104)optionalloggerFactory
 
 **loggerFactory?
 
@@ -665,7 +665,7 @@ Factory function to create a custom logger instance.
 
     #### Returns [Logger](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/Logger.md)
 
-### [**](#metadataCache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1248)metadataCache
+### [**](#metadataCache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1248)metadataCache
 
 **metadataCache: { adapter?
 
@@ -727,7 +727,7 @@ Metadata cache configuration for improved startup performance.
 
   Pretty print JSON cache files.
 
-### [**](#metadataProvider)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1305)metadataProvider
+### [**](#metadataProvider)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1305)metadataProvider
 
 **metadataProvider: { useCache?
 
@@ -767,7 +767,7 @@ Metadata provider class for entity discovery. Built-in options: `ReflectMetadata
 
       #### Returns boolean
 
-### [**](#migrations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1174)migrations
+### [**](#migrations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1174)migrations
 
 **migrations: [MigrationsOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationsOptions)
 
@@ -777,7 +777,7 @@ Migration configuration options.
 
   <https://mikro-orm.io/docs/migrations>
 
-### [**](#multipleStatements)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L554)optionalinheritedmultipleStatements
+### [**](#multipleStatements)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L554)optionalinheritedmultipleStatements
 
 **multipleStatements?
 
@@ -789,7 +789,7 @@ Inherited from ConnectionOptions.multipleStatements
 
 Enable multiple statements in a single query. Required for importing database dump files. Should be disabled in production for security.
 
-### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L528)optionalinheritedname
+### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L528)optionalinheritedname
 
 **name?
 
@@ -801,7 +801,7 @@ Inherited from ConnectionOptions.name
 
 Name of the connection (used for logging when replicas are used).
 
-### [**](#namingStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L846)optionalnamingStrategy
+### [**](#namingStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L846)optionalnamingStrategy
 
 **namingStrategy?
 
@@ -823,7 +823,7 @@ Custom naming strategy class for mapping entity/property names to database table
 
   - #### Returns [NamingStrategy](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/NamingStrategy.md)
 
-### [**](#onCreateConnection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L563)optionalinheritedonCreateConnection
+### [**](#onCreateConnection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L563)optionalinheritedonCreateConnection
 
 **onCreateConnection?
 
@@ -847,7 +847,7 @@ Callback to execute when a new connection is created.
 
     #### Returns Promise\<void>
 
-### [**](#onQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L879)onQuery
+### [**](#onQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L879)onQuery
 
 **onQuery: (sql, params) => string
 
@@ -875,7 +875,7 @@ Hook to modify SQL queries before execution. Useful for adding observability hin
 
     Modified SQL query
 
-### [**](#password)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L543)optionalinheritedpassword
+### [**](#password)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L543)optionalinheritedpassword
 
 **password?
 
@@ -893,13 +893,13 @@ Database password. Can be a string or a callback function that returns the passw
   password: async () => someCallToGetTheToken()
   ```
 
-### [**](#persistOnCreate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L932)persistOnCreate
+### [**](#persistOnCreate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L932)persistOnCreate
 
 **persistOnCreate: boolean = true
 
 Automatically call `em.persist()` on entities created via `em.create()`.
 
-### [**](#pool)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L783)pool
+### [**](#pool)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L783)pool
 
 **pool: [PoolConfig](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/PoolConfig.md)
 
@@ -907,13 +907,13 @@ Overrides ConnectionOptions.pool
 
 Connection pool configuration.
 
-### [**](#populateAfterFlush)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L906)populateAfterFlush
+### [**](#populateAfterFlush)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L906)populateAfterFlush
 
 **populateAfterFlush: boolean = true
 
 Mark all relations as populated after flush for new entities. This aligns serialized output of loaded entities and just-inserted ones.
 
-### [**](#populateWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1029)populateWhere
+### [**](#populateWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1029)populateWhere
 
 **populateWhere: [PopulateHint](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/enum/PopulateHint.md) | infer | all = [PopulateHint](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/enum/PopulateHint.md) | infer | all
 
@@ -922,7 +922,7 @@ Determines how where conditions are applied during population.
 * `'all'`: Populate all matching relations (default in v5+)
 * `'infer'`: Infer conditions from the original query (v4 behavior)
 
-### [**](#port)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L534)optionalinheritedport
+### [**](#port)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L534)optionalinheritedport
 
 **port?
 
@@ -934,7 +934,7 @@ Inherited from ConnectionOptions.port
 
 Database server port number.
 
-### [**](#preferEnvVars)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1082)optionalpreferEnvVars
+### [**](#preferEnvVars)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1082)optionalpreferEnvVars
 
 **preferEnvVars?
 
@@ -944,13 +944,13 @@ Database server port number.
 
 When enabled, environment variables take precedence over explicitly provided config options. By default, explicit options win over env vars.
 
-### [**](#preferReadReplicas)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1315)preferReadReplicas
+### [**](#preferReadReplicas)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1315)preferReadReplicas
 
 **preferReadReplicas: boolean = true
 
 Prefer read replicas for read operations when available.
 
-### [**](#preferTs)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1164)optionalpreferTs
+### [**](#preferTs)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1164)optionalpreferTs
 
 **preferTs?
 
@@ -960,19 +960,19 @@ Prefer read replicas for read operations when available.
 
 Force the ORM to use TypeScript options regardless of detection. Uses `entitiesTs` for discovery and `pathTs` for migrations/seeders. Should only be used for tests, not production builds.
 
-### [**](#processOnCreateHooksEarly)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L955)processOnCreateHooksEarly
+### [**](#processOnCreateHooksEarly)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L955)processOnCreateHooksEarly
 
 **processOnCreateHooksEarly: boolean = true
 
 Property `onCreate` hooks are normally executed during `flush` operation. With this option, they will be processed early inside `em.create()` method.
 
-### [**](#propagationOnPrototype)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L900)propagationOnPrototype
+### [**](#propagationOnPrototype)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L900)propagationOnPrototype
 
 **propagationOnPrototype: boolean = true
 
 Enable propagation of changes on entity prototypes.
 
-### [**](#replicas)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1053)optionalreplicas
+### [**](#replicas)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1053)optionalreplicas
 
 **replicas?
 
@@ -986,7 +986,7 @@ Read replica connection configurations. Each replica can override parts of the m
 
   <https://mikro-orm.io/docs/read-connections>
 
-### [**](#resultCache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1277)resultCache
+### [**](#resultCache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1277)resultCache
 
 **resultCache: { adapter?
 
@@ -1036,7 +1036,7 @@ Result cache configuration for query result caching.
 
   Options passed to the cache adapter constructor.
 
-### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L526)optionalinheritedschema
+### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L526)optionalinheritedschema
 
 **schema?
 
@@ -1048,7 +1048,7 @@ Inherited from ConnectionOptions.schema
 
 Default database schema to use.
 
-### [**](#schemaGenerator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1178)schemaGenerator
+### [**](#schemaGenerator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1178)schemaGenerator
 
 **schemaGenerator: { createForeignKeyConstraints?
 
@@ -1144,7 +1144,7 @@ Schema generator configuration options.
 
 * ##### optionaltableSpace?<!-- -->: string
 
-### [**](#seeder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1310)seeder
+### [**](#seeder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1310)seeder
 
 **seeder: [SeederOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/SeederOptions.md)
 
@@ -1154,7 +1154,7 @@ Seeder configuration options.
 
   <https://mikro-orm.io/docs/seeding>
 
-### [**](#serialization)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L910)serialization
+### [**](#serialization)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L910)serialization
 
 **serialization: { forceObject?
 
@@ -1180,7 +1180,7 @@ Serialization options for `toJSON()` and `serialize()` methods.
 
   Include primary keys in serialized output.
 
-### [**](#slowQueryLoggerFactory)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1122)optionalslowQueryLoggerFactory
+### [**](#slowQueryLoggerFactory)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1122)optionalslowQueryLoggerFactory
 
 **slowQueryLoggerFactory?
 
@@ -1204,7 +1204,7 @@ Note: slow query log entries are emitted with `context.enabled = true` to bypass
 
     #### Returns [Logger](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/Logger.md)
 
-### [**](#slowQueryThreshold)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1112)optionalslowQueryThreshold
+### [**](#slowQueryThreshold)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1112)optionalslowQueryThreshold
 
 **slowQueryThreshold?
 
@@ -1214,13 +1214,13 @@ Note: slow query log entries are emitted with `context.enabled = true` to bypass
 
 Threshold in milliseconds for logging slow queries. Queries taking at least this long will be logged via the 'slow-query' namespace at warning level. Slow query logs are always emitted when the threshold is met, regardless of the `debug` setting. Set to `0` to log every query as slow.
 
-### [**](#subscribers)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L816)subscribers
+### [**](#subscribers)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L816)subscribers
 
 **subscribers: Iterable<[EventSubscriber](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/EventSubscriber.md)\<any> | [Constructor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Constructor)<[EventSubscriber](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/EventSubscriber.md)\<any>>, any, any>
 
 Event subscribers to register. Can be class references or instances.
 
-### [**](#timezone)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L967)optionaltimezone
+### [**](#timezone)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L967)optionaltimezone
 
 **timezone?
 
@@ -1236,13 +1236,13 @@ Timezone to use for date operations.
   '+02:00'
   ```
 
-### [**](#upsertManaged)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L937)upsertManaged
+### [**](#upsertManaged)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L937)upsertManaged
 
 **upsertManaged: boolean = true
 
 When upsert creates a new entity, mark it as managed in the identity map.
 
-### [**](#useBatchInserts)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L984)optionaluseBatchInserts
+### [**](#useBatchInserts)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L984)optionaluseBatchInserts
 
 **useBatchInserts?
 
@@ -1252,7 +1252,7 @@ When upsert creates a new entity, mark it as managed in the identity map.
 
 Use batch insert queries for better performance.
 
-### [**](#useBatchUpdates)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L989)optionaluseBatchUpdates
+### [**](#useBatchUpdates)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L989)optionaluseBatchUpdates
 
 **useBatchUpdates?
 
@@ -1262,7 +1262,7 @@ Use batch insert queries for better performance.
 
 Use batch update queries for better performance.
 
-### [**](#user)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L536)optionalinheriteduser
+### [**](#user)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L536)optionalinheriteduser
 
 **user?
 
@@ -1274,13 +1274,13 @@ Inherited from ConnectionOptions.user
 
 Database user name.
 
-### [**](#validateRequired)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L1058)validateRequired
+### [**](#validateRequired)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L1058)validateRequired
 
 **validateRequired: boolean = true
 
 Validate that required properties are set on new entities before insert.
 
-### [**](#verbose)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L863)verbose
+### [**](#verbose)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L863)verbose
 
 **verbose: boolean = false
 

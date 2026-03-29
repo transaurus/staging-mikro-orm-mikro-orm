@@ -45,7 +45,7 @@ Base class for SQL database connections, built on top of Kysely.
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L25)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L25)constructor
 
 * ****new AbstractSqlConnection**(config, options, type): [AbstractSqlConnection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/AbstractSqlConnection.md)
 
@@ -61,7 +61,7 @@ Base class for SQL database connections, built on top of Kysely.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#begin)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L148)begin
+### [**](#begin)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L148)begin
 
 * ****begin**(options): Promise\<ControlledTransaction\<any, any>>
 
@@ -82,7 +82,7 @@ Base class for SQL database connections, built on top of Kysely.
 
   #### Returns Promise\<ControlledTransaction\<any, any>>
 
-### [**](#checkConnection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L87)checkConnection
+### [**](#checkConnection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L87)checkConnection
 
 * ****checkConnection**(): Promise<{ ok: true } | { error?
   <!-- -->
@@ -96,7 +96,7 @@ Base class for SQL database connections, built on top of Kysely.
 
   #### Returns Promise<{ ok: true } | { error?<!-- -->: Error; ok: false; reason: string }>
 
-### [**](#close)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L69)close
+### [**](#close)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L69)close
 
 * ****close**(force): Promise\<void>
 
@@ -112,7 +112,7 @@ Base class for SQL database connections, built on top of Kysely.
 
   #### Returns Promise\<void>
 
-### [**](#commit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L204)commit
+### [**](#commit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L204)commit
 
 * ****commit**(ctx, eventBroadcaster, loggerContext): Promise\<void>
 
@@ -130,7 +130,7 @@ Base class for SQL database connections, built on top of Kysely.
 
   #### Returns Promise\<void>
 
-### [**](#connect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L30)connect
+### [**](#connect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L30)connect
 
 * ****connect**(options): Promise\<void>
 
@@ -147,7 +147,7 @@ Base class for SQL database connections, built on top of Kysely.
 
   #### Returns Promise\<void>
 
-### [**](#createKysely)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L40)createKysely
+### [**](#createKysely)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L40)createKysely
 
 * ****createKysely**(): [MaybePromise](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MaybePromise)\<void>
 
@@ -157,7 +157,7 @@ Base class for SQL database connections, built on top of Kysely.
 
   #### Returns [MaybePromise](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MaybePromise)\<void>
 
-### [**](#createKyselyDialect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L27)abstractcreateKyselyDialect
+### [**](#createKyselyDialect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L27)abstractcreateKyselyDialect
 
 * ****createKyselyDialect**(overrides): any
 
@@ -171,7 +171,7 @@ Base class for SQL database connections, built on top of Kysely.
 
   #### Returns any
 
-### [**](#ensureConnection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L82)inheritedensureConnection
+### [**](#ensureConnection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L82)inheritedensureConnection
 
 * ****ensureConnection**(): Promise\<void>
 
@@ -183,7 +183,7 @@ Base class for SQL database connections, built on top of Kysely.
 
   #### Returns Promise\<void>
 
-### [**](#execute)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L264)execute
+### [**](#execute)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L264)execute
 
 * ****execute**\<T>(query, params, method, ctx, loggerContext): Promise\<T>
 
@@ -203,7 +203,7 @@ Base class for SQL database connections, built on top of Kysely.
 
   #### Returns Promise\<T>
 
-### [**](#executeDump)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L328)executeDump
+### [**](#executeDump)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L328)executeDump
 
 * ****executeDump**(dump): Promise\<void>
 
@@ -219,7 +219,7 @@ Base class for SQL database connections, built on top of Kysely.
 
   #### Returns Promise\<void>
 
-### [**](#getClient)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L101)getClient
+### [**](#getClient)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L101)getClient
 
 * ****getClient**\<T>(): Kysely\<T>
 
@@ -229,7 +229,7 @@ Base class for SQL database connections, built on top of Kysely.
 
   #### Returns Kysely\<T>
 
-### [**](#getConnectionOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L163)inheritedgetConnectionOptions
+### [**](#getConnectionOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L163)inheritedgetConnectionOptions
 
 * ****getConnectionOptions**(): [ConnectionConfig](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/ConnectionConfig.md)
 
@@ -241,7 +241,7 @@ Base class for SQL database connections, built on top of Kysely.
 
   #### Returns [ConnectionConfig](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/ConnectionConfig.md)
 
-### [**](#getPlatform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L203)inheritedgetPlatform
+### [**](#getPlatform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L203)inheritedgetPlatform
 
 * ****getPlatform**(): [Platform](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Platform.md)
 
@@ -253,7 +253,7 @@ Base class for SQL database connections, built on top of Kysely.
 
   #### Returns [Platform](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Platform.md)
 
-### [**](#initClient)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L117)initClient
+### [**](#initClient)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L117)initClient
 
 * ****initClient**(): Promise\<void>
 
@@ -263,7 +263,7 @@ Base class for SQL database connections, built on top of Kysely.
 
   #### Returns Promise\<void>
 
-### [**](#isConnected)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L79)isConnected
+### [**](#isConnected)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L79)isConnected
 
 * ****isConnected**(): Promise\<boolean>
 
@@ -275,7 +275,7 @@ Base class for SQL database connections, built on top of Kysely.
 
   #### Returns Promise\<boolean>
 
-### [**](#rollback)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L227)rollback
+### [**](#rollback)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L227)rollback
 
 * ****rollback**(ctx, eventBroadcaster, loggerContext): Promise\<void>
 
@@ -293,7 +293,7 @@ Base class for SQL database connections, built on top of Kysely.
 
   #### Returns Promise\<void>
 
-### [**](#setMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L193)inheritedsetMetadata
+### [**](#setMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L193)inheritedsetMetadata
 
 * ****setMetadata**(metadata): void
 
@@ -309,7 +309,7 @@ Base class for SQL database connections, built on top of Kysely.
 
   #### Returns void
 
-### [**](#setPlatform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L198)inheritedsetPlatform
+### [**](#setPlatform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L198)inheritedsetPlatform
 
 * ****setPlatform**(platform): void
 
@@ -325,7 +325,7 @@ Base class for SQL database connections, built on top of Kysely.
 
   #### Returns void
 
-### [**](#stream)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L287)stream
+### [**](#stream)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L287)stream
 
 * ****stream**\<T>(query, params, ctx, loggerContext): AsyncIterableIterator\<T, any, any>
 
@@ -342,7 +342,7 @@ Base class for SQL database connections, built on top of Kysely.
 
   #### Returns AsyncIterableIterator\<T, any, any>
 
-### [**](#transactional)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L124)transactional
+### [**](#transactional)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L124)transactional
 
 * ****transactional**\<T>(cb, options): Promise\<T>
 

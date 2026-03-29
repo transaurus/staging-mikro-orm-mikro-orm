@@ -20,7 +20,7 @@ Options controlling how data is assigned to an entity via `assign()`.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#convertCustomTypes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityAssigner.ts#L432)optionalconvertCustomTypes
+### [**](#convertCustomTypes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityAssigner.ts#L432)optionalconvertCustomTypes
 
 **convertCustomTypes?
 
@@ -30,7 +30,7 @@ Options controlling how data is assigned to an entity via `assign()`.
 
 `assign` excepts runtime values for properties using custom types. To be able to assign raw database values, you can enable the `convertCustomTypes` option. Defaults to `false`.
 
-### [**](#em)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityAssigner.ts#L468)optionalem
+### [**](#em)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityAssigner.ts#L468)optionalem
 
 **em?
 
@@ -40,7 +40,7 @@ Options controlling how data is assigned to an entity via `assign()`.
 
 When using the static `assign()` helper, you can pass the EntityManager instance explicitly via the `em` option. This is only needed when you try to assign a relation property. The value is automatically inferred from the target entity when it is managed, or when you use `em.assign()` instead.
 
-### [**](#ignoreUndefined)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityAssigner.ts#L426)optionalignoreUndefined
+### [**](#ignoreUndefined)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityAssigner.ts#L426)optionalignoreUndefined
 
 **ignoreUndefined?
 
@@ -50,7 +50,7 @@ When using the static `assign()` helper, you can pass the EntityManager instance
 
 With `ignoreUndefined` enabled, `undefined` properties passed in the payload are skipped. Defaults to `false`.
 
-### [**](#merge)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityAssigner.ts#L453)optionalmerge
+### [**](#merge)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityAssigner.ts#L453)optionalmerge
 
 **merge?
 
@@ -60,7 +60,7 @@ With `ignoreUndefined` enabled, `undefined` properties passed in the payload are
 
 When assigning to a relation property, if the value is a POJO and `updateByPrimaryKey` is enabled, we check if the target exists in the identity map based on its primary key and call `assign` on it recursively. If there is no primary key provided, or the entity is not present in the context, such an entity is considered as new (resulting in `INSERT` query), created via `em.create()`. You can use `merge: true` to use `em.merge()` instead, which means there won't be any query used for persisting the relation. Defaults to `false`.
 
-### [**](#mergeEmbeddedProperties)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityAssigner.ts#L444)optionalmergeEmbeddedProperties
+### [**](#mergeEmbeddedProperties)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityAssigner.ts#L444)optionalmergeEmbeddedProperties
 
 **mergeEmbeddedProperties?
 
@@ -70,7 +70,7 @@ When assigning to a relation property, if the value is a POJO and `updateByPrima
 
 When assigning to an embedded property, the values are deeply merged with the existing data. Use `mergeEmbeddedProperties: false` to replace them instead. Defaults to `true`.
 
-### [**](#mergeObjectProperties)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityAssigner.ts#L438)optionalmergeObjectProperties
+### [**](#mergeObjectProperties)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityAssigner.ts#L438)optionalmergeObjectProperties
 
 **mergeObjectProperties?
 
@@ -80,7 +80,7 @@ When assigning to an embedded property, the values are deeply merged with the ex
 
 When assigning to a JSON property, the value is replaced. Use `mergeObjectProperties: true` to enable deep merging of the payload with the existing value. Defaults to `false`.
 
-### [**](#onlyOwnProperties)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityAssigner.ts#L421)optionalonlyOwnProperties
+### [**](#onlyOwnProperties)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityAssigner.ts#L421)optionalonlyOwnProperties
 
 **onlyOwnProperties?
 
@@ -90,7 +90,7 @@ When assigning to a JSON property, the value is replaced. Use `mergeObjectProper
 
 With `onlyOwnProperties` enabled, inverse sides of to-many relations are skipped, and payloads of other relations are converted to foreign keys. Defaults to `false`.
 
-### [**](#onlyProperties)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityAssigner.ts#L415)optionalonlyProperties
+### [**](#onlyProperties)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityAssigner.ts#L415)optionalonlyProperties
 
 **onlyProperties?
 
@@ -100,7 +100,7 @@ With `onlyOwnProperties` enabled, inverse sides of to-many relations are skipped
 
 When you have some properties in the payload that are not represented by an entity property mapping, you can skip such unknown properties via `onlyProperties: true`. Defaults to `false`.
 
-### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityAssigner.ts#L461)optionalschema
+### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityAssigner.ts#L461)optionalschema
 
 **schema?
 
@@ -110,7 +110,7 @@ When you have some properties in the payload that are not represented by an enti
 
 When assigning to a to-many relation properties (`Collection`) with `updateNestedEntities` and `updateByPrimaryKey` enabled (default), you can use this option to override the relation schema. This is used only when trying to find the entity reference in the current context. If it is not found, we create the relation entity using the target entity schema. The value is automatically inferred from the target entity.
 
-### [**](#updateByPrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityAssigner.ts#L409)optionalupdateByPrimaryKey
+### [**](#updateByPrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityAssigner.ts#L409)optionalupdateByPrimaryKey
 
 **updateByPrimaryKey?
 
@@ -120,7 +120,7 @@ When assigning to a to-many relation properties (`Collection`) with `updateNeste
 
 When assigning to a relation property with object payload and `updateNestedEntities` enabled (default), you can control how a payload without a primary key is handled. By default, it is considered as a new object, resulting in an `INSERT` query. Use `updateByPrimaryKey: false` to allow assigning the data on an existing relation instead. Defaults to `true`.
 
-### [**](#updateNestedEntities)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityAssigner.ts#L401)optionalupdateNestedEntities
+### [**](#updateNestedEntities)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityAssigner.ts#L401)optionalupdateNestedEntities
 
 **updateNestedEntities?
 

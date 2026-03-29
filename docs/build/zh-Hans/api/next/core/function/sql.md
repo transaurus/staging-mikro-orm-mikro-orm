@@ -42,7 +42,7 @@
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#lower)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/RawQueryFragment.ts#L253)lower
+### [**](#lower)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/RawQueryFragment.ts#L253)lower
 
 * ****lower**\<R, T>(key): R
 
@@ -53,7 +53,7 @@
 
   #### Returns R
 
-### [**](#now)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/RawQueryFragment.ts#L251)now
+### [**](#now)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/RawQueryFragment.ts#L251)now
 
 * ****now**(length): [RawQueryFragment](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)\<string> & symbol
 
@@ -63,7 +63,7 @@
 
   #### Returns [RawQueryFragment](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)\<string> & symbol
 
-### [**](#ref)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/RawQueryFragment.ts#L249)ref
+### [**](#ref)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/RawQueryFragment.ts#L249)ref
 
 * ****ref**\<T>(...keys): [RawQueryFragment](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)\<string> & symbol
 
@@ -73,7 +73,7 @@
 
   #### Returns [RawQueryFragment](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)\<string> & symbol
 
-### [**](#upper)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/RawQueryFragment.ts#L255)upper
+### [**](#upper)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/RawQueryFragment.ts#L255)upper
 
 * ****upper**\<R, T>(key): R
 

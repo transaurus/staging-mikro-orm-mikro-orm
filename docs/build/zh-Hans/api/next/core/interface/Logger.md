@@ -19,7 +19,7 @@ Interface for ORM logging, supporting namespaced log levels and query logging.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#error)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/Logger.ts#L13)error
+### [**](#error)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/Logger.ts#L13)error
 
 * ****error**(namespace, message, context): void
 
@@ -35,7 +35,7 @@ Interface for ORM logging, supporting namespaced log levels and query logging.
 
   #### Returns void
 
-### [**](#isEnabled)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/Logger.ts#L31)isEnabled
+### [**](#isEnabled)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/Logger.ts#L31)isEnabled
 
 * ****isEnabled**(namespace, context): boolean
 
@@ -50,7 +50,7 @@ Interface for ORM logging, supporting namespaced log levels and query logging.
 
   #### Returns boolean
 
-### [**](#log)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/Logger.ts#L8)log
+### [**](#log)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/Logger.ts#L8)log
 
 * ****log**(namespace, message, context): void
 
@@ -66,7 +66,7 @@ Interface for ORM logging, supporting namespaced log levels and query logging.
 
   #### Returns void
 
-### [**](#logQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/Logger.ts#L23)logQuery
+### [**](#logQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/Logger.ts#L23)logQuery
 
 * ****logQuery**(context): void
 
@@ -80,7 +80,7 @@ Interface for ORM logging, supporting namespaced log levels and query logging.
 
   #### Returns void
 
-### [**](#setDebugMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/Logger.ts#L28)setDebugMode
+### [**](#setDebugMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/Logger.ts#L28)setDebugMode
 
 * ****setDebugMode**(debugMode): void
 
@@ -94,7 +94,7 @@ Interface for ORM logging, supporting namespaced log levels and query logging.
 
   #### Returns void
 
-### [**](#warn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/Logger.ts#L18)warn
+### [**](#warn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/Logger.ts#L18)warn
 
 * ****warn**(namespace, message, context): void
 

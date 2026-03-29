@@ -71,7 +71,7 @@ Abstract base class for custom property types that handle conversion between JS 
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#meta)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L28)optionalmeta
+### [**](#meta)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L28)optionalmeta
 
 **meta?
 
@@ -79,7 +79,7 @@ Abstract base class for custom property types that handle conversion between JS 
 
 : [EntityMetadata](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityMetadata.md)\<any, [EntityCtor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityCtor)\<any>>
 
-### [**](#platform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L27)optionalplatform
+### [**](#platform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L27)optionalplatform
 
 **platform?
 
@@ -87,7 +87,7 @@ Abstract base class for custom property types that handle conversion between JS 
 
 : [Platform](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Platform.md)
 
-### [**](#prop)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L29)optionalprop
+### [**](#prop)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L29)optionalprop
 
 **prop?
 
@@ -97,13 +97,13 @@ Abstract base class for custom property types that handle conversion between JS 
 
 ## Accessors<!-- -->[**](#Accessors)
 
-### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L73)name
+### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L73)name
 
 * **get name(): string
 
 - #### Returns string
 
-### [**](#runtimeType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L68)runtimeType
+### [**](#runtimeType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L68)runtimeType
 
 * **get runtimeType(): string
 
@@ -111,7 +111,7 @@ Abstract base class for custom property types that handle conversion between JS 
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#compareAsType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L59)compareAsType
+### [**](#compareAsType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L59)compareAsType
 
 * ****compareAsType**(): string
 
@@ -121,7 +121,7 @@ Abstract base class for custom property types that handle conversion between JS 
 
   #### Returns string
 
-### [**](#compareValues)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L66)optionalcompareValues
+### [**](#compareValues)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L66)optionalcompareValues
 
 * ****compareValues**(a, b): boolean
 
@@ -136,7 +136,7 @@ Abstract base class for custom property types that handle conversion between JS 
 
   #### Returns boolean
 
-### [**](#convertToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L34)convertToDatabaseValue
+### [**](#convertToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L34)convertToDatabaseValue
 
 * ****convertToDatabaseValue**(value, platform, context): DBType
 
@@ -152,7 +152,7 @@ Abstract base class for custom property types that handle conversion between JS 
 
   #### Returns DBType
 
-### [**](#convertToDatabaseValueSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L48)optionalconvertToDatabaseValueSQL
+### [**](#convertToDatabaseValueSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L48)optionalconvertToDatabaseValueSQL
 
 * ****convertToDatabaseValueSQL**(key, platform): string
 
@@ -167,7 +167,7 @@ Abstract base class for custom property types that handle conversion between JS 
 
   #### Returns string
 
-### [**](#convertToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L41)convertToJSValue
+### [**](#convertToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L41)convertToJSValue
 
 * ****convertToJSValue**(value, platform, context): JSType
 
@@ -183,7 +183,7 @@ Abstract base class for custom property types that handle conversion between JS 
 
   #### Returns JSType
 
-### [**](#convertToJSValueSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L53)optionalconvertToJSValueSQL
+### [**](#convertToJSValueSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L53)optionalconvertToJSValueSQL
 
 * ****convertToJSValueSQL**(key, platform): string
 
@@ -198,7 +198,7 @@ Abstract base class for custom property types that handle conversion between JS 
 
   #### Returns string
 
-### [**](#ensureComparable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L82)ensureComparable
+### [**](#ensureComparable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L82)ensureComparable
 
 * ****ensureComparable**\<T>(meta, prop): boolean
 
@@ -213,7 +213,7 @@ Abstract base class for custom property types that handle conversion between JS 
 
   #### Returns boolean
 
-### [**](#getColumnType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L97)getColumnType
+### [**](#getColumnType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L97)getColumnType
 
 * ****getColumnType**(prop, platform): string
 
@@ -228,7 +228,7 @@ Abstract base class for custom property types that handle conversion between JS 
 
   #### Returns string
 
-### [**](#getDefaultLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L115)optionalgetDefaultLength
+### [**](#getDefaultLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L115)optionalgetDefaultLength
 
 * ****getDefaultLength**(platform): number
 
@@ -250,7 +250,7 @@ Abstract base class for custom property types that handle conversion between JS 
 
   The default value for the given platform.
 
-### [**](#toJSON)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L90)toJSON
+### [**](#toJSON)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L90)toJSON
 
 * ****toJSON**(value, platform): JSType | DBType
 
@@ -265,7 +265,7 @@ Abstract base class for custom property types that handle conversion between JS 
 
   #### Returns JSType | DBType
 
-### [**](#getType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L117)staticgetType
+### [**](#getType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L117)staticgetType
 
 * ****getType**\<JSType, DBType, TypeClass>(cls): InstanceType\<TypeClass>
 
@@ -275,7 +275,7 @@ Abstract base class for custom property types that handle conversion between JS 
 
   #### Returns InstanceType\<TypeClass>
 
-### [**](#isMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L134)staticisMappedType
+### [**](#isMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L134)staticisMappedType
 
 * ****isMappedType**(data): data is [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<any, any>
 

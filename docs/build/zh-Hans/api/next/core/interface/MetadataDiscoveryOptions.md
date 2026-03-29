@@ -22,7 +22,7 @@ Configuration options for metadata discovery.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#afterDiscovered)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L761)optionalafterDiscovered
+### [**](#afterDiscovered)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L761)optionalafterDiscovered
 
 **afterDiscovered?
 
@@ -45,7 +45,7 @@ Hook called after all entities are discovered. Can be used to access and modify 
 
     #### Returns [MaybePromise](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MaybePromise)\<void>
 
-### [**](#checkDuplicateFieldNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L727)optionalcheckDuplicateFieldNames
+### [**](#checkDuplicateFieldNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L727)optionalcheckDuplicateFieldNames
 
 **checkDuplicateFieldNames?
 
@@ -55,7 +55,7 @@ Hook called after all entities are discovered. Can be used to access and modify 
 
 Check for duplicate field names and throw an error if found.
 
-### [**](#checkDuplicateTableNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L722)optionalcheckDuplicateTableNames
+### [**](#checkDuplicateTableNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L722)optionalcheckDuplicateTableNames
 
 **checkDuplicateTableNames?
 
@@ -65,7 +65,7 @@ Check for duplicate field names and throw an error if found.
 
 Check for duplicate table names and throw an error if found.
 
-### [**](#checkNonPersistentCompositeProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L732)optionalcheckNonPersistentCompositeProps
+### [**](#checkNonPersistentCompositeProps)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L732)optionalcheckNonPersistentCompositeProps
 
 **checkNonPersistentCompositeProps?
 
@@ -75,7 +75,7 @@ Check for duplicate table names and throw an error if found.
 
 Check for composite primary keys marked as `persist: false` and throw an error if found.
 
-### [**](#getMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L750)optionalgetMappedType
+### [**](#getMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L750)optionalgetMappedType
 
 **getMappedType?
 
@@ -109,7 +109,7 @@ Custom callback to override default type mapping. Allows customizing how propert
 
     #### Returns undefined | [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<unknown, unknown>
 
-### [**](#inferDefaultValues)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L738)optionalinferDefaultValues
+### [**](#inferDefaultValues)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L738)optionalinferDefaultValues
 
 **inferDefaultValues?
 
@@ -119,7 +119,7 @@ Custom callback to override default type mapping. Allows customizing how propert
 
 Infer default values from property initializers when possible (if the constructor can be invoked without parameters).
 
-### [**](#onMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L756)optionalonMetadata
+### [**](#onMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L756)optionalonMetadata
 
 **onMetadata?
 
@@ -142,7 +142,7 @@ Hook called for each entity metadata during discovery. Can be used to modify met
 
     #### Returns [MaybePromise](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MaybePromise)\<void>
 
-### [**](#tsConfigPath)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L763)optionaltsConfigPath
+### [**](#tsConfigPath)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L763)optionaltsConfigPath
 
 **tsConfigPath?
 
@@ -152,7 +152,7 @@ Hook called for each entity metadata during discovery. Can be used to modify met
 
 Path to the TypeScript configuration file for ts-morph metadata provider.
 
-### [**](#warnWhenNoEntities)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L717)optionalwarnWhenNoEntities
+### [**](#warnWhenNoEntities)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L717)optionalwarnWhenNoEntities
 
 **warnWhenNoEntities?
 

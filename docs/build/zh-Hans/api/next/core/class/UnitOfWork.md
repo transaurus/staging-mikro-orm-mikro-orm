@@ -41,7 +41,7 @@ Implements the Unit of Work pattern: tracks entity changes, computes change sets
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L74)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L74)constructor
 
 * ****new UnitOfWork**(em): [UnitOfWork](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/UnitOfWork.md)
 
@@ -53,7 +53,7 @@ Implements the Unit of Work pattern: tracks entity changes, computes change sets
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#cancelOrphanRemoval)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L762)cancelOrphanRemoval
+### [**](#cancelOrphanRemoval)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L762)cancelOrphanRemoval
 
 * ****cancelOrphanRemoval**(entity, visited): void
 
@@ -64,13 +64,13 @@ Implements the Unit of Work pattern: tracks entity changes, computes change sets
 
   #### Returns void
 
-### [**](#clear)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L598)clear
+### [**](#clear)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L598)clear
 
 * ****clear**(): void
 
 - #### Returns void
 
-### [**](#clearActionsQueue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L396)clearActionsQueue
+### [**](#clearActionsQueue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L396)clearActionsQueue
 
 * ****clearActionsQueue**(): void
 
@@ -80,7 +80,7 @@ Implements the Unit of Work pattern: tracks entity changes, computes change sets
 
   #### Returns void
 
-### [**](#commit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L506)commit
+### [**](#commit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L506)commit
 
 * ****commit**(): Promise\<void>
 
@@ -90,7 +90,7 @@ Implements the Unit of Work pattern: tracks entity changes, computes change sets
 
   #### Returns Promise\<void>
 
-### [**](#computeChangeSet)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L401)computeChangeSet
+### [**](#computeChangeSet)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L401)computeChangeSet
 
 * ****computeChangeSet**\<T>(entity, type): void
 
@@ -105,13 +105,13 @@ Implements the Unit of Work pattern: tracks entity changes, computes change sets
 
   #### Returns void
 
-### [**](#computeChangeSets)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L636)computeChangeSets
+### [**](#computeChangeSets)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L636)computeChangeSets
 
 * ****computeChangeSets**(): void
 
 - #### Returns void
 
-### [**](#getById)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L223)getById
+### [**](#getById)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L223)getById
 
 * ****getById**\<T>(entityName, id, schema, convertCustomTypes): undefined | T
 
@@ -128,7 +128,7 @@ Implements the Unit of Work pattern: tracks entity changes, computes change sets
 
   #### Returns undefined | T
 
-### [**](#getByKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L267)getByKey
+### [**](#getByKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L267)getByKey
 
 * ****getByKey**\<T>(entityName, key, value, schema, convertCustomTypes): undefined | T
 
@@ -152,13 +152,13 @@ Implements the Unit of Work pattern: tracks entity changes, computes change sets
 
   #### Returns undefined | T
 
-### [**](#getChangeSetPersister)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L771)getChangeSetPersister
+### [**](#getChangeSetPersister)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L771)getChangeSetPersister
 
 * ****getChangeSetPersister**(): ChangeSetPersister
 
 - #### Returns ChangeSetPersister
 
-### [**](#getChangeSets)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L356)getChangeSets
+### [**](#getChangeSets)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L356)getChangeSets
 
 * ****getChangeSets**(): [ChangeSet](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ChangeSet.md)\<Partial\<any>>\[]
 
@@ -168,7 +168,7 @@ Implements the Unit of Work pattern: tracks entity changes, computes change sets
 
   #### Returns [ChangeSet](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ChangeSet.md)\<Partial\<any>>\[]
 
-### [**](#getCollectionUpdates)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L361)getCollectionUpdates
+### [**](#getCollectionUpdates)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L361)getCollectionUpdates
 
 * ****getCollectionUpdates**(): [Collection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Collection.md)\<Partial\<any>, object>\[]
 
@@ -178,7 +178,7 @@ Implements the Unit of Work pattern: tracks entity changes, computes change sets
 
   #### Returns [Collection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Collection.md)\<Partial\<any>, object>\[]
 
-### [**](#getExtraUpdates)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L366)getExtraUpdates
+### [**](#getExtraUpdates)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L366)getExtraUpdates
 
 * ****getExtraUpdates**(): Set<\[Partial\<any>, string | string\[], Partial\<any> | [Collection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Collection.md)\<any, object> | Partial\<any>\[] | [Reference](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Reference.md)\<any>, undefined | [ChangeSet](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ChangeSet.md)\<any>, [ChangeSetType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/enum/ChangeSetType.md)]>
 
@@ -188,7 +188,7 @@ Implements the Unit of Work pattern: tracks entity changes, computes change sets
 
   #### Returns Set<\[Partial\<any>, string | string\[], Partial\<any> | [Collection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Collection.md)\<any, object> | Partial\<any>\[] | [Reference](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Reference.md)\<any>, undefined | [ChangeSet](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ChangeSet.md)\<any>, [ChangeSetType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/enum/ChangeSetType.md)]>
 
-### [**](#getIdentityMap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L334)getIdentityMap
+### [**](#getIdentityMap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L334)getIdentityMap
 
 * ****getIdentityMap**(): IdentityMap
 
@@ -198,7 +198,7 @@ Implements the Unit of Work pattern: tracks entity changes, computes change sets
 
   #### Returns IdentityMap
 
-### [**](#getOriginalEntityData)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L341)getOriginalEntityData
+### [**](#getOriginalEntityData)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L341)getOriginalEntityData
 
 * ****getOriginalEntityData**\<T>(entity): undefined | [EntityData](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityData)\<T>
 
@@ -212,13 +212,13 @@ Implements the Unit of Work pattern: tracks entity changes, computes change sets
 
   #### Returns undefined | [EntityData](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityData)\<T>
 
-### [**](#getOrphanRemoveStack)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L767)getOrphanRemoveStack
+### [**](#getOrphanRemoveStack)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L767)getOrphanRemoveStack
 
 * ****getOrphanRemoveStack**(): Set\<Partial\<any>>
 
 - #### Returns Set\<Partial\<any>>
 
-### [**](#getPersistStack)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L346)getPersistStack
+### [**](#getPersistStack)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L346)getPersistStack
 
 * ****getPersistStack**(): Set\<Partial\<any>>
 
@@ -228,7 +228,7 @@ Implements the Unit of Work pattern: tracks entity changes, computes change sets
 
   #### Returns Set\<Partial\<any>>
 
-### [**](#getRemoveStack)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L351)getRemoveStack
+### [**](#getRemoveStack)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L351)getRemoveStack
 
 * ****getRemoveStack**(): Set\<Partial\<any>>
 
@@ -238,7 +238,7 @@ Implements the Unit of Work pattern: tracks entity changes, computes change sets
 
   #### Returns Set\<Partial\<any>>
 
-### [**](#lock)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L584)lock
+### [**](#lock)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L584)lock
 
 * ****lock**\<T>(entity, options): Promise\<void>
 
@@ -249,7 +249,7 @@ Implements the Unit of Work pattern: tracks entity changes, computes change sets
 
   #### Returns Promise\<void>
 
-### [**](#merge)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L86)merge
+### [**](#merge)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L86)merge
 
 * ****merge**\<T>(entity, visited): void
 
@@ -264,7 +264,7 @@ Implements the Unit of Work pattern: tracks entity changes, computes change sets
 
   #### Returns void
 
-### [**](#persist)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L443)persist
+### [**](#persist)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L443)persist
 
 * ****persist**\<T>(entity, visited, options): void
 
@@ -282,7 +282,7 @@ Implements the Unit of Work pattern: tracks entity changes, computes change sets
 
   #### Returns void
 
-### [**](#recomputeSingleChangeSet)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L427)recomputeSingleChangeSet
+### [**](#recomputeSingleChangeSet)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L427)recomputeSingleChangeSet
 
 * ****recomputeSingleChangeSet**\<T>(entity): void
 
@@ -296,7 +296,7 @@ Implements the Unit of Work pattern: tracks entity changes, computes change sets
 
   #### Returns void
 
-### [**](#remove)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L469)remove
+### [**](#remove)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L469)remove
 
 * ****remove**\<T>(entity, visited, options): void
 
@@ -313,7 +313,7 @@ Implements the Unit of Work pattern: tracks entity changes, computes change sets
 
   #### Returns void
 
-### [**](#scheduleExtraUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L710)scheduleExtraUpdate
+### [**](#scheduleExtraUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L710)scheduleExtraUpdate
 
 * ****scheduleExtraUpdate**\<T>(changeSet, props): void
 
@@ -324,7 +324,7 @@ Implements the Unit of Work pattern: tracks entity changes, computes change sets
 
   #### Returns void
 
-### [**](#scheduleOrphanRemoval)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L752)scheduleOrphanRemoval
+### [**](#scheduleOrphanRemoval)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L752)scheduleOrphanRemoval
 
 * ****scheduleOrphanRemoval**(entity, visited): void
 
@@ -335,7 +335,7 @@ Implements the Unit of Work pattern: tracks entity changes, computes change sets
 
   #### Returns void
 
-### [**](#shouldAutoFlush)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L379)shouldAutoFlush
+### [**](#shouldAutoFlush)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L379)shouldAutoFlush
 
 * ****shouldAutoFlush**\<T>(meta): boolean
 
@@ -349,7 +349,7 @@ Implements the Unit of Work pattern: tracks entity changes, computes change sets
 
   #### Returns boolean
 
-### [**](#storeByKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L293)storeByKey
+### [**](#storeByKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L293)storeByKey
 
 * ****storeByKey**\<T>(entity, key, value, schema, convertCustomTypes): void
 
@@ -373,7 +373,7 @@ Implements the Unit of Work pattern: tracks entity changes, computes change sets
 
   #### Returns void
 
-### [**](#tryGetById)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L316)tryGetById
+### [**](#tryGetById)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L316)tryGetById
 
 * ****tryGetById**\<T>(entityName, where, schema, strict): null | T
 
@@ -390,7 +390,7 @@ Implements the Unit of Work pattern: tracks entity changes, computes change sets
 
   #### Returns null | T
 
-### [**](#unsetIdentity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/unit-of-work/UnitOfWork.ts#L604)unsetIdentity
+### [**](#unsetIdentity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/unit-of-work/UnitOfWork.ts#L604)unsetIdentity
 
 * ****unsetIdentity**(entity): void
 

@@ -51,7 +51,7 @@ Maps a database BLOB/BYTEA column to a Node.js `Buffer`.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#meta)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L28)optionalinheritedmeta
+### [**](#meta)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L28)optionalinheritedmeta
 
 **meta?
 
@@ -61,7 +61,7 @@ Maps a database BLOB/BYTEA column to a Node.js `Buffer`.
 
 Inherited from Uint8ArrayType.meta
 
-### [**](#platform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L27)optionalinheritedplatform
+### [**](#platform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L27)optionalinheritedplatform
 
 **platform?
 
@@ -71,7 +71,7 @@ Inherited from Uint8ArrayType.meta
 
 Inherited from Uint8ArrayType.platform
 
-### [**](#prop)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L29)optionalinheritedprop
+### [**](#prop)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L29)optionalinheritedprop
 
 **prop?
 
@@ -83,7 +83,7 @@ Inherited from Uint8ArrayType.prop
 
 ## Accessors<!-- -->[**](#Accessors)
 
-### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L73)inheritedname
+### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L73)inheritedname
 
 * **get name(): string
 
@@ -91,7 +91,7 @@ Inherited from Uint8ArrayType.prop
 
   #### Returns string
 
-### [**](#runtimeType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L68)inheritedruntimeType
+### [**](#runtimeType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L68)inheritedruntimeType
 
 * **get runtimeType(): string
 
@@ -101,7 +101,7 @@ Inherited from Uint8ArrayType.prop
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#compareAsType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/BlobType.ts#L19)compareAsType
+### [**](#compareAsType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/BlobType.ts#L19)compareAsType
 
 * ****compareAsType**(): string
 
@@ -113,7 +113,7 @@ Inherited from Uint8ArrayType.prop
 
   #### Returns string
 
-### [**](#compareValues)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L66)optionalinheritedcompareValues
+### [**](#compareValues)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L66)optionalinheritedcompareValues
 
 * ****compareValues**(a, b): boolean
 
@@ -130,7 +130,7 @@ Inherited from Uint8ArrayType.prop
 
   #### Returns boolean
 
-### [**](#convertToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Uint8ArrayType.ts#L7)inheritedconvertToDatabaseValue
+### [**](#convertToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Uint8ArrayType.ts#L7)inheritedconvertToDatabaseValue
 
 * ****convertToDatabaseValue**(value): Buffer
 
@@ -146,7 +146,7 @@ Inherited from Uint8ArrayType.prop
 
   #### Returns Buffer
 
-### [**](#convertToDatabaseValueSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L48)optionalinheritedconvertToDatabaseValueSQL
+### [**](#convertToDatabaseValueSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L48)optionalinheritedconvertToDatabaseValueSQL
 
 * ****convertToDatabaseValueSQL**(key, platform): string
 
@@ -163,7 +163,7 @@ Inherited from Uint8ArrayType.prop
 
   #### Returns string
 
-### [**](#convertToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/BlobType.ts#L7)convertToJSValue
+### [**](#convertToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/BlobType.ts#L7)convertToJSValue
 
 * ****convertToJSValue**(value): any
 
@@ -179,7 +179,7 @@ Inherited from Uint8ArrayType.prop
 
   #### Returns any
 
-### [**](#convertToJSValueSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L53)optionalinheritedconvertToJSValueSQL
+### [**](#convertToJSValueSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L53)optionalinheritedconvertToJSValueSQL
 
 * ****convertToJSValueSQL**(key, platform): string
 
@@ -196,7 +196,7 @@ Inherited from Uint8ArrayType.prop
 
   #### Returns string
 
-### [**](#ensureComparable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L82)inheritedensureComparable
+### [**](#ensureComparable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L82)inheritedensureComparable
 
 * ****ensureComparable**\<T>(meta, prop): boolean
 
@@ -213,7 +213,7 @@ Inherited from Uint8ArrayType.prop
 
   #### Returns boolean
 
-### [**](#getColumnType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/BlobType.ts#L23)getColumnType
+### [**](#getColumnType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/BlobType.ts#L23)getColumnType
 
 * ****getColumnType**(prop, platform): string
 
@@ -230,7 +230,7 @@ Inherited from Uint8ArrayType.prop
 
   #### Returns string
 
-### [**](#getDefaultLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L115)optionalinheritedgetDefaultLength
+### [**](#getDefaultLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L115)optionalinheritedgetDefaultLength
 
 * ****getDefaultLength**(platform): number
 
@@ -254,7 +254,7 @@ Inherited from Uint8ArrayType.prop
 
   The default value for the given platform.
 
-### [**](#toJSON)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L90)inheritedtoJSON
+### [**](#toJSON)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L90)inheritedtoJSON
 
 * ****toJSON**(value, platform): null | Uint8Array\<ArrayBufferLike>
 
@@ -271,7 +271,7 @@ Inherited from Uint8ArrayType.prop
 
   #### Returns null | Uint8Array\<ArrayBufferLike>
 
-### [**](#getType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L117)staticinheritedgetType
+### [**](#getType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L117)staticinheritedgetType
 
 * ****getType**\<JSType, DBType, TypeClass>(cls): InstanceType\<TypeClass>
 
@@ -283,7 +283,7 @@ Inherited from Uint8ArrayType.prop
 
   #### Returns InstanceType\<TypeClass>
 
-### [**](#isMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/types/Type.ts#L134)staticinheritedisMappedType
+### [**](#isMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/types/Type.ts#L134)staticinheritedisMappedType
 
 * ****isMappedType**(data): data is [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<any, any>
 

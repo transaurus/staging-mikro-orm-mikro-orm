@@ -86,7 +86,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L10)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L10)constructor
 
 * ****new SqliteSchemaHelper**(platform): [SqliteSchemaHelper](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/SqliteSchemaHelper.md)
 
@@ -100,7 +100,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
 ## Accessors<!-- -->[**](#Accessors)
 
-### [**](#options)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L819)inheritedoptions
+### [**](#options)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L819)inheritedoptions
 
 * **get options(): { createForeignKeyConstraints?
   <!-- -->
@@ -174,7 +174,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#alterTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L622)alterTable
+### [**](#alterTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L622)alterTable
 
 * ****alterTable**(diff, safe): string\[]
 
@@ -191,7 +191,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string\[]
 
-### [**](#alterTableColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L405)inheritedalterTableColumn
+### [**](#alterTableColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L405)inheritedalterTableColumn
 
 * ****alterTableColumn**(column, table, changedProperties): string\[]
 
@@ -205,7 +205,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string\[]
 
-### [**](#alterTableComment)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L698)inheritedalterTableComment
+### [**](#alterTableComment)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L698)inheritedalterTableComment
 
 * ****alterTableComment**(table, comment): string
 
@@ -218,7 +218,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#append)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L627)inheritedappend
+### [**](#append)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L627)inheritedappend
 
 * ****append**(array, sql, pad): void
 
@@ -232,7 +232,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns void
 
-### [**](#appendComments)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L44)inheritedappendComments
+### [**](#appendComments)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L44)inheritedappendComments
 
 * ****appendComments**(table): string\[]
 
@@ -244,7 +244,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string\[]
 
-### [**](#castColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L401)inheritedcastColumn
+### [**](#castColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L401)inheritedcastColumn
 
 * ****castColumn**(name, type): string
 
@@ -257,7 +257,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#createCheck)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L795)inheritedcreateCheck
+### [**](#createCheck)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L795)inheritedcreateCheck
 
 * ****createCheck**(table, check): string
 
@@ -270,7 +270,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#createForeignKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L703)inheritedcreateForeignKey
+### [**](#createForeignKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L703)inheritedcreateForeignKey
 
 * ****createForeignKey**(table, foreignKey, alterTable, inline): string
 
@@ -289,7 +289,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#createIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L767)inheritedcreateIndex
+### [**](#createIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L767)inheritedcreateIndex
 
 * ****createIndex**(index, table, createPrimary): string
 
@@ -303,7 +303,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#createMaterializedView)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L873)inheritedcreateMaterializedView
+### [**](#createMaterializedView)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L873)inheritedcreateMaterializedView
 
 * ****createMaterializedView**(name, schema, definition, withData): string
 
@@ -318,7 +318,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#createTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L147)createTable
+### [**](#createTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L147)createTable
 
 * ****createTable**(table, alter): string\[]
 
@@ -335,7 +335,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string\[]
 
-### [**](#createTableColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L200)createTableColumn
+### [**](#createTableColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L200)createTableColumn
 
 * ****createTableColumn**(column, table, \_changedProperties): undefined | string
 
@@ -349,7 +349,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns undefined | string
 
-### [**](#createView)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L858)inheritedcreateView
+### [**](#createView)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L858)inheritedcreateView
 
 * ****createView**(name, schema, definition): string
 
@@ -363,7 +363,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#databaseExists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L595)databaseExists
+### [**](#databaseExists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L595)databaseExists
 
 * ****databaseExists**(connection, name): Promise\<boolean>
 
@@ -376,7 +376,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns Promise\<boolean>
 
-### [**](#disableForeignKeysSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L24)disableForeignKeysSQL
+### [**](#disableForeignKeysSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L24)disableForeignKeysSQL
 
 * ****disableForeignKeysSQL**(): string
 
@@ -388,7 +388,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#dropConstraint)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L843)inheriteddropConstraint
+### [**](#dropConstraint)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L843)inheriteddropConstraint
 
 * ****dropConstraint**(table, name): string
 
@@ -401,7 +401,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#dropForeignKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L253)dropForeignKey
+### [**](#dropForeignKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L253)dropForeignKey
 
 * ****dropForeignKey**(tableName, constraintName): string
 
@@ -414,7 +414,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#dropIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L608)dropIndex
+### [**](#dropIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L608)dropIndex
 
 * ****dropIndex**(table, index, oldIndexName): string
 
@@ -428,7 +428,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#dropMaterializedViewIfExists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L877)inheriteddropMaterializedViewIfExists
+### [**](#dropMaterializedViewIfExists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L877)inheriteddropMaterializedViewIfExists
 
 * ****dropMaterializedViewIfExists**(name, schema): string
 
@@ -441,7 +441,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#dropTableIfExists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L848)inheriteddropTableIfExists
+### [**](#dropTableIfExists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L848)inheriteddropTableIfExists
 
 * ****dropTableIfExists**(name, schema): string
 
@@ -458,7 +458,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#dropViewIfExists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L863)inheriteddropViewIfExists
+### [**](#dropViewIfExists)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L863)inheriteddropViewIfExists
 
 * ****dropViewIfExists**(name, schema): string
 
@@ -471,7 +471,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#enableForeignKeysSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L28)enableForeignKeysSQL
+### [**](#enableForeignKeysSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L28)enableForeignKeysSQL
 
 * ****enableForeignKeysSQL**(): string
 
@@ -483,7 +483,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#finalizeTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L40)inheritedfinalizeTable
+### [**](#finalizeTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L40)inheritedfinalizeTable
 
 * ****finalizeTable**(table, charset, collate): string
 
@@ -497,7 +497,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#getAddColumnsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L236)getAddColumnsSQL
+### [**](#getAddColumnsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L236)getAddColumnsSQL
 
 * ****getAddColumnsSQL**(table, columns, diff): string\[]
 
@@ -515,7 +515,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string\[]
 
-### [**](#getAllTables)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L51)getAllTables
+### [**](#getAllTables)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L51)getAllTables
 
 * ****getAllTables**(connection, schemas): Promise<[Table](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/Table.md)\[]>
 
@@ -532,7 +532,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns Promise<[Table](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/Table.md)\[]>
 
-### [**](#getAlterNativeEnumSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L94)inheritedgetAlterNativeEnumSQL
+### [**](#getAlterNativeEnumSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L94)inheritedgetAlterNativeEnumSQL
 
 * ****getAlterNativeEnumSQL**(name, schema, value, items, oldItems): string
 
@@ -548,7 +548,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#getChangeColumnCommentSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L493)inheritedgetChangeColumnCommentSQL
+### [**](#getChangeColumnCommentSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L493)inheritedgetChangeColumnCommentSQL
 
 * ****getChangeColumnCommentSQL**(tableName, to, schemaName): string
 
@@ -562,7 +562,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#getCreateDatabaseSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L591)getCreateDatabaseSQL
+### [**](#getCreateDatabaseSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L591)getCreateDatabaseSQL
 
 * ****getCreateDatabaseSQL**(name): string
 
@@ -574,7 +574,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#getCreateIndexSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L270)getCreateIndexSQL
+### [**](#getCreateIndexSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L270)getCreateIndexSQL
 
 * ****getCreateIndexSQL**(tableName, index): string
 
@@ -591,7 +591,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#getCreateNamespaceSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L36)getCreateNamespaceSQL
+### [**](#getCreateNamespaceSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L36)getCreateNamespaceSQL
 
 * ****getCreateNamespaceSQL**(name): string
 
@@ -603,7 +603,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#getCreateNativeEnumSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L86)inheritedgetCreateNativeEnumSQL
+### [**](#getCreateNativeEnumSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L86)inheritedgetCreateNativeEnumSQL
 
 * ****getCreateNativeEnumSQL**(name, values, schema): string
 
@@ -617,7 +617,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#getDatabaseExistsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L597)inheritedgetDatabaseExistsSQL
+### [**](#getDatabaseExistsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L597)inheritedgetDatabaseExistsSQL
 
 * ****getDatabaseExistsSQL**(name): string
 
@@ -629,7 +629,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#getDatabaseNotExistsError)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L601)inheritedgetDatabaseNotExistsError
+### [**](#getDatabaseNotExistsError)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L601)inheritedgetDatabaseNotExistsError
 
 * ****getDatabaseNotExistsError**(dbName): string
 
@@ -641,7 +641,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#getDefaultEmptyString)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L609)inheritedgetDefaultEmptyString
+### [**](#getDefaultEmptyString)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L609)inheritedgetDefaultEmptyString
 
 * ****getDefaultEmptyString**(): string
 
@@ -649,7 +649,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#getDropColumnsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L257)getDropColumnsSQL
+### [**](#getDropColumnsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L257)getDropColumnsSQL
 
 * ****getDropColumnsSQL**(tableName, columns, schemaName): string
 
@@ -663,7 +663,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#getDropDatabaseSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L120)getDropDatabaseSQL
+### [**](#getDropDatabaseSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L120)getDropDatabaseSQL
 
 * ****getDropDatabaseSQL**(name): string
 
@@ -675,7 +675,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#getDropIndexSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L216)inheritedgetDropIndexSQL
+### [**](#getDropIndexSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L216)inheritedgetDropIndexSQL
 
 * ****getDropIndexSQL**(tableName, index): string
 
@@ -692,7 +692,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#getDropNamespaceSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L40)getDropNamespaceSQL
+### [**](#getDropNamespaceSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L40)getDropNamespaceSQL
 
 * ****getDropNamespaceSQL**(name): string
 
@@ -704,7 +704,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#getDropNativeEnumSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L90)inheritedgetDropNativeEnumSQL
+### [**](#getDropNativeEnumSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L90)inheritedgetDropNativeEnumSQL
 
 * ****getDropNativeEnumSQL**(name, schema): string
 
@@ -717,7 +717,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#getListMaterializedViewsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L885)inheritedgetListMaterializedViewsSQL
+### [**](#getListMaterializedViewsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L885)inheritedgetListMaterializedViewsSQL
 
 * ****getListMaterializedViewsSQL**(): string
 
@@ -725,7 +725,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#getListTablesSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L44)getListTablesSQL
+### [**](#getListTablesSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L44)getListTablesSQL
 
 * ****getListTablesSQL**(): string
 
@@ -737,7 +737,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#getListViewsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L85)getListViewsSQL
+### [**](#getListViewsSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L85)getListViewsSQL
 
 * ****getListViewsSQL**(): string
 
@@ -745,7 +745,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#getManagementDbName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L587)getManagementDbName
+### [**](#getManagementDbName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L587)getManagementDbName
 
 * ****getManagementDbName**(): string
 
@@ -753,7 +753,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#getNamespaces)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L77)getNamespaces
+### [**](#getNamespaces)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L77)getNamespaces
 
 * ****getNamespaces**(connection): Promise\<string\[]>
 
@@ -765,7 +765,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns Promise\<string\[]>
 
-### [**](#getPostAlterTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L489)inheritedgetPostAlterTable
+### [**](#getPostAlterTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L489)inheritedgetPostAlterTable
 
 * ****getPostAlterTable**(tableDiff, safe): string\[]
 
@@ -778,7 +778,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string\[]
 
-### [**](#getPreAlterTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L485)inheritedgetPreAlterTable
+### [**](#getPreAlterTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L485)inheritedgetPreAlterTable
 
 * ****getPreAlterTable**(tableDiff, safe): string\[]
 
@@ -791,7 +791,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string\[]
 
-### [**](#getPrimaryKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L457)getPrimaryKeys
+### [**](#getPrimaryKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L457)getPrimaryKeys
 
 * ****getPrimaryKeys**(connection, indexes, tableName, schemaName): Promise\<string\[]>
 
@@ -806,7 +806,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns Promise\<string\[]>
 
-### [**](#getReferencedTableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L616)getReferencedTableName
+### [**](#getReferencedTableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L616)getReferencedTableName
 
 * ****getReferencedTableName**(referencedTableName, schema): string
 
@@ -823,7 +823,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#getRenameColumnSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L125)inheritedgetRenameColumnSQL
+### [**](#getRenameColumnSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L125)inheritedgetRenameColumnSQL
 
 * ****getRenameColumnSQL**(tableName, oldColumnName, to, schemaName): string
 
@@ -842,7 +842,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#getRenameIndexSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L220)inheritedgetRenameIndexSQL
+### [**](#getRenameIndexSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L220)inheritedgetRenameIndexSQL
 
 * ****getRenameIndexSQL**(tableName, index, oldIndexName): string\[]
 
@@ -856,7 +856,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string\[]
 
-### [**](#getSchemaBeginning)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L13)inheritedgetSchemaBeginning
+### [**](#getSchemaBeginning)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L13)inheritedgetSchemaBeginning
 
 * ****getSchemaBeginning**(\_charset, disableForeignKeys): string
 
@@ -873,7 +873,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#getSchemaEnd)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L32)inheritedgetSchemaEnd
+### [**](#getSchemaEnd)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L32)inheritedgetSchemaEnd
 
 * ****getSchemaEnd**(disableForeignKeys): string
 
@@ -889,7 +889,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#getTablesGroupedBySchemas)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L807)inheritedgetTablesGroupedBySchemas
+### [**](#getTablesGroupedBySchemas)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L807)inheritedgetTablesGroupedBySchemas
 
 * ****getTablesGroupedBySchemas**(tables): Map\<undefined | string, [Table](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/Table.md)\[]>
 
@@ -901,7 +901,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns Map\<undefined | string, [Table](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/Table.md)\[]>
 
-### [**](#hasNonDefaultPrimaryKeyName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L388)inheritedhasNonDefaultPrimaryKeyName
+### [**](#hasNonDefaultPrimaryKeyName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L388)inheritedhasNonDefaultPrimaryKeyName
 
 * ****hasNonDefaultPrimaryKeyName**(table): boolean
 
@@ -913,7 +913,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns boolean
 
-### [**](#inferLengthFromColumnType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L62)inheritedinferLengthFromColumnType
+### [**](#inferLengthFromColumnType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L62)inheritedinferLengthFromColumnType
 
 * ****inferLengthFromColumnType**(type): undefined | number
 
@@ -925,7 +925,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns undefined | number
 
-### [**](#isImplicitIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L603)isImplicitIndex
+### [**](#isImplicitIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L603)isImplicitIndex
 
 * ****isImplicitIndex**(name): boolean
 
@@ -939,7 +939,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns boolean
 
-### [**](#loadInformationSchema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L129)loadInformationSchema
+### [**](#loadInformationSchema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L129)loadInformationSchema
 
 * ****loadInformationSchema**(schema, connection, tables, schemas): Promise\<void>
 
@@ -958,7 +958,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns Promise\<void>
 
-### [**](#loadMaterializedViews)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L889)inheritedloadMaterializedViews
+### [**](#loadMaterializedViews)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L889)inheritedloadMaterializedViews
 
 * ****loadMaterializedViews**(schema, connection, schemaName): Promise\<void>
 
@@ -972,7 +972,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns Promise\<void>
 
-### [**](#loadViews)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L89)loadViews
+### [**](#loadViews)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L89)loadViews
 
 * ****loadViews**(schema, connection, schemaName): Promise\<void>
 
@@ -986,7 +986,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns Promise\<void>
 
-### [**](#mapForeignKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L530)inheritedmapForeignKeys
+### [**](#mapForeignKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L530)inheritedmapForeignKeys
 
 * ****mapForeignKeys**(fks, tableName, schemaName): [Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)
 
@@ -1000,7 +1000,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns [Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)
 
-### [**](#normalizeDefaultValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L554)inheritednormalizeDefaultValue
+### [**](#normalizeDefaultValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L554)inheritednormalizeDefaultValue
 
 * ****normalizeDefaultValue**(defaultValue, length, defaultValues): string | number
 
@@ -1014,7 +1014,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string | number
 
-### [**](#refreshMaterializedView)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L881)inheritedrefreshMaterializedView
+### [**](#refreshMaterializedView)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L881)inheritedrefreshMaterializedView
 
 * ****refreshMaterializedView**(name, schema, concurrently): string
 
@@ -1028,7 +1028,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns string
 
-### [**](#splitTableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/schema/SchemaHelper.ts#L743)inheritedsplitTableName
+### [**](#splitTableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/schema/SchemaHelper.ts#L743)inheritedsplitTableName
 
 * ****splitTableName**(name, skipDefaultSchema): \[undefined | string, string]
 
@@ -1041,7 +1041,7 @@ Base class for database-specific schema helpers. Provides SQL generation for DDL
 
   #### Returns \[undefined | string, string]
 
-### [**](#supportsSchemaConstraints)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L32)supportsSchemaConstraints
+### [**](#supportsSchemaConstraints)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqliteSchemaHelper.ts#L32)supportsSchemaConstraints
 
 * ****supportsSchemaConstraints**(): boolean
 

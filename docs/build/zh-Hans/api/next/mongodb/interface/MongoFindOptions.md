@@ -24,7 +24,7 @@ Options for MongoDB find operations.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#allowDiskUse)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L670)optionalinheritedallowDiskUse
+### [**](#allowDiskUse)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L670)optionalinheritedallowDiskUse
 
 **allowDiskUse?
 
@@ -34,7 +34,7 @@ Options for MongoDB find operations.
 
 Inherited from MongoQueryOptions.allowDiskUse
 
-### [**](#collation)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L667)optionalinheritedcollation
+### [**](#collation)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L667)optionalinheritedcollation
 
 **collation?
 
@@ -44,7 +44,7 @@ Inherited from MongoQueryOptions.allowDiskUse
 
 Inherited from MongoQueryOptions.collation
 
-### [**](#ctx)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L679)optionalctx
+### [**](#ctx)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L679)optionalctx
 
 **ctx?
 
@@ -52,7 +52,7 @@ Inherited from MongoQueryOptions.collation
 
 : any
 
-### [**](#fields)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L678)optionalfields
+### [**](#fields)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L678)optionalfields
 
 **fields?
 
@@ -60,7 +60,7 @@ Inherited from MongoQueryOptions.collation
 
 : string\[]
 
-### [**](#indexHint)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L668)optionalinheritedindexHint
+### [**](#indexHint)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L668)optionalinheritedindexHint
 
 **indexHint?
 
@@ -70,7 +70,7 @@ Inherited from MongoQueryOptions.collation
 
 Inherited from MongoQueryOptions.indexHint
 
-### [**](#limit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L676)optionallimit
+### [**](#limit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L676)optionallimit
 
 **limit?
 
@@ -78,7 +78,7 @@ Inherited from MongoQueryOptions.indexHint
 
 : number
 
-### [**](#loggerContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L680)optionalloggerContext
+### [**](#loggerContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L680)optionalloggerContext
 
 **loggerContext?
 
@@ -86,7 +86,7 @@ Inherited from MongoQueryOptions.indexHint
 
 : [LoggingOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#LoggingOptions)
 
-### [**](#maxTimeMS)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L669)optionalinheritedmaxTimeMS
+### [**](#maxTimeMS)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L669)optionalinheritedmaxTimeMS
 
 **maxTimeMS?
 
@@ -96,7 +96,7 @@ Inherited from MongoQueryOptions.indexHint
 
 Inherited from MongoQueryOptions.maxTimeMS
 
-### [**](#offset)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L677)optionaloffset
+### [**](#offset)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L677)optionaloffset
 
 **offset?
 
@@ -104,7 +104,7 @@ Inherited from MongoQueryOptions.maxTimeMS
 
 : number
 
-### [**](#orderBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoConnection.ts#L675)optionalorderBy
+### [**](#orderBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoConnection.ts#L675)optionalorderBy
 
 **orderBy?
 

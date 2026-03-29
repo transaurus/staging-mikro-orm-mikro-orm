@@ -46,7 +46,7 @@ Naming strategy for MongoDB that uses camelCase property names and hyphenated co
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#aliasName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L97)inheritedaliasName
+### [**](#aliasName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L97)inheritedaliasName
 
 * ****aliasName**(entityName, index): string
 
@@ -63,7 +63,7 @@ Naming strategy for MongoDB that uses camelCase property names and hyphenated co
 
   #### Returns string
 
-### [**](#classToMigrationName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L15)inheritedclassToMigrationName
+### [**](#classToMigrationName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L15)inheritedclassToMigrationName
 
 * ****classToMigrationName**(timestamp, customMigrationName): string
 
@@ -80,7 +80,7 @@ Naming strategy for MongoDB that uses camelCase property names and hyphenated co
 
   #### Returns string
 
-### [**](#classToTableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/MongoNamingStrategy.ts#L5)classToTableName
+### [**](#classToTableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/MongoNamingStrategy.ts#L5)classToTableName
 
 * ****classToTableName**(entityName, tableName): string
 
@@ -97,7 +97,7 @@ Naming strategy for MongoDB that uses camelCase property names and hyphenated co
 
   #### Returns string
 
-### [**](#columnNameToProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L68)inheritedcolumnNameToProperty
+### [**](#columnNameToProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L68)inheritedcolumnNameToProperty
 
 * ****columnNameToProperty**(columnName): string
 
@@ -113,7 +113,7 @@ Naming strategy for MongoDB that uses camelCase property names and hyphenated co
 
   #### Returns string
 
-### [**](#discriminatorColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L135)inheriteddiscriminatorColumnName
+### [**](#discriminatorColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L135)inheriteddiscriminatorColumnName
 
 * ****discriminatorColumnName**(baseName): string
 
@@ -129,7 +129,7 @@ Naming strategy for MongoDB that uses camelCase property names and hyphenated co
 
   #### Returns string
 
-### [**](#enumValueToEnumProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L93)inheritedenumValueToEnumProperty
+### [**](#enumValueToEnumProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L93)inheritedenumValueToEnumProperty
 
 * ****enumValueToEnumProperty**(enumValue, columnName, tableName, schemaName): string
 
@@ -161,7 +161,7 @@ Naming strategy for MongoDB that uses camelCase property names and hyphenated co
 
   The name of the enum property that will hold the value.
 
-### [**](#getClassName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L8)inheritedgetClassName
+### [**](#getClassName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L8)inheritedgetClassName
 
 * ****getClassName**(file, separator): string
 
@@ -178,7 +178,7 @@ Naming strategy for MongoDB that uses camelCase property names and hyphenated co
 
   #### Returns string
 
-### [**](#getEntityName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L55)inheritedgetEntityName
+### [**](#getEntityName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L55)inheritedgetEntityName
 
 * ****getEntityName**(tableName, schemaName): string
 
@@ -195,7 +195,7 @@ Naming strategy for MongoDB that uses camelCase property names and hyphenated co
 
   #### Returns string
 
-### [**](#getEnumClassName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L79)inheritedgetEnumClassName
+### [**](#getEnumClassName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L79)inheritedgetEnumClassName
 
 * ****getEnumClassName**(columnName, tableName, schemaName): string
 
@@ -223,7 +223,7 @@ Naming strategy for MongoDB that uses camelCase property names and hyphenated co
 
   A new class name that will be used for the enum.
 
-### [**](#getEnumTypeName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L86)inheritedgetEnumTypeName
+### [**](#getEnumTypeName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L86)inheritedgetEnumTypeName
 
 * ****getEnumTypeName**(columnName, tableName, schemaName): string
 
@@ -251,7 +251,7 @@ Naming strategy for MongoDB that uses camelCase property names and hyphenated co
 
   A new type name that will be used for the enum.
 
-### [**](#indexName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L25)inheritedindexName
+### [**](#indexName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L25)inheritedindexName
 
 * ****indexName**(tableName, columns, type): string
 
@@ -269,7 +269,7 @@ Naming strategy for MongoDB that uses camelCase property names and hyphenated co
 
   #### Returns string
 
-### [**](#inverseSideName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L105)inheritedinverseSideName
+### [**](#inverseSideName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L105)inheritedinverseSideName
 
 * ****inverseSideName**(entityName, propertyName, kind): string
 
@@ -287,7 +287,7 @@ Naming strategy for MongoDB that uses camelCase property names and hyphenated co
 
   #### Returns string
 
-### [**](#joinColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/MongoNamingStrategy.ts#L9)joinColumnName
+### [**](#joinColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/MongoNamingStrategy.ts#L9)joinColumnName
 
 * ****joinColumnName**(propertyName): string
 
@@ -303,7 +303,7 @@ Naming strategy for MongoDB that uses camelCase property names and hyphenated co
 
   #### Returns string
 
-### [**](#joinKeyColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/MongoNamingStrategy.ts#L13)joinKeyColumnName
+### [**](#joinKeyColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/MongoNamingStrategy.ts#L13)joinKeyColumnName
 
 * ****joinKeyColumnName**(entityName, referencedColumnName, composite, tableName): string
 
@@ -322,7 +322,7 @@ Naming strategy for MongoDB that uses camelCase property names and hyphenated co
 
   #### Returns string
 
-### [**](#joinTableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/MongoNamingStrategy.ts#L22)joinTableName
+### [**](#joinTableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/MongoNamingStrategy.ts#L22)joinTableName
 
 * ****joinTableName**(sourceEntity, targetEntity, propertyName, tableName): string
 
@@ -341,7 +341,7 @@ Naming strategy for MongoDB that uses camelCase property names and hyphenated co
 
   #### Returns string
 
-### [**](#manyToManyPropertyName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L122)inheritedmanyToManyPropertyName
+### [**](#manyToManyPropertyName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/AbstractNamingStrategy.ts#L122)inheritedmanyToManyPropertyName
 
 * ****manyToManyPropertyName**(ownerEntityName, targetEntityName, pivotTableName, ownerTableName, schemaName): string
 
@@ -375,7 +375,7 @@ Naming strategy for MongoDB that uses camelCase property names and hyphenated co
 
   #### Returns string
 
-### [**](#propertyToColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/MongoNamingStrategy.ts#L26)propertyToColumnName
+### [**](#propertyToColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/MongoNamingStrategy.ts#L26)propertyToColumnName
 
 * ****propertyToColumnName**(propertyName): string
 
@@ -391,7 +391,7 @@ Naming strategy for MongoDB that uses camelCase property names and hyphenated co
 
   #### Returns string
 
-### [**](#referenceColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/MongoNamingStrategy.ts#L30)referenceColumnName
+### [**](#referenceColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/MongoNamingStrategy.ts#L30)referenceColumnName
 
 * ****referenceColumnName**(): string
 

@@ -34,7 +34,7 @@ Holds and validates all ORM configuration options, providing access to drivers, 
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L181)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L181)constructor
 
 * ****new Configuration**\<D, EM>(options, validate): [Configuration](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Configuration.md)\<D, EM>
 
@@ -47,7 +47,7 @@ Holds and validates all ORM configuration options, providing access to drivers, 
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#get)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L226)get
+### [**](#get)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L226)get
 
 * ****get**\<T, U>(key, defaultValue): U
 
@@ -62,7 +62,7 @@ Holds and validates all ORM configuration options, providing access to drivers, 
 
   #### Returns U
 
-### [**](#getAll)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L235)getAll
+### [**](#getAll)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L235)getAll
 
 * ****getAll**(): [Options](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/Options.md)\<D, EM, (string | [EntityClass](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityClass)\<Partial\<any>> | [EntitySchema](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntitySchema.md)\<any, never, [EntityCtor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityCtor)\<any>>)\[]>
 
@@ -72,7 +72,7 @@ Holds and validates all ORM configuration options, providing access to drivers, 
 
   #### Returns [Options](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/Options.md)\<D, EM, (string | [EntityClass](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityClass)\<Partial\<any>> | [EntitySchema](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntitySchema.md)\<any, never, [EntityCtor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityCtor)\<any>>)\[]>
 
-### [**](#getCachedService)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L392)getCachedService
+### [**](#getCachedService)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L392)getCachedService
 
 * ****getCachedService**\<T>(cls, ...args): InstanceType\<T>
 
@@ -87,7 +87,7 @@ Holds and validates all ORM configuration options, providing access to drivers, 
 
   #### Returns InstanceType\<T>
 
-### [**](#getComparator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L341)getComparator
+### [**](#getComparator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L341)getComparator
 
 * ****getComparator**(metadata): EntityComparator
 
@@ -101,7 +101,7 @@ Holds and validates all ORM configuration options, providing access to drivers, 
 
   #### Returns EntityComparator
 
-### [**](#getDataloaderType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L278)getDataloaderType
+### [**](#getDataloaderType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L278)getDataloaderType
 
 * ****getDataloaderType**(): [DataloaderType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/enum/DataloaderType.md)
 
@@ -111,7 +111,7 @@ Holds and validates all ORM configuration options, providing access to drivers, 
 
   #### Returns [DataloaderType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/enum/DataloaderType.md)
 
-### [**](#getDriver)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L298)getDriver
+### [**](#getDriver)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L298)getDriver
 
 * ****getDriver**(): D
 
@@ -121,7 +121,7 @@ Holds and validates all ORM configuration options, providing access to drivers, 
 
   #### Returns D
 
-### [**](#getExtension)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L308)getExtension
+### [**](#getExtension)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L308)getExtension
 
 * ****getExtension**\<T>(name): undefined | T
 
@@ -135,7 +135,7 @@ Holds and validates all ORM configuration options, providing access to drivers, 
 
   #### Returns undefined | T
 
-### [**](#getHydrator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L334)getHydrator
+### [**](#getHydrator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L334)getHydrator
 
 * ****getHydrator**(metadata): IHydrator
 
@@ -149,7 +149,7 @@ Holds and validates all ORM configuration options, providing access to drivers, 
 
   #### Returns IHydrator
 
-### [**](#getLogger)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L257)getLogger
+### [**](#getLogger)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L257)getLogger
 
 * ****getLogger**(): [Logger](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/Logger.md)
 
@@ -159,7 +159,7 @@ Holds and validates all ORM configuration options, providing access to drivers, 
 
   #### Returns [Logger](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/Logger.md)
 
-### [**](#getMetadataCacheAdapter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L355)getMetadataCacheAdapter
+### [**](#getMetadataCacheAdapter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L355)getMetadataCacheAdapter
 
 * ****getMetadataCacheAdapter**(): [SyncCacheAdapter](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/SyncCacheAdapter.md)
 
@@ -169,7 +169,7 @@ Holds and validates all ORM configuration options, providing access to drivers, 
 
   #### Returns [SyncCacheAdapter](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/SyncCacheAdapter.md)
 
-### [**](#getMetadataProvider)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L348)getMetadataProvider
+### [**](#getMetadataProvider)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L348)getMetadataProvider
 
 * ****getMetadataProvider**(): [MetadataProvider](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/MetadataProvider.md)
 
@@ -179,7 +179,7 @@ Holds and validates all ORM configuration options, providing access to drivers, 
 
   #### Returns [MetadataProvider](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/MetadataProvider.md)
 
-### [**](#getNamingStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L327)getNamingStrategy
+### [**](#getNamingStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L327)getNamingStrategy
 
 * ****getNamingStrategy**(): [NamingStrategy](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/NamingStrategy.md)
 
@@ -189,7 +189,7 @@ Holds and validates all ORM configuration options, providing access to drivers, 
 
   #### Returns [NamingStrategy](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/NamingStrategy.md)
 
-### [**](#getPlatform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L219)getPlatform
+### [**](#getPlatform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L219)getPlatform
 
 * ****getPlatform**(): ReturnType\<D\[getPlatform]>
 
@@ -199,7 +199,7 @@ Holds and validates all ORM configuration options, providing access to drivers, 
 
   #### Returns ReturnType\<D\[getPlatform]>
 
-### [**](#getRepositoryClass)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L377)getRepositoryClass
+### [**](#getRepositoryClass)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L377)getRepositoryClass
 
 * ****getRepositoryClass**(repository): undefined | [EntityClass](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityClass)<[EntityRepository](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityRepository.md)\<any>>
 
@@ -214,7 +214,7 @@ Holds and validates all ORM configuration options, providing access to drivers, 
 
   #### Returns undefined | [EntityClass](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityClass)<[EntityRepository](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityRepository.md)\<any>>
 
-### [**](#getResultCacheAdapter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L367)getResultCacheAdapter
+### [**](#getResultCacheAdapter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L367)getResultCacheAdapter
 
 * ****getResultCacheAdapter**(): [CacheAdapter](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/CacheAdapter.md)
 
@@ -224,7 +224,7 @@ Holds and validates all ORM configuration options, providing access to drivers, 
 
   #### Returns [CacheAdapter](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/CacheAdapter.md)
 
-### [**](#getSchema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L287)getSchema
+### [**](#getSchema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L287)getSchema
 
 * ****getSchema**(skipDefaultSchema): undefined | string
 
@@ -238,7 +238,7 @@ Holds and validates all ORM configuration options, providing access to drivers, 
 
   #### Returns undefined | string
 
-### [**](#getSlowQueryLogger)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L265)getSlowQueryLogger
+### [**](#getSlowQueryLogger)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L265)getSlowQueryLogger
 
 * ****getSlowQueryLogger**(): [Logger](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/Logger.md)
 
@@ -248,7 +248,7 @@ Holds and validates all ORM configuration options, providing access to drivers, 
 
   #### Returns [Logger](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/Logger.md)
 
-### [**](#registerExtension)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L303)registerExtension
+### [**](#registerExtension)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L303)registerExtension
 
 * ****registerExtension**(name, cb): void
 
@@ -264,7 +264,7 @@ Holds and validates all ORM configuration options, providing access to drivers, 
 
   #### Returns void
 
-### [**](#reset)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L250)reset
+### [**](#reset)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L250)reset
 
 * ****reset**\<T>(key): void
 
@@ -278,7 +278,7 @@ Holds and validates all ORM configuration options, providing access to drivers, 
 
   #### Returns void
 
-### [**](#resetServiceCache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L404)resetServiceCache
+### [**](#resetServiceCache)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L404)resetServiceCache
 
 * ****resetServiceCache**(): void
 
@@ -288,7 +288,7 @@ Holds and validates all ORM configuration options, providing access to drivers, 
 
   #### Returns void
 
-### [**](#set)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L242)set
+### [**](#set)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L242)set
 
 * ****set**\<T, U>(key, value): void
 

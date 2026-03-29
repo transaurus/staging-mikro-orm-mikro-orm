@@ -39,7 +39,7 @@ Oracle database connection using the `oracledb` driver.
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L25)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L25)constructor
 
 * ****new OracleConnection**(config, options, type): [OracleConnection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/oracledb/class/OracleConnection.md)
 
@@ -55,7 +55,7 @@ Oracle database connection using the `oracledb` driver.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#begin)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L148)inheritedbegin
+### [**](#begin)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L148)inheritedbegin
 
 * ****begin**(options): Promise\<ControlledTransaction\<any, any>>
 
@@ -76,7 +76,7 @@ Oracle database connection using the `oracledb` driver.
 
   #### Returns Promise\<ControlledTransaction\<any, any>>
 
-### [**](#checkConnection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L87)inheritedcheckConnection
+### [**](#checkConnection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L87)inheritedcheckConnection
 
 * ****checkConnection**(): Promise<{ ok: true } | { error?
   <!-- -->
@@ -90,7 +90,7 @@ Oracle database connection using the `oracledb` driver.
 
   #### Returns Promise<{ ok: true } | { error?<!-- -->: Error; ok: false; reason: string }>
 
-### [**](#close)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L69)inheritedclose
+### [**](#close)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L69)inheritedclose
 
 * ****close**(force): Promise\<void>
 
@@ -106,7 +106,7 @@ Oracle database connection using the `oracledb` driver.
 
   #### Returns Promise\<void>
 
-### [**](#commit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L204)inheritedcommit
+### [**](#commit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L204)inheritedcommit
 
 * ****commit**(ctx, eventBroadcaster, loggerContext): Promise\<void>
 
@@ -124,7 +124,7 @@ Oracle database connection using the `oracledb` driver.
 
   #### Returns Promise\<void>
 
-### [**](#connect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L30)inheritedconnect
+### [**](#connect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L30)inheritedconnect
 
 * ****connect**(options): Promise\<void>
 
@@ -141,7 +141,7 @@ Oracle database connection using the `oracledb` driver.
 
   #### Returns Promise\<void>
 
-### [**](#createKysely)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L40)inheritedcreateKysely
+### [**](#createKysely)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L40)inheritedcreateKysely
 
 * ****createKysely**(): [MaybePromise](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MaybePromise)\<void>
 
@@ -153,7 +153,7 @@ Oracle database connection using the `oracledb` driver.
 
   #### Returns [MaybePromise](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MaybePromise)\<void>
 
-### [**](#createKyselyDialect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OracleConnection.ts#L20)createKyselyDialect
+### [**](#createKyselyDialect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OracleConnection.ts#L20)createKyselyDialect
 
 * ****createKyselyDialect**(overrides): Promise<[OracleDialect](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/OracleDialect.md)>
 
@@ -169,7 +169,7 @@ Oracle database connection using the `oracledb` driver.
 
   #### Returns Promise<[OracleDialect](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/OracleDialect.md)>
 
-### [**](#ensureConnection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L82)inheritedensureConnection
+### [**](#ensureConnection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L82)inheritedensureConnection
 
 * ****ensureConnection**(): Promise\<void>
 
@@ -181,7 +181,7 @@ Oracle database connection using the `oracledb` driver.
 
   #### Returns Promise\<void>
 
-### [**](#execute)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OracleConnection.ts#L96)execute
+### [**](#execute)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OracleConnection.ts#L96)execute
 
 * ****execute**\<T>(query, params, method, ctx, loggerContext): Promise\<T>
 
@@ -201,7 +201,7 @@ Oracle database connection using the `oracledb` driver.
 
   #### Returns Promise\<T>
 
-### [**](#executeDump)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OracleConnection.ts#L154)executeDump
+### [**](#executeDump)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OracleConnection.ts#L154)executeDump
 
 * ****executeDump**(dump): Promise\<void>
 
@@ -217,7 +217,7 @@ Oracle database connection using the `oracledb` driver.
 
   #### Returns Promise\<void>
 
-### [**](#getClient)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L101)inheritedgetClient
+### [**](#getClient)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L101)inheritedgetClient
 
 * ****getClient**\<T>(): Kysely\<T>
 
@@ -229,7 +229,7 @@ Oracle database connection using the `oracledb` driver.
 
   #### Returns Kysely\<T>
 
-### [**](#getConnectionOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L163)inheritedgetConnectionOptions
+### [**](#getConnectionOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L163)inheritedgetConnectionOptions
 
 * ****getConnectionOptions**(): [ConnectionConfig](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/ConnectionConfig.md)
 
@@ -241,7 +241,7 @@ Oracle database connection using the `oracledb` driver.
 
   #### Returns [ConnectionConfig](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/ConnectionConfig.md)
 
-### [**](#getPlatform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L203)inheritedgetPlatform
+### [**](#getPlatform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L203)inheritedgetPlatform
 
 * ****getPlatform**(): [Platform](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Platform.md)
 
@@ -253,7 +253,7 @@ Oracle database connection using the `oracledb` driver.
 
   #### Returns [Platform](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Platform.md)
 
-### [**](#initClient)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L117)inheritedinitClient
+### [**](#initClient)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L117)inheritedinitClient
 
 * ****initClient**(): Promise\<void>
 
@@ -265,7 +265,7 @@ Oracle database connection using the `oracledb` driver.
 
   #### Returns Promise\<void>
 
-### [**](#isConnected)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L79)inheritedisConnected
+### [**](#isConnected)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L79)inheritedisConnected
 
 * ****isConnected**(): Promise\<boolean>
 
@@ -277,7 +277,7 @@ Oracle database connection using the `oracledb` driver.
 
   #### Returns Promise\<boolean>
 
-### [**](#mapOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/oracledb/src/OracleConnection.ts#L79)mapOptions
+### [**](#mapOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/oracledb/src/OracleConnection.ts#L79)mapOptions
 
 * ****mapOptions**(overrides): PoolAttributes
 
@@ -287,7 +287,7 @@ Oracle database connection using the `oracledb` driver.
 
   #### Returns PoolAttributes
 
-### [**](#rollback)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L227)inheritedrollback
+### [**](#rollback)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L227)inheritedrollback
 
 * ****rollback**(ctx, eventBroadcaster, loggerContext): Promise\<void>
 
@@ -305,7 +305,7 @@ Oracle database connection using the `oracledb` driver.
 
   #### Returns Promise\<void>
 
-### [**](#setMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L193)inheritedsetMetadata
+### [**](#setMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L193)inheritedsetMetadata
 
 * ****setMetadata**(metadata): void
 
@@ -321,7 +321,7 @@ Oracle database connection using the `oracledb` driver.
 
   #### Returns void
 
-### [**](#setPlatform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/connections/Connection.ts#L198)inheritedsetPlatform
+### [**](#setPlatform)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/connections/Connection.ts#L198)inheritedsetPlatform
 
 * ****setPlatform**(platform): void
 
@@ -337,7 +337,7 @@ Oracle database connection using the `oracledb` driver.
 
   #### Returns void
 
-### [**](#stream)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L287)inheritedstream
+### [**](#stream)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L287)inheritedstream
 
 * ****stream**\<T>(query, params, ctx, loggerContext): AsyncIterableIterator\<T, any, any>
 
@@ -356,7 +356,7 @@ Oracle database connection using the `oracledb` driver.
 
   #### Returns AsyncIterableIterator\<T, any, any>
 
-### [**](#transactional)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlConnection.ts#L124)inheritedtransactional
+### [**](#transactional)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlConnection.ts#L124)inheritedtransactional
 
 * ****transactional**\<T>(cb, options): Promise\<T>
 

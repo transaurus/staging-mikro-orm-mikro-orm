@@ -37,7 +37,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#bidirectionalRelations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1580)optionalbidirectionalRelations
+### [**](#bidirectionalRelations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1580)optionalbidirectionalRelations
 
 **bidirectionalRelations?
 
@@ -45,7 +45,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
 : boolean
 
-### [**](#coreImportsPrefix)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1597)optionalcoreImportsPrefix
+### [**](#coreImportsPrefix)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1597)optionalcoreImportsPrefix
 
 **coreImportsPrefix?
 
@@ -53,7 +53,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
 : string
 
-### [**](#customBaseEntityName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1595)optionalcustomBaseEntityName
+### [**](#customBaseEntityName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1595)optionalcustomBaseEntityName
 
 **customBaseEntityName?
 
@@ -61,7 +61,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
 : string
 
-### [**](#decorators)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1583)optionaldecorators
+### [**](#decorators)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1583)optionaldecorators
 
 **decorators?
 
@@ -69,7 +69,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
 : es | legacy
 
-### [**](#entityDefinition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1582)optionalentityDefinition
+### [**](#entityDefinition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1582)optionalentityDefinition
 
 **entityDefinition?
 
@@ -77,7 +77,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
 : decorators | defineEntity | entitySchema
 
-### [**](#enumMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1585)optionalenumMode
+### [**](#enumMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1585)optionalenumMode
 
 **enumMode?
 
@@ -85,7 +85,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
 : ts-enum | union-type | dictionary
 
-### [**](#esmImport)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1586)optionalesmImport
+### [**](#esmImport)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1586)optionalesmImport
 
 **esmImport?
 
@@ -93,7 +93,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
 : boolean
 
-### [**](#extraImports)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1591)optionalextraImports
+### [**](#extraImports)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1591)optionalextraImports
 
 **extraImports?
 
@@ -112,7 +112,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
     #### Returns undefined | string\[]
 
-### [**](#fileName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1589)optionalfileName
+### [**](#fileName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1589)optionalfileName
 
 **fileName?
 
@@ -130,7 +130,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
     #### Returns string
 
-### [**](#forceUndefined)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1578)optionalforceUndefined
+### [**](#forceUndefined)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1578)optionalforceUndefined
 
 **forceUndefined?
 
@@ -138,7 +138,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
 : boolean
 
-### [**](#identifiedReferences)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1581)optionalidentifiedReferences
+### [**](#identifiedReferences)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1581)optionalidentifiedReferences
 
 **identifiedReferences?
 
@@ -146,7 +146,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
 : boolean
 
-### [**](#inferEntityType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1584)optionalinferEntityType
+### [**](#inferEntityType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1584)optionalinferEntityType
 
 **inferEntityType?
 
@@ -154,7 +154,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
 : boolean
 
-### [**](#onImport)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1590)optionalonImport
+### [**](#onImport)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1590)optionalonImport
 
 **onImport?
 
@@ -162,7 +162,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
 : [ImportsResolver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#ImportsResolver)
 
-### [**](#onInitialMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1598)optionalonInitialMetadata
+### [**](#onInitialMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1598)optionalonInitialMetadata
 
 **onInitialMetadata?
 
@@ -170,7 +170,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
 : [MetadataProcessor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MetadataProcessor)
 
-### [**](#onlyPurePivotTables)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1592)optionalonlyPurePivotTables
+### [**](#onlyPurePivotTables)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1592)optionalonlyPurePivotTables
 
 **onlyPurePivotTables?
 
@@ -178,7 +178,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
 : boolean
 
-### [**](#onProcessedMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1599)optionalonProcessedMetadata
+### [**](#onProcessedMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1599)optionalonProcessedMetadata
 
 **onProcessedMetadata?
 
@@ -186,7 +186,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
 : [MetadataProcessor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MetadataProcessor)
 
-### [**](#outputPurePivotTables)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1593)optionaloutputPurePivotTables
+### [**](#outputPurePivotTables)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1593)optionaloutputPurePivotTables
 
 **outputPurePivotTables?
 
@@ -194,7 +194,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
 : boolean
 
-### [**](#path)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1572)optionalpath
+### [**](#path)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1572)optionalpath
 
 **path?
 
@@ -202,7 +202,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
 : string
 
-### [**](#readOnlyPivotTables)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1594)optionalreadOnlyPivotTables
+### [**](#readOnlyPivotTables)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1594)optionalreadOnlyPivotTables
 
 **readOnlyPivotTables?
 
@@ -210,7 +210,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
 : boolean
 
-### [**](#save)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1573)optionalsave
+### [**](#save)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1573)optionalsave
 
 **save?
 
@@ -218,7 +218,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
 : boolean
 
-### [**](#scalarPropertiesForRelations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1588)optionalscalarPropertiesForRelations
+### [**](#scalarPropertiesForRelations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1588)optionalscalarPropertiesForRelations
 
 **scalarPropertiesForRelations?
 
@@ -226,7 +226,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
 : always | never | smart
 
-### [**](#scalarTypeInDecorator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1587)optionalscalarTypeInDecorator
+### [**](#scalarTypeInDecorator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1587)optionalscalarTypeInDecorator
 
 **scalarTypeInDecorator?
 
@@ -234,7 +234,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
 : boolean
 
-### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1574)optionalschema
+### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1574)optionalschema
 
 **schema?
 
@@ -242,7 +242,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
 : string
 
-### [**](#skipColumns)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1577)optionalskipColumns
+### [**](#skipColumns)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1577)optionalskipColumns
 
 **skipColumns?
 
@@ -250,7 +250,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
 : [Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)<(string | RegExp)\[]>
 
-### [**](#skipTables)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1576)optionalskipTables
+### [**](#skipTables)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1576)optionalskipTables
 
 **skipTables?
 
@@ -258,7 +258,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
 : (string | RegExp)\[]
 
-### [**](#takeTables)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1575)optionaltakeTables
+### [**](#takeTables)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1575)optionaltakeTables
 
 **takeTables?
 
@@ -266,7 +266,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
 : (string | RegExp)\[]
 
-### [**](#undefinedDefaults)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1579)optionalundefinedDefaults
+### [**](#undefinedDefaults)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1579)optionalundefinedDefaults
 
 **undefinedDefaults?
 
@@ -274,7 +274,7 @@ Options for the entity generator (`IEntityGenerator.generate()`). Controls outpu
 
 : boolean
 
-### [**](#useCoreBaseEntity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1596)optionaluseCoreBaseEntity
+### [**](#useCoreBaseEntity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1596)optionaluseCoreBaseEntity
 
 **useCoreBaseEntity?
 

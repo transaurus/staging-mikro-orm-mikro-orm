@@ -24,7 +24,7 @@ Synchronous variant of CacheAdapter, used for metadata cache where async access 
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#clear)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/cache/CacheAdapter.ts#L21)inheritedclear
+### [**](#clear)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/cache/CacheAdapter.ts#L21)inheritedclear
 
 * ****clear**(): void | Promise\<void>
 
@@ -36,7 +36,7 @@ Synchronous variant of CacheAdapter, used for metadata cache where async access 
 
   #### Returns void | Promise\<void>
 
-### [**](#close)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/cache/CacheAdapter.ts#L26)optionalinheritedclose
+### [**](#close)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/cache/CacheAdapter.ts#L26)optionalinheritedclose
 
 * ****close**(): void | Promise\<void>
 
@@ -48,7 +48,7 @@ Synchronous variant of CacheAdapter, used for metadata cache where async access 
 
   #### Returns void | Promise\<void>
 
-### [**](#combine)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/cache/CacheAdapter.ts#L49)optionalcombine
+### [**](#combine)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/cache/CacheAdapter.ts#L49)optionalcombine
 
 * ****combine**(): string | void
 
@@ -58,7 +58,7 @@ Synchronous variant of CacheAdapter, used for metadata cache where async access 
 
   #### Returns string | void
 
-### [**](#get)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/cache/CacheAdapter.ts#L34)get
+### [**](#get)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/cache/CacheAdapter.ts#L34)get
 
 * ****get**\<T>(name): undefined | T
 
@@ -74,7 +74,7 @@ Synchronous variant of CacheAdapter, used for metadata cache where async access 
 
   #### Returns undefined | T
 
-### [**](#remove)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/cache/CacheAdapter.ts#L44)remove
+### [**](#remove)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/cache/CacheAdapter.ts#L44)remove
 
 * ****remove**(name): void
 
@@ -90,7 +90,7 @@ Synchronous variant of CacheAdapter, used for metadata cache where async access 
 
   #### Returns void
 
-### [**](#set)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/cache/CacheAdapter.ts#L39)set
+### [**](#set)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/cache/CacheAdapter.ts#L39)set
 
 * ****set**(name, data, origin, expiration): void
 

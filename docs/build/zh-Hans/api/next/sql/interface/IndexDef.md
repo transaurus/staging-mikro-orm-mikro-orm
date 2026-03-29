@@ -23,7 +23,7 @@
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#clustered)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L126)optionalclustered
+### [**](#clustered)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L126)optionalclustered
 
 **clustered?
 
@@ -33,11 +33,11 @@
 
 Whether the index should be clustered (MariaDB, MSSQL).
 
-### [**](#columnNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L94)columnNames
+### [**](#columnNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L94)columnNames
 
 **columnNames: string\[]
 
-### [**](#columns)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L108)optionalcolumns
+### [**](#columns)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L108)optionalcolumns
 
 **columns?
 
@@ -47,7 +47,7 @@ Whether the index should be clustered (MariaDB, MSSQL).
 
 Advanced column options for the index. When specified, these options override the simple columnNames for index generation.
 
-### [**](#composite)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L99)optionalcomposite
+### [**](#composite)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L99)optionalcomposite
 
 **composite?
 
@@ -55,11 +55,11 @@ Advanced column options for the index. When specified, these options override th
 
 : boolean
 
-### [**](#constraint)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L97)constraint
+### [**](#constraint)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L97)constraint
 
 **constraint: boolean
 
-### [**](#deferMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L103)optionaldeferMode
+### [**](#deferMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L103)optionaldeferMode
 
 **deferMode?
 
@@ -67,7 +67,7 @@ Advanced column options for the index. When specified, these options override th
 
 : [DeferMode](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/enum/DeferMode.md) | immediate | deferred
 
-### [**](#disabled)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L122)optionaldisabled
+### [**](#disabled)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L122)optionaldisabled
 
 **disabled?
 
@@ -77,7 +77,7 @@ Advanced column options for the index. When specified, these options override th
 
 Whether the index is disabled (MSSQL only).
 
-### [**](#expression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L100)optionalexpression
+### [**](#expression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L100)optionalexpression
 
 **expression?
 
@@ -85,7 +85,7 @@ Whether the index is disabled (MSSQL only).
 
 : string
 
-### [**](#fillFactor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L114)optionalfillFactor
+### [**](#fillFactor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L114)optionalfillFactor
 
 **fillFactor?
 
@@ -95,7 +95,7 @@ Whether the index is disabled (MSSQL only).
 
 Fill factor for the index as a percentage 0-100 (PostgreSQL, MSSQL).
 
-### [**](#include)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L112)optionalinclude
+### [**](#include)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L112)optionalinclude
 
 **include?
 
@@ -105,7 +105,7 @@ Fill factor for the index as a percentage 0-100 (PostgreSQL, MSSQL).
 
 Columns to include in the index but not as part of the key (PostgreSQL, MSSQL).
 
-### [**](#invisible)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L118)optionalinvisible
+### [**](#invisible)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L118)optionalinvisible
 
 **invisible?
 
@@ -115,11 +115,11 @@ Columns to include in the index but not as part of the key (PostgreSQL, MSSQL).
 
 Whether the index is invisible/hidden from the query optimizer (MySQL 8+, MariaDB 10.6+, MongoDB).
 
-### [**](#keyName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L95)keyName
+### [**](#keyName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L95)keyName
 
 **keyName: string
 
-### [**](#options)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L101)optionaloptions
+### [**](#options)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L101)optionaloptions
 
 **options?
 
@@ -127,11 +127,11 @@ Whether the index is invisible/hidden from the query optimizer (MySQL 8+, MariaD
 
 : [Dictionary](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Dictionary)
 
-### [**](#primary)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L98)primary
+### [**](#primary)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L98)primary
 
 **primary: boolean
 
-### [**](#type)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L102)optionaltype
+### [**](#type)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L102)optionaltype
 
 **type?
 
@@ -151,6 +151,6 @@ Whether the index is invisible/hidden from the query optimizer (MySQL 8+, MariaD
 
 : hash | btree }>
 
-### [**](#unique)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L96)unique
+### [**](#unique)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L96)unique
 
 **unique: boolean

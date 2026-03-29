@@ -46,7 +46,7 @@ Class-less entity definition that provides a programmatic API for defining entit
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L94)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L94)constructor
 
 * ****new EntitySchema**\<Entity, Base, Class>(meta): [EntitySchema](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntitySchema.md)\<Entity, Base, Class>
 
@@ -58,13 +58,13 @@ Class-less entity definition that provides a programmatic API for defining entit
 
 ## Accessors<!-- -->[**](#Accessors)
 
-### [**](#class)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L390)class
+### [**](#class)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L390)class
 
 * **get class(): Class
 
 - #### Returns Class
 
-### [**](#meta)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L376)meta
+### [**](#meta)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L376)meta
 
 * **get meta(): [EntityMetadata](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityMetadata.md)\<Entity, Class>
 
@@ -74,7 +74,7 @@ Class-less entity definition that provides a programmatic API for defining entit
 
   #### Returns [EntityMetadata](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityMetadata.md)\<Entity, Class>
 
-### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L381)name
+### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L381)name
 
 * **get name(): string | [EntityName](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityName)\<Entity>
 
@@ -84,13 +84,13 @@ Class-less entity definition that provides a programmatic API for defining entit
 
   #### Returns string | [EntityName](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityName)\<Entity>
 
-### [**](#properties)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L394)properties
+### [**](#properties)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L394)properties
 
 * **get properties(): Record\<string, any>
 
 - #### Returns Record\<string, any>
 
-### [**](#tableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L386)tableName
+### [**](#tableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L386)tableName
 
 * **get tableName(): string
 
@@ -100,7 +100,7 @@ Class-less entity definition that provides a programmatic API for defining entit
 
   #### Returns string
 
-### [**](#REGISTRY)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L82)staticREGISTRY
+### [**](#REGISTRY)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L82)staticREGISTRY
 
 * **get REGISTRY(): Map\<Partial\<any>, [EntitySchema](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntitySchema.md)\<any, never, [EntityCtor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityCtor)\<any>>>
 
@@ -114,7 +114,7 @@ Class-less entity definition that provides a programmatic API for defining entit
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#addEmbedded)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L221)addEmbedded
+### [**](#addEmbedded)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L221)addEmbedded
 
 * ****addEmbedded**\<Target>(name, options): void
 
@@ -129,7 +129,7 @@ Class-less entity definition that provides a programmatic API for defining entit
 
   #### Returns void
 
-### [**](#addEnum)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L175)addEnum
+### [**](#addEnum)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L175)addEnum
 
 * ****addEnum**(name, type, options): void
 
@@ -145,7 +145,7 @@ Class-less entity definition that provides a programmatic API for defining entit
 
   #### Returns void
 
-### [**](#addHook)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L607)addHook
+### [**](#addHook)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L607)addHook
 
 * ****addHook**\<T>(event, handler): this
 
@@ -174,7 +174,7 @@ Class-less entity definition that provides a programmatic API for defining entit
 
   #### Returns this
 
-### [**](#addIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L324)addIndex
+### [**](#addIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L324)addIndex
 
 * ****addIndex**\<Key>(options): void
 
@@ -188,7 +188,7 @@ Class-less entity definition that provides a programmatic API for defining entit
 
   #### Returns void
 
-### [**](#addManyToMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L261)addManyToMany
+### [**](#addManyToMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L261)addManyToMany
 
 * ****addManyToMany**\<Target>(name, type, options): void
 
@@ -204,7 +204,7 @@ Class-less entity definition that provides a programmatic API for defining entit
 
   #### Returns void
 
-### [**](#addManyToOne)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L238)addManyToOne
+### [**](#addManyToOne)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L238)addManyToOne
 
 * ****addManyToOne**\<Target>(name, type, options): void
 
@@ -220,7 +220,7 @@ Class-less entity definition that provides a programmatic API for defining entit
 
   #### Returns void
 
-### [**](#addOneToMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L284)addOneToMany
+### [**](#addOneToMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L284)addOneToMany
 
 * ****addOneToMany**\<Target>(name, type, options): void
 
@@ -236,7 +236,7 @@ Class-less entity definition that provides a programmatic API for defining entit
 
   #### Returns void
 
-### [**](#addOneToOne)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L294)addOneToOne
+### [**](#addOneToOne)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L294)addOneToOne
 
 * ****addOneToOne**\<Target>(name, type, options): void
 
@@ -252,7 +252,7 @@ Class-less entity definition that provides a programmatic API for defining entit
 
   #### Returns void
 
-### [**](#addPrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L206)addPrimaryKey
+### [**](#addPrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L206)addPrimaryKey
 
 * ****addPrimaryKey**(name, type, options): void
 
@@ -268,7 +268,7 @@ Class-less entity definition that provides a programmatic API for defining entit
 
   #### Returns void
 
-### [**](#addProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L140)addProperty
+### [**](#addProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L140)addProperty
 
 * ****addProperty**(name, type, options): void
 
@@ -284,7 +284,7 @@ Class-less entity definition that provides a programmatic API for defining entit
 
   #### Returns void
 
-### [**](#addSerializedPrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L211)addSerializedPrimaryKey
+### [**](#addSerializedPrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L211)addSerializedPrimaryKey
 
 * ****addSerializedPrimaryKey**(name, type, options): void
 
@@ -300,7 +300,7 @@ Class-less entity definition that provides a programmatic API for defining entit
 
   #### Returns void
 
-### [**](#addUnique)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L329)addUnique
+### [**](#addUnique)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L329)addUnique
 
 * ****addUnique**\<Key>(options): void
 
@@ -314,7 +314,7 @@ Class-less entity definition that provides a programmatic API for defining entit
 
   #### Returns void
 
-### [**](#addVersion)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L201)addVersion
+### [**](#addVersion)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L201)addVersion
 
 * ****addVersion**(name, type, options): void
 
@@ -330,7 +330,7 @@ Class-less entity definition that provides a programmatic API for defining entit
 
   #### Returns void
 
-### [**](#new)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L398)new
+### [**](#new)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L398)new
 
 * ****new**(...params): Entity
 
@@ -340,7 +340,7 @@ Class-less entity definition that provides a programmatic API for defining entit
 
   #### Returns Entity
 
-### [**](#setClass)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L344)setClass
+### [**](#setClass)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L344)setClass
 
 * ****setClass**(cls): void
 
@@ -354,7 +354,7 @@ Class-less entity definition that provides a programmatic API for defining entit
 
   #### Returns void
 
-### [**](#setCustomRepository)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L334)setCustomRepository
+### [**](#setCustomRepository)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L334)setCustomRepository
 
 * ****setCustomRepository**(repository): void
 
@@ -369,7 +369,7 @@ Class-less entity definition that provides a programmatic API for defining entit
 
   #### Returns void
 
-### [**](#setExtends)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L339)setExtends
+### [**](#setExtends)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L339)setExtends
 
 * ****setExtends**(base): void
 
@@ -383,7 +383,7 @@ Class-less entity definition that provides a programmatic API for defining entit
 
   #### Returns void
 
-### [**](#fromMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L130)staticfromMetadata
+### [**](#fromMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L130)staticfromMetadata
 
 * ****fromMetadata**\<T, U>(meta): [EntitySchema](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntitySchema.md)\<T, U, [EntityCtor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityCtor)\<T>>
 
@@ -397,7 +397,7 @@ Class-less entity definition that provides a programmatic API for defining entit
 
   #### Returns [EntitySchema](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntitySchema.md)\<T, U, [EntityCtor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityCtor)\<T>>
 
-### [**](#is)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/EntitySchema.ts#L121)staticis
+### [**](#is)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/EntitySchema.ts#L121)staticis
 
 * ****is**(item): item is [EntitySchema](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntitySchema.md)\<any, never, [EntityCtor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityCtor)\<any>>
 

@@ -13,7 +13,7 @@ Options for `em.getReference()`, controlling wrapping and type conversion.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#convertCustomTypes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L546)optionalconvertCustomTypes
+### [**](#convertCustomTypes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L546)optionalconvertCustomTypes
 
 **convertCustomTypes?
 
@@ -21,7 +21,7 @@ Options for `em.getReference()`, controlling wrapping and type conversion.
 
 : boolean
 
-### [**](#key)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L552)optionalkey
+### [**](#key)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L552)optionalkey
 
 **key?
 
@@ -31,7 +31,7 @@ Options for `em.getReference()`, controlling wrapping and type conversion.
 
 Property name to use for identity map lookup instead of the primary key. This is useful for creating references by unique non-PK properties.
 
-### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L547)optionalschema
+### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L547)optionalschema
 
 **schema?
 
@@ -39,7 +39,7 @@ Property name to use for identity map lookup instead of the primary key. This is
 
 : string
 
-### [**](#wrapped)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L545)optionalwrapped
+### [**](#wrapped)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L545)optionalwrapped
 
 **wrapped?
 

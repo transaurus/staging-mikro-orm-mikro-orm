@@ -14,7 +14,7 @@ Options for `ISchemaGenerator.drop()`.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#dropDb)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1523)optionaldropDb
+### [**](#dropDb)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1523)optionaldropDb
 
 **dropDb?
 
@@ -22,7 +22,7 @@ Options for `ISchemaGenerator.drop()`.
 
 : boolean
 
-### [**](#dropForeignKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1522)optionaldropForeignKeys
+### [**](#dropForeignKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1522)optionaldropForeignKeys
 
 **dropForeignKeys?
 
@@ -30,7 +30,7 @@ Options for `ISchemaGenerator.drop()`.
 
 : boolean
 
-### [**](#dropMigrationsTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1521)optionaldropMigrationsTable
+### [**](#dropMigrationsTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1521)optionaldropMigrationsTable
 
 **dropMigrationsTable?
 
@@ -38,7 +38,7 @@ Options for `ISchemaGenerator.drop()`.
 
 : boolean
 
-### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1524)optionalschema
+### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1524)optionalschema
 
 **schema?
 
@@ -46,7 +46,7 @@ Options for `ISchemaGenerator.drop()`.
 
 : string
 
-### [**](#wrap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1520)optionalwrap
+### [**](#wrap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1520)optionalwrap
 
 **wrap?
 

@@ -34,7 +34,7 @@ Schema generator for MongoDB that manages collections and indexes.
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/AbstractSchemaGenerator.ts#L25)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/AbstractSchemaGenerator.ts#L25)constructor
 
 * ****new MongoSchemaGenerator**(em): [MongoSchemaGenerator](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mongodb/class/MongoSchemaGenerator.md)
 
@@ -48,7 +48,7 @@ Schema generator for MongoDB that manages collections and indexes.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#clear)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/AbstractSchemaGenerator.ts#L60)inheritedclear
+### [**](#clear)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/AbstractSchemaGenerator.ts#L60)inheritedclear
 
 * ****clear**(options): Promise\<void>
 
@@ -60,7 +60,7 @@ Schema generator for MongoDB that manages collections and indexes.
 
   #### Returns Promise\<void>
 
-### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoSchemaGenerator.ts#L25)create
+### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoSchemaGenerator.ts#L25)create
 
 * ****create**(options): Promise\<void>
 
@@ -72,7 +72,7 @@ Schema generator for MongoDB that manages collections and indexes.
 
   #### Returns Promise\<void>
 
-### [**](#createDatabase)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/AbstractSchemaGenerator.ts#L109)inheritedcreateDatabase
+### [**](#createDatabase)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/AbstractSchemaGenerator.ts#L109)inheritedcreateDatabase
 
 * ****createDatabase**(name): Promise\<void>
 
@@ -88,7 +88,7 @@ Schema generator for MongoDB that manages collections and indexes.
 
   #### Returns Promise\<void>
 
-### [**](#drop)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoSchemaGenerator.ts#L52)drop
+### [**](#drop)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoSchemaGenerator.ts#L52)drop
 
 * ****drop**(options): Promise\<void>
 
@@ -101,7 +101,7 @@ Schema generator for MongoDB that manages collections and indexes.
 
   #### Returns Promise\<void>
 
-### [**](#dropDatabase)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/AbstractSchemaGenerator.ts#L113)inheriteddropDatabase
+### [**](#dropDatabase)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/AbstractSchemaGenerator.ts#L113)inheriteddropDatabase
 
 * ****dropDatabase**(name): Promise\<void>
 
@@ -113,7 +113,7 @@ Schema generator for MongoDB that manages collections and indexes.
 
   #### Returns Promise\<void>
 
-### [**](#dropIndexes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoSchemaGenerator.ts#L82)dropIndexes
+### [**](#dropIndexes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoSchemaGenerator.ts#L82)dropIndexes
 
 * ****dropIndexes**(options): Promise\<void>
 
@@ -125,7 +125,7 @@ Schema generator for MongoDB that manages collections and indexes.
 
   #### Returns Promise\<void>
 
-### [**](#ensureDatabase)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoSchemaGenerator.ts#L72)ensureDatabase
+### [**](#ensureDatabase)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoSchemaGenerator.ts#L72)ensureDatabase
 
 * ****ensureDatabase**(): Promise\<boolean>
 
@@ -137,7 +137,7 @@ Schema generator for MongoDB that manages collections and indexes.
 
   #### Returns Promise\<boolean>
 
-### [**](#ensureIndexes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoSchemaGenerator.ts#L114)ensureIndexes
+### [**](#ensureIndexes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoSchemaGenerator.ts#L114)ensureIndexes
 
 * ****ensureIndexes**(options): Promise\<void>
 
@@ -149,7 +149,7 @@ Schema generator for MongoDB that manages collections and indexes.
 
   #### Returns Promise\<void>
 
-### [**](#execute)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/AbstractSchemaGenerator.ts#L117)inheritedexecute
+### [**](#execute)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/AbstractSchemaGenerator.ts#L117)inheritedexecute
 
 * ****execute**(query): Promise\<void>
 
@@ -161,7 +161,7 @@ Schema generator for MongoDB that manages collections and indexes.
 
   #### Returns Promise\<void>
 
-### [**](#getCreateSchemaSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/AbstractSchemaGenerator.ts#L82)inheritedgetCreateSchemaSQL
+### [**](#getCreateSchemaSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/AbstractSchemaGenerator.ts#L82)inheritedgetCreateSchemaSQL
 
 * ****getCreateSchemaSQL**(options): Promise\<string>
 
@@ -173,7 +173,7 @@ Schema generator for MongoDB that manages collections and indexes.
 
   #### Returns Promise\<string>
 
-### [**](#getDropSchemaSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/AbstractSchemaGenerator.ts#L90)inheritedgetDropSchemaSQL
+### [**](#getDropSchemaSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/AbstractSchemaGenerator.ts#L90)inheritedgetDropSchemaSQL
 
 * ****getDropSchemaSQL**(options): Promise\<string>
 
@@ -185,7 +185,7 @@ Schema generator for MongoDB that manages collections and indexes.
 
   #### Returns Promise\<string>
 
-### [**](#getUpdateSchemaMigrationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/AbstractSchemaGenerator.ts#L102)inheritedgetUpdateSchemaMigrationSQL
+### [**](#getUpdateSchemaMigrationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/AbstractSchemaGenerator.ts#L102)inheritedgetUpdateSchemaMigrationSQL
 
 * ****getUpdateSchemaMigrationSQL**(options): Promise<{ down: string; up: string }>
 
@@ -197,7 +197,7 @@ Schema generator for MongoDB that manages collections and indexes.
 
   #### Returns Promise<{ down: string; up: string }>
 
-### [**](#getUpdateSchemaSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/AbstractSchemaGenerator.ts#L98)inheritedgetUpdateSchemaSQL
+### [**](#getUpdateSchemaSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/AbstractSchemaGenerator.ts#L98)inheritedgetUpdateSchemaSQL
 
 * ****getUpdateSchemaSQL**(options): Promise\<string>
 
@@ -209,7 +209,7 @@ Schema generator for MongoDB that manages collections and indexes.
 
   #### Returns Promise\<string>
 
-### [**](#refresh)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoSchemaGenerator.ts#L76)refresh
+### [**](#refresh)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoSchemaGenerator.ts#L76)refresh
 
 * ****refresh**(options): Promise\<void>
 
@@ -221,7 +221,7 @@ Schema generator for MongoDB that manages collections and indexes.
 
   #### Returns Promise\<void>
 
-### [**](#update)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoSchemaGenerator.ts#L68)update
+### [**](#update)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoSchemaGenerator.ts#L68)update
 
 * ****update**(options): Promise\<void>
 
@@ -233,7 +233,7 @@ Schema generator for MongoDB that manages collections and indexes.
 
   #### Returns Promise\<void>
 
-### [**](#register)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoSchemaGenerator.ts#L18)staticregister
+### [**](#register)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoSchemaGenerator.ts#L18)staticregister
 
 * ****register**(orm): void
 

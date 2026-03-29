@@ -22,7 +22,7 @@ Handles assigning data to entities, resolving relations, and propagating changes
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#assign)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityAssigner.ts#L29)staticassign
+### [**](#assign)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityAssigner.ts#L29)staticassign
 
 * ****assign**\<Entity, Naked, Convert, Data>(entity, data, options): [MergeSelected](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MergeSelected)\<Entity, Naked, keyof
   <!-- -->

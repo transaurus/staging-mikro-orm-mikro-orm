@@ -145,7 +145,7 @@ Platform implementation for MySQL.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#allowsComparingTuples)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L246)inheritedallowsComparingTuples
+### [**](#allowsComparingTuples)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L246)inheritedallowsComparingTuples
 
 * ****allowsComparingTuples**(): boolean
 
@@ -157,7 +157,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#cloneEmbeddable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L711)inheritedcloneEmbeddable
+### [**](#cloneEmbeddable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L711)inheritedcloneEmbeddable
 
 * ****cloneEmbeddable**\<T>(data): T
 
@@ -173,7 +173,7 @@ Platform implementation for MySQL.
 
   #### Returns T
 
-### [**](#compareUuids)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L570)inheritedcompareUuids
+### [**](#compareUuids)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L570)inheritedcompareUuids
 
 * ****compareUuids**(): string
 
@@ -185,7 +185,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#convertDateToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L550)inheritedconvertDateToJSValue
+### [**](#convertDateToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L550)inheritedconvertDateToJSValue
 
 * ****convertDateToJSValue**(value): string
 
@@ -197,7 +197,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#convertIntervalToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L558)inheritedconvertIntervalToDatabaseValue
+### [**](#convertIntervalToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L558)inheritedconvertIntervalToDatabaseValue
 
 * ****convertIntervalToDatabaseValue**(value): unknown
 
@@ -209,7 +209,7 @@ Platform implementation for MySQL.
 
   #### Returns unknown
 
-### [**](#convertIntervalToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L554)inheritedconvertIntervalToJSValue
+### [**](#convertIntervalToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L554)inheritedconvertIntervalToJSValue
 
 * ****convertIntervalToJSValue**(value): unknown
 
@@ -221,7 +221,7 @@ Platform implementation for MySQL.
 
   #### Returns unknown
 
-### [**](#convertJsonToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L69)inheritedconvertJsonToDatabaseValue
+### [**](#convertJsonToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L69)inheritedconvertJsonToDatabaseValue
 
 * ****convertJsonToDatabaseValue**(value, context): unknown
 
@@ -238,7 +238,7 @@ Platform implementation for MySQL.
 
   #### Returns unknown
 
-### [**](#convertJsonToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L546)inheritedconvertJsonToJSValue
+### [**](#convertJsonToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L546)inheritedconvertJsonToJSValue
 
 * ****convertJsonToJSValue**(value, context): unknown
 
@@ -255,7 +255,7 @@ Platform implementation for MySQL.
 
   #### Returns unknown
 
-### [**](#convertsJsonAutomatically)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L536)inheritedconvertsJsonAutomatically
+### [**](#convertsJsonAutomatically)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L536)inheritedconvertsJsonAutomatically
 
 * ****convertsJsonAutomatically**(): boolean
 
@@ -267,7 +267,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#convertUuidToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L578)inheritedconvertUuidToDatabaseValue
+### [**](#convertUuidToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L578)inheritedconvertUuidToDatabaseValue
 
 * ****convertUuidToDatabaseValue**(value): unknown
 
@@ -279,7 +279,7 @@ Platform implementation for MySQL.
 
   #### Returns unknown
 
-### [**](#convertUuidToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L574)inheritedconvertUuidToJSValue
+### [**](#convertUuidToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L574)inheritedconvertUuidToJSValue
 
 * ****convertUuidToJSValue**(value): unknown
 
@@ -291,7 +291,7 @@ Platform implementation for MySQL.
 
   #### Returns unknown
 
-### [**](#convertVersionValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L233)inheritedconvertVersionValue
+### [**](#convertVersionValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L233)inheritedconvertVersionValue
 
 * ****convertVersionValue**(value, prop): string | number | Date | { $in: (string | number)\[] }
 
@@ -308,7 +308,7 @@ Platform implementation for MySQL.
 
   #### Returns string | number | Date | { $in: (string | number)\[] }
 
-### [**](#denormalizePrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L164)inheriteddenormalizePrimaryKey
+### [**](#denormalizePrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L164)inheriteddenormalizePrimaryKey
 
 * ****denormalizePrimaryKey**(data): IPrimaryKeyValue
 
@@ -324,7 +324,7 @@ Platform implementation for MySQL.
 
   #### Returns IPrimaryKeyValue
 
-### [**](#escape)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mysql/src/MySqlPlatform.ts#L6)escape
+### [**](#escape)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mysql/src/MySqlPlatform.ts#L6)escape
 
 * ****escape**(value): string
 
@@ -336,7 +336,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#extractSimpleType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L337)inheritedextractSimpleType
+### [**](#extractSimpleType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L337)inheritedextractSimpleType
 
 * ****extractSimpleType**(type): string
 
@@ -352,7 +352,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#formatQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L667)inheritedformatQuery
+### [**](#formatQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L667)inheritedformatQuery
 
 * ****formatQuery**(sql, params): string
 
@@ -369,7 +369,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#generateCustomOrder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L149)inheritedgenerateCustomOrder
+### [**](#generateCustomOrder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L149)inheritedgenerateCustomOrder
 
 * ****generateCustomOrder**(escapedColumn, values): string
 
@@ -386,7 +386,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getArrayDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L441)inheritedgetArrayDeclarationSQL
+### [**](#getArrayDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L441)inheritedgetArrayDeclarationSQL
 
 * ****getArrayDeclarationSQL**(): string
 
@@ -398,7 +398,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getBeginTransactionSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L49)inheritedgetBeginTransactionSQL
+### [**](#getBeginTransactionSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L49)inheritedgetBeginTransactionSQL
 
 * ****getBeginTransactionSQL**(options): string\[]
 
@@ -412,7 +412,7 @@ Platform implementation for MySQL.
 
   #### Returns string\[]
 
-### [**](#getBigIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L282)inheritedgetBigIntTypeDeclarationSQL
+### [**](#getBigIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L282)inheritedgetBigIntTypeDeclarationSQL
 
 * ****getBigIntTypeDeclarationSQL**(column): string
 
@@ -427,7 +427,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getBlobDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L459)inheritedgetBlobDeclarationSQL
+### [**](#getBlobDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L459)inheritedgetBlobDeclarationSQL
 
 * ****getBlobDeclarationSQL**(): string
 
@@ -435,7 +435,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getBooleanTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L88)inheritedgetBooleanTypeDeclarationSQL
+### [**](#getBooleanTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L88)inheritedgetBooleanTypeDeclarationSQL
 
 * ****getBooleanTypeDeclarationSQL**(): string
 
@@ -447,7 +447,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getCharTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L286)inheritedgetCharTypeDeclarationSQL
+### [**](#getCharTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L286)inheritedgetCharTypeDeclarationSQL
 
 * ****getCharTypeDeclarationSQL**(column): string
 
@@ -460,7 +460,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getCommitTransactionSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L67)inheritedgetCommitTransactionSQL
+### [**](#getCommitTransactionSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L67)inheritedgetCommitTransactionSQL
 
 * ****getCommitTransactionSQL**(): string
 
@@ -468,7 +468,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getConfig)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L732)inheritedgetConfig
+### [**](#getConfig)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L732)inheritedgetConfig
 
 * ****getConfig**(): [Configuration](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Configuration.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>, [EntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityManager.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>>>
 
@@ -480,7 +480,7 @@ Platform implementation for MySQL.
 
   #### Returns [Configuration](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Configuration.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>, [EntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityManager.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>>>
 
-### [**](#getCurrentTimestampSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L171)inheritedgetCurrentTimestampSQL
+### [**](#getCurrentTimestampSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L171)inheritedgetCurrentTimestampSQL
 
 * ****getCurrentTimestampSQL**(length): string
 
@@ -496,7 +496,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getDateTimeTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L176)inheritedgetDateTimeTypeDeclarationSQL
+### [**](#getDateTimeTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L176)inheritedgetDateTimeTypeDeclarationSQL
 
 * ****getDateTimeTypeDeclarationSQL**(column): string
 
@@ -513,7 +513,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getDateTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L196)inheritedgetDateTypeDeclarationSQL
+### [**](#getDateTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L196)inheritedgetDateTypeDeclarationSQL
 
 * ****getDateTypeDeclarationSQL**(length): string
 
@@ -529,7 +529,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getDecimalTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L324)inheritedgetDecimalTypeDeclarationSQL
+### [**](#getDecimalTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L324)inheritedgetDecimalTypeDeclarationSQL
 
 * ****getDecimalTypeDeclarationSQL**(column): string
 
@@ -543,7 +543,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getDefaultCharLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L191)inheritedgetDefaultCharLength
+### [**](#getDefaultCharLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L191)inheritedgetDefaultCharLength
 
 * ****getDefaultCharLength**(): number
 
@@ -555,7 +555,7 @@ Platform implementation for MySQL.
 
   #### Returns number
 
-### [**](#getDefaultCharset)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L40)inheritedgetDefaultCharset
+### [**](#getDefaultCharset)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L40)inheritedgetDefaultCharset
 
 * ****getDefaultCharset**(): string
 
@@ -567,7 +567,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getDefaultClientUrl)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L197)inheritedgetDefaultClientUrl
+### [**](#getDefaultClientUrl)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L197)inheritedgetDefaultClientUrl
 
 * ****getDefaultClientUrl**(): string
 
@@ -579,7 +579,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getDefaultDateTimeLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L181)inheritedgetDefaultDateTimeLength
+### [**](#getDefaultDateTimeLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L181)inheritedgetDefaultDateTimeLength
 
 * ****getDefaultDateTimeLength**(): number
 
@@ -591,7 +591,7 @@ Platform implementation for MySQL.
 
   #### Returns number
 
-### [**](#getDefaultMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L102)inheritedgetDefaultMappedType
+### [**](#getDefaultMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L102)inheritedgetDefaultMappedType
 
 * ****getDefaultMappedType**(type): [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<unknown, unknown>
 
@@ -607,7 +607,7 @@ Platform implementation for MySQL.
 
   #### Returns [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<unknown, unknown>
 
-### [**](#getDefaultPrimaryName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L140)inheritedgetDefaultPrimaryName
+### [**](#getDefaultPrimaryName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L140)inheritedgetDefaultPrimaryName
 
 * ****getDefaultPrimaryName**(tableName, columns): string
 
@@ -624,7 +624,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getDefaultSchemaName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L256)inheritedgetDefaultSchemaName
+### [**](#getDefaultSchemaName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L256)inheritedgetDefaultSchemaName
 
 * ****getDefaultSchemaName**(): undefined | string
 
@@ -636,7 +636,7 @@ Platform implementation for MySQL.
 
   #### Returns undefined | string
 
-### [**](#getDefaultVarcharLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L186)inheritedgetDefaultVarcharLength
+### [**](#getDefaultVarcharLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L186)inheritedgetDefaultVarcharLength
 
 * ****getDefaultVarcharLength**(): number
 
@@ -648,7 +648,7 @@ Platform implementation for MySQL.
 
   #### Returns number
 
-### [**](#getDefaultVersionLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L241)inheritedgetDefaultVersionLength
+### [**](#getDefaultVersionLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L241)inheritedgetDefaultVersionLength
 
 * ****getDefaultVersionLength**(): number
 
@@ -660,7 +660,7 @@ Platform implementation for MySQL.
 
   #### Returns number
 
-### [**](#getDoubleDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L320)inheritedgetDoubleDeclarationSQL
+### [**](#getDoubleDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L320)inheritedgetDoubleDeclarationSQL
 
 * ****getDoubleDeclarationSQL**(): string
 
@@ -668,7 +668,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getEnumArrayCheckConstraintExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L116)inheritedgetEnumArrayCheckConstraintExpression
+### [**](#getEnumArrayCheckConstraintExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L116)inheritedgetEnumArrayCheckConstraintExpression
 
 * ****getEnumArrayCheckConstraintExpression**(column, items): null | string
 
@@ -685,7 +685,7 @@ Platform implementation for MySQL.
 
   #### Returns null | string
 
-### [**](#getEnumCheckConstraintExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L111)inheritedgetEnumCheckConstraintExpression
+### [**](#getEnumCheckConstraintExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L111)inheritedgetEnumCheckConstraintExpression
 
 * ****getEnumCheckConstraintExpression**(column, items): string
 
@@ -702,7 +702,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getEnumTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L302)inheritedgetEnumTypeDeclarationSQL
+### [**](#getEnumTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L302)inheritedgetEnumTypeDeclarationSQL
 
 * ****getEnumTypeDeclarationSQL**(column): string
 
@@ -719,7 +719,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getExceptionConverter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L605)inheritedgetExceptionConverter
+### [**](#getExceptionConverter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L605)inheritedgetExceptionConverter
 
 * ****getExceptionConverter**(): [ExceptionConverter](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ExceptionConverter.md)
 
@@ -731,7 +731,7 @@ Platform implementation for MySQL.
 
   #### Returns [ExceptionConverter](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ExceptionConverter.md)
 
-### [**](#getExtension)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L622)inheritedgetExtension
+### [**](#getExtension)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L622)inheritedgetExtension
 
 * ****getExtension**\<T>(extensionName, extensionKey, moduleName, em): T
 
@@ -750,7 +750,7 @@ Platform implementation for MySQL.
 
   #### Returns T
 
-### [**](#getFloatDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L316)inheritedgetFloatDeclarationSQL
+### [**](#getFloatDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L316)inheritedgetFloatDeclarationSQL
 
 * ****getFloatDeclarationSQL**(): string
 
@@ -758,7 +758,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getFullTextIndexExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L152)inheritedgetFullTextIndexExpression
+### [**](#getFullTextIndexExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L152)inheritedgetFullTextIndexExpression
 
 * ****getFullTextIndexExpression**(indexName, schemaName, tableName, columns): string
 
@@ -773,7 +773,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getFullTextWhereClause)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L148)inheritedgetFullTextWhereClause
+### [**](#getFullTextWhereClause)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L148)inheritedgetFullTextWhereClause
 
 * ****getFullTextWhereClause**(): string
 
@@ -781,7 +781,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getIndexName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L122)inheritedgetIndexName
+### [**](#getIndexName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L122)inheritedgetIndexName
 
 * ****getIndexName**(tableName, columns, type): string
 
@@ -799,7 +799,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getIntegerTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L266)inheritedgetIntegerTypeDeclarationSQL
+### [**](#getIntegerTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L266)inheritedgetIntegerTypeDeclarationSQL
 
 * ****getIntegerTypeDeclarationSQL**(column): string
 
@@ -818,7 +818,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getIntervalTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L294)inheritedgetIntervalTypeDeclarationSQL
+### [**](#getIntervalTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L294)inheritedgetIntervalTypeDeclarationSQL
 
 * ****getIntervalTypeDeclarationSQL**(column): string
 
@@ -831,7 +831,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getJsonDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L463)inheritedgetJsonDeclarationSQL
+### [**](#getJsonDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L463)inheritedgetJsonDeclarationSQL
 
 * ****getJsonDeclarationSQL**(): string
 
@@ -839,7 +839,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getJsonIndexDefinition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L77)inheritedgetJsonIndexDefinition
+### [**](#getJsonIndexDefinition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L77)inheritedgetJsonIndexDefinition
 
 * ****getJsonIndexDefinition**(index): string\[]
 
@@ -851,7 +851,7 @@ Platform implementation for MySQL.
 
   #### Returns string\[]
 
-### [**](#getMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L349)inheritedgetMappedType
+### [**](#getMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L349)inheritedgetMappedType
 
 * ****getMappedType**(type): [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<unknown, unknown>
 
@@ -867,7 +867,7 @@ Platform implementation for MySQL.
 
   #### Returns [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<unknown, unknown>
 
-### [**](#getMediumIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L274)inheritedgetMediumIntTypeDeclarationSQL
+### [**](#getMediumIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L274)inheritedgetMediumIntTypeDeclarationSQL
 
 * ****getMediumIntTypeDeclarationSQL**(column): string
 
@@ -882,7 +882,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getNamingStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L81)inheritedgetNamingStrategy
+### [**](#getNamingStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L81)inheritedgetNamingStrategy
 
 * ****getNamingStrategy**(): new () => [NamingStrategy](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/NamingStrategy.md)
 
@@ -898,7 +898,7 @@ Platform implementation for MySQL.
 
     - #### Returns [NamingStrategy](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/NamingStrategy.md)
 
-### [**](#getRegExpOperator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L206)inheritedgetRegExpOperator
+### [**](#getRegExpOperator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L206)inheritedgetRegExpOperator
 
 * ****getRegExpOperator**(val, flags): string
 
@@ -915,7 +915,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getRegExpValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L219)inheritedgetRegExpValue
+### [**](#getRegExpValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L219)inheritedgetRegExpValue
 
 * ****getRegExpValue**(val): { $flags?
   <!-- -->
@@ -936,7 +936,7 @@ Platform implementation for MySQL.
   * ##### optional$flags?<!-- -->: string
   * ##### $re: string
 
-### [**](#getReleaseSavepointSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L83)inheritedgetReleaseSavepointSQL
+### [**](#getReleaseSavepointSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L83)inheritedgetReleaseSavepointSQL
 
 * ****getReleaseSavepointSQL**(savepointName): string
 
@@ -948,7 +948,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getRepositoryClass)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L35)inheritedgetRepositoryClass
+### [**](#getRepositoryClass)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L35)inheritedgetRepositoryClass
 
 * ****getRepositoryClass**\<T>(): [Constructor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Constructor)<[EntityRepository](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityRepository.md)\<T>>
 
@@ -960,7 +960,7 @@ Platform implementation for MySQL.
 
   #### Returns [Constructor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Constructor)<[EntityRepository](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityRepository.md)\<T>>
 
-### [**](#getRollbackToSavepointSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L79)inheritedgetRollbackToSavepointSQL
+### [**](#getRollbackToSavepointSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L79)inheritedgetRollbackToSavepointSQL
 
 * ****getRollbackToSavepointSQL**(savepointName): string
 
@@ -972,7 +972,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getRollbackTransactionSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L71)inheritedgetRollbackTransactionSQL
+### [**](#getRollbackTransactionSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L71)inheritedgetRollbackTransactionSQL
 
 * ****getRollbackTransactionSQL**(): string
 
@@ -980,7 +980,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getSavepointSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L75)inheritedgetSavepointSQL
+### [**](#getSavepointSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L75)inheritedgetSavepointSQL
 
 * ****getSavepointSQL**(savepointName): string
 
@@ -992,7 +992,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getSchemaGenerator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L49)inheritedgetSchemaGenerator
+### [**](#getSchemaGenerator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L49)inheritedgetSchemaGenerator
 
 * ****getSchemaGenerator**(driver, em): [SqlSchemaGenerator](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/SqlSchemaGenerator.md)
 
@@ -1005,7 +1005,7 @@ Platform implementation for MySQL.
 
   #### Returns [SqlSchemaGenerator](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/SqlSchemaGenerator.md)
 
-### [**](#getSchemaHelper)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L39)inheritedgetSchemaHelper
+### [**](#getSchemaHelper)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L39)inheritedgetSchemaHelper
 
 * ****getSchemaHelper**(): undefined | [SchemaHelper](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/SchemaHelper.md)
 
@@ -1017,7 +1017,7 @@ Platform implementation for MySQL.
 
   #### Returns undefined | [SchemaHelper](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/SchemaHelper.md)
 
-### [**](#getSearchJsonPropertyKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L103)inheritedgetSearchJsonPropertyKey
+### [**](#getSearchJsonPropertyKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L103)inheritedgetSearchJsonPropertyKey
 
 * ****getSearchJsonPropertyKey**(path, type, aliased, value): string | [RawQueryFragment](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)\<string>
 
@@ -1032,7 +1032,7 @@ Platform implementation for MySQL.
 
   #### Returns string | [RawQueryFragment](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)\<string>
 
-### [**](#getSearchJsonPropertySQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L99)inheritedgetSearchJsonPropertySQL
+### [**](#getSearchJsonPropertySQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L99)inheritedgetSearchJsonPropertySQL
 
 * ****getSearchJsonPropertySQL**(path, type, aliased): string | [RawQueryFragment](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)\<string>
 
@@ -1046,7 +1046,7 @@ Platform implementation for MySQL.
 
   #### Returns string | [RawQueryFragment](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)\<string>
 
-### [**](#getSmallIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L270)inheritedgetSmallIntTypeDeclarationSQL
+### [**](#getSmallIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L270)inheritedgetSmallIntTypeDeclarationSQL
 
 * ****getSmallIntTypeDeclarationSQL**(column): string
 
@@ -1061,7 +1061,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getTextTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L298)inheritedgetTextTypeDeclarationSQL
+### [**](#getTextTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L298)inheritedgetTextTypeDeclarationSQL
 
 * ****getTextTypeDeclarationSQL**(\_column): string
 
@@ -1074,7 +1074,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getTimeTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L201)inheritedgetTimeTypeDeclarationSQL
+### [**](#getTimeTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L201)inheritedgetTimeTypeDeclarationSQL
 
 * ****getTimeTypeDeclarationSQL**(length): string
 
@@ -1090,7 +1090,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getTimezone)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L737)inheritedgetTimezone
+### [**](#getTimezone)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L737)inheritedgetTimezone
 
 * ****getTimezone**(): undefined | string
 
@@ -1102,7 +1102,7 @@ Platform implementation for MySQL.
 
   #### Returns undefined | string
 
-### [**](#getTinyIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L278)inheritedgetTinyIntTypeDeclarationSQL
+### [**](#getTinyIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L278)inheritedgetTinyIntTypeDeclarationSQL
 
 * ****getTinyIntTypeDeclarationSQL**(column): string
 
@@ -1117,7 +1117,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getUuidTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L331)inheritedgetUuidTypeDeclarationSQL
+### [**](#getUuidTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L331)inheritedgetUuidTypeDeclarationSQL
 
 * ****getUuidTypeDeclarationSQL**(column): string
 
@@ -1130,7 +1130,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#getVarcharTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L290)inheritedgetVarcharTypeDeclarationSQL
+### [**](#getVarcharTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L290)inheritedgetVarcharTypeDeclarationSQL
 
 * ****getVarcharTypeDeclarationSQL**(column): string
 
@@ -1143,7 +1143,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#indexForeignKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L31)inheritedindexForeignKeys
+### [**](#indexForeignKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L31)inheritedindexForeignKeys
 
 * ****indexForeignKeys**(): boolean
 
@@ -1155,7 +1155,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#isAllowedTopLevelOperator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L228)inheritedisAllowedTopLevelOperator
+### [**](#isAllowedTopLevelOperator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L228)inheritedisAllowedTopLevelOperator
 
 * ****isAllowedTopLevelOperator**(operator): boolean
 
@@ -1171,7 +1171,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#isBigIntProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L251)inheritedisBigIntProperty
+### [**](#isBigIntProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L251)inheritedisBigIntProperty
 
 * ****isBigIntProperty**(prop): boolean
 
@@ -1187,7 +1187,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#isNumericColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L110)inheritedisNumericColumn
+### [**](#isNumericColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L110)inheritedisNumericColumn
 
 * ****isNumericColumn**(mappedType): boolean
 
@@ -1203,7 +1203,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#isNumericProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L742)inheritedisNumericProperty
+### [**](#isNumericProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L742)inheritedisNumericProperty
 
 * ****isNumericProperty**(prop, ignoreCustomType): boolean
 
@@ -1220,7 +1220,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#isPopulated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L779)inheritedisPopulated
+### [**](#isPopulated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L779)inheritedisPopulated
 
 * ****isPopulated**\<T>(key, populate): boolean
 
@@ -1237,7 +1237,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#lookupExtensions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L44)inheritedlookupExtensions
+### [**](#lookupExtensions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L44)inheritedlookupExtensions
 
 * ****lookupExtensions**(orm): void
 
@@ -1253,7 +1253,7 @@ Platform implementation for MySQL.
 
   #### Returns void
 
-### [**](#mapRegExpCondition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L211)inheritedmapRegExpCondition
+### [**](#mapRegExpCondition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L211)inheritedmapRegExpCondition
 
 * ****mapRegExpCondition**(mappedKey, value): { params: unknown\[]; sql: string }
 
@@ -1275,7 +1275,7 @@ Platform implementation for MySQL.
   * ##### params: unknown\[]
   * ##### sql: string
 
-### [**](#marshallArray)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L446)inheritedmarshallArray
+### [**](#marshallArray)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L446)inheritedmarshallArray
 
 * ****marshallArray**(values): string
 
@@ -1291,7 +1291,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#normalizeColumnType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L92)inheritednormalizeColumnType
+### [**](#normalizeColumnType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L92)inheritednormalizeColumnType
 
 * ****normalizeColumnType**(type, options): string
 
@@ -1311,7 +1311,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#normalizePrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L157)inheritednormalizePrimaryKey
+### [**](#normalizePrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L157)inheritednormalizePrimaryKey
 
 * ****normalizePrimaryKey**\<T>(data): T
 
@@ -1327,7 +1327,7 @@ Platform implementation for MySQL.
 
   #### Returns T
 
-### [**](#parseDate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L583)inheritedparseDate
+### [**](#parseDate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L583)inheritedparseDate
 
 * ****parseDate**(value): Date
 
@@ -1343,7 +1343,7 @@ Platform implementation for MySQL.
 
   #### Returns Date
 
-### [**](#processDateProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L641)inheritedprocessDateProperty
+### [**](#processDateProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L641)inheritedprocessDateProperty
 
 * ****processDateProperty**(value): string | number | Date
 
@@ -1359,7 +1359,7 @@ Platform implementation for MySQL.
 
   #### Returns string | number | Date
 
-### [**](#processJsonCondition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L475)inheritedprocessJsonCondition
+### [**](#processJsonCondition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L475)inheritedprocessJsonCondition
 
 * ****processJsonCondition**\<T>(o, value, path, alias): [FilterQuery](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#FilterQuery)\<T>
 
@@ -1374,7 +1374,7 @@ Platform implementation for MySQL.
 
   #### Returns [FilterQuery](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#FilterQuery)\<T>
 
-### [**](#quoteIdentifier)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L646)inheritedquoteIdentifier
+### [**](#quoteIdentifier)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L646)inheritedquoteIdentifier
 
 * ****quoteIdentifier**(id, quote): string
 
@@ -1392,7 +1392,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#quoteValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L87)inheritedquoteValue
+### [**](#quoteValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L87)inheritedquoteValue
 
 * ****quoteValue**(value): string
 
@@ -1408,7 +1408,7 @@ Platform implementation for MySQL.
 
   #### Returns string
 
-### [**](#setConfig)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L720)inheritedsetConfig
+### [**](#setConfig)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L720)inheritedsetConfig
 
 * ****setConfig**(config): void
 
@@ -1424,7 +1424,7 @@ Platform implementation for MySQL.
 
   #### Returns void
 
-### [**](#shouldHaveColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L784)inheritedshouldHaveColumn
+### [**](#shouldHaveColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L784)inheritedshouldHaveColumn
 
 * ****shouldHaveColumn**\<T>(prop, populate, exclude, includeFormulas, ignoreInlineEmbeddables): boolean
 
@@ -1444,7 +1444,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#supportsCreatingFullTextIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L144)inheritedsupportsCreatingFullTextIndex
+### [**](#supportsCreatingFullTextIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L144)inheritedsupportsCreatingFullTextIndex
 
 * ****supportsCreatingFullTextIndex**(): boolean
 
@@ -1452,7 +1452,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#supportsCustomPrimaryKeyNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L774)inheritedsupportsCustomPrimaryKeyNames
+### [**](#supportsCustomPrimaryKeyNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L774)inheritedsupportsCustomPrimaryKeyNames
 
 * ****supportsCustomPrimaryKeyNames**(): boolean
 
@@ -1464,7 +1464,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#supportsDeferredUniqueConstraints)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L831)inheritedsupportsDeferredUniqueConstraints
+### [**](#supportsDeferredUniqueConstraints)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L831)inheritedsupportsDeferredUniqueConstraints
 
 * ****supportsDeferredUniqueConstraints**(): boolean
 
@@ -1476,7 +1476,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#supportsDownMigrations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L826)inheritedsupportsDownMigrations
+### [**](#supportsDownMigrations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L826)inheritedsupportsDownMigrations
 
 * ****supportsDownMigrations**(): boolean
 
@@ -1488,7 +1488,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#supportsMaterializedViews)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L121)inheritedsupportsMaterializedViews
+### [**](#supportsMaterializedViews)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L121)inheritedsupportsMaterializedViews
 
 * ****supportsMaterializedViews**(): boolean
 
@@ -1500,7 +1500,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#supportsMultipleCascadePaths)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L418)inheritedsupportsMultipleCascadePaths
+### [**](#supportsMultipleCascadePaths)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L418)inheritedsupportsMultipleCascadePaths
 
 * ****supportsMultipleCascadePaths**(): boolean
 
@@ -1512,7 +1512,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#supportsMultipleStatements)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L431)inheritedsupportsMultipleStatements
+### [**](#supportsMultipleStatements)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L431)inheritedsupportsMultipleStatements
 
 * ****supportsMultipleStatements**(): boolean
 
@@ -1524,7 +1524,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#supportsNativeEnums)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L101)inheritedsupportsNativeEnums
+### [**](#supportsNativeEnums)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L101)inheritedsupportsNativeEnums
 
 * ****supportsNativeEnums**(): boolean
 
@@ -1536,7 +1536,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#supportsOnUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L426)inheritedsupportsOnUpdate
+### [**](#supportsOnUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L426)inheritedsupportsOnUpdate
 
 * ****supportsOnUpdate**(): boolean
 
@@ -1548,7 +1548,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#supportsSchemas)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L144)inheritedsupportsSchemas
+### [**](#supportsSchemas)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L144)inheritedsupportsSchemas
 
 * ****supportsSchemas**(): boolean
 
@@ -1556,7 +1556,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#supportsTransactions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L71)inheritedsupportsTransactions
+### [**](#supportsTransactions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L71)inheritedsupportsTransactions
 
 * ****supportsTransactions**(): boolean
 
@@ -1568,7 +1568,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#supportsUnionWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L140)inheritedsupportsUnionWhere
+### [**](#supportsUnionWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L140)inheritedsupportsUnionWhere
 
 * ****supportsUnionWhere**(): boolean
 
@@ -1580,7 +1580,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#supportsUnsigned)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L114)inheritedsupportsUnsigned
+### [**](#supportsUnsigned)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/mysql/BaseMySqlPlatform.ts#L114)inheritedsupportsUnsigned
 
 * ****supportsUnsigned**(): boolean
 
@@ -1592,7 +1592,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#unmarshallArray)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L451)inheritedunmarshallArray
+### [**](#unmarshallArray)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L451)inheritedunmarshallArray
 
 * ****unmarshallArray**(value): string\[]
 
@@ -1608,7 +1608,7 @@ Platform implementation for MySQL.
 
   #### Returns string\[]
 
-### [**](#usesAsKeyword)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L562)inheritedusesAsKeyword
+### [**](#usesAsKeyword)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L562)inheritedusesAsKeyword
 
 * ****usesAsKeyword**(): boolean
 
@@ -1616,7 +1616,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#usesBatchInserts)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L138)inheritedusesBatchInserts
+### [**](#usesBatchInserts)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L138)inheritedusesBatchInserts
 
 * ****usesBatchInserts**(): boolean
 
@@ -1628,7 +1628,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#usesBatchUpdates)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L145)inheritedusesBatchUpdates
+### [**](#usesBatchUpdates)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L145)inheritedusesBatchUpdates
 
 * ****usesBatchUpdates**(): boolean
 
@@ -1640,7 +1640,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#usesCascadeStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L96)inheritedusesCascadeStatement
+### [**](#usesCascadeStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L96)inheritedusesCascadeStatement
 
 * ****usesCascadeStatement**(): boolean
 
@@ -1652,7 +1652,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#usesDefaultKeyword)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L150)inheritedusesDefaultKeyword
+### [**](#usesDefaultKeyword)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L150)inheritedusesDefaultKeyword
 
 * ****usesDefaultKeyword**(): boolean
 
@@ -1664,7 +1664,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#usesEnumCheckConstraints)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L106)inheritedusesEnumCheckConstraints
+### [**](#usesEnumCheckConstraints)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L106)inheritedusesEnumCheckConstraints
 
 * ****usesEnumCheckConstraints**(): boolean
 
@@ -1676,7 +1676,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#usesImplicitTransactions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L76)inheritedusesImplicitTransactions
+### [**](#usesImplicitTransactions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L76)inheritedusesImplicitTransactions
 
 * ****usesImplicitTransactions**(): boolean
 
@@ -1688,7 +1688,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#usesOutputStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L91)inheritedusesOutputStatement
+### [**](#usesOutputStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L91)inheritedusesOutputStatement
 
 * ****usesOutputStatement**(): boolean
 
@@ -1700,7 +1700,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#usesPivotTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L27)inheritedusesPivotTable
+### [**](#usesPivotTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L27)inheritedusesPivotTable
 
 * ****usesPivotTable**(): boolean
 
@@ -1712,7 +1712,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#usesReturningStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L86)inheritedusesReturningStatement
+### [**](#usesReturningStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L86)inheritedusesReturningStatement
 
 * ****usesReturningStatement**(): boolean
 
@@ -1724,7 +1724,7 @@ Platform implementation for MySQL.
 
   #### Returns boolean
 
-### [**](#validateMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L836)inheritedvalidateMetadata
+### [**](#validateMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L836)inheritedvalidateMetadata
 
 * ****validateMetadata**(meta): void
 

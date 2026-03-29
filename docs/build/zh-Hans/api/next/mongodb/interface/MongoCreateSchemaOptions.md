@@ -17,7 +17,7 @@ Options for `ISchemaGenerator.create()`.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#ensureIndexes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoSchemaGenerator.ts#L302)optionalensureIndexes
+### [**](#ensureIndexes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoSchemaGenerator.ts#L302)optionalensureIndexes
 
 **ensureIndexes?
 
@@ -27,7 +27,7 @@ Options for `ISchemaGenerator.create()`.
 
 create indexes? defaults to true
 
-### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1501)optionalinheritedschema
+### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1501)optionalinheritedschema
 
 **schema?
 
@@ -37,7 +37,7 @@ create indexes? defaults to true
 
 Inherited from CreateSchemaOptions.schema
 
-### [**](#wrap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1500)optionalinheritedwrap
+### [**](#wrap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1500)optionalinheritedwrap
 
 **wrap?
 

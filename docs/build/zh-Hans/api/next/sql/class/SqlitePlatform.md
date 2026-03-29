@@ -144,7 +144,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#allowsComparingTuples)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L246)inheritedallowsComparingTuples
+### [**](#allowsComparingTuples)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L246)inheritedallowsComparingTuples
 
 * ****allowsComparingTuples**(): boolean
 
@@ -156,7 +156,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#cloneEmbeddable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L711)inheritedcloneEmbeddable
+### [**](#cloneEmbeddable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L711)inheritedcloneEmbeddable
 
 * ****cloneEmbeddable**\<T>(data): T
 
@@ -172,7 +172,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns T
 
-### [**](#compareUuids)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L570)inheritedcompareUuids
+### [**](#compareUuids)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L570)inheritedcompareUuids
 
 * ****compareUuids**(): string
 
@@ -184,7 +184,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#convertDateToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L550)inheritedconvertDateToJSValue
+### [**](#convertDateToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L550)inheritedconvertDateToJSValue
 
 * ****convertDateToJSValue**(value): string
 
@@ -196,7 +196,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#convertIntervalToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L558)inheritedconvertIntervalToDatabaseValue
+### [**](#convertIntervalToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L558)inheritedconvertIntervalToDatabaseValue
 
 * ****convertIntervalToDatabaseValue**(value): unknown
 
@@ -208,7 +208,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns unknown
 
-### [**](#convertIntervalToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L554)inheritedconvertIntervalToJSValue
+### [**](#convertIntervalToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L554)inheritedconvertIntervalToJSValue
 
 * ****convertIntervalToJSValue**(value): unknown
 
@@ -220,7 +220,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns unknown
 
-### [**](#convertJsonToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L541)inheritedconvertJsonToDatabaseValue
+### [**](#convertJsonToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L541)inheritedconvertJsonToDatabaseValue
 
 * ****convertJsonToDatabaseValue**(value, context): unknown
 
@@ -237,7 +237,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns unknown
 
-### [**](#convertJsonToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L546)inheritedconvertJsonToJSValue
+### [**](#convertJsonToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L546)inheritedconvertJsonToJSValue
 
 * ****convertJsonToJSValue**(value, context): unknown
 
@@ -254,7 +254,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns unknown
 
-### [**](#convertsJsonAutomatically)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L105)convertsJsonAutomatically
+### [**](#convertsJsonAutomatically)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L105)convertsJsonAutomatically
 
 * ****convertsJsonAutomatically**(): boolean
 
@@ -266,7 +266,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#convertUuidToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L578)inheritedconvertUuidToDatabaseValue
+### [**](#convertUuidToDatabaseValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L578)inheritedconvertUuidToDatabaseValue
 
 * ****convertUuidToDatabaseValue**(value): unknown
 
@@ -278,7 +278,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns unknown
 
-### [**](#convertUuidToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L574)inheritedconvertUuidToJSValue
+### [**](#convertUuidToJSValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L574)inheritedconvertUuidToJSValue
 
 * ****convertUuidToJSValue**(value): unknown
 
@@ -290,7 +290,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns unknown
 
-### [**](#convertVersionValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L185)convertVersionValue
+### [**](#convertVersionValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L185)convertVersionValue
 
 * ****convertVersionValue**(value, prop): number | { $in: (string | number)\[] }
 
@@ -307,7 +307,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns number | { $in: (string | number)\[] }
 
-### [**](#denormalizePrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L164)inheriteddenormalizePrimaryKey
+### [**](#denormalizePrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L164)inheriteddenormalizePrimaryKey
 
 * ****denormalizePrimaryKey**(data): IPrimaryKeyValue
 
@@ -323,7 +323,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns IPrimaryKeyValue
 
-### [**](#escape)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L157)escape
+### [**](#escape)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L157)escape
 
 * ****escape**(value): string
 
@@ -335,7 +335,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#extractSimpleType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L337)inheritedextractSimpleType
+### [**](#extractSimpleType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L337)inheritedextractSimpleType
 
 * ****extractSimpleType**(type): string
 
@@ -351,7 +351,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#formatQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L667)inheritedformatQuery
+### [**](#formatQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L667)inheritedformatQuery
 
 * ****formatQuery**(sql, params): string
 
@@ -368,7 +368,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#generateCustomOrder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L149)inheritedgenerateCustomOrder
+### [**](#generateCustomOrder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L149)inheritedgenerateCustomOrder
 
 * ****generateCustomOrder**(escapedColumn, values): string
 
@@ -385,7 +385,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getArrayDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L441)inheritedgetArrayDeclarationSQL
+### [**](#getArrayDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L441)inheritedgetArrayDeclarationSQL
 
 * ****getArrayDeclarationSQL**(): string
 
@@ -397,7 +397,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getBeginTransactionSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L36)getBeginTransactionSQL
+### [**](#getBeginTransactionSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L36)getBeginTransactionSQL
 
 * ****getBeginTransactionSQL**(options): string\[]
 
@@ -411,7 +411,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string\[]
 
-### [**](#getBigIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L282)inheritedgetBigIntTypeDeclarationSQL
+### [**](#getBigIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L282)inheritedgetBigIntTypeDeclarationSQL
 
 * ****getBigIntTypeDeclarationSQL**(column): string
 
@@ -426,7 +426,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getBlobDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L459)inheritedgetBlobDeclarationSQL
+### [**](#getBlobDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L459)inheritedgetBlobDeclarationSQL
 
 * ****getBlobDeclarationSQL**(): string
 
@@ -434,7 +434,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getBooleanTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L83)getBooleanTypeDeclarationSQL
+### [**](#getBooleanTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L83)getBooleanTypeDeclarationSQL
 
 * ****getBooleanTypeDeclarationSQL**(): string
 
@@ -446,7 +446,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getCharTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L87)getCharTypeDeclarationSQL
+### [**](#getCharTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L87)getCharTypeDeclarationSQL
 
 * ****getCharTypeDeclarationSQL**(column): string
 
@@ -459,7 +459,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getCommitTransactionSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L67)inheritedgetCommitTransactionSQL
+### [**](#getCommitTransactionSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L67)inheritedgetCommitTransactionSQL
 
 * ****getCommitTransactionSQL**(): string
 
@@ -467,7 +467,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getConfig)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L732)inheritedgetConfig
+### [**](#getConfig)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L732)inheritedgetConfig
 
 * ****getConfig**(): [Configuration](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Configuration.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>, [EntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityManager.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>>>
 
@@ -479,7 +479,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns [Configuration](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Configuration.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>, [EntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityManager.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>>>
 
-### [**](#getCurrentTimestampSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L28)getCurrentTimestampSQL
+### [**](#getCurrentTimestampSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L28)getCurrentTimestampSQL
 
 * ****getCurrentTimestampSQL**(length): string
 
@@ -495,7 +495,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getDateTimeTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L32)getDateTimeTypeDeclarationSQL
+### [**](#getDateTimeTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L32)getDateTimeTypeDeclarationSQL
 
 * ****getDateTimeTypeDeclarationSQL**(column): string
 
@@ -512,7 +512,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getDateTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L196)inheritedgetDateTypeDeclarationSQL
+### [**](#getDateTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L196)inheritedgetDateTypeDeclarationSQL
 
 * ****getDateTypeDeclarationSQL**(length): string
 
@@ -528,7 +528,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getDecimalTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L324)inheritedgetDecimalTypeDeclarationSQL
+### [**](#getDecimalTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L324)inheritedgetDecimalTypeDeclarationSQL
 
 * ****getDecimalTypeDeclarationSQL**(column): string
 
@@ -542,7 +542,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getDefaultCharLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L191)inheritedgetDefaultCharLength
+### [**](#getDefaultCharLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L191)inheritedgetDefaultCharLength
 
 * ****getDefaultCharLength**(): number
 
@@ -554,7 +554,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns number
 
-### [**](#getDefaultCharset)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L600)inheritedgetDefaultCharset
+### [**](#getDefaultCharset)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L600)inheritedgetDefaultCharset
 
 * ****getDefaultCharset**(): string
 
@@ -566,7 +566,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getDefaultClientUrl)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L851)inheritedgetDefaultClientUrl
+### [**](#getDefaultClientUrl)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L851)inheritedgetDefaultClientUrl
 
 * ****getDefaultClientUrl**(): string
 
@@ -578,7 +578,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getDefaultDateTimeLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L181)inheritedgetDefaultDateTimeLength
+### [**](#getDefaultDateTimeLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L181)inheritedgetDefaultDateTimeLength
 
 * ****getDefaultDateTimeLength**(): number
 
@@ -590,7 +590,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns number
 
-### [**](#getDefaultMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L355)inheritedgetDefaultMappedType
+### [**](#getDefaultMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L355)inheritedgetDefaultMappedType
 
 * ****getDefaultMappedType**(type): [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<unknown, unknown>
 
@@ -606,7 +606,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<unknown, unknown>
 
-### [**](#getDefaultPrimaryName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L769)inheritedgetDefaultPrimaryName
+### [**](#getDefaultPrimaryName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L769)inheritedgetDefaultPrimaryName
 
 * ****getDefaultPrimaryName**(tableName, columns): string
 
@@ -623,7 +623,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getDefaultSchemaName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L148)getDefaultSchemaName
+### [**](#getDefaultSchemaName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L148)getDefaultSchemaName
 
 * ****getDefaultSchemaName**(): undefined | string
 
@@ -635,7 +635,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns undefined | string
 
-### [**](#getDefaultVarcharLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L186)inheritedgetDefaultVarcharLength
+### [**](#getDefaultVarcharLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L186)inheritedgetDefaultVarcharLength
 
 * ****getDefaultVarcharLength**(): number
 
@@ -647,7 +647,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns number
 
-### [**](#getDefaultVersionLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L241)inheritedgetDefaultVersionLength
+### [**](#getDefaultVersionLength)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L241)inheritedgetDefaultVersionLength
 
 * ****getDefaultVersionLength**(): number
 
@@ -659,7 +659,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns number
 
-### [**](#getDoubleDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L320)inheritedgetDoubleDeclarationSQL
+### [**](#getDoubleDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L320)inheritedgetDoubleDeclarationSQL
 
 * ****getDoubleDeclarationSQL**(): string
 
@@ -667,7 +667,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getEnumArrayCheckConstraintExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L116)inheritedgetEnumArrayCheckConstraintExpression
+### [**](#getEnumArrayCheckConstraintExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L116)inheritedgetEnumArrayCheckConstraintExpression
 
 * ****getEnumArrayCheckConstraintExpression**(column, items): null | string
 
@@ -684,7 +684,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns null | string
 
-### [**](#getEnumCheckConstraintExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L111)inheritedgetEnumCheckConstraintExpression
+### [**](#getEnumCheckConstraintExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L111)inheritedgetEnumCheckConstraintExpression
 
 * ****getEnumCheckConstraintExpression**(column, items): string
 
@@ -701,7 +701,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getEnumTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L40)getEnumTypeDeclarationSQL
+### [**](#getEnumTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L40)getEnumTypeDeclarationSQL
 
 * ****getEnumTypeDeclarationSQL**(column): string
 
@@ -718,7 +718,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getExceptionConverter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L605)inheritedgetExceptionConverter
+### [**](#getExceptionConverter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L605)inheritedgetExceptionConverter
 
 * ****getExceptionConverter**(): [ExceptionConverter](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ExceptionConverter.md)
 
@@ -730,7 +730,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns [ExceptionConverter](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ExceptionConverter.md)
 
-### [**](#getExtension)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L622)inheritedgetExtension
+### [**](#getExtension)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L622)inheritedgetExtension
 
 * ****getExtension**\<T>(extensionName, extensionKey, moduleName, em): T
 
@@ -749,7 +749,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns T
 
-### [**](#getFloatDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L79)getFloatDeclarationSQL
+### [**](#getFloatDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L79)getFloatDeclarationSQL
 
 * ****getFloatDeclarationSQL**(): string
 
@@ -757,7 +757,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getFullTextIndexExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L526)inheritedgetFullTextIndexExpression
+### [**](#getFullTextIndexExpression)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L526)inheritedgetFullTextIndexExpression
 
 * ****getFullTextIndexExpression**(indexName, schemaName, tableName, columns): string
 
@@ -772,7 +772,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getFullTextWhereClause)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L153)getFullTextWhereClause
+### [**](#getFullTextWhereClause)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L153)getFullTextWhereClause
 
 * ****getFullTextWhereClause**(): string
 
@@ -780,7 +780,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getIndexName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L123)getIndexName
+### [**](#getIndexName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L123)getIndexName
 
 * ****getIndexName**(tableName, columns, type): string
 
@@ -798,7 +798,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getIntegerTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L71)getIntegerTypeDeclarationSQL
+### [**](#getIntegerTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L71)getIntegerTypeDeclarationSQL
 
 * ****getIntegerTypeDeclarationSQL**(column): string
 
@@ -817,7 +817,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getIntervalTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L294)inheritedgetIntervalTypeDeclarationSQL
+### [**](#getIntervalTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L294)inheritedgetIntervalTypeDeclarationSQL
 
 * ****getIntervalTypeDeclarationSQL**(column): string
 
@@ -830,7 +830,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getJsonDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L463)inheritedgetJsonDeclarationSQL
+### [**](#getJsonDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L463)inheritedgetJsonDeclarationSQL
 
 * ****getJsonDeclarationSQL**(): string
 
@@ -838,7 +838,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getJsonIndexDefinition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L129)inheritedgetJsonIndexDefinition
+### [**](#getJsonIndexDefinition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L129)inheritedgetJsonIndexDefinition
 
 * ****getJsonIndexDefinition**(index): string\[]
 
@@ -850,7 +850,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string\[]
 
-### [**](#getMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L349)inheritedgetMappedType
+### [**](#getMappedType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L349)inheritedgetMappedType
 
 * ****getMappedType**(type): [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<unknown, unknown>
 
@@ -866,7 +866,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns [Type](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Type.md)\<unknown, unknown>
 
-### [**](#getMediumIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L274)inheritedgetMediumIntTypeDeclarationSQL
+### [**](#getMediumIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L274)inheritedgetMediumIntTypeDeclarationSQL
 
 * ****getMediumIntTypeDeclarationSQL**(column): string
 
@@ -881,7 +881,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getNamingStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L81)inheritedgetNamingStrategy
+### [**](#getNamingStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L81)inheritedgetNamingStrategy
 
 * ****getNamingStrategy**(): new () => [NamingStrategy](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/NamingStrategy.md)
 
@@ -897,7 +897,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
     - #### Returns [NamingStrategy](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/NamingStrategy.md)
 
-### [**](#getRegExpOperator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L206)inheritedgetRegExpOperator
+### [**](#getRegExpOperator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L206)inheritedgetRegExpOperator
 
 * ****getRegExpOperator**(val, flags): string
 
@@ -914,7 +914,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getRegExpValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L219)inheritedgetRegExpValue
+### [**](#getRegExpValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L219)inheritedgetRegExpValue
 
 * ****getRegExpValue**(val): { $flags?
   <!-- -->
@@ -935,7 +935,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
   * ##### optional$flags?<!-- -->: string
   * ##### $re: string
 
-### [**](#getReleaseSavepointSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L83)inheritedgetReleaseSavepointSQL
+### [**](#getReleaseSavepointSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L83)inheritedgetReleaseSavepointSQL
 
 * ****getReleaseSavepointSQL**(savepointName): string
 
@@ -947,7 +947,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getRepositoryClass)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L35)inheritedgetRepositoryClass
+### [**](#getRepositoryClass)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L35)inheritedgetRepositoryClass
 
 * ****getRepositoryClass**\<T>(): [Constructor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Constructor)<[EntityRepository](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityRepository.md)\<T>>
 
@@ -959,7 +959,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns [Constructor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Constructor)<[EntityRepository](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityRepository.md)\<T>>
 
-### [**](#getRollbackToSavepointSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L79)inheritedgetRollbackToSavepointSQL
+### [**](#getRollbackToSavepointSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L79)inheritedgetRollbackToSavepointSQL
 
 * ****getRollbackToSavepointSQL**(savepointName): string
 
@@ -971,7 +971,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getRollbackTransactionSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L71)inheritedgetRollbackTransactionSQL
+### [**](#getRollbackTransactionSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L71)inheritedgetRollbackTransactionSQL
 
 * ****getRollbackTransactionSQL**(): string
 
@@ -979,7 +979,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getSavepointSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L75)inheritedgetSavepointSQL
+### [**](#getSavepointSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L75)inheritedgetSavepointSQL
 
 * ****getSavepointSQL**(savepointName): string
 
@@ -991,7 +991,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getSchemaGenerator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L49)inheritedgetSchemaGenerator
+### [**](#getSchemaGenerator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L49)inheritedgetSchemaGenerator
 
 * ****getSchemaGenerator**(driver, em): [SqlSchemaGenerator](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/SqlSchemaGenerator.md)
 
@@ -1004,7 +1004,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns [SqlSchemaGenerator](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/SqlSchemaGenerator.md)
 
-### [**](#getSchemaHelper)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L39)inheritedgetSchemaHelper
+### [**](#getSchemaHelper)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L39)inheritedgetSchemaHelper
 
 * ****getSchemaHelper**(): undefined | [SchemaHelper](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/SchemaHelper.md)
 
@@ -1016,7 +1016,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns undefined | [SchemaHelper](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/SchemaHelper.md)
 
-### [**](#getSearchJsonPropertyKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L103)inheritedgetSearchJsonPropertyKey
+### [**](#getSearchJsonPropertyKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L103)inheritedgetSearchJsonPropertyKey
 
 * ****getSearchJsonPropertyKey**(path, type, aliased, value): string | [RawQueryFragment](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)\<string>
 
@@ -1031,7 +1031,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string | [RawQueryFragment](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)\<string>
 
-### [**](#getSearchJsonPropertySQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L99)inheritedgetSearchJsonPropertySQL
+### [**](#getSearchJsonPropertySQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L99)inheritedgetSearchJsonPropertySQL
 
 * ****getSearchJsonPropertySQL**(path, type, aliased): string | [RawQueryFragment](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)\<string>
 
@@ -1045,7 +1045,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string | [RawQueryFragment](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)\<string>
 
-### [**](#getSmallIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L63)getSmallIntTypeDeclarationSQL
+### [**](#getSmallIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L63)getSmallIntTypeDeclarationSQL
 
 * ****getSmallIntTypeDeclarationSQL**(column): string
 
@@ -1060,7 +1060,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getTextTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L298)inheritedgetTextTypeDeclarationSQL
+### [**](#getTextTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L298)inheritedgetTextTypeDeclarationSQL
 
 * ****getTextTypeDeclarationSQL**(\_column): string
 
@@ -1073,7 +1073,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getTimeTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L201)inheritedgetTimeTypeDeclarationSQL
+### [**](#getTimeTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L201)inheritedgetTimeTypeDeclarationSQL
 
 * ****getTimeTypeDeclarationSQL**(length): string
 
@@ -1089,7 +1089,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getTimezone)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L737)inheritedgetTimezone
+### [**](#getTimezone)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L737)inheritedgetTimezone
 
 * ****getTimezone**(): undefined | string
 
@@ -1101,7 +1101,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns undefined | string
 
-### [**](#getTinyIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L55)getTinyIntTypeDeclarationSQL
+### [**](#getTinyIntTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L55)getTinyIntTypeDeclarationSQL
 
 * ****getTinyIntTypeDeclarationSQL**(column): string
 
@@ -1116,7 +1116,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getUuidTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L331)inheritedgetUuidTypeDeclarationSQL
+### [**](#getUuidTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L331)inheritedgetUuidTypeDeclarationSQL
 
 * ****getUuidTypeDeclarationSQL**(column): string
 
@@ -1129,7 +1129,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#getVarcharTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L91)getVarcharTypeDeclarationSQL
+### [**](#getVarcharTypeDeclarationSQL)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L91)getVarcharTypeDeclarationSQL
 
 * ****getVarcharTypeDeclarationSQL**(column): string
 
@@ -1142,7 +1142,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#indexForeignKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L31)inheritedindexForeignKeys
+### [**](#indexForeignKeys)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L31)inheritedindexForeignKeys
 
 * ****indexForeignKeys**(): boolean
 
@@ -1154,7 +1154,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#isAllowedTopLevelOperator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L228)inheritedisAllowedTopLevelOperator
+### [**](#isAllowedTopLevelOperator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L228)inheritedisAllowedTopLevelOperator
 
 * ****isAllowedTopLevelOperator**(operator): boolean
 
@@ -1170,7 +1170,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#isBigIntProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L251)inheritedisBigIntProperty
+### [**](#isBigIntProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L251)inheritedisBigIntProperty
 
 * ****isBigIntProperty**(prop): boolean
 
@@ -1186,7 +1186,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#isNumericColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L748)inheritedisNumericColumn
+### [**](#isNumericColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L748)inheritedisNumericColumn
 
 * ****isNumericColumn**(mappedType): boolean
 
@@ -1202,7 +1202,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#isNumericProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L742)inheritedisNumericProperty
+### [**](#isNumericProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L742)inheritedisNumericProperty
 
 * ****isNumericProperty**(prop, ignoreCustomType): boolean
 
@@ -1219,7 +1219,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#isPopulated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L779)inheritedisPopulated
+### [**](#isPopulated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L779)inheritedisPopulated
 
 * ****isPopulated**\<T>(key, populate): boolean
 
@@ -1236,7 +1236,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#lookupExtensions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L44)inheritedlookupExtensions
+### [**](#lookupExtensions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L44)inheritedlookupExtensions
 
 * ****lookupExtensions**(orm): void
 
@@ -1252,7 +1252,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns void
 
-### [**](#mapRegExpCondition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L211)inheritedmapRegExpCondition
+### [**](#mapRegExpCondition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L211)inheritedmapRegExpCondition
 
 * ****mapRegExpCondition**(mappedKey, value): { params: unknown\[]; sql: string }
 
@@ -1274,7 +1274,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
   * ##### params: unknown\[]
   * ##### sql: string
 
-### [**](#marshallArray)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L446)inheritedmarshallArray
+### [**](#marshallArray)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L446)inheritedmarshallArray
 
 * ****marshallArray**(values): string
 
@@ -1290,7 +1290,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#normalizeColumnType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L95)normalizeColumnType
+### [**](#normalizeColumnType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L95)normalizeColumnType
 
 * ****normalizeColumnType**(type, options): string
 
@@ -1310,7 +1310,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#normalizePrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L157)inheritednormalizePrimaryKey
+### [**](#normalizePrimaryKey)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L157)inheritednormalizePrimaryKey
 
 * ****normalizePrimaryKey**\<T>(data): T
 
@@ -1326,7 +1326,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns T
 
-### [**](#parseDate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L583)inheritedparseDate
+### [**](#parseDate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L583)inheritedparseDate
 
 * ****parseDate**(value): Date
 
@@ -1342,7 +1342,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns Date
 
-### [**](#processDateProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L115)processDateProperty
+### [**](#processDateProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L115)processDateProperty
 
 * ****processDateProperty**(value): string | number | Date
 
@@ -1358,7 +1358,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string | number | Date
 
-### [**](#processJsonCondition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L475)inheritedprocessJsonCondition
+### [**](#processJsonCondition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L475)inheritedprocessJsonCondition
 
 * ****processJsonCondition**\<T>(o, value, path, alias): [FilterQuery](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#FilterQuery)\<T>
 
@@ -1373,7 +1373,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns [FilterQuery](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#FilterQuery)\<T>
 
-### [**](#quoteIdentifier)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L646)inheritedquoteIdentifier
+### [**](#quoteIdentifier)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L646)inheritedquoteIdentifier
 
 * ****quoteIdentifier**(id, quote): string
 
@@ -1391,7 +1391,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#quoteValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L202)quoteValue
+### [**](#quoteValue)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L202)quoteValue
 
 * ****quoteValue**(value): string
 
@@ -1407,7 +1407,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string
 
-### [**](#setConfig)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L720)inheritedsetConfig
+### [**](#setConfig)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L720)inheritedsetConfig
 
 * ****setConfig**(config): void
 
@@ -1423,7 +1423,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns void
 
-### [**](#shouldHaveColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L784)inheritedshouldHaveColumn
+### [**](#shouldHaveColumn)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L784)inheritedshouldHaveColumn
 
 * ****shouldHaveColumn**\<T>(prop, populate, exclude, includeFormulas, ignoreInlineEmbeddables): boolean
 
@@ -1443,7 +1443,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#supportsCreatingFullTextIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L522)inheritedsupportsCreatingFullTextIndex
+### [**](#supportsCreatingFullTextIndex)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L522)inheritedsupportsCreatingFullTextIndex
 
 * ****supportsCreatingFullTextIndex**(): boolean
 
@@ -1451,7 +1451,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#supportsCustomPrimaryKeyNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L774)inheritedsupportsCustomPrimaryKeyNames
+### [**](#supportsCustomPrimaryKeyNames)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L774)inheritedsupportsCustomPrimaryKeyNames
 
 * ****supportsCustomPrimaryKeyNames**(): boolean
 
@@ -1463,7 +1463,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#supportsDeferredUniqueConstraints)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L135)supportsDeferredUniqueConstraints
+### [**](#supportsDeferredUniqueConstraints)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L135)supportsDeferredUniqueConstraints
 
 * ****supportsDeferredUniqueConstraints**(): boolean
 
@@ -1475,7 +1475,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#supportsDownMigrations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L826)inheritedsupportsDownMigrations
+### [**](#supportsDownMigrations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L826)inheritedsupportsDownMigrations
 
 * ****supportsDownMigrations**(): boolean
 
@@ -1487,7 +1487,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#supportsMaterializedViews)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L121)inheritedsupportsMaterializedViews
+### [**](#supportsMaterializedViews)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L121)inheritedsupportsMaterializedViews
 
 * ****supportsMaterializedViews**(): boolean
 
@@ -1499,7 +1499,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#supportsMultipleCascadePaths)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L418)inheritedsupportsMultipleCascadePaths
+### [**](#supportsMultipleCascadePaths)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L418)inheritedsupportsMultipleCascadePaths
 
 * ****supportsMultipleCascadePaths**(): boolean
 
@@ -1511,7 +1511,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#supportsMultipleStatements)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L431)inheritedsupportsMultipleStatements
+### [**](#supportsMultipleStatements)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L431)inheritedsupportsMultipleStatements
 
 * ****supportsMultipleStatements**(): boolean
 
@@ -1523,7 +1523,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#supportsNativeEnums)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L101)inheritedsupportsNativeEnums
+### [**](#supportsNativeEnums)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L101)inheritedsupportsNativeEnums
 
 * ****supportsNativeEnums**(): boolean
 
@@ -1535,7 +1535,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#supportsOnUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L426)inheritedsupportsOnUpdate
+### [**](#supportsOnUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L426)inheritedsupportsOnUpdate
 
 * ****supportsOnUpdate**(): boolean
 
@@ -1547,7 +1547,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#supportsSchemas)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L143)supportsSchemas
+### [**](#supportsSchemas)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L143)supportsSchemas
 
 * ****supportsSchemas**(): boolean
 
@@ -1559,7 +1559,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#supportsTransactions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L71)inheritedsupportsTransactions
+### [**](#supportsTransactions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L71)inheritedsupportsTransactions
 
 * ****supportsTransactions**(): boolean
 
@@ -1571,7 +1571,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#supportsUnionWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L140)inheritedsupportsUnionWhere
+### [**](#supportsUnionWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L140)inheritedsupportsUnionWhere
 
 * ****supportsUnionWhere**(): boolean
 
@@ -1583,7 +1583,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#supportsUnsigned)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L753)inheritedsupportsUnsigned
+### [**](#supportsUnsigned)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L753)inheritedsupportsUnsigned
 
 * ****supportsUnsigned**(): boolean
 
@@ -1595,7 +1595,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#unmarshallArray)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L451)inheritedunmarshallArray
+### [**](#unmarshallArray)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L451)inheritedunmarshallArray
 
 * ****unmarshallArray**(value): string\[]
 
@@ -1611,7 +1611,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns string\[]
 
-### [**](#usesAsKeyword)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L562)inheritedusesAsKeyword
+### [**](#usesAsKeyword)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L562)inheritedusesAsKeyword
 
 * ****usesAsKeyword**(): boolean
 
@@ -1619,7 +1619,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#usesBatchInserts)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L138)inheritedusesBatchInserts
+### [**](#usesBatchInserts)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L138)inheritedusesBatchInserts
 
 * ****usesBatchInserts**(): boolean
 
@@ -1631,7 +1631,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#usesBatchUpdates)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L145)inheritedusesBatchUpdates
+### [**](#usesBatchUpdates)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L145)inheritedusesBatchUpdates
 
 * ****usesBatchUpdates**(): boolean
 
@@ -1643,7 +1643,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#usesCascadeStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L96)inheritedusesCascadeStatement
+### [**](#usesCascadeStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L96)inheritedusesCascadeStatement
 
 * ****usesCascadeStatement**(): boolean
 
@@ -1655,7 +1655,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#usesDefaultKeyword)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L16)usesDefaultKeyword
+### [**](#usesDefaultKeyword)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L16)usesDefaultKeyword
 
 * ****usesDefaultKeyword**(): boolean
 
@@ -1667,7 +1667,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#usesEnumCheckConstraints)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L24)usesEnumCheckConstraints
+### [**](#usesEnumCheckConstraints)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L24)usesEnumCheckConstraints
 
 * ****usesEnumCheckConstraints**(): boolean
 
@@ -1679,7 +1679,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#usesImplicitTransactions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L76)inheritedusesImplicitTransactions
+### [**](#usesImplicitTransactions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L76)inheritedusesImplicitTransactions
 
 * ****usesImplicitTransactions**(): boolean
 
@@ -1691,7 +1691,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#usesOutputStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L91)inheritedusesOutputStatement
+### [**](#usesOutputStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L91)inheritedusesOutputStatement
 
 * ****usesOutputStatement**(): boolean
 
@@ -1703,7 +1703,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#usesPivotTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/AbstractSqlPlatform.ts#L27)inheritedusesPivotTable
+### [**](#usesPivotTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/AbstractSqlPlatform.ts#L27)inheritedusesPivotTable
 
 * ****usesPivotTable**(): boolean
 
@@ -1715,7 +1715,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#usesReturningStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L20)usesReturningStatement
+### [**](#usesReturningStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/SqlitePlatform.ts#L20)usesReturningStatement
 
 * ****usesReturningStatement**(): boolean
 
@@ -1727,7 +1727,7 @@ Base class for SQL database platforms, providing SQL generation and quoting util
 
   #### Returns boolean
 
-### [**](#validateMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/platforms/Platform.ts#L836)inheritedvalidateMetadata
+### [**](#validateMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/platforms/Platform.ts#L836)inheritedvalidateMetadata
 
 * ****validateMetadata**(meta): void
 

@@ -43,7 +43,7 @@ Repository class providing a type-safe API for querying and persisting a specifi
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L45)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L45)constructor
 
 * ****new EntityRepository**\<Entity>(em, entityName): [EntityRepository](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityRepository.md)\<Entity>
 
@@ -56,7 +56,7 @@ Repository class providing a type-safe API for querying and persisting a specifi
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#assign)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L373)assign
+### [**](#assign)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L373)assign
 
 * ****assign**\<Ent, Naked, Convert, Data>(entity, data, options): [MergeSelected](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MergeSelected)\<Ent, Naked, keyof
   <!-- -->
@@ -74,7 +74,7 @@ Repository class providing a type-safe API for querying and persisting a specifi
 
   #### Returns [MergeSelected](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MergeSelected)\<Ent, Naked, keyof<!-- --> Data & string>
 
-### [**](#canPopulate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L281)canPopulate
+### [**](#canPopulate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L281)canPopulate
 
 * ****canPopulate**(property): boolean
 
@@ -88,7 +88,7 @@ Repository class providing a type-safe API for querying and persisting a specifi
 
   #### Returns boolean
 
-### [**](#count)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L400)count
+### [**](#count)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L400)count
 
 * ****count**\<Hint>(where, options): Promise\<number>
 
@@ -103,7 +103,7 @@ Repository class providing a type-safe API for querying and persisting a specifi
 
   #### Returns Promise\<number>
 
-### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L323)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L343)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L363)create
+### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L323)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L343)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L363)create
 
 * ****create**\<Convert, Data>(data, options): Entity
 * ****create**\<Convert, Data>(data, options): Entity
@@ -123,7 +123,7 @@ Repository class providing a type-safe API for querying and persisting a specifi
 
   #### Returns Entity
 
-### [**](#find)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L140)find
+### [**](#find)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L140)find
 
 * ****find**\<Hint, Fields, Excludes>(where, options): Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>\[]>
 
@@ -138,7 +138,7 @@ Repository class providing a type-safe API for querying and persisting a specifi
 
   #### Returns Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>\[]>
 
-### [**](#findAll)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L175)findAll
+### [**](#findAll)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L175)findAll
 
 * ****findAll**\<Hint, Fields, Excludes>(options): Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>\[]>
 
@@ -152,7 +152,7 @@ Repository class providing a type-safe API for querying and persisting a specifi
 
   #### Returns Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>\[]>
 
-### [**](#findAndCount)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L151)findAndCount
+### [**](#findAndCount)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L151)findAndCount
 
 * ****findAndCount**\<Hint, Fields, Excludes>(where, options): Promise<\[[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>\[], number]>
 
@@ -167,7 +167,7 @@ Repository class providing a type-safe API for querying and persisting a specifi
 
   #### Returns Promise<\[[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>\[], number]>
 
-### [**](#findByCursor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L161)findByCursor
+### [**](#findByCursor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L161)findByCursor
 
 * ****findByCursor**\<Hint, Fields, Excludes, IncludeCount>(options): Promise<[Cursor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Cursor.md)\<Entity, Hint, Fields, Excludes, IncludeCount>>
 
@@ -232,7 +232,7 @@ Repository class providing a type-safe API for querying and persisting a specifi
 
   #### Returns Promise<[Cursor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Cursor.md)\<Entity, Hint, Fields, Excludes, IncludeCount>>
 
-### [**](#findOne)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L53)findOne
+### [**](#findOne)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L53)findOne
 
 * ****findOne**\<Hint, Fields, Excludes>(where, options): Promise\<null | [Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>>
 
@@ -247,7 +247,7 @@ Repository class providing a type-safe API for querying and persisting a specifi
 
   #### Returns Promise\<null | [Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>>
 
-### [**](#findOneOrFail)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L65)findOneOrFail
+### [**](#findOneOrFail)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L65)findOneOrFail
 
 * ****findOneOrFail**\<Hint, Fields, Excludes>(where, options): Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>>
 
@@ -262,7 +262,7 @@ Repository class providing a type-safe API for querying and persisting a specifi
 
   #### Returns Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>>
 
-### [**](#getEntityManager)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L415)getEntityManager
+### [**](#getEntityManager)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L415)getEntityManager
 
 * ****getEntityManager**(): [EntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityManager.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>>
 
@@ -272,7 +272,7 @@ Repository class providing a type-safe API for querying and persisting a specifi
 
   #### Returns [EntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityManager.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>>
 
-### [**](#getEntityName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L408)getEntityName
+### [**](#getEntityName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L408)getEntityName
 
 * ****getEntityName**(): string
 
@@ -282,7 +282,7 @@ Repository class providing a type-safe API for querying and persisting a specifi
 
   #### Returns string
 
-### [**](#getReference)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L239)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L248)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L256)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L264)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L269)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L274)getReference
+### [**](#getReference)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L239)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L248)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L256)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L264)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L269)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L274)getReference
 
 * ****getReference**\<K>(id, options): [Ref](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Ref)\<Entity>
 * ****getReference**\<K>(id, options): Entity
@@ -301,7 +301,7 @@ Repository class providing a type-safe API for querying and persisting a specifi
 
   #### Returns [Ref](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Ref)\<Entity>
 
-### [**](#insert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L193)insert
+### [**](#insert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L193)insert
 
 * ****insert**(data, options): Promise\<Entity extends { \[PrimaryKeyProp]?
   <!-- -->
@@ -328,7 +328,7 @@ Repository class providing a type-safe API for querying and persisting a specifi
 
   #### Returns Promise\<Entity extends { \[PrimaryKeyProp]?<!-- -->: PK } ? PK extends undefined ? Omit\<Entity\<Entity>, typeof [PrimaryKeyProp](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#PrimaryKeyProp)> : PK extends keyof<!-- --> Entity\<Entity> ? ReadonlyPrimary\<UnwrapPrimary\<Entity\<Entity>\[PK\<PK>]>> : PK extends keyof<!-- --> Entity\<Entity>\[] ? ReadonlyPrimary\<PrimaryPropToType\<Entity\<Entity>, PK\<PK>>> : PK : Entity extends { \_id?<!-- -->: PK } ? string | ReadonlyPrimary\<PK> : Entity extends { id?<!-- -->: PK } ? ReadonlyPrimary\<PK> : Entity extends { uuid?<!-- -->: PK } ? ReadonlyPrimary\<PK> : Entity>
 
-### [**](#insertMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L203)insertMany
+### [**](#insertMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L203)insertMany
 
 * ****insertMany**(data, options): Promise<(Entity extends { \[PrimaryKeyProp]?
   <!-- -->
@@ -355,7 +355,7 @@ Repository class providing a type-safe API for querying and persisting a specifi
 
   #### Returns Promise<(Entity extends { \[PrimaryKeyProp]?<!-- -->: PK } ? PK extends undefined ? Omit\<Entity\<Entity>, typeof [PrimaryKeyProp](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#PrimaryKeyProp)> : PK extends keyof<!-- --> Entity\<Entity> ? ReadonlyPrimary\<UnwrapPrimary\<Entity\<Entity>\[PK\<PK>]>> : PK extends keyof<!-- --> Entity\<Entity>\[] ? ReadonlyPrimary\<PrimaryPropToType\<Entity\<Entity>, PK\<PK>>> : PK : Entity extends { \_id?<!-- -->: PK } ? string | ReadonlyPrimary\<PK> : Entity extends { id?<!-- -->: PK } ? ReadonlyPrimary\<PK> : Entity extends { uuid?<!-- -->: PK } ? ReadonlyPrimary\<PK> : Entity)\[]>
 
-### [**](#map)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L231)map
+### [**](#map)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L231)map
 
 * ****map**(result, options): Entity
 
@@ -371,7 +371,7 @@ Repository class providing a type-safe API for querying and persisting a specifi
 
   #### Returns Entity
 
-### [**](#merge)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L393)merge
+### [**](#merge)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L393)merge
 
 * ****merge**(data, options): Entity
 
@@ -386,7 +386,7 @@ Repository class providing a type-safe API for querying and persisting a specifi
 
   #### Returns Entity
 
-### [**](#nativeDelete)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L224)nativeDelete
+### [**](#nativeDelete)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L224)nativeDelete
 
 * ****nativeDelete**(where, options): Promise\<number>
 
@@ -401,7 +401,7 @@ Repository class providing a type-safe API for querying and persisting a specifi
 
   #### Returns Promise\<number>
 
-### [**](#nativeUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L213)nativeUpdate
+### [**](#nativeUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L213)nativeUpdate
 
 * ****nativeUpdate**(where, data, options): Promise\<number>
 
@@ -417,7 +417,7 @@ Repository class providing a type-safe API for querying and persisting a specifi
 
   #### Returns Promise\<number>
 
-### [**](#populate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L288)populate
+### [**](#populate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L288)populate
 
 * ****populate**\<Ent, Hint, Naked, Fields, Excludes>(entities, populate, options): Promise\<Ent extends object\[] ? [MergeLoaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MergeLoaded)\<ArrayElement\<Ent\<Ent>>, Naked, Hint, Fields, Excludes>\[] : [MergeLoaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MergeLoaded)\<Ent, Naked, Hint, Fields, Excludes>>
 
@@ -433,7 +433,7 @@ Repository class providing a type-safe API for querying and persisting a specifi
 
   #### Returns Promise\<Ent extends object\[] ? [MergeLoaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MergeLoaded)\<ArrayElement\<Ent\<Ent>>, Naked, Hint, Fields, Excludes>\[] : [MergeLoaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MergeLoaded)\<Ent, Naked, Hint, Fields, Excludes>>
 
-### [**](#stream)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L184)stream
+### [**](#stream)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L184)stream
 
 * ****stream**\<Hint, Fields, Excludes>(options): AsyncIterableIterator<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>, any, any>
 
@@ -456,7 +456,7 @@ Repository class providing a type-safe API for querying and persisting a specifi
 
   #### Returns AsyncIterableIterator<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>, any, any>
 
-### [**](#upsert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L98)upsert
+### [**](#upsert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L98)upsert
 
 * ****upsert**\<Fields>(entityOrData, options): Promise\<Entity>
 
@@ -488,7 +488,7 @@ Repository class providing a type-safe API for querying and persisting a specifi
 
   #### Returns Promise\<Entity>
 
-### [**](#upsertMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L130)upsertMany
+### [**](#upsertMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L130)upsertMany
 
 * ****upsertMany**\<Fields>(entitiesOrData, options): Promise\<Entity\[]>
 

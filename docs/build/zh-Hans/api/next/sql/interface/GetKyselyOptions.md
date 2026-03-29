@@ -20,7 +20,7 @@ Options for `SqlEntityManager.getKysely()`.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#columnNamingStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/plugin/index.ts#L38)optionalinheritedcolumnNamingStrategy
+### [**](#columnNamingStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/plugin/index.ts#L38)optionalinheritedcolumnNamingStrategy
 
 **columnNamingStrategy?
 
@@ -32,7 +32,7 @@ Inherited from MikroKyselyPluginOptions.columnNamingStrategy
 
 Use database column names ('column') or property names ('property') in queries.
 
-### [**](#convertValues)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/plugin/index.ts#L56)optionalinheritedconvertValues
+### [**](#convertValues)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/plugin/index.ts#L56)optionalinheritedconvertValues
 
 **convertValues?
 
@@ -44,7 +44,7 @@ Inherited from MikroKyselyPluginOptions.convertValues
 
 Convert JavaScript values to database-compatible values (e.g., Date to timestamp, custom types).
 
-### [**](#processOnCreateHooks)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/plugin/index.ts#L44)optionalinheritedprocessOnCreateHooks
+### [**](#processOnCreateHooks)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/plugin/index.ts#L44)optionalinheritedprocessOnCreateHooks
 
 **processOnCreateHooks?
 
@@ -56,7 +56,7 @@ Inherited from MikroKyselyPluginOptions.processOnCreateHooks
 
 Automatically process entity `onCreate` hooks in INSERT queries.
 
-### [**](#processOnUpdateHooks)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/plugin/index.ts#L50)optionalinheritedprocessOnUpdateHooks
+### [**](#processOnUpdateHooks)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/plugin/index.ts#L50)optionalinheritedprocessOnUpdateHooks
 
 **processOnUpdateHooks?
 
@@ -68,7 +68,7 @@ Inherited from MikroKyselyPluginOptions.processOnUpdateHooks
 
 Automatically process entity `onUpdate` hooks in UPDATE queries.
 
-### [**](#tableNamingStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/plugin/index.ts#L32)optionalinheritedtableNamingStrategy
+### [**](#tableNamingStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/plugin/index.ts#L32)optionalinheritedtableNamingStrategy
 
 **tableNamingStrategy?
 
@@ -80,7 +80,7 @@ Inherited from MikroKyselyPluginOptions.tableNamingStrategy
 
 Use database table names ('table') or entity names ('entity') in queries.
 
-### [**](#type)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/SqlEntityManager.ts#L26)optionaltype
+### [**](#type)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/SqlEntityManager.ts#L26)optionaltype
 
 **type?
 

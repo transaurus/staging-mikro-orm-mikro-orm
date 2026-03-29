@@ -23,7 +23,7 @@ Options for batch native insert and update operations.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#convertCustomTypes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L412)optionalinheritedconvertCustomTypes
+### [**](#convertCustomTypes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L412)optionalinheritedconvertCustomTypes
 
 **convertCustomTypes?
 
@@ -33,7 +33,7 @@ Options for batch native insert and update operations.
 
 Inherited from NativeInsertUpdateOptions.convertCustomTypes
 
-### [**](#ctx)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L413)optionalinheritedctx
+### [**](#ctx)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L413)optionalinheritedctx
 
 **ctx?
 
@@ -43,7 +43,7 @@ Inherited from NativeInsertUpdateOptions.convertCustomTypes
 
 Inherited from NativeInsertUpdateOptions.ctx
 
-### [**](#filters)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L422)optionalinheritedfilters
+### [**](#filters)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L422)optionalinheritedfilters
 
 **filters?
 
@@ -53,7 +53,7 @@ Inherited from NativeInsertUpdateOptions.ctx
 
 Inherited from NativeInsertUpdateOptions.filters
 
-### [**](#loggerContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L417)optionalinheritedloggerContext
+### [**](#loggerContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L417)optionalinheritedloggerContext
 
 **loggerContext?
 
@@ -63,7 +63,7 @@ Inherited from NativeInsertUpdateOptions.filters
 
 Inherited from NativeInsertUpdateOptions.loggerContext
 
-### [**](#processCollections)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L429)optionalprocessCollections
+### [**](#processCollections)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L429)optionalprocessCollections
 
 **processCollections?
 
@@ -71,7 +71,7 @@ Inherited from NativeInsertUpdateOptions.loggerContext
 
 : boolean
 
-### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L414)optionalinheritedschema
+### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L414)optionalinheritedschema
 
 **schema?
 
@@ -81,7 +81,7 @@ Inherited from NativeInsertUpdateOptions.loggerContext
 
 Inherited from NativeInsertUpdateOptions.schema
 
-### [**](#unionWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L419)optionalinheritedunionWhere
+### [**](#unionWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L419)optionalinheritedunionWhere
 
 **unionWhere?
 
@@ -93,7 +93,7 @@ Inherited from NativeInsertUpdateOptions.unionWhere
 
 sql only
 
-### [**](#unionWhereStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L421)optionalinheritedunionWhereStrategy
+### [**](#unionWhereStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L421)optionalinheritedunionWhereStrategy
 
 **unionWhereStrategy?
 
@@ -105,7 +105,7 @@ Inherited from NativeInsertUpdateOptions.unionWhereStrategy
 
 sql only
 
-### [**](#upsert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/drivers/IDatabaseDriver.ts#L416)optionalinheritedupsert
+### [**](#upsert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/drivers/IDatabaseDriver.ts#L416)optionalinheritedupsert
 
 **upsert?
 

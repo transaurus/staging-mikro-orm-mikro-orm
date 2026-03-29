@@ -30,7 +30,7 @@ Options for controlling how relations are loaded by the EntityLoader.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#connectionType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityLoader.ts#L69)optionalconnectionType
+### [**](#connectionType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityLoader.ts#L69)optionalconnectionType
 
 **connectionType?
 
@@ -40,7 +40,7 @@ Options for controlling how relations are loaded by the EntityLoader.
 
 Connection type (read or write replica).
 
-### [**](#convertCustomTypes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityLoader.ts#L57)optionalconvertCustomTypes
+### [**](#convertCustomTypes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityLoader.ts#L57)optionalconvertCustomTypes
 
 **convertCustomTypes?
 
@@ -50,7 +50,7 @@ Connection type (read or write replica).
 
 Whether to convert custom types during hydration.
 
-### [**](#exclude)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityLoader.ts#L43)optionalexclude
+### [**](#exclude)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityLoader.ts#L43)optionalexclude
 
 **exclude?
 
@@ -64,7 +64,7 @@ Whether to convert custom types during hydration.
 
 Fields to exclude from loading.
 
-### [**](#fields)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityLoader.ts#L41)optionalfields
+### [**](#fields)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityLoader.ts#L41)optionalfields
 
 **fields?
 
@@ -78,7 +78,7 @@ Fields to exclude from loading.
 
 Select specific fields to load (partial loading).
 
-### [**](#filters)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityLoader.ts#L61)optionalfilters
+### [**](#filters)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityLoader.ts#L61)optionalfilters
 
 **filters?
 
@@ -88,7 +88,7 @@ Select specific fields to load (partial loading).
 
 Filter options to apply when loading relations.
 
-### [**](#ignoreLazyScalarProperties)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityLoader.ts#L59)optionalignoreLazyScalarProperties
+### [**](#ignoreLazyScalarProperties)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityLoader.ts#L59)optionalignoreLazyScalarProperties
 
 **ignoreLazyScalarProperties?
 
@@ -98,7 +98,7 @@ Filter options to apply when loading relations.
 
 Whether to skip loading lazy scalar properties.
 
-### [**](#lockMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityLoader.ts#L65)optionallockMode
+### [**](#lockMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityLoader.ts#L65)optionallockMode
 
 **lockMode?
 
@@ -108,7 +108,7 @@ Whether to skip loading lazy scalar properties.
 
 Lock mode for the query (pessimistic locking).
 
-### [**](#logging)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityLoader.ts#L71)optionallogging
+### [**](#logging)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityLoader.ts#L71)optionallogging
 
 **logging?
 
@@ -118,7 +118,7 @@ Lock mode for the query (pessimistic locking).
 
 Logging options for the query.
 
-### [**](#lookup)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityLoader.ts#L55)optionallookup
+### [**](#lookup)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityLoader.ts#L55)optionallookup
 
 **lookup?
 
@@ -128,7 +128,7 @@ Logging options for the query.
 
 Whether to look up eager-loaded relationships automatically.
 
-### [**](#orderBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityLoader.ts#L49)optionalorderBy
+### [**](#orderBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityLoader.ts#L49)optionalorderBy
 
 **orderBy?
 
@@ -138,7 +138,7 @@ Whether to look up eager-loaded relationships automatically.
 
 Ordering for populated relations.
 
-### [**](#populateWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityLoader.ts#L47)optionalpopulateWhere
+### [**](#populateWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityLoader.ts#L47)optionalpopulateWhere
 
 **populateWhere?
 
@@ -148,7 +148,7 @@ Ordering for populated relations.
 
 Controls how `where` conditions are applied to populated relations.
 
-### [**](#refresh)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityLoader.ts#L51)optionalrefresh
+### [**](#refresh)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityLoader.ts#L51)optionalrefresh
 
 **refresh?
 
@@ -158,7 +158,7 @@ Controls how `where` conditions are applied to populated relations.
 
 Whether to reload already loaded entities.
 
-### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityLoader.ts#L67)optionalschema
+### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityLoader.ts#L67)optionalschema
 
 **schema?
 
@@ -168,7 +168,7 @@ Whether to reload already loaded entities.
 
 Database schema override.
 
-### [**](#strategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityLoader.ts#L63)optionalstrategy
+### [**](#strategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityLoader.ts#L63)optionalstrategy
 
 **strategy?
 
@@ -178,7 +178,7 @@ Database schema override.
 
 Loading strategy to use (select-in, joined, or balanced).
 
-### [**](#validate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityLoader.ts#L53)optionalvalidate
+### [**](#validate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityLoader.ts#L53)optionalvalidate
 
 **validate?
 
@@ -188,7 +188,7 @@ Loading strategy to use (select-in, joined, or balanced).
 
 Whether to validate the populate hint against the entity metadata.
 
-### [**](#where)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityLoader.ts#L45)optionalwhere
+### [**](#where)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityLoader.ts#L45)optionalwhere
 
 **where?
 

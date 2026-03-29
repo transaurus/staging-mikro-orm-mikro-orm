@@ -20,7 +20,7 @@ Abstract base class for hydrating entity instances from raw database data.
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/hydration/Hydrator.ts#L12)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/hydration/Hydrator.ts#L12)constructor
 
 * ****new Hydrator**(metadata, platform, config): [Hydrator](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Hydrator.md)
 
@@ -34,7 +34,7 @@ Abstract base class for hydrating entity instances from raw database data.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#hydrate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/hydration/Hydrator.ts#L21)hydrate
+### [**](#hydrate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/hydration/Hydrator.ts#L21)hydrate
 
 * ****hydrate**\<T>(entity, meta, data, factory, type, newEntity, convertCustomTypes, schema, parentSchema): void
 
@@ -58,7 +58,7 @@ Abstract base class for hydrating entity instances from raw database data.
 
   #### Returns void
 
-### [**](#hydrateReference)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/hydration/Hydrator.ts#L46)hydrateReference
+### [**](#hydrateReference)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/hydration/Hydrator.ts#L46)hydrateReference
 
 * ****hydrateReference**\<T>(entity, meta, data, factory, convertCustomTypes, schema, parentSchema): void
 
@@ -80,7 +80,7 @@ Abstract base class for hydrating entity instances from raw database data.
 
   #### Returns void
 
-### [**](#isRunning)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/hydration/Hydrator.ts#L63)isRunning
+### [**](#isRunning)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/hydration/Hydrator.ts#L63)isRunning
 
 * ****isRunning**(): boolean
 

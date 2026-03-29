@@ -14,7 +14,7 @@ Manages transaction lifecycle and propagation for EntityManager.
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/TransactionManager.ts#L16)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/TransactionManager.ts#L16)constructor
 
 * ****new TransactionManager**(em): [TransactionManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/TransactionManager.md)
 
@@ -26,7 +26,7 @@ Manages transaction lifecycle and propagation for EntityManager.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#handle)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/TransactionManager.ts#L21)handle
+### [**](#handle)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/TransactionManager.ts#L21)handle
 
 * ****handle**\<T>(cb, options): Promise\<T>
 

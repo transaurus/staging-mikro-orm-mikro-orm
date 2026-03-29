@@ -12,11 +12,11 @@
 
 ## Interfaces<!-- -->[**](#Interfaces)
 
-### [**](#Brand)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L260)Brand
+### [**](#Brand)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L260)Brand
 
 **Brand:
 
-### [**](#\[___config])[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L261)optional\[\_\_\_config]
+### [**](#\[___config])[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L261)optional\[\_\_\_config]
 
 **\[\_\_\_config]?
 
@@ -26,7 +26,7 @@
 
 ## Variables<!-- -->[**](#Variables)
 
-### [**](#__config)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L259)const\_\_config
+### [**](#__config)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L259)const\_\_config
 
 **\_\_config: unique
 

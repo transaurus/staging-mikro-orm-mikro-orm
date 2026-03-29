@@ -27,7 +27,7 @@ Base class for generating migration source files from schema diffs.
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/MigrationGenerator.ts#L11)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/MigrationGenerator.ts#L11)constructor
 
 * ****new MigrationGenerator**(driver, namingStrategy, options): [MigrationGenerator](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/migrations/class/MigrationGenerator.md)
 
@@ -41,7 +41,7 @@ Base class for generating migration source files from schema diffs.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#createStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/MigrationGenerator.ts#L38)createStatement
+### [**](#createStatement)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/MigrationGenerator.ts#L38)createStatement
 
 * ****createStatement**(sql, padLeft): string
 
@@ -58,7 +58,7 @@ Base class for generating migration source files from schema diffs.
 
   #### Returns string
 
-### [**](#generate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/MigrationGenerator.ts#L20)generate
+### [**](#generate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/MigrationGenerator.ts#L20)generate
 
 * ****generate**(diff, path, name): Promise<\[string, string]>
 
@@ -78,7 +78,7 @@ Base class for generating migration source files from schema diffs.
 
   #### Returns Promise<\[string, string]>
 
-### [**](#generateMigrationFile)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/MigrationGenerator.ts#L50)abstractgenerateMigrationFile
+### [**](#generateMigrationFile)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/MigrationGenerator.ts#L50)abstractgenerateMigrationFile
 
 * ****generateMigrationFile**(className, diff): [MaybePromise](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MaybePromise)\<string>
 

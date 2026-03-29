@@ -20,7 +20,7 @@ Tracks executed migrations in a database table.
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/MigrationStorage.ts#L19)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/MigrationStorage.ts#L19)constructor
 
 * ****new MigrationStorage**(driver, options): [MigrationStorage](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/migrations/class/MigrationStorage.md)
 
@@ -33,25 +33,25 @@ Tracks executed migrations in a database table.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#ensureTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/MigrationStorage.ts#L67)ensureTable
+### [**](#ensureTable)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/MigrationStorage.ts#L67)ensureTable
 
 * ****ensureTable**(): Promise\<void>
 
 - #### Returns Promise\<void>
 
-### [**](#executed)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/MigrationStorage.ts#L28)executed
+### [**](#executed)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/MigrationStorage.ts#L28)executed
 
 * ****executed**(): Promise\<string\[]>
 
 - #### Returns Promise\<string\[]>
 
-### [**](#getExecutedMigrations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/MigrationStorage.ts#L50)getExecutedMigrations
+### [**](#getExecutedMigrations)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/MigrationStorage.ts#L50)getExecutedMigrations
 
 * ****getExecutedMigrations**(): Promise<[MigrationRow](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationRow)\[]>
 
 - #### Returns Promise<[MigrationRow](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationRow)\[]>
 
-### [**](#logMigration)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/MigrationStorage.ts#L33)logMigration
+### [**](#logMigration)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/MigrationStorage.ts#L33)logMigration
 
 * ****logMigration**(params): Promise\<void>
 
@@ -62,7 +62,7 @@ Tracks executed migrations in a database table.
 
   #### Returns Promise\<void>
 
-### [**](#setMasterMigration)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/MigrationStorage.ts#L112)setMasterMigration
+### [**](#setMasterMigration)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/MigrationStorage.ts#L112)setMasterMigration
 
 * ****setMasterMigration**(trx): void
 
@@ -72,7 +72,7 @@ Tracks executed migrations in a database table.
 
   #### Returns void
 
-### [**](#unlogMigration)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/MigrationStorage.ts#L39)unlogMigration
+### [**](#unlogMigration)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/MigrationStorage.ts#L39)unlogMigration
 
 * ****unlogMigration**(params): Promise\<void>
 
@@ -83,7 +83,7 @@ Tracks executed migrations in a database table.
 
   #### Returns Promise\<void>
 
-### [**](#unsetMasterMigration)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/MigrationStorage.ts#L116)unsetMasterMigration
+### [**](#unsetMasterMigration)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/MigrationStorage.ts#L116)unsetMasterMigration
 
 * ****unsetMasterMigration**(): void
 

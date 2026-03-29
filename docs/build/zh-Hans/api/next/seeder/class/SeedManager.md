@@ -20,7 +20,7 @@ Manages discovery and execution of database seeders.
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/seeder/src/SeedManager.ts#L20)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/seeder/src/SeedManager.ts#L20)constructor
 
 * ****new SeedManager**(em): [SeedManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/seeder/class/SeedManager.md)
 
@@ -32,7 +32,7 @@ Manages discovery and execution of database seeders.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/seeder/src/SeedManager.ts#L141)create
+### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/seeder/src/SeedManager.ts#L141)create
 
 * ****create**(className): Promise\<string>
 
@@ -44,7 +44,7 @@ Manages discovery and execution of database seeders.
 
   #### Returns Promise\<string>
 
-### [**](#seed)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/seeder/src/SeedManager.ts#L79)seed
+### [**](#seed)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/seeder/src/SeedManager.ts#L79)seed
 
 * ****seed**(...classNames): Promise\<void>
 
@@ -56,7 +56,7 @@ Manages discovery and execution of database seeders.
 
   #### Returns Promise\<void>
 
-### [**](#register)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/seeder/src/SeedManager.ts#L45)staticregister
+### [**](#register)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/seeder/src/SeedManager.ts#L45)staticregister
 
 * ****register**(orm): void
 

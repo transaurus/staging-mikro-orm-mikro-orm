@@ -26,7 +26,7 @@ Uses `AsyncLocalStorage` to create async context that holds the current EM fork.
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/RequestContext.ts#L13)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/RequestContext.ts#L13)constructor
 
 * ****new RequestContext**(map): [RequestContext](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RequestContext.md)
 
@@ -38,7 +38,7 @@ Uses `AsyncLocalStorage` to create async context that holds the current EM fork.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#id)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/RequestContext.ts#L11)readonlyid
+### [**](#id)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/RequestContext.ts#L11)readonlyid
 
 **id: number =
 
@@ -46,13 +46,13 @@ Uses `AsyncLocalStorage` to create async context that holds the current EM fork.
 
 ...
 
-### [**](#map)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/RequestContext.ts#L13)readonlymap
+### [**](#map)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/RequestContext.ts#L13)readonlymap
 
 **map: Map\<string, [EntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityManager.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>>>
 
 ## Accessors<!-- -->[**](#Accessors)
 
-### [**](#em)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/RequestContext.ts#L18)em
+### [**](#em)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/RequestContext.ts#L18)em
 
 * **get em(): undefined | [EntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityManager.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>>
 
@@ -64,7 +64,7 @@ Uses `AsyncLocalStorage` to create async context that holds the current EM fork.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/RequestContext.ts#L27)staticcreate
+### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/RequestContext.ts#L27)staticcreate
 
 * ****create**\<T>(em, next, options): T
 
@@ -81,7 +81,7 @@ Uses `AsyncLocalStorage` to create async context that holds the current EM fork.
 
   #### Returns T
 
-### [**](#currentRequestContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/RequestContext.ts#L49)staticcurrentRequestContext
+### [**](#currentRequestContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/RequestContext.ts#L49)staticcurrentRequestContext
 
 * ****currentRequestContext**(): undefined | [RequestContext](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RequestContext.md)
 
@@ -91,7 +91,7 @@ Uses `AsyncLocalStorage` to create async context that holds the current EM fork.
 
   #### Returns undefined | [RequestContext](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RequestContext.md)
 
-### [**](#enter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/RequestContext.ts#L41)staticenter
+### [**](#enter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/RequestContext.ts#L41)staticenter
 
 * ****enter**(em, options): void
 
@@ -106,7 +106,7 @@ Uses `AsyncLocalStorage` to create async context that holds the current EM fork.
 
   #### Returns void
 
-### [**](#getEntityManager)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/RequestContext.ts#L56)staticgetEntityManager
+### [**](#getEntityManager)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/RequestContext.ts#L56)staticgetEntityManager
 
 * ****getEntityManager**(name): undefined | [EntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityManager.md)<[IDatabaseDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IDatabaseDriver.md)<[Connection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Connection.md)>>
 

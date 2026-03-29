@@ -25,7 +25,7 @@ Contextual metadata passed alongside log messages, including query details and t
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#affected)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/Logger.ts#L45)optionalaffected
+### [**](#affected)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/Logger.ts#L45)optionalaffected
 
 **affected?
 
@@ -33,7 +33,7 @@ Contextual metadata passed alongside log messages, including query details and t
 
 : number
 
-### [**](#connection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/Logger.ts#L49)optionalconnection
+### [**](#connection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/Logger.ts#L49)optionalconnection
 
 **connection?
 
@@ -54,7 +54,7 @@ Contextual metadata passed alongside log messages, including query details and t
 * ##### optionalname?<!-- -->: string
 * ##### optionaltype?<!-- -->: string
 
-### [**](#debugMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/Logger.ts#L48)optionaldebugMode
+### [**](#debugMode)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/Logger.ts#L48)optionaldebugMode
 
 **debugMode?
 
@@ -62,7 +62,7 @@ Contextual metadata passed alongside log messages, including query details and t
 
 : [LoggerNamespace](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#LoggerNamespace)\[]
 
-### [**](#enabled)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/Logger.ts#L47)optionalenabled
+### [**](#enabled)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/Logger.ts#L47)optionalenabled
 
 **enabled?
 
@@ -70,7 +70,7 @@ Contextual metadata passed alongside log messages, including query details and t
 
 : boolean
 
-### [**](#label)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/Logger.ts#L40)optionallabel
+### [**](#label)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/Logger.ts#L40)optionallabel
 
 **label?
 
@@ -78,7 +78,7 @@ Contextual metadata passed alongside log messages, including query details and t
 
 : string
 
-### [**](#level)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/Logger.ts#L46)optionallevel
+### [**](#level)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/Logger.ts#L46)optionallevel
 
 **level?
 
@@ -86,7 +86,7 @@ Contextual metadata passed alongside log messages, including query details and t
 
 : info | warning | error
 
-### [**](#namespace)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/Logger.ts#L41)optionalnamespace
+### [**](#namespace)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/Logger.ts#L41)optionalnamespace
 
 **namespace?
 
@@ -94,7 +94,7 @@ Contextual metadata passed alongside log messages, including query details and t
 
 : [LoggerNamespace](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#LoggerNamespace)
 
-### [**](#params)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/Logger.ts#L42)optionalparams
+### [**](#params)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/Logger.ts#L42)optionalparams
 
 **params?
 
@@ -106,7 +106,7 @@ Contextual metadata passed alongside log messages, including query details and t
 
 unknown\[]
 
-### [**](#query)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/Logger.ts#L39)optionalquery
+### [**](#query)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/Logger.ts#L39)optionalquery
 
 **query?
 
@@ -114,7 +114,7 @@ unknown\[]
 
 : string
 
-### [**](#results)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/Logger.ts#L44)optionalresults
+### [**](#results)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/Logger.ts#L44)optionalresults
 
 **results?
 
@@ -122,7 +122,7 @@ unknown\[]
 
 : number
 
-### [**](#took)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/logging/Logger.ts#L43)optionaltook
+### [**](#took)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/logging/Logger.ts#L43)optionaltook
 
 **took?
 

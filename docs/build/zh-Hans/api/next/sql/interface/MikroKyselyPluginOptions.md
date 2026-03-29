@@ -19,7 +19,7 @@ Configuration options for the MikroKyselyPlugin.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#columnNamingStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/plugin/index.ts#L38)optionalcolumnNamingStrategy
+### [**](#columnNamingStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/plugin/index.ts#L38)optionalcolumnNamingStrategy
 
 **columnNamingStrategy?
 
@@ -29,7 +29,7 @@ Configuration options for the MikroKyselyPlugin.
 
 Use database column names ('column') or property names ('property') in queries.
 
-### [**](#convertValues)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/plugin/index.ts#L56)optionalconvertValues
+### [**](#convertValues)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/plugin/index.ts#L56)optionalconvertValues
 
 **convertValues?
 
@@ -39,7 +39,7 @@ Use database column names ('column') or property names ('property') in queries.
 
 Convert JavaScript values to database-compatible values (e.g., Date to timestamp, custom types).
 
-### [**](#processOnCreateHooks)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/plugin/index.ts#L44)optionalprocessOnCreateHooks
+### [**](#processOnCreateHooks)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/plugin/index.ts#L44)optionalprocessOnCreateHooks
 
 **processOnCreateHooks?
 
@@ -49,7 +49,7 @@ Convert JavaScript values to database-compatible values (e.g., Date to timestamp
 
 Automatically process entity `onCreate` hooks in INSERT queries.
 
-### [**](#processOnUpdateHooks)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/plugin/index.ts#L50)optionalprocessOnUpdateHooks
+### [**](#processOnUpdateHooks)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/plugin/index.ts#L50)optionalprocessOnUpdateHooks
 
 **processOnUpdateHooks?
 
@@ -59,7 +59,7 @@ Automatically process entity `onCreate` hooks in INSERT queries.
 
 Automatically process entity `onUpdate` hooks in UPDATE queries.
 
-### [**](#tableNamingStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/plugin/index.ts#L32)optionaltableNamingStrategy
+### [**](#tableNamingStrategy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/plugin/index.ts#L32)optionaltableNamingStrategy
 
 **tableNamingStrategy?
 

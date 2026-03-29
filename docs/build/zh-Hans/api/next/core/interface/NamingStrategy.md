@@ -29,7 +29,7 @@
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#aliasName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/NamingStrategy.ts#L102)aliasName
+### [**](#aliasName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/NamingStrategy.ts#L102)aliasName
 
 * ****aliasName**(entityName, index): string
 
@@ -44,7 +44,7 @@
 
   #### Returns string
 
-### [**](#classToMigrationName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/NamingStrategy.ts#L17)classToMigrationName
+### [**](#classToMigrationName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/NamingStrategy.ts#L17)classToMigrationName
 
 * ****classToMigrationName**(timestamp, customMigrationName): string
 
@@ -59,7 +59,7 @@
 
   #### Returns string
 
-### [**](#classToTableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/NamingStrategy.ts#L12)classToTableName
+### [**](#classToTableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/NamingStrategy.ts#L12)classToTableName
 
 * ****classToTableName**(entityName, tableName): string
 
@@ -74,7 +74,7 @@
 
   #### Returns string
 
-### [**](#columnNameToProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/NamingStrategy.ts#L67)columnNameToProperty
+### [**](#columnNameToProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/NamingStrategy.ts#L67)columnNameToProperty
 
 * ****columnNameToProperty**(columnName): string
 
@@ -88,7 +88,7 @@
 
   #### Returns string
 
-### [**](#discriminatorColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/NamingStrategy.ts#L129)discriminatorColumnName
+### [**](#discriminatorColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/NamingStrategy.ts#L129)discriminatorColumnName
 
 * ****discriminatorColumnName**(baseName): string
 
@@ -102,7 +102,7 @@
 
   #### Returns string
 
-### [**](#enumValueToEnumProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/NamingStrategy.ts#L56)enumValueToEnumProperty
+### [**](#enumValueToEnumProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/NamingStrategy.ts#L56)enumValueToEnumProperty
 
 * ****enumValueToEnumProperty**(enumValue, columnName, tableName, schemaName): string
 
@@ -132,7 +132,7 @@
 
   The name of the enum property that will hold the value.
 
-### [**](#getClassName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/NamingStrategy.ts#L7)getClassName
+### [**](#getClassName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/NamingStrategy.ts#L7)getClassName
 
 * ****getClassName**(file, separator): string
 
@@ -147,7 +147,7 @@
 
   #### Returns string
 
-### [**](#getEntityName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/NamingStrategy.ts#L62)getEntityName
+### [**](#getEntityName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/NamingStrategy.ts#L62)getEntityName
 
 * ****getEntityName**(tableName, schemaName): string
 
@@ -162,7 +162,7 @@
 
   #### Returns string
 
-### [**](#getEnumClassName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/NamingStrategy.ts#L33)getEnumClassName
+### [**](#getEnumClassName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/NamingStrategy.ts#L33)getEnumClassName
 
 * ****getEnumClassName**(columnName, tableName, schemaName): string
 
@@ -188,7 +188,7 @@
 
   A new class name that will be used for the enum.
 
-### [**](#getEnumTypeName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/NamingStrategy.ts#L44)getEnumTypeName
+### [**](#getEnumTypeName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/NamingStrategy.ts#L44)getEnumTypeName
 
 * ****getEnumTypeName**(columnName, tableName, schemaName): string
 
@@ -214,7 +214,7 @@
 
   A new type name that will be used for the enum.
 
-### [**](#indexName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/NamingStrategy.ts#L92)indexName
+### [**](#indexName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/NamingStrategy.ts#L92)indexName
 
 * ****indexName**(tableName, columns, type): string
 
@@ -230,7 +230,7 @@
 
   #### Returns string
 
-### [**](#inverseSideName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/NamingStrategy.ts#L107)inverseSideName
+### [**](#inverseSideName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/NamingStrategy.ts#L107)inverseSideName
 
 * ****inverseSideName**(entityName, propertyName, kind): string
 
@@ -246,7 +246,7 @@
 
   #### Returns string
 
-### [**](#joinColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/NamingStrategy.ts#L77)joinColumnName
+### [**](#joinColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/NamingStrategy.ts#L77)joinColumnName
 
 * ****joinColumnName**(propertyName): string
 
@@ -260,7 +260,7 @@
 
   #### Returns string
 
-### [**](#joinKeyColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/NamingStrategy.ts#L87)joinKeyColumnName
+### [**](#joinKeyColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/NamingStrategy.ts#L87)joinKeyColumnName
 
 * ****joinKeyColumnName**(entityName, referencedColumnName, composite, tableName): string
 
@@ -277,7 +277,7 @@
 
   #### Returns string
 
-### [**](#joinTableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/NamingStrategy.ts#L82)joinTableName
+### [**](#joinTableName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/NamingStrategy.ts#L82)joinTableName
 
 * ****joinTableName**(sourceEntity, targetEntity, propertyName, tableName): string
 
@@ -294,7 +294,7 @@
 
   #### Returns string
 
-### [**](#manyToManyPropertyName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/NamingStrategy.ts#L118)manyToManyPropertyName
+### [**](#manyToManyPropertyName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/NamingStrategy.ts#L118)manyToManyPropertyName
 
 * ****manyToManyPropertyName**(ownerEntityName, targetEntityName, pivotTableName, ownerTableName, schemaName): string
 
@@ -326,7 +326,7 @@
 
   #### Returns string
 
-### [**](#propertyToColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/NamingStrategy.ts#L22)propertyToColumnName
+### [**](#propertyToColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/NamingStrategy.ts#L22)propertyToColumnName
 
 * ****propertyToColumnName**(propertyName, object): string
 
@@ -341,7 +341,7 @@
 
   #### Returns string
 
-### [**](#referenceColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/naming-strategy/NamingStrategy.ts#L72)referenceColumnName
+### [**](#referenceColumnName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/naming-strategy/NamingStrategy.ts#L72)referenceColumnName
 
 * ****referenceColumnName**(): string
 

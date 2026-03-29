@@ -65,7 +65,7 @@ The main class used to configure and bootstrap the ORM.
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoMikroORM.ts#L67)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoMikroORM.ts#L67)constructor
 
 * ****new MikroORM**\<EM, Entities>(options): [MongoMikroORM](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mongodb/class/MikroORM.md)\<EM, Entities>
 
@@ -83,7 +83,7 @@ The main class used to configure and bootstrap the ORM.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#config)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/MikroORM.ts#L111)readonlyinheritedconfig
+### [**](#config)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/MikroORM.ts#L111)readonlyinheritedconfig
 
 **config: [Configuration](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Configuration.md)<[MongoDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mongodb/class/MongoDriver.md), [MongoEntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mongodb/class/EntityManager.md)<[MongoDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mongodb/class/MongoDriver.md)> & [EntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityManager.md)<[MongoDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mongodb/class/MongoDriver.md)>>
 
@@ -91,7 +91,7 @@ Inherited from MikroORM.config
 
 The ORM configuration instance.
 
-### [**](#driver)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/MikroORM.ts#L109)readonlyinheriteddriver
+### [**](#driver)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/MikroORM.ts#L109)readonlyinheriteddriver
 
 **driver: [MongoDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mongodb/class/MongoDriver.md)
 
@@ -99,7 +99,7 @@ Inherited from MikroORM.driver
 
 The database driver instance used by this ORM.
 
-### [**](#em)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/MikroORM.ts#L107)inheritedem
+### [**](#em)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/MikroORM.ts#L107)inheritedem
 
 **em: EM & { \~entities?
 
@@ -113,7 +113,7 @@ The global EntityManager instance. If you are using `RequestContext` helper, it 
 
 ## Accessors<!-- -->[**](#Accessors)
 
-### [**](#entityGenerator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/MikroORM.ts#L289)inheritedentityGenerator
+### [**](#entityGenerator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/MikroORM.ts#L289)inheritedentityGenerator
 
 * **get entityGenerator(): [IEntityGenerator](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IEntityGenerator.md)
 
@@ -125,7 +125,7 @@ The global EntityManager instance. If you are using `RequestContext` helper, it 
 
   #### Returns [IEntityGenerator](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IEntityGenerator.md)
 
-### [**](#migrator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoMikroORM.ts#L74)migrator
+### [**](#migrator)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoMikroORM.ts#L74)migrator
 
 * **get migrator(): [IMigrator](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IMigrator.md)
 
@@ -137,7 +137,7 @@ The global EntityManager instance. If you are using `RequestContext` helper, it 
 
   #### Returns [IMigrator](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/IMigrator.md)
 
-### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/MikroORM.ts#L268)inheritedschema
+### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/MikroORM.ts#L268)inheritedschema
 
 * **get schema(): ReturnType\<ReturnType\<Driver\[getPlatform]>\[getSchemaGenerator]>
 
@@ -149,7 +149,7 @@ The global EntityManager instance. If you are using `RequestContext` helper, it 
 
   #### Returns ReturnType\<ReturnType\<Driver\[getPlatform]>\[getSchemaGenerator]>
 
-### [**](#seeder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/MikroORM.ts#L275)inheritedseeder
+### [**](#seeder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/MikroORM.ts#L275)inheritedseeder
 
 * **get seeder(): [ISeedManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/ISeedManager.md)
 
@@ -163,7 +163,7 @@ The global EntityManager instance. If you are using `RequestContext` helper, it 
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#checkConnection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/MikroORM.ts#L203)inheritedcheckConnection
+### [**](#checkConnection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/MikroORM.ts#L203)inheritedcheckConnection
 
 * ****checkConnection**(): Promise<{ ok: true } | { error?
   <!-- -->
@@ -177,7 +177,7 @@ The global EntityManager instance. If you are using `RequestContext` helper, it 
 
   #### Returns Promise<{ ok: true } | { error?<!-- -->: Error; ok: false; reason: string }>
 
-### [**](#close)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/MikroORM.ts#L210)inheritedclose
+### [**](#close)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/MikroORM.ts#L210)inheritedclose
 
 * ****close**(force): Promise\<void>
 
@@ -193,7 +193,7 @@ The global EntityManager instance. If you are using `RequestContext` helper, it 
 
   #### Returns Promise\<void>
 
-### [**](#connect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/MikroORM.ts#L176)inheritedconnect
+### [**](#connect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/MikroORM.ts#L176)inheritedconnect
 
 * ****connect**(): Promise<[MongoDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mongodb/class/MongoDriver.md)>
 
@@ -205,7 +205,7 @@ The global EntityManager instance. If you are using `RequestContext` helper, it 
 
   #### Returns Promise<[MongoDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/mongodb/class/MongoDriver.md)>
 
-### [**](#discoverEntity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/MikroORM.ts#L248)inheriteddiscoverEntity
+### [**](#discoverEntity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/MikroORM.ts#L248)inheriteddiscoverEntity
 
 * ****discoverEntity**\<T>(entities, reset): void
 
@@ -222,7 +222,7 @@ The global EntityManager instance. If you are using `RequestContext` helper, it 
 
   #### Returns void
 
-### [**](#getMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/MikroORM.ts#L219)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/MikroORM.ts#L224)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/MikroORM.ts#L229)inheritedgetMetadata
+### [**](#getMetadata)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/MikroORM.ts#L219)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/MikroORM.ts#L224)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/MikroORM.ts#L229)inheritedgetMetadata
 
 * ****getMetadata**(): [MetadataStorage](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/MetadataStorage.md)
 * ****getMetadata**\<Entity>(entityName): [EntityMetadata](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/EntityMetadata.md)\<Entity, [EntityCtor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityCtor)\<Entity>>
@@ -235,7 +235,7 @@ The global EntityManager instance. If you are using `RequestContext` helper, it 
 
   #### Returns [MetadataStorage](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/MetadataStorage.md)
 
-### [**](#isConnected)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/MikroORM.ts#L196)inheritedisConnected
+### [**](#isConnected)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/MikroORM.ts#L196)inheritedisConnected
 
 * ****isConnected**(): Promise\<boolean>
 
@@ -247,7 +247,7 @@ The global EntityManager instance. If you are using `RequestContext` helper, it 
 
   #### Returns Promise\<boolean>
 
-### [**](#reconnect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/MikroORM.ts#L184)inheritedreconnect
+### [**](#reconnect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/MikroORM.ts#L184)inheritedreconnect
 
 * ****reconnect**(options): Promise\<void>
 
@@ -263,7 +263,7 @@ The global EntityManager instance. If you are using `RequestContext` helper, it 
 
   #### Returns Promise\<void>
 
-### [**](#init)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/mongodb/src/MongoMikroORM.ts#L52)staticinit
+### [**](#init)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/mongodb/src/MongoMikroORM.ts#L52)staticinit
 
 * ****init**\<D, EM, Entities>(options): Promise<[MikroORM](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/MikroORM.md)\<D, EM, Entities>>
 

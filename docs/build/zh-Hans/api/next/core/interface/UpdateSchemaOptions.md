@@ -15,7 +15,7 @@ Options for `ISchemaGenerator.update()` to apply incremental schema changes.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#dropDb)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1531)optionaldropDb
+### [**](#dropDb)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1531)optionaldropDb
 
 **dropDb?
 
@@ -23,7 +23,7 @@ Options for `ISchemaGenerator.update()` to apply incremental schema changes.
 
 : boolean
 
-### [**](#dropTables)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1532)optionaldropTables
+### [**](#dropTables)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1532)optionaldropTables
 
 **dropTables?
 
@@ -31,7 +31,7 @@ Options for `ISchemaGenerator.update()` to apply incremental schema changes.
 
 : boolean
 
-### [**](#fromSchema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1534)optionalfromSchema
+### [**](#fromSchema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1534)optionalfromSchema
 
 **fromSchema?
 
@@ -39,7 +39,7 @@ Options for `ISchemaGenerator.update()` to apply incremental schema changes.
 
 : DatabaseSchema
 
-### [**](#safe)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1530)optionalsafe
+### [**](#safe)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1530)optionalsafe
 
 **safe?
 
@@ -47,7 +47,7 @@ Options for `ISchemaGenerator.update()` to apply incremental schema changes.
 
 : boolean
 
-### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1533)optionalschema
+### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1533)optionalschema
 
 **schema?
 
@@ -55,7 +55,7 @@ Options for `ISchemaGenerator.update()` to apply incremental schema changes.
 
 : string
 
-### [**](#wrap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/typings.ts#L1529)optionalwrap
+### [**](#wrap)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/typings.ts#L1529)optionalwrap
 
 **wrap?
 

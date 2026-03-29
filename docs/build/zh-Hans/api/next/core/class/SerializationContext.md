@@ -25,7 +25,7 @@ Helper that allows to keep track of where we are currently at when serializing c
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/serialization/SerializationContext.ts#L18)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/serialization/SerializationContext.ts#L18)constructor
 
 * ****new SerializationContext**\<T>(populate, fields, exclude): [SerializationContext](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/SerializationContext.md)\<T>
 
@@ -39,7 +39,7 @@ Helper that allows to keep track of where we are currently at when serializing c
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#path)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/serialization/SerializationContext.ts#L11)readonlypath
+### [**](#path)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/serialization/SerializationContext.ts#L11)readonlypath
 
 **path: \[[EntityName](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityName), string]\[] =
 
@@ -47,7 +47,7 @@ Helper that allows to keep track of where we are currently at when serializing c
 
 \[]
 
-### [**](#visited)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/serialization/SerializationContext.ts#L12)readonlyvisited
+### [**](#visited)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/serialization/SerializationContext.ts#L12)readonlyvisited
 
 **visited: Set\<Partial\<any>> =
 
@@ -57,7 +57,7 @@ Helper that allows to keep track of where we are currently at when serializing c
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#close)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/serialization/SerializationContext.ts#L53)close
+### [**](#close)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/serialization/SerializationContext.ts#L53)close
 
 * ****close**(): void
 
@@ -67,7 +67,7 @@ Helper that allows to keep track of where we are currently at when serializing c
 
   #### Returns void
 
-### [**](#isExcluded)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/serialization/SerializationContext.ts#L124)isExcluded
+### [**](#isExcluded)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/serialization/SerializationContext.ts#L124)isExcluded
 
 * ****isExcluded**(entityName, prop): boolean
 
@@ -82,7 +82,7 @@ Helper that allows to keep track of where we are currently at when serializing c
 
   #### Returns boolean
 
-### [**](#isMarkedAsPopulated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/serialization/SerializationContext.ts#L96)isMarkedAsPopulated
+### [**](#isMarkedAsPopulated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/serialization/SerializationContext.ts#L96)isMarkedAsPopulated
 
 * ****isMarkedAsPopulated**(entityName, prop): boolean
 
@@ -97,7 +97,7 @@ Helper that allows to keep track of where we are currently at when serializing c
 
   #### Returns boolean
 
-### [**](#isPartiallyLoaded)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/serialization/SerializationContext.ts#L135)isPartiallyLoaded
+### [**](#isPartiallyLoaded)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/serialization/SerializationContext.ts#L135)isPartiallyLoaded
 
 * ****isPartiallyLoaded**(entityName, prop): boolean
 
@@ -112,7 +112,7 @@ Helper that allows to keep track of where we are currently at when serializing c
 
   #### Returns boolean
 
-### [**](#leave)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/serialization/SerializationContext.ts#L43)leave
+### [**](#leave)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/serialization/SerializationContext.ts#L43)leave
 
 * ****leave**(entityName, prop): void
 
@@ -127,7 +127,7 @@ Helper that allows to keep track of where we are currently at when serializing c
 
   #### Returns void
 
-### [**](#visit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/serialization/SerializationContext.ts#L27)visit
+### [**](#visit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/serialization/SerializationContext.ts#L27)visit
 
 * ****visit**(entityName, prop): boolean
 
@@ -142,7 +142,7 @@ Helper that allows to keep track of where we are currently at when serializing c
 
   #### Returns boolean
 
-### [**](#propagate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/serialization/SerializationContext.ts#L62)staticpropagate
+### [**](#propagate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/serialization/SerializationContext.ts#L62)staticpropagate
 
 * ****propagate**(root, entity, isVisible): void
 

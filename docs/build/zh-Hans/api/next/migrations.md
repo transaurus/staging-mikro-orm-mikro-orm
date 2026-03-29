@@ -25,7 +25,7 @@
 
 ## References<!-- -->[**](#References)
 
-### [**](#MigrateOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/typings.ts#L1)MigrateOptions
+### [**](#MigrateOptions)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/typings.ts#L1)MigrateOptions
 
 Re-exports
 
@@ -33,7 +33,7 @@ Re-exports
 
 [MigrateOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrateOptions)
 
-### [**](#MigrationInfo)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/typings.ts#L1)MigrationInfo
+### [**](#MigrationInfo)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/typings.ts#L1)MigrationInfo
 
 Re-exports
 
@@ -41,7 +41,7 @@ Re-exports
 
 [MigrationInfo](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationInfo)
 
-### [**](#MigrationResult)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/typings.ts#L1)MigrationResult
+### [**](#MigrationResult)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/typings.ts#L1)MigrationResult
 
 Re-exports
 
@@ -49,7 +49,7 @@ Re-exports
 
 [MigrationResult](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MigrationResult)
 
-### [**](#MigrationRow)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/typings.ts#L1)MigrationRow
+### [**](#MigrationRow)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/typings.ts#L1)MigrationRow
 
 Re-exports
 
@@ -59,7 +59,7 @@ Re-exports
 
 ## Type Aliases<!-- -->[**](<#Type Aliases>)
 
-### [**](#Query)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/migrations/src/Migration.ts#L11)Query
+### [**](#Query)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/migrations/src/Migration.ts#L11)Query
 
 **Query: string | NativeQueryBuilder | [RawQueryFragment](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/RawQueryFragment.md)
 

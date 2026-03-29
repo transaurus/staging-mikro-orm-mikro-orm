@@ -43,7 +43,7 @@ SQL-specific entity repository with QueryBuilder support.
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/SqlEntityRepository.ts#L7)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/SqlEntityRepository.ts#L7)constructor
 
 * ****new EntityRepository**\<Entity>(em, entityName): [SqlEntityRepository](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/EntityRepository.md)\<Entity>
 
@@ -58,7 +58,7 @@ SQL-specific entity repository with QueryBuilder support.
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#assign)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L373)inheritedassign
+### [**](#assign)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L373)inheritedassign
 
 * ****assign**\<Ent, Naked, Convert, Data>(entity, data, options): [MergeSelected](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MergeSelected)\<Ent, Naked, keyof
   <!-- -->
@@ -78,7 +78,7 @@ SQL-specific entity repository with QueryBuilder support.
 
   #### Returns [MergeSelected](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MergeSelected)\<Ent, Naked, keyof<!-- --> Data & string>
 
-### [**](#canPopulate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L281)inheritedcanPopulate
+### [**](#canPopulate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L281)inheritedcanPopulate
 
 * ****canPopulate**(property): boolean
 
@@ -94,7 +94,7 @@ SQL-specific entity repository with QueryBuilder support.
 
   #### Returns boolean
 
-### [**](#count)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L400)inheritedcount
+### [**](#count)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L400)inheritedcount
 
 * ****count**\<Hint>(where, options): Promise\<number>
 
@@ -111,7 +111,7 @@ SQL-specific entity repository with QueryBuilder support.
 
   #### Returns Promise\<number>
 
-### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L323)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L343)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L363)inheritedcreate
+### [**](#create)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L323)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L343)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L363)inheritedcreate
 
 * ****create**\<Convert, Data>(data, options): Entity
 * ****create**\<Convert, Data>(data, options): Entity
@@ -133,7 +133,7 @@ SQL-specific entity repository with QueryBuilder support.
 
   #### Returns Entity
 
-### [**](#createQueryBuilder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/SqlEntityRepository.ts#L17)createQueryBuilder
+### [**](#createQueryBuilder)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/SqlEntityRepository.ts#L17)createQueryBuilder
 
 * ****createQueryBuilder**\<RootAlias>(alias): [QueryBuilder](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/QueryBuilder.md)\<Entity, RootAlias, never, never, never, \*, {}>
 
@@ -147,7 +147,7 @@ SQL-specific entity repository with QueryBuilder support.
 
   #### Returns [QueryBuilder](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/QueryBuilder.md)\<Entity, RootAlias, never, never, never, \*, {}>
 
-### [**](#find)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L140)inheritedfind
+### [**](#find)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L140)inheritedfind
 
 * ****find**\<Hint, Fields, Excludes>(where, options): Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>\[]>
 
@@ -164,7 +164,7 @@ SQL-specific entity repository with QueryBuilder support.
 
   #### Returns Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>\[]>
 
-### [**](#findAll)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L175)inheritedfindAll
+### [**](#findAll)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L175)inheritedfindAll
 
 * ****findAll**\<Hint, Fields, Excludes>(options): Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>\[]>
 
@@ -180,7 +180,7 @@ SQL-specific entity repository with QueryBuilder support.
 
   #### Returns Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>\[]>
 
-### [**](#findAndCount)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L151)inheritedfindAndCount
+### [**](#findAndCount)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L151)inheritedfindAndCount
 
 * ****findAndCount**\<Hint, Fields, Excludes>(where, options): Promise<\[[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>\[], number]>
 
@@ -197,7 +197,7 @@ SQL-specific entity repository with QueryBuilder support.
 
   #### Returns Promise<\[[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>\[], number]>
 
-### [**](#findByCursor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L161)inheritedfindByCursor
+### [**](#findByCursor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L161)inheritedfindByCursor
 
 * ****findByCursor**\<Hint, Fields, Excludes, IncludeCount>(options): Promise<[Cursor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Cursor.md)\<Entity, Hint, Fields, Excludes, IncludeCount>>
 
@@ -264,7 +264,7 @@ SQL-specific entity repository with QueryBuilder support.
 
   #### Returns Promise<[Cursor](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Cursor.md)\<Entity, Hint, Fields, Excludes, IncludeCount>>
 
-### [**](#findOne)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L53)inheritedfindOne
+### [**](#findOne)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L53)inheritedfindOne
 
 * ****findOne**\<Hint, Fields, Excludes>(where, options): Promise\<null | [Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>>
 
@@ -281,7 +281,7 @@ SQL-specific entity repository with QueryBuilder support.
 
   #### Returns Promise\<null | [Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>>
 
-### [**](#findOneOrFail)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L65)inheritedfindOneOrFail
+### [**](#findOneOrFail)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L65)inheritedfindOneOrFail
 
 * ****findOneOrFail**\<Hint, Fields, Excludes>(where, options): Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>>
 
@@ -298,7 +298,7 @@ SQL-specific entity repository with QueryBuilder support.
 
   #### Returns Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>>
 
-### [**](#getEntityManager)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/SqlEntityRepository.ts#L31)getEntityManager
+### [**](#getEntityManager)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/SqlEntityRepository.ts#L31)getEntityManager
 
 * ****getEntityManager**(): [SqlEntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/EntityManager.md)<[AbstractSqlDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/AbstractSqlDriver.md)<[AbstractSqlConnection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/AbstractSqlConnection.md), [AbstractSqlPlatform](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/AbstractSqlPlatform.md)>>
 
@@ -310,7 +310,7 @@ SQL-specific entity repository with QueryBuilder support.
 
   #### Returns [SqlEntityManager](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/EntityManager.md)<[AbstractSqlDriver](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/AbstractSqlDriver.md)<[AbstractSqlConnection](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/AbstractSqlConnection.md), [AbstractSqlPlatform](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/AbstractSqlPlatform.md)>>
 
-### [**](#getEntityName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L408)inheritedgetEntityName
+### [**](#getEntityName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L408)inheritedgetEntityName
 
 * ****getEntityName**(): string
 
@@ -322,7 +322,7 @@ SQL-specific entity repository with QueryBuilder support.
 
   #### Returns string
 
-### [**](#getReference)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L239)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L248)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L256)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L264)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L269)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L274)inheritedgetReference
+### [**](#getReference)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L239)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L248)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L256)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L264)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L269)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L274)inheritedgetReference
 
 * ****getReference**\<K>(id, options): [Ref](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Ref)\<Entity>
 * ****getReference**\<K>(id, options): Entity
@@ -343,7 +343,7 @@ SQL-specific entity repository with QueryBuilder support.
 
   #### Returns [Ref](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Ref)\<Entity>
 
-### [**](#insert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L193)inheritedinsert
+### [**](#insert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L193)inheritedinsert
 
 * ****insert**(data, options): Promise\<Entity extends { \[PrimaryKeyProp]?
   <!-- -->
@@ -372,7 +372,7 @@ SQL-specific entity repository with QueryBuilder support.
 
   #### Returns Promise\<Entity extends { \[PrimaryKeyProp]?<!-- -->: PK } ? PK extends undefined ? Omit\<Entity\<Entity>, typeof [PrimaryKeyProp](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#PrimaryKeyProp)> : PK extends keyof<!-- --> Entity\<Entity> ? ReadonlyPrimary\<UnwrapPrimary\<Entity\<Entity>\[PK\<PK>]>> : PK extends keyof<!-- --> Entity\<Entity>\[] ? ReadonlyPrimary\<PrimaryPropToType\<Entity\<Entity>, PK\<PK>>> : PK : Entity extends { \_id?<!-- -->: PK } ? string | ReadonlyPrimary\<PK> : Entity extends { id?<!-- -->: PK } ? ReadonlyPrimary\<PK> : Entity extends { uuid?<!-- -->: PK } ? ReadonlyPrimary\<PK> : Entity>
 
-### [**](#insertMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L203)inheritedinsertMany
+### [**](#insertMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L203)inheritedinsertMany
 
 * ****insertMany**(data, options): Promise<(Entity extends { \[PrimaryKeyProp]?
   <!-- -->
@@ -401,7 +401,7 @@ SQL-specific entity repository with QueryBuilder support.
 
   #### Returns Promise<(Entity extends { \[PrimaryKeyProp]?<!-- -->: PK } ? PK extends undefined ? Omit\<Entity\<Entity>, typeof [PrimaryKeyProp](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#PrimaryKeyProp)> : PK extends keyof<!-- --> Entity\<Entity> ? ReadonlyPrimary\<UnwrapPrimary\<Entity\<Entity>\[PK\<PK>]>> : PK extends keyof<!-- --> Entity\<Entity>\[] ? ReadonlyPrimary\<PrimaryPropToType\<Entity\<Entity>, PK\<PK>>> : PK : Entity extends { \_id?<!-- -->: PK } ? string | ReadonlyPrimary\<PK> : Entity extends { id?<!-- -->: PK } ? ReadonlyPrimary\<PK> : Entity extends { uuid?<!-- -->: PK } ? ReadonlyPrimary\<PK> : Entity)\[]>
 
-### [**](#map)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L231)inheritedmap
+### [**](#map)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L231)inheritedmap
 
 * ****map**(result, options): Entity
 
@@ -419,7 +419,7 @@ SQL-specific entity repository with QueryBuilder support.
 
   #### Returns Entity
 
-### [**](#merge)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L393)inheritedmerge
+### [**](#merge)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L393)inheritedmerge
 
 * ****merge**(data, options): Entity
 
@@ -436,7 +436,7 @@ SQL-specific entity repository with QueryBuilder support.
 
   #### Returns Entity
 
-### [**](#nativeDelete)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L224)inheritednativeDelete
+### [**](#nativeDelete)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L224)inheritednativeDelete
 
 * ****nativeDelete**(where, options): Promise\<number>
 
@@ -453,7 +453,7 @@ SQL-specific entity repository with QueryBuilder support.
 
   #### Returns Promise\<number>
 
-### [**](#nativeUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L213)inheritednativeUpdate
+### [**](#nativeUpdate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L213)inheritednativeUpdate
 
 * ****nativeUpdate**(where, data, options): Promise\<number>
 
@@ -471,7 +471,7 @@ SQL-specific entity repository with QueryBuilder support.
 
   #### Returns Promise\<number>
 
-### [**](#populate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L288)inheritedpopulate
+### [**](#populate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L288)inheritedpopulate
 
 * ****populate**\<Ent, Hint, Naked, Fields, Excludes>(entities, populate, options): Promise\<Ent extends object\[] ? [MergeLoaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MergeLoaded)\<ArrayElement\<Ent\<Ent>>, Naked, Hint, Fields, Excludes, false>\[] : [MergeLoaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MergeLoaded)\<Ent, Naked, Hint, Fields, Excludes, false>>
 
@@ -489,7 +489,7 @@ SQL-specific entity repository with QueryBuilder support.
 
   #### Returns Promise\<Ent extends object\[] ? [MergeLoaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MergeLoaded)\<ArrayElement\<Ent\<Ent>>, Naked, Hint, Fields, Excludes, false>\[] : [MergeLoaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MergeLoaded)\<Ent, Naked, Hint, Fields, Excludes, false>>
 
-### [**](#qb)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/SqlEntityRepository.ts#L24)qb
+### [**](#qb)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/SqlEntityRepository.ts#L24)qb
 
 * ****qb**\<RootAlias>(alias): [QueryBuilder](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/QueryBuilder.md)\<Entity, RootAlias, never, never, never, \*, {}>
 
@@ -503,7 +503,7 @@ SQL-specific entity repository with QueryBuilder support.
 
   #### Returns [QueryBuilder](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/QueryBuilder.md)\<Entity, RootAlias, never, never, never, \*, {}>
 
-### [**](#stream)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L184)inheritedstream
+### [**](#stream)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L184)inheritedstream
 
 * ****stream**\<Hint, Fields, Excludes>(options): AsyncIterableIterator<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>, any, any>
 
@@ -528,7 +528,7 @@ SQL-specific entity repository with QueryBuilder support.
 
   #### Returns AsyncIterableIterator<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>, any, any>
 
-### [**](#upsert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L98)inheritedupsert
+### [**](#upsert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L98)inheritedupsert
 
 * ****upsert**\<Fields>(entityOrData, options): Promise\<Entity>
 
@@ -562,7 +562,7 @@ SQL-specific entity repository with QueryBuilder support.
 
   #### Returns Promise\<Entity>
 
-### [**](#upsertMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/EntityRepository.ts#L130)inheritedupsertMany
+### [**](#upsertMany)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/EntityRepository.ts#L130)inheritedupsertMany
 
 * ****upsertMany**\<Fields>(entitiesOrData, options): Promise\<Entity\[]>
 

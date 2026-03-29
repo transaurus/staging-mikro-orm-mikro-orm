@@ -14,7 +14,7 @@
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#alias)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L239)optionalalias
+### [**](#alias)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L239)optionalalias
 
 **alias?
 
@@ -22,7 +22,7 @@
 
 : string
 
-### [**](#filter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L244)optionalfilter
+### [**](#filter)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L244)optionalfilter
 
 **filter?
 
@@ -30,7 +30,7 @@
 
 : boolean
 
-### [**](#ignoreBranching)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L241)optionalignoreBranching
+### [**](#ignoreBranching)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L241)optionalignoreBranching
 
 **ignoreBranching?
 
@@ -38,7 +38,7 @@
 
 : boolean
 
-### [**](#matchPopulateJoins)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L240)optionalmatchPopulateJoins
+### [**](#matchPopulateJoins)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L240)optionalmatchPopulateJoins
 
 **matchPopulateJoins?
 
@@ -46,7 +46,7 @@
 
 : boolean
 
-### [**](#parentPath)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L245)optionalparentPath
+### [**](#parentPath)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L245)optionalparentPath
 
 **parentPath?
 
@@ -54,7 +54,7 @@
 
 : string
 
-### [**](#preferNoBranch)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L242)optionalpreferNoBranch
+### [**](#preferNoBranch)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L242)optionalpreferNoBranch
 
 **preferNoBranch?
 
@@ -62,7 +62,7 @@
 
 : boolean
 
-### [**](#type)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L243)optionaltype
+### [**](#type)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L243)optionaltype
 
 **type?
 

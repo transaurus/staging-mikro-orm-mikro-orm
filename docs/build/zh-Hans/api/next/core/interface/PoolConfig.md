@@ -16,7 +16,7 @@ Connection pool configuration.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#idleTimeoutMillis)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L705)optionalidleTimeoutMillis
+### [**](#idleTimeoutMillis)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L705)optionalidleTimeoutMillis
 
 **idleTimeoutMillis?
 
@@ -26,7 +26,7 @@ Connection pool configuration.
 
 Time in milliseconds before an idle connection is closed.
 
-### [**](#max)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L703)optionalmax
+### [**](#max)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L703)optionalmax
 
 **max?
 
@@ -36,7 +36,7 @@ Time in milliseconds before an idle connection is closed.
 
 Maximum number of connections allowed in the pool.
 
-### [**](#min)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/utils/Configuration.ts#L701)optionalmin
+### [**](#min)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/utils/Configuration.ts#L701)optionalmin
 
 **min?
 

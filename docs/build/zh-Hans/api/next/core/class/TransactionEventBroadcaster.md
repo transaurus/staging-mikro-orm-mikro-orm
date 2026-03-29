@@ -18,7 +18,7 @@ Broadcasts transaction lifecycle events (start, commit, rollback) through the Ev
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/events/TransactionEventBroadcaster.ts#L7)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/events/TransactionEventBroadcaster.ts#L7)constructor
 
 * ****new TransactionEventBroadcaster**(em, context): [TransactionEventBroadcaster](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/TransactionEventBroadcaster.md)
 
@@ -32,7 +32,7 @@ Broadcasts transaction lifecycle events (start, commit, rollback) through the Ev
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#context)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/events/TransactionEventBroadcaster.ts#L9)optionalreadonlycontext
+### [**](#context)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/events/TransactionEventBroadcaster.ts#L9)optionalreadonlycontext
 
 **context?
 
@@ -50,7 +50,7 @@ Broadcasts transaction lifecycle events (start, commit, rollback) through the Ev
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#dispatchEvent)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/events/TransactionEventBroadcaster.ts#L13)dispatchEvent
+### [**](#dispatchEvent)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/events/TransactionEventBroadcaster.ts#L13)dispatchEvent
 
 * ****dispatchEvent**(event, transaction): Promise\<void>
 

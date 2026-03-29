@@ -32,7 +32,7 @@ Base class for entities providing convenience methods like `assign()`, `toObject
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#assign)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/BaseEntity.ts#L133)assign
+### [**](#assign)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/BaseEntity.ts#L133)assign
 
 * ****assign**\<Entity, Naked, Convert, Data>(data, options): [MergeSelected](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MergeSelected)\<Entity, Naked, keyof
   <!-- -->
@@ -49,7 +49,7 @@ Base class for entities providing convenience methods like `assign()`, `toObject
 
   #### Returns [MergeSelected](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#MergeSelected)\<Entity, Naked, keyof<!-- --> Data & string>
 
-### [**](#getSchema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/BaseEntity.ts#L158)getSchema
+### [**](#getSchema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/BaseEntity.ts#L158)getSchema
 
 * ****getSchema**(): undefined | string
 
@@ -59,7 +59,7 @@ Base class for entities providing convenience methods like `assign()`, `toObject
 
   #### Returns undefined | string
 
-### [**](#init)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/BaseEntity.ts#L148)init
+### [**](#init)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/BaseEntity.ts#L148)init
 
 * ****init**\<Entity, Hint, Fields, Excludes>(options): Promise\<null | [Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>>
 
@@ -73,7 +73,7 @@ Base class for entities providing convenience methods like `assign()`, `toObject
 
   #### Returns Promise\<null | [Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint, Fields, Excludes>>
 
-### [**](#isInitialized)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/BaseEntity.ts#L25)isInitialized
+### [**](#isInitialized)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/BaseEntity.ts#L25)isInitialized
 
 * ****isInitialized**(): boolean
 
@@ -83,7 +83,7 @@ Base class for entities providing convenience methods like `assign()`, `toObject
 
   #### Returns boolean
 
-### [**](#populate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/BaseEntity.ts#L35)populate
+### [**](#populate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/BaseEntity.ts#L35)populate
 
 * ****populate**\<Entity, Hint, Fields>(populate, options): Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint>>
 
@@ -98,7 +98,7 @@ Base class for entities providing convenience methods like `assign()`, `toObject
 
   #### Returns Promise<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, Hint>>
 
-### [**](#populated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/BaseEntity.ts#L30)populated
+### [**](#populated)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/BaseEntity.ts#L30)populated
 
 * ****populated**(populated): void
 
@@ -112,7 +112,7 @@ Base class for entities providing convenience methods like `assign()`, `toObject
 
   #### Returns void
 
-### [**](#serialize)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/BaseEntity.ts#L123)serialize
+### [**](#serialize)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/BaseEntity.ts#L123)serialize
 
 * ****serialize**\<Entity, Naked, Hint, Exclude>(options): [SerializeDTO](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#SerializeDTO)\<Naked, Hint, Exclude, never, \*>
 
@@ -126,7 +126,7 @@ Base class for entities providing convenience methods like `assign()`, `toObject
 
   #### Returns [SerializeDTO](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#SerializeDTO)\<Naked, Hint, Exclude, never, \*>
 
-### [**](#setSchema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/BaseEntity.ts#L163)setSchema
+### [**](#setSchema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/BaseEntity.ts#L163)setSchema
 
 * ****setSchema**(schema): void
 
@@ -140,7 +140,7 @@ Base class for entities providing convenience methods like `assign()`, `toObject
 
   #### Returns void
 
-### [**](#toObject)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/BaseEntity.ts#L66)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/BaseEntity.ts#L86)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/BaseEntity.ts#L108)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/BaseEntity.ts#L111)toObject
+### [**](#toObject)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/BaseEntity.ts#L66)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/BaseEntity.ts#L86)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/BaseEntity.ts#L108)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/BaseEntity.ts#L111)toObject
 
 * ****toObject**\<Entity>(): [EntityDTO](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityDTO)\<Entity>
 * ****toObject**\<Entity>(ignoreFields): [EntityDTO](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityDTO)\<Entity>
@@ -166,7 +166,7 @@ Base class for entities providing convenience methods like `assign()`, `toObject
 
   #### Returns [EntityDTO](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityDTO)\<Entity>
 
-### [**](#toPOJO)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/BaseEntity.ts#L118)toPOJO
+### [**](#toPOJO)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/BaseEntity.ts#L118)toPOJO
 
 * ****toPOJO**\<Entity>(): [EntityDTO](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityDTO)\<Entity>
 
@@ -176,7 +176,7 @@ Base class for entities providing convenience methods like `assign()`, `toObject
 
   #### Returns [EntityDTO](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#EntityDTO)\<Entity>
 
-### [**](#toReference)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/entity/BaseEntity.ts#L43)toReference
+### [**](#toReference)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/entity/BaseEntity.ts#L43)toReference
 
 * ****toReference**\<Entity>(): [Reference](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/Reference.md)\<Entity> & [LoadedReference](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/interface/LoadedReference.md)<[Loaded](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core.md#Loaded)\<Entity, AddEager\<Entity>>>
 

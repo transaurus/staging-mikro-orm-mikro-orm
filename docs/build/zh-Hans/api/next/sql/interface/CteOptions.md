@@ -11,7 +11,7 @@ Options for Common Table Expression (CTE) definitions.
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#columns)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/query/NativeQueryBuilder.ts#L16)optionalcolumns
+### [**](#columns)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/query/NativeQueryBuilder.ts#L16)optionalcolumns
 
 **columns?
 
@@ -21,7 +21,7 @@ Options for Common Table Expression (CTE) definitions.
 
 Column names for the CTE.
 
-### [**](#materialized)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/query/NativeQueryBuilder.ts#L18)optionalmaterialized
+### [**](#materialized)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/query/NativeQueryBuilder.ts#L18)optionalmaterialized
 
 **materialized?
 

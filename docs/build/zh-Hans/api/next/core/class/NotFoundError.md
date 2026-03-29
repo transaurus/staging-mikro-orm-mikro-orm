@@ -52,7 +52,7 @@ Error thrown when an entity lookup fails to find the expected result.
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L15)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L15)constructor
 
 * ****new NotFoundError**\<T>(message, entity): [NotFoundError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/NotFoundError.md)\<T>
 
@@ -77,7 +77,7 @@ Error thrown when an entity lookup fails to find the expected result.
 
 Inherited from ValidationError.cause
 
-### [**](#entity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L17)optionalreadonlyinheritedentity
+### [**](#entity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L17)optionalreadonlyinheritedentity
 
 **entity?
 
@@ -111,7 +111,7 @@ Inherited from ValidationError.stack
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#getEntity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L29)inheritedgetEntity
+### [**](#getEntity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L29)inheritedgetEntity
 
 * ****getEntity**(): undefined | Partial\<any>
 
@@ -123,7 +123,7 @@ Inherited from ValidationError.stack
 
   #### Returns undefined | Partial\<any>
 
-### [**](#cannotCommit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L152)staticinheritedcannotCommit
+### [**](#cannotCommit)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L152)staticinheritedcannotCommit
 
 * ****cannotCommit**(): [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
@@ -131,7 +131,7 @@ Inherited from ValidationError.stack
 
   #### Returns [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
-### [**](#cannotModifyInverseCollection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L119)staticinheritedcannotModifyInverseCollection
+### [**](#cannotModifyInverseCollection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L119)staticinheritedcannotModifyInverseCollection
 
 * ****cannotModifyInverseCollection**(owner, property): [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
@@ -144,7 +144,7 @@ Inherited from ValidationError.stack
 
   #### Returns [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
-### [**](#cannotModifyReadonlyCollection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L129)staticinheritedcannotModifyReadonlyCollection
+### [**](#cannotModifyReadonlyCollection)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L129)staticinheritedcannotModifyReadonlyCollection
 
 * ****cannotModifyReadonlyCollection**(owner, property): [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
@@ -157,7 +157,7 @@ Inherited from ValidationError.stack
 
   #### Returns [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
-### [**](#cannotRemoveFromCollectionWithoutOrphanRemoval)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L136)staticinheritedcannotRemoveFromCollectionWithoutOrphanRemoval
+### [**](#cannotRemoveFromCollectionWithoutOrphanRemoval)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L136)staticinheritedcannotRemoveFromCollectionWithoutOrphanRemoval
 
 * ****cannotRemoveFromCollectionWithoutOrphanRemoval**(owner, property): [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
@@ -170,7 +170,7 @@ Inherited from ValidationError.stack
 
   #### Returns [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
-### [**](#cannotUseGlobalContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L156)staticinheritedcannotUseGlobalContext
+### [**](#cannotUseGlobalContext)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L156)staticinheritedcannotUseGlobalContext
 
 * ****cannotUseGlobalContext**(): [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
@@ -178,7 +178,7 @@ Inherited from ValidationError.stack
 
   #### Returns [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
-### [**](#cannotUseGroupOperatorsInsideScalars)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L172)staticinheritedcannotUseGroupOperatorsInsideScalars
+### [**](#cannotUseGroupOperatorsInsideScalars)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L172)staticinheritedcannotUseGroupOperatorsInsideScalars
 
 * ****cannotUseGroupOperatorsInsideScalars**(entityName, propName, payload): [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
@@ -192,7 +192,7 @@ Inherited from ValidationError.stack
 
   #### Returns [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
-### [**](#cannotUseOperatorsInsideEmbeddables)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L162)staticinheritedcannotUseOperatorsInsideEmbeddables
+### [**](#cannotUseOperatorsInsideEmbeddables)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L162)staticinheritedcannotUseOperatorsInsideEmbeddables
 
 * ****cannotUseOperatorsInsideEmbeddables**(entityName, propName, payload): [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
@@ -206,7 +206,7 @@ Inherited from ValidationError.stack
 
   #### Returns [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
-### [**](#entityNotManaged)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L60)staticinheritedentityNotManaged
+### [**](#entityNotManaged)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L60)staticinheritedentityNotManaged
 
 * ****entityNotManaged**(entity): [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
@@ -218,7 +218,7 @@ Inherited from ValidationError.stack
 
   #### Returns [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
-### [**](#failedToLoadProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L472)staticfailedToLoadProperty
+### [**](#failedToLoadProperty)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L472)staticfailedToLoadProperty
 
 * ****failedToLoadProperty**(name, propName, where): [NotFoundError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/NotFoundError.md)\<Partial\<any>>
 
@@ -230,7 +230,7 @@ Inherited from ValidationError.stack
 
   #### Returns [NotFoundError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/NotFoundError.md)\<Partial\<any>>
 
-### [**](#findExactlyOneFailed)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L466)staticfindExactlyOneFailed
+### [**](#findExactlyOneFailed)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L466)staticfindExactlyOneFailed
 
 * ****findExactlyOneFailed**(name, where): [NotFoundError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/NotFoundError.md)\<Partial\<any>>
 
@@ -241,7 +241,7 @@ Inherited from ValidationError.stack
 
   #### Returns [NotFoundError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/NotFoundError.md)\<Partial\<any>>
 
-### [**](#findOneFailed)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L462)staticfindOneFailed
+### [**](#findOneFailed)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L462)staticfindOneFailed
 
 * ****findOneFailed**(name, where): [NotFoundError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/NotFoundError.md)\<Partial\<any>>
 
@@ -252,7 +252,7 @@ Inherited from ValidationError.stack
 
   #### Returns [NotFoundError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/NotFoundError.md)\<Partial\<any>>
 
-### [**](#fromMergeWithoutPK)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L52)staticinheritedfromMergeWithoutPK
+### [**](#fromMergeWithoutPK)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L52)staticinheritedfromMergeWithoutPK
 
 * ****fromMergeWithoutPK**(meta): [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
@@ -264,7 +264,7 @@ Inherited from ValidationError.stack
 
   #### Returns [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
-### [**](#fromWrongPropertyType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L33)staticinheritedfromWrongPropertyType
+### [**](#fromWrongPropertyType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L33)staticinheritedfromWrongPropertyType
 
 * ****fromWrongPropertyType**(entity, property, expectedType, givenType, givenValue): [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
@@ -280,7 +280,7 @@ Inherited from ValidationError.stack
 
   #### Returns [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
-### [**](#fromWrongRepositoryType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L46)staticinheritedfromWrongRepositoryType
+### [**](#fromWrongRepositoryType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L46)staticinheritedfromWrongRepositoryType
 
 * ****fromWrongRepositoryType**(entityName, repoType, method): [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
@@ -294,7 +294,7 @@ Inherited from ValidationError.stack
 
   #### Returns [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
-### [**](#invalidCollectionValues)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L89)staticinheritedinvalidCollectionValues
+### [**](#invalidCollectionValues)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L89)staticinheritedinvalidCollectionValues
 
 * ****invalidCollectionValues**(entityName, propName, invalid): [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
@@ -308,7 +308,7 @@ Inherited from ValidationError.stack
 
   #### Returns [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
-### [**](#invalidCompositeIdentifier)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L148)staticinheritedinvalidCompositeIdentifier
+### [**](#invalidCompositeIdentifier)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L148)staticinheritedinvalidCompositeIdentifier
 
 * ****invalidCompositeIdentifier**(meta): [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
@@ -320,7 +320,7 @@ Inherited from ValidationError.stack
 
   #### Returns [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
-### [**](#invalidEmbeddableQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L182)staticinheritedinvalidEmbeddableQuery
+### [**](#invalidEmbeddableQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L182)staticinheritedinvalidEmbeddableQuery
 
 * ****invalidEmbeddableQuery**(entityName, propName, embeddableType): [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
@@ -334,7 +334,7 @@ Inherited from ValidationError.stack
 
   #### Returns [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
-### [**](#invalidEnumArrayItems)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L95)staticinheritedinvalidEnumArrayItems
+### [**](#invalidEnumArrayItems)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L95)staticinheritedinvalidEnumArrayItems
 
 * ****invalidEnumArrayItems**(entityName, invalid): [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
@@ -347,7 +347,7 @@ Inherited from ValidationError.stack
 
   #### Returns [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
-### [**](#invalidPropertyName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L85)staticinheritedinvalidPropertyName
+### [**](#invalidPropertyName)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L85)staticinheritedinvalidPropertyName
 
 * ****invalidPropertyName**(entityName, invalid): [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
@@ -360,7 +360,7 @@ Inherited from ValidationError.stack
 
   #### Returns [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
-### [**](#invalidQueryCondition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L189)staticinheritedinvalidQueryCondition
+### [**](#invalidQueryCondition)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L189)staticinheritedinvalidQueryCondition
 
 * ****invalidQueryCondition**(cond): [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
@@ -372,7 +372,7 @@ Inherited from ValidationError.stack
 
   #### Returns [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
-### [**](#invalidType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L99)staticinheritedinvalidType
+### [**](#invalidType)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L99)staticinheritedinvalidType
 
 * ****invalidType**(type, value, mode): [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
@@ -386,7 +386,7 @@ Inherited from ValidationError.stack
 
   #### Returns [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
-### [**](#notDiscoveredEntity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L73)staticinheritednotDiscoveredEntity
+### [**](#notDiscoveredEntity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L73)staticinheritednotDiscoveredEntity
 
 * ****notDiscoveredEntity**(data, meta, action): [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
@@ -400,7 +400,7 @@ Inherited from ValidationError.stack
 
   #### Returns [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
-### [**](#notEntity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L66)staticinheritednotEntity
+### [**](#notEntity)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L66)staticinheritednotEntity
 
 * ****notEntity**(owner, prop, data): [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
@@ -414,7 +414,7 @@ Inherited from ValidationError.stack
 
   #### Returns [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
-### [**](#propertyRequired)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L111)staticinheritedpropertyRequired
+### [**](#propertyRequired)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L111)staticinheritedpropertyRequired
 
 * ****propertyRequired**(entity, property): [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
@@ -427,7 +427,7 @@ Inherited from ValidationError.stack
 
   #### Returns [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 
-### [**](#transactionRequired)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/errors.ts#L56)staticinheritedtransactionRequired
+### [**](#transactionRequired)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/errors.ts#L56)staticinheritedtransactionRequired
 
 * ****transactionRequired**(): [ValidationError](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/core/class/ValidationError.md)\<Partial\<any>>
 

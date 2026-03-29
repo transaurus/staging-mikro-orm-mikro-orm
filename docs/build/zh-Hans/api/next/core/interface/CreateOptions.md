@@ -13,7 +13,7 @@
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#convertCustomTypes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/EntityManager.ts#L2863)optionalconvertCustomTypes
+### [**](#convertCustomTypes)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/EntityManager.ts#L2863)optionalconvertCustomTypes
 
 **convertCustomTypes?
 
@@ -23,7 +23,7 @@
 
 convert raw database values based on mapped types (by default, already converted values are expected)
 
-### [**](#managed)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/EntityManager.ts#L2855)optionalmanaged
+### [**](#managed)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/EntityManager.ts#L2855)optionalmanaged
 
 **managed?
 
@@ -33,7 +33,7 @@ convert raw database values based on mapped types (by default, already converted
 
 creates a managed entity instance instead, bypassing the constructor call
 
-### [**](#partial)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/EntityManager.ts#L2861)optionalpartial
+### [**](#partial)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/EntityManager.ts#L2861)optionalpartial
 
 **partial?
 
@@ -43,7 +43,7 @@ creates a managed entity instance instead, bypassing the constructor call
 
 this option disables the strict typing which requires all mandatory properties to have value, it has no effect on runtime
 
-### [**](#persist)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/EntityManager.ts#L2859)optionalpersist
+### [**](#persist)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/EntityManager.ts#L2859)optionalpersist
 
 **persist?
 
@@ -53,7 +53,7 @@ this option disables the strict typing which requires all mandatory properties t
 
 persist the entity automatically - this is the default behavior and is also configurable globally via `persistOnCreate` option
 
-### [**](#processOnCreateHooksEarly)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/EntityManager.ts#L2868)optionalprocessOnCreateHooksEarly
+### [**](#processOnCreateHooksEarly)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/EntityManager.ts#L2868)optionalprocessOnCreateHooksEarly
 
 **processOnCreateHooksEarly?
 
@@ -63,7 +63,7 @@ persist the entity automatically - this is the default behavior and is also conf
 
 Property `onCreate` hooks are normally executed during `flush` operation. With this option, they will be processed early inside `em.create()` method.
 
-### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/EntityManager.ts#L2857)optionalschema
+### [**](#schema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/EntityManager.ts#L2857)optionalschema
 
 **schema?
 

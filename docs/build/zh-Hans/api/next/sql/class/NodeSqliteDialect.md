@@ -29,7 +29,7 @@ Bridges `node:sqlite`'s `DatabaseSync` to the `better-sqlite3` interface that Ky
 
 ## Constructors<!-- -->[**](#Constructors)
 
-### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/dialects/sqlite/NodeSqliteDialect.ts#L21)constructor
+### [**](#constructor)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/dialects/sqlite/NodeSqliteDialect.ts#L21)constructor
 
 * ****new NodeSqliteDialect**(dbName): [NodeSqliteDialect](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/class/NodeSqliteDialect.md)
 

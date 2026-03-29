@@ -14,7 +14,7 @@ Options for column within an index, supporting advanced index features like pref
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#collation)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L678)optionalcollation
+### [**](#collation)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L678)optionalcollation
 
 **collation?
 
@@ -24,7 +24,7 @@ Options for column within an index, supporting advanced index features like pref
 
 Collation for the column (PostgreSQL, SQLite, or MySQL/MariaDB via expression).
 
-### [**](#length)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L676)optionallength
+### [**](#length)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L676)optionallength
 
 **length?
 
@@ -34,13 +34,13 @@ Collation for the column (PostgreSQL, SQLite, or MySQL/MariaDB via expression).
 
 Prefix length for the column (MySQL, MariaDB).
 
-### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L670)name
+### [**](#name)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L670)name
 
 **name: string
 
 Column name or property path.
 
-### [**](#nulls)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L674)optionalnulls
+### [**](#nulls)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L674)optionalnulls
 
 **nulls?
 
@@ -50,7 +50,7 @@ Column name or property path.
 
 NULLS ordering for the column (PostgreSQL).
 
-### [**](#sort)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/core/src/metadata/types.ts#L672)optionalsort
+### [**](#sort)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/core/src/metadata/types.ts#L672)optionalsort
 
 **sort?
 

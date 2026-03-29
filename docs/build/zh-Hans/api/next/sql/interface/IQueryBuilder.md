@@ -44,17 +44,17 @@
 
 ## Properties<!-- -->[**](#Properties)
 
-### [**](#alias)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L190)readonlyalias
+### [**](#alias)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L190)readonlyalias
 
 **alias: string
 
-### [**](#type)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L191)readonlytype
+### [**](#type)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L191)readonlytype
 
 **type: [QueryType](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/enum/QueryType.md)
 
 ## Methods<!-- -->[**](#Methods)
 
-### [**](#addSelect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L197)addSelect
+### [**](#addSelect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L197)addSelect
 
 * ****addSelect**(fields): this
 
@@ -64,7 +64,7 @@
 
   #### Returns this
 
-### [**](#andWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L216)andWhere
+### [**](#andWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L216)andWhere
 
 * ****andWhere**(cond, params): this
 
@@ -75,7 +75,7 @@
 
   #### Returns this
 
-### [**](#clone)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L224)clone
+### [**](#clone)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L224)clone
 
 * ****clone**(reset, preserve): [IQueryBuilder](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/IQueryBuilder.md)\<T>
 
@@ -86,7 +86,7 @@
 
   #### Returns [IQueryBuilder](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/IQueryBuilder.md)\<T>
 
-### [**](#count)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L203)count
+### [**](#count)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L203)count
 
 * ****count**(field, distinct): this
 
@@ -97,7 +97,7 @@
 
   #### Returns this
 
-### [**](#delete)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L201)delete
+### [**](#delete)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L201)delete
 
 * ****delete**(cond): this
 
@@ -107,7 +107,7 @@
 
   #### Returns this
 
-### [**](#from)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L198)from
+### [**](#from)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L198)from
 
 * ****from**\<T>(target, aliasName): [IQueryBuilder](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/IQueryBuilder.md)\<T>
 
@@ -118,7 +118,7 @@
 
   #### Returns [IQueryBuilder](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/IQueryBuilder.md)\<T>
 
-### [**](#getAliasForJoinPath)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L221)getAliasForJoinPath
+### [**](#getAliasForJoinPath)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L221)getAliasForJoinPath
 
 * ****getAliasForJoinPath**(path, options): undefined | string
 
@@ -129,7 +129,7 @@
 
   #### Returns undefined | string
 
-### [**](#getJoinForPath)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L222)getJoinForPath
+### [**](#getJoinForPath)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L222)getJoinForPath
 
 * ****getJoinForPath**(path, options): undefined | [JoinOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/JoinOptions.md)
 
@@ -140,7 +140,7 @@
 
   #### Returns undefined | [JoinOptions](https://mikro-orm.io/zh-Hans/zh-Hans/api/next/sql/interface/JoinOptions.md)
 
-### [**](#getNextAlias)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L223)getNextAlias
+### [**](#getNextAlias)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L223)getNextAlias
 
 * ****getNextAlias**(entityName): string
 
@@ -150,7 +150,7 @@
 
   #### Returns string
 
-### [**](#groupBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L219)groupBy
+### [**](#groupBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L219)groupBy
 
 * ****groupBy**(fields): this
 
@@ -160,7 +160,7 @@
 
   #### Returns this
 
-### [**](#hasFlag)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L227)hasFlag
+### [**](#hasFlag)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L227)hasFlag
 
 * ****hasFlag**(flag): boolean
 
@@ -170,7 +170,7 @@
 
   #### Returns boolean
 
-### [**](#having)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L220)having
+### [**](#having)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L220)having
 
 * ****having**(cond, params): this
 
@@ -181,7 +181,7 @@
 
   #### Returns this
 
-### [**](#innerJoin)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L205)innerJoin
+### [**](#innerJoin)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L205)innerJoin
 
 * ****innerJoin**(field, alias, cond): this
 
@@ -193,7 +193,7 @@
 
   #### Returns this
 
-### [**](#innerJoinAndSelect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L209)innerJoinAndSelect
+### [**](#innerJoinAndSelect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L209)innerJoinAndSelect
 
 * ****innerJoinAndSelect**(field, alias, cond, fields): this
 
@@ -206,7 +206,7 @@
 
   #### Returns this
 
-### [**](#insert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L199)insert
+### [**](#insert)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L199)insert
 
 * ****insert**(data): this
 
@@ -216,7 +216,7 @@
 
   #### Returns this
 
-### [**](#join)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L204)join
+### [**](#join)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L204)join
 
 * ****join**(field, alias, cond, type, path): this
 
@@ -230,7 +230,7 @@
 
   #### Returns this
 
-### [**](#joinAndSelect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L207)joinAndSelect
+### [**](#joinAndSelect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L207)joinAndSelect
 
 * ****joinAndSelect**(field, alias, cond): this
 
@@ -242,7 +242,7 @@
 
   #### Returns this
 
-### [**](#leftJoin)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L206)leftJoin
+### [**](#leftJoin)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L206)leftJoin
 
 * ****leftJoin**(field, alias, cond): this
 
@@ -254,7 +254,7 @@
 
   #### Returns this
 
-### [**](#leftJoinAndSelect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L208)leftJoinAndSelect
+### [**](#leftJoinAndSelect)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L208)leftJoinAndSelect
 
 * ****leftJoinAndSelect**(field, alias, cond, fields): this
 
@@ -267,7 +267,7 @@
 
   #### Returns this
 
-### [**](#orderBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L218)orderBy
+### [**](#orderBy)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L218)orderBy
 
 * ****orderBy**(orderBy): this
 
@@ -277,7 +277,7 @@
 
   #### Returns this
 
-### [**](#orWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L217)orWhere
+### [**](#orWhere)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L217)orWhere
 
 * ****orWhere**(cond, params): this
 
@@ -288,7 +288,7 @@
 
   #### Returns this
 
-### [**](#scheduleFilterCheck)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L234)scheduleFilterCheck
+### [**](#scheduleFilterCheck)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L234)scheduleFilterCheck
 
 * ****scheduleFilterCheck**(path): void
 
@@ -298,7 +298,7 @@
 
   #### Returns void
 
-### [**](#select)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L196)select
+### [**](#select)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L196)select
 
 * ****select**(fields, distinct): this
 
@@ -309,7 +309,7 @@
 
   #### Returns this
 
-### [**](#setFlag)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L225)setFlag
+### [**](#setFlag)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L225)setFlag
 
 * ****setFlag**(flag): this
 
@@ -319,13 +319,13 @@
 
   #### Returns this
 
-### [**](#truncate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L202)truncate
+### [**](#truncate)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L202)truncate
 
 * ****truncate**(): this
 
 - #### Returns this
 
-### [**](#unsetFlag)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L226)unsetFlag
+### [**](#unsetFlag)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L226)unsetFlag
 
 * ****unsetFlag**(flag): this
 
@@ -335,7 +335,7 @@
 
   #### Returns this
 
-### [**](#update)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L200)update
+### [**](#update)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L200)update
 
 * ****update**(data): this
 
@@ -345,7 +345,7 @@
 
   #### Returns this
 
-### [**](#where)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L211)where
+### [**](#where)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L211)where
 
 * ****where**(cond, operator, operator2): this
 
@@ -357,7 +357,7 @@
 
   #### Returns this
 
-### [**](#with)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L228)with
+### [**](#with)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L228)with
 
 * ****with**(name, query, options): this
 
@@ -369,7 +369,7 @@
 
   #### Returns this
 
-### [**](#withRecursive)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L229)withRecursive
+### [**](#withRecursive)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L229)withRecursive
 
 * ****withRecursive**(name, query, options): this
 
@@ -381,7 +381,7 @@
 
   #### Returns this
 
-### [**](#withSchema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L235)withSchema
+### [**](#withSchema)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L235)withSchema
 
 * ****withSchema**(schema): this
 
@@ -391,7 +391,7 @@
 
   #### Returns this
 
-### [**](#withSubQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/2ecf1352e4ba7c26d38df8b63dc9af07dd7c5246/packages/sql/src/typings.ts#L210)withSubQuery
+### [**](#withSubQuery)[**](https://github.com/transaurus/staging-mikro-orm-mikro-orm/blob/95c848ad2179dfd50f6c74e1ec2889748f6211eb/packages/sql/src/typings.ts#L210)withSubQuery
 
 * ****withSubQuery**(subQuery, alias): this
 
