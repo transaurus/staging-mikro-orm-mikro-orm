@@ -1,0 +1,66 @@
+{
+  "link.title.Docs": {
+    "message": "Docs",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.Social": {
+    "message": "Social",
+    "description": "The title of the footer links column with title=Social in the footer"
+  },
+  "link.item.label.Quick Start": {
+    "message": "Quick Start",
+    "description": "The label of footer link with label=Quick Start linking to docs/quick-start"
+  },
+  "link.item.label.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label of footer link with label=Getting Started linking to docs/guide"
+  },
+  "link.item.label.Migration from v6 to v7": {
+    "message": "Migration from v6 to v7",
+    "description": "The label of footer link with label=Migration from v6 to v7 linking to docs/upgrading-v6-to-v7"
+  },
+  "link.item.label.Version 6.6 docs": {
+    "message": "Version 6.6 docs",
+    "description": "The label of footer link with label=Version 6.6 docs linking to docs/6.6/quick-start"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.gg/w8bjxFHS7X"
+  },
+  "link.item.label.Slack": {
+    "message": "Slack",
+    "description": "The label of footer link with label=Slack linking to https://join.slack.com/t/mikroorm/shared_invite/enQtNTM1ODYzMzM4MDk3LWM4ZDExMjU5ZDhmNjA2MmM3MWMwZmExNjhhNDdiYTMwNWM0MGY5ZTE3ZjkyZTMzOWExNDgyYmMzNDE1NDI5NjA"
+  },
+  "link.item.label.Stack Overflow": {
+    "message": "Stack Overflow",
+    "description": "The label of footer link with label=Stack Overflow linking to https://stackoverflow.com/questions/ask?tags=mikro-orm"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog linking to blog"
+  },
+  "link.item.label.Twitter": {
+    "message": "Twitter",
+    "description": "The label of footer link with label=Twitter linking to https://twitter.com/MikroORM"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/mikro-orm/mikro-orm"
+  },
+  "link.item.label.GitHub Sponsors": {
+    "message": "GitHub Sponsors",
+    "description": "The label of footer link with label=GitHub Sponsors linking to https://github.com/sponsors/mikro-orm"
+  },
+  "copyright": {
+    "message": "Copyright © 2018-2026 Martin Adámek. Built with Docusaurus.",
+    "description": "The footer copyright"
+  },
+  "logo.alt": {
+    "message": "MikroORM",
+    "description": "The alt text of footer logo"
+  }
+}

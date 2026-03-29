@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([["665"],{55613:function(e){e.exports=JSON.parse('{"metadata":{"permalink":"/zh-Hans/blog","page":1,"postsPerPage":10,"totalPages":2,"totalCount":14,"nextPage":"/zh-Hans/blog/page/2","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

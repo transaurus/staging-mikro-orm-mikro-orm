@@ -1,0 +1,282 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [7.0.6](https://github.com/mikro-orm/mikro-orm/compare/v7.0.5...v7.0.6) (2026-03-26)[​](#706-2026-03-26 "Direct link to 706-2026-03-26")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [7.0.5](https://github.com/mikro-orm/mikro-orm/compare/v7.0.4...v7.0.5) (2026-03-23)[​](#705-2026-03-23 "Direct link to 705-2026-03-23")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [7.0.4](https://github.com/mikro-orm/mikro-orm/compare/v7.0.3...v7.0.4) (2026-03-20)[​](#704-2026-03-20 "Direct link to 704-2026-03-20")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [7.0.3](https://github.com/mikro-orm/mikro-orm/compare/v7.0.2...v7.0.3) (2026-03-18)[​](#703-2026-03-18 "Direct link to 703-2026-03-18")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [7.0.2](https://github.com/mikro-orm/mikro-orm/compare/v7.0.1...v7.0.2) (2026-03-14)[​](#702-2026-03-14 "Direct link to 702-2026-03-14")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [7.0.1](https://github.com/mikro-orm/mikro-orm/compare/v7.0.0...v7.0.1) (2026-03-11)[​](#701-2026-03-11 "Direct link to 701-2026-03-11")
+
+### Bug Fixes[​](#bug-fixes "Direct link to Bug Fixes")
+
+* update peer dependency constraints to v7 and pin on release ([fbeace5](https://github.com/mikro-orm/mikro-orm/commit/fbeace54db9e8b0565fbd841a72cd5f5dee69bb7))
+
+## [7.0.0](https://github.com/mikro-orm/mikro-orm/compare/v6.6.9...v7.0.0) (2026-03-11)[​](#700-2026-03-11 "Direct link to 700-2026-03-11")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.6.8](https://github.com/mikro-orm/mikro-orm/compare/v6.6.7...v6.6.8) (2026-03-01)[​](#668-2026-03-01 "Direct link to 668-2026-03-01")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.6.7](https://github.com/mikro-orm/mikro-orm/compare/v6.6.6...v6.6.7) (2026-02-15)[​](#667-2026-02-15 "Direct link to 667-2026-02-15")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.6.6](https://github.com/mikro-orm/mikro-orm/compare/v6.6.5...v6.6.6) (2026-01-30)[​](#666-2026-01-30 "Direct link to 666-2026-01-30")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.6.5](https://github.com/mikro-orm/mikro-orm/compare/v6.6.4...v6.6.5) (2026-01-21)[​](#665-2026-01-21 "Direct link to 665-2026-01-21")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.6.4](https://github.com/mikro-orm/mikro-orm/compare/v6.6.3...v6.6.4) (2026-01-14)[​](#664-2026-01-14 "Direct link to 664-2026-01-14")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.6.3](https://github.com/mikro-orm/mikro-orm/compare/v6.6.2...v6.6.3) (2026-01-04)[​](#663-2026-01-04 "Direct link to 663-2026-01-04")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.6.2](https://github.com/mikro-orm/mikro-orm/compare/v6.6.1...v6.6.2) (2025-12-07)[​](#662-2025-12-07 "Direct link to 662-2025-12-07")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.6.1](https://github.com/mikro-orm/mikro-orm/compare/v6.6.0...v6.6.1) (2025-11-25)[​](#661-2025-11-25 "Direct link to 661-2025-11-25")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+# [6.6.0](https://github.com/mikro-orm/mikro-orm/compare/v6.5.9...v6.6.0) (2025-11-11)
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.5.9](https://github.com/mikro-orm/mikro-orm/compare/v6.5.8...v6.5.9) (2025-10-23)[​](#659-2025-10-23 "Direct link to 659-2025-10-23")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.5.8](https://github.com/mikro-orm/mikro-orm/compare/v6.5.7...v6.5.8) (2025-10-13)[​](#658-2025-10-13 "Direct link to 658-2025-10-13")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.5.7](https://github.com/mikro-orm/mikro-orm/compare/v6.5.6...v6.5.7) (2025-10-06)[​](#657-2025-10-06 "Direct link to 657-2025-10-06")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.5.6](https://github.com/mikro-orm/mikro-orm/compare/v6.5.5...v6.5.6) (2025-09-25)[​](#656-2025-09-25 "Direct link to 656-2025-09-25")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.5.5](https://github.com/mikro-orm/mikro-orm/compare/v6.5.4...v6.5.5) (2025-09-21)[​](#655-2025-09-21 "Direct link to 655-2025-09-21")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.5.4](https://github.com/mikro-orm/mikro-orm/compare/v6.5.3...v6.5.4) (2025-09-17)[​](#654-2025-09-17 "Direct link to 654-2025-09-17")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.5.3](https://github.com/mikro-orm/mikro-orm/compare/v6.5.2...v6.5.3) (2025-09-13)[​](#653-2025-09-13 "Direct link to 653-2025-09-13")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.5.2](https://github.com/mikro-orm/mikro-orm/compare/v6.5.1...v6.5.2) (2025-09-02)[​](#652-2025-09-02 "Direct link to 652-2025-09-02")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.5.1](https://github.com/mikro-orm/mikro-orm/compare/v6.5.0...v6.5.1) (2025-08-27)[​](#651-2025-08-27 "Direct link to 651-2025-08-27")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+# [6.5.0](https://github.com/mikro-orm/mikro-orm/compare/v6.4.16...v6.5.0) (2025-08-27)
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.4.16](https://github.com/mikro-orm/mikro-orm/compare/v6.4.15...v6.4.16) (2025-05-30)[​](#6416-2025-05-30 "Direct link to 6416-2025-05-30")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.4.15](https://github.com/mikro-orm/mikro-orm/compare/v6.4.14...v6.4.15) (2025-05-09)[​](#6415-2025-05-09 "Direct link to 6415-2025-05-09")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.4.14](https://github.com/mikro-orm/mikro-orm/compare/v6.4.13...v6.4.14) (2025-05-05)[​](#6414-2025-05-05 "Direct link to 6414-2025-05-05")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.4.13](https://github.com/mikro-orm/mikro-orm/compare/v6.4.12...v6.4.13) (2025-04-12)[​](#6413-2025-04-12 "Direct link to 6413-2025-04-12")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.4.12](https://github.com/mikro-orm/mikro-orm/compare/v6.4.11...v6.4.12) (2025-04-06)[​](#6412-2025-04-06 "Direct link to 6412-2025-04-06")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.4.11](https://github.com/mikro-orm/mikro-orm/compare/v6.4.10...v6.4.11) (2025-03-21)[​](#6411-2025-03-21 "Direct link to 6411-2025-03-21")
+
+### Bug Fixes[​](#bug-fixes-1 "Direct link to Bug Fixes")
+
+* **sqlite:** do not ensure directory exists when `dbName` is `:memory:` or URL ([b0f97ed](https://github.com/mikro-orm/mikro-orm/commit/b0f97ed9408d021046a0ee50fb5dbf9d98d72f3e)), closes [#6533](https://github.com/mikro-orm/mikro-orm/issues/6533)
+
+## [6.4.10](https://github.com/mikro-orm/mikro-orm/compare/v6.4.9...v6.4.10) (2025-03-16)[​](#6410-2025-03-16 "Direct link to 6410-2025-03-16")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.4.9](https://github.com/mikro-orm/mikro-orm/compare/v6.4.8...v6.4.9) (2025-03-07)[​](#649-2025-03-07 "Direct link to 649-2025-03-07")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.4.8](https://github.com/mikro-orm/mikro-orm/compare/v6.4.7...v6.4.8) (2025-03-06)[​](#648-2025-03-06 "Direct link to 648-2025-03-06")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.4.7](https://github.com/mikro-orm/mikro-orm/compare/v6.4.6...v6.4.7) (2025-02-22)[​](#647-2025-02-22 "Direct link to 647-2025-02-22")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.4.6](https://github.com/mikro-orm/mikro-orm/compare/v6.4.5...v6.4.6) (2025-02-12)[​](#646-2025-02-12 "Direct link to 646-2025-02-12")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.4.5](https://github.com/mikro-orm/mikro-orm/compare/v6.4.4...v6.4.5) (2025-01-30)[​](#645-2025-01-30 "Direct link to 645-2025-01-30")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.4.4](https://github.com/mikro-orm/mikro-orm/compare/v6.4.3...v6.4.4) (2025-01-23)[​](#644-2025-01-23 "Direct link to 644-2025-01-23")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.4.3](https://github.com/mikro-orm/mikro-orm/compare/v6.4.2...v6.4.3) (2025-01-08)[​](#643-2025-01-08 "Direct link to 643-2025-01-08")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.4.2](https://github.com/mikro-orm/mikro-orm/compare/v6.4.1...v6.4.2) (2024-12-22)[​](#642-2024-12-22 "Direct link to 642-2024-12-22")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.4.1](https://github.com/mikro-orm/mikro-orm/compare/v6.4.0...v6.4.1) (2024-12-08)[​](#641-2024-12-08 "Direct link to 641-2024-12-08")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+# [6.4.0](https://github.com/mikro-orm/mikro-orm/compare/v6.3.13...v6.4.0) (2024-11-11)
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.3.13](https://github.com/mikro-orm/mikro-orm/compare/v6.3.12...v6.3.13) (2024-10-06)[​](#6313-2024-10-06 "Direct link to 6313-2024-10-06")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.3.12](https://github.com/mikro-orm/mikro-orm/compare/v6.3.11...v6.3.12) (2024-10-01)[​](#6312-2024-10-01 "Direct link to 6312-2024-10-01")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.3.11](https://github.com/mikro-orm/mikro-orm/compare/v6.3.10...v6.3.11) (2024-09-26)[​](#6311-2024-09-26 "Direct link to 6311-2024-09-26")
+
+### Bug Fixes[​](#bug-fixes-2 "Direct link to Bug Fixes")
+
+* **core:** support atomic updates on properties with custom types ([951284b](https://github.com/mikro-orm/mikro-orm/commit/951284bd66457a74ae7c2eca5a87f7918a0ecd13)), closes [#6030](https://github.com/mikro-orm/mikro-orm/issues/6030)
+
+## [6.3.10](https://github.com/mikro-orm/mikro-orm/compare/v6.3.9...v6.3.10) (2024-09-15)[​](#6310-2024-09-15 "Direct link to 6310-2024-09-15")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.3.9](https://github.com/mikro-orm/mikro-orm/compare/v6.3.8...v6.3.9) (2024-09-09)[​](#639-2024-09-09 "Direct link to 639-2024-09-09")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.3.8](https://github.com/mikro-orm/mikro-orm/compare/v6.3.7...v6.3.8) (2024-09-04)[​](#638-2024-09-04 "Direct link to 638-2024-09-04")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.3.7](https://github.com/mikro-orm/mikro-orm/compare/v6.3.6...v6.3.7) (2024-08-28)[​](#637-2024-08-28 "Direct link to 637-2024-08-28")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.3.6](https://github.com/mikro-orm/mikro-orm/compare/v6.3.5...v6.3.6) (2024-08-14)[​](#636-2024-08-14 "Direct link to 636-2024-08-14")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.3.5](https://github.com/mikro-orm/mikro-orm/compare/v6.3.4...v6.3.5) (2024-08-11)[​](#635-2024-08-11 "Direct link to 635-2024-08-11")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.3.4](https://github.com/mikro-orm/mikro-orm/compare/v6.3.3...v6.3.4) (2024-08-06)[​](#634-2024-08-06 "Direct link to 634-2024-08-06")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.3.3](https://github.com/mikro-orm/mikro-orm/compare/v6.3.2...v6.3.3) (2024-08-03)[​](#633-2024-08-03 "Direct link to 633-2024-08-03")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.3.2](https://github.com/mikro-orm/mikro-orm/compare/v6.3.1...v6.3.2) (2024-08-01)[​](#632-2024-08-01 "Direct link to 632-2024-08-01")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.3.1](https://github.com/mikro-orm/mikro-orm/compare/v6.3.0...v6.3.1) (2024-07-25)[​](#631-2024-07-25 "Direct link to 631-2024-07-25")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+# [6.3.0](https://github.com/mikro-orm/mikro-orm/compare/v6.2.9...v6.3.0) (2024-07-18)
+
+### Features[​](#features "Direct link to Features")
+
+* **libsql:** support connecting to remote turso database ([#5764](https://github.com/mikro-orm/mikro-orm/issues/5764)) ([6255a33](https://github.com/mikro-orm/mikro-orm/commit/6255a3302890a02c501357426937d29e393c02f9))
+
+## [6.2.9](https://github.com/mikro-orm/mikro-orm/compare/v6.2.8...v6.2.9) (2024-05-31)[​](#629-2024-05-31 "Direct link to 629-2024-05-31")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.2.8](https://github.com/mikro-orm/mikro-orm/compare/v6.2.7...v6.2.8) (2024-05-21)[​](#628-2024-05-21 "Direct link to 628-2024-05-21")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.2.7](https://github.com/mikro-orm/mikro-orm/compare/v6.2.6...v6.2.7) (2024-05-18)[​](#627-2024-05-18 "Direct link to 627-2024-05-18")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.2.6](https://github.com/mikro-orm/mikro-orm/compare/v6.2.5...v6.2.6) (2024-05-14)[​](#626-2024-05-14 "Direct link to 626-2024-05-14")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.2.5](https://github.com/mikro-orm/mikro-orm/compare/v6.2.4...v6.2.5) (2024-05-05)[​](#625-2024-05-05 "Direct link to 625-2024-05-05")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.2.4](https://github.com/mikro-orm/mikro-orm/compare/v6.2.3...v6.2.4) (2024-05-02)[​](#624-2024-05-02 "Direct link to 624-2024-05-02")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.2.3](https://github.com/mikro-orm/mikro-orm/compare/v6.2.2...v6.2.3) (2024-04-24)[​](#623-2024-04-24 "Direct link to 623-2024-04-24")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.2.2](https://github.com/mikro-orm/mikro-orm/compare/v6.2.1...v6.2.2) (2024-04-20)[​](#622-2024-04-20 "Direct link to 622-2024-04-20")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+## [6.2.1](https://github.com/mikro-orm/mikro-orm/compare/v6.2.0...v6.2.1) (2024-04-12)[​](#621-2024-04-12 "Direct link to 621-2024-04-12")
+
+**Note:** Version bump only for package @mikro-orm/libsql
+
+# [6.2.0](https://github.com/mikro-orm/mikro-orm/compare/v6.1.12...v6.2.0) (2024-04-09)
+
+### Features[​](#features-1 "Direct link to Features")
+
+* **libsql:** add libSQL driver ([#5417](https://github.com/mikro-orm/mikro-orm/issues/5417)) ([6c63e4b](https://github.com/mikro-orm/mikro-orm/commit/6c63e4bd45c81b3a09b668f13dc0ce240e85107c)), closes [#5283](https://github.com/mikro-orm/mikro-orm/issues/5283)
+* **mssql:** add MS SQL Server driver ([#1375](https://github.com/mikro-orm/mikro-orm/issues/1375)) ([eeaad45](https://github.com/mikro-orm/mikro-orm/commit/eeaad45a60b3ef4732d5ba9eafc8719998e52181)), closes [#771](https://github.com/mikro-orm/mikro-orm/issues/771)

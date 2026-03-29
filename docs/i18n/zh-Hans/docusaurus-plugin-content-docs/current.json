@@ -1,0 +1,162 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for category 'Getting Started' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Core Concepts": {
+    "message": "Core Concepts",
+    "description": "The label for category 'Core Concepts' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Core Concepts.link.generated-index.title": {
+    "message": "Core Concepts",
+    "description": "The generated-index page title for category 'Core Concepts' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Modeling": {
+    "message": "Modeling",
+    "description": "The label for category 'Modeling' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Modeling.link.generated-index.title": {
+    "message": "Modeling",
+    "description": "The generated-index page title for category 'Modeling' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Querying": {
+    "message": "Querying",
+    "description": "The label for category 'Querying' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Querying.link.generated-index.title": {
+    "message": "Querying",
+    "description": "The generated-index page title for category 'Querying' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Schema & Database": {
+    "message": "Schema & Database",
+    "description": "The label for category 'Schema & Database' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Schema & Database.link.generated-index.title": {
+    "message": "Schema & Database",
+    "description": "The generated-index page title for category 'Schema & Database' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Advanced": {
+    "message": "Advanced",
+    "description": "The label for category 'Advanced' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Advanced.link.generated-index.title": {
+    "message": "Advanced",
+    "description": "The generated-index page title for category 'Advanced' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Configuration": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Integrations": {
+    "message": "Integrations",
+    "description": "The label for category 'Integrations' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Integrations.link.generated-index.title": {
+    "message": "Integrations",
+    "description": "The generated-index page title for category 'Integrations' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Recipes": {
+    "message": "Recipes",
+    "description": "The label for category 'Recipes' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Recipes.link.generated-index.title": {
+    "message": "Recipes",
+    "description": "The generated-index page title for category 'Recipes' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Reference": {
+    "message": "Reference",
+    "description": "The label for category 'Reference' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Reference.link.generated-index.title": {
+    "message": "Reference",
+    "description": "The generated-index page title for category 'Reference' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Example Integrations": {
+    "message": "Example Integrations",
+    "description": "The label for category 'Example Integrations' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Example Integrations.link.generated-index.title": {
+    "message": "Example Integrations",
+    "description": "The generated-index page title for category 'Example Integrations' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Upgrading": {
+    "message": "Upgrading",
+    "description": "The label for category 'Upgrading' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Upgrading.link.generated-index.title": {
+    "message": "Upgrading",
+    "description": "The generated-index page title for category 'Upgrading' in sidebar 'docs'"
+  },
+  "sidebar.docs.link.EntityManager API": {
+    "message": "EntityManager API",
+    "description": "The label for link 'EntityManager API' in sidebar 'docs', linking to '/api/core/class/EntityManager'"
+  },
+  "sidebar.docs.link.EntityRepository API": {
+    "message": "EntityRepository API",
+    "description": "The label for link 'EntityRepository API' in sidebar 'docs', linking to '/api/core/class/EntityRepository'"
+  },
+  "sidebar.docs.link.QueryBuilder API": {
+    "message": "QueryBuilder API",
+    "description": "The label for link 'QueryBuilder API' in sidebar 'docs', linking to '/api/sql/class/QueryBuilder'"
+  },
+  "sidebar.docs.link.Fastify + SQLite + TypeScript": {
+    "message": "Fastify + SQLite + TypeScript",
+    "description": "The label for link 'Fastify + SQLite + TypeScript' in sidebar 'docs', linking to 'https://github.com/mikro-orm/guide'"
+  },
+  "sidebar.docs.link.RealWorld example app (Nest + MySQL)": {
+    "message": "RealWorld example app (Nest + MySQL)",
+    "description": "The label for link 'RealWorld example app (Nest + MySQL)' in sidebar 'docs', linking to 'https://github.com/mikro-orm/nestjs-realworld-example-app'"
+  },
+  "sidebar.docs.link.Express + MongoDB + TypeScript": {
+    "message": "Express + MongoDB + TypeScript",
+    "description": "The label for link 'Express + MongoDB + TypeScript' in sidebar 'docs', linking to 'https://github.com/mikro-orm/express-ts-example-app'"
+  },
+  "sidebar.docs.link.NestJS + MySQL + TypeScript": {
+    "message": "NestJS + MySQL + TypeScript",
+    "description": "The label for link 'NestJS + MySQL + TypeScript' in sidebar 'docs', linking to 'https://github.com/mikro-orm/nestjs-example-app'"
+  },
+  "sidebar.docs.link.Express + SQLite + JavaScript": {
+    "message": "Express + SQLite + JavaScript",
+    "description": "The label for link 'Express + SQLite + JavaScript' in sidebar 'docs', linking to 'https://github.com/mikro-orm/express-js-example-app'"
+  },
+  "sidebar.docs.link.Koa + SQLite + TypeScript": {
+    "message": "Koa + SQLite + TypeScript",
+    "description": "The label for link 'Koa + SQLite + TypeScript' in sidebar 'docs', linking to 'https://github.com/mikro-orm/koa-ts-example-app'"
+  },
+  "sidebar.docs.link.Inversify + PostgreSQL": {
+    "message": "Inversify + PostgreSQL",
+    "description": "The label for link 'Inversify + PostgreSQL' in sidebar 'docs', linking to 'https://github.com/PodaruDragos/inversify-example-app'"
+  },
+  "sidebar.docs.link.NextJS + SQLite": {
+    "message": "NextJS + SQLite",
+    "description": "The label for link 'NextJS + SQLite' in sidebar 'docs', linking to 'https://github.com/mikro-orm/nextjs-example-app'"
+  },
+  "sidebar.docs.link.GraphQL + PostgreSQL + TypeScript": {
+    "message": "GraphQL + PostgreSQL + TypeScript",
+    "description": "The label for link 'GraphQL + PostgreSQL + TypeScript' in sidebar 'docs', linking to 'https://github.com/driescroons/mikro-orm-graphql-example'"
+  },
+  "sidebar.docs.link.Accounts.js REST and GraphQL authentication + SQLite": {
+    "message": "Accounts.js REST and GraphQL authentication + SQLite",
+    "description": "The label for link 'Accounts.js REST and GraphQL authentication + SQLite' in sidebar 'docs', linking to 'https://github.com/darkbasic/mikro-orm-accounts-example'"
+  },
+  "sidebar.docs.link.Nest + Shopify + PostgreSQL + GraphQL": {
+    "message": "Nest + Shopify + PostgreSQL + GraphQL",
+    "description": "The label for link 'Nest + Shopify + PostgreSQL + GraphQL' in sidebar 'docs', linking to 'https://github.com/Cloudshelf/Shopify_CSConnector'"
+  },
+  "sidebar.docs.link.AdonisJS + SQLite + TypeScript": {
+    "message": "AdonisJS + SQLite + TypeScript",
+    "description": "The label for link 'AdonisJS + SQLite + TypeScript' in sidebar 'docs', linking to 'https://github.com/mikro-orm/adonis-example-app'"
+  },
+  "sidebar.docs.link.Elysia.js + libSQL + Bun": {
+    "message": "Elysia.js + libSQL + Bun",
+    "description": "The label for link 'Elysia.js + libSQL + Bun' in sidebar 'docs', linking to 'https://github.com/mikro-orm/elysia-bun-example-app'"
+  },
+  "sidebar.docs.link.Electron.js + PostgreSQL": {
+    "message": "Electron.js + PostgreSQL",
+    "description": "The label for link 'Electron.js + PostgreSQL' in sidebar 'docs', linking to 'https://github.com/adnanlah/electron-mikro-orm-example-app'"
+  }
+}

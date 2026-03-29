@@ -1,0 +1,110 @@
+{
+  "version.label": {
+    "message": "5.9",
+    "description": "The label for version 5.9"
+  },
+  "sidebar.docs.category.Overview": {
+    "message": "Overview",
+    "description": "The label for category 'Overview' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Fundamentals": {
+    "message": "Fundamentals",
+    "description": "The label for category 'Fundamentals' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Fundamentals.link.generated-index.title": {
+    "message": "Fundamentals",
+    "description": "The generated-index page title for category 'Fundamentals' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Advanced Features": {
+    "message": "Advanced Features",
+    "description": "The label for category 'Advanced Features' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Advanced Features.link.generated-index.title": {
+    "message": "Advanced Features",
+    "description": "The generated-index page title for category 'Advanced Features' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Reference": {
+    "message": "Reference",
+    "description": "The label for category 'Reference' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Reference.link.generated-index.title": {
+    "message": "Reference",
+    "description": "The generated-index page title for category 'Reference' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Usage with Different Drivers": {
+    "message": "Usage with Different Drivers",
+    "description": "The label for category 'Usage with Different Drivers' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Usage with Different Drivers.link.generated-index.title": {
+    "message": "Usage with Different Drivers",
+    "description": "The generated-index page title for category 'Usage with Different Drivers' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Recipes": {
+    "message": "Recipes",
+    "description": "The label for category 'Recipes' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Recipes.link.generated-index.title": {
+    "message": "Recipes",
+    "description": "The generated-index page title for category 'Recipes' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Example Integrations": {
+    "message": "Example Integrations",
+    "description": "The label for category 'Example Integrations' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Example Integrations.link.generated-index.title": {
+    "message": "Example Integrations",
+    "description": "The generated-index page title for category 'Example Integrations' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Upgrading": {
+    "message": "Upgrading",
+    "description": "The label for category 'Upgrading' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Upgrading.link.generated-index.title": {
+    "message": "Upgrading",
+    "description": "The generated-index page title for category 'Upgrading' in sidebar 'docs'"
+  },
+  "sidebar.docs.link.EntityManager API": {
+    "message": "EntityManager API",
+    "description": "The label for link 'EntityManager API' in sidebar 'docs', linking to '/api/5.9/core/class/EntityManager'"
+  },
+  "sidebar.docs.link.EntityRepository API": {
+    "message": "EntityRepository API",
+    "description": "The label for link 'EntityRepository API' in sidebar 'docs', linking to '/api/5.9/core/class/EntityRepository'"
+  },
+  "sidebar.docs.link.QueryBuilder API": {
+    "message": "QueryBuilder API",
+    "description": "The label for link 'QueryBuilder API' in sidebar 'docs', linking to '/api/5.9/knex/class/QueryBuilder'"
+  },
+  "sidebar.docs.link.Express + MongoDB + TypeScript": {
+    "message": "Express + MongoDB + TypeScript",
+    "description": "The label for link 'Express + MongoDB + TypeScript' in sidebar 'docs', linking to 'https://github.com/mikro-orm/express-ts-example-app'"
+  },
+  "sidebar.docs.link.NestJS + MySQL + TypeScript": {
+    "message": "NestJS + MySQL + TypeScript",
+    "description": "The label for link 'NestJS + MySQL + TypeScript' in sidebar 'docs', linking to 'https://github.com/mikro-orm/nestjs-example-app'"
+  },
+  "sidebar.docs.link.RealWorld example app (Nest + MySQL)": {
+    "message": "RealWorld example app (Nest + MySQL)",
+    "description": "The label for link 'RealWorld example app (Nest + MySQL)' in sidebar 'docs', linking to 'https://github.com/mikro-orm/nestjs-realworld-example-app'"
+  },
+  "sidebar.docs.link.Express + MongoDB + JavaScript": {
+    "message": "Express + MongoDB + JavaScript",
+    "description": "The label for link 'Express + MongoDB + JavaScript' in sidebar 'docs', linking to 'https://github.com/mikro-orm/express-js-example-app'"
+  },
+  "sidebar.docs.link.Koa + SQLite + TypeScript": {
+    "message": "Koa + SQLite + TypeScript",
+    "description": "The label for link 'Koa + SQLite + TypeScript' in sidebar 'docs', linking to 'https://github.com/mikro-orm/koa-ts-example-app'"
+  },
+  "sidebar.docs.link.Inversify + PostgreSQL": {
+    "message": "Inversify + PostgreSQL",
+    "description": "The label for link 'Inversify + PostgreSQL' in sidebar 'docs', linking to 'https://github.com/PodaruDragos/inversify-example-app'"
+  },
+  "sidebar.docs.link.NextJS + MySQL": {
+    "message": "NextJS + MySQL",
+    "description": "The label for link 'NextJS + MySQL' in sidebar 'docs', linking to 'https://github.com/jonahallibone/mikro-orm-nextjs'"
+  },
+  "sidebar.docs.link.GraphQL + PostgreSQL + TypeScript": {
+    "message": "GraphQL + PostgreSQL + TypeScript",
+    "description": "The label for link 'GraphQL + PostgreSQL + TypeScript' in sidebar 'docs', linking to 'https://github.com/driescroons/mikro-orm-graphql-example'"
+  }
+}

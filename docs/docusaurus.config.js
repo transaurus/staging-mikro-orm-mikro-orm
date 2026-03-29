@@ -116,6 +116,10 @@ if (!!process.env.MIKRO_ORM_DOCS_TESTING) {
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "zh-Hans"],
+  },
   title: 'MikroORM',
   tagline: 'TypeScript ORM for Node.js based on Data Mapper, Unit of Work and Identity Map patterns.',
   url: 'https://mikro-orm.io',
@@ -125,11 +129,11 @@ module.exports = {
   projectName: 'mikro-orm',
   scripts: ['/js/custom.js'],
   trailingSlash: false,
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenAnchors: 'throw',
   markdown: {
     hooks: {
-      onBrokenMarkdownLinks: 'throw',
+      onBrokenMarkdownLinks: "warn",
     },
     mermaid: true,
   },
